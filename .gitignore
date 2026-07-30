@@ -1,0 +1,6 @@
+# 不提交日志与缓存
+*.log
+__pycache__/
+*.pyc
+build_log*.txt
+test_run.log
