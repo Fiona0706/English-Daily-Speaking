@@ -292,7 +292,7 @@ def dedup(pools, new_words, new_sent, new_dlg, new_prompt, new_pass):
     exist_sent = {s["en"].lower() for s in pools["DAILY5_SENTENCES"]}
     exist_dlg_themes = {d["theme"] for d in pools["DAILY5_DIALOGUES"]}
     exist_prompt_en = {p["en"].lower() for p in pools["DAILY5_PROMPTS"]}
-    exist_pass_themes = {p["theme"] for p in pools["SHADOW_PASSAGES"]}
+    exist_pass_text = {p["text"].strip().lower() for p in pools["SHADOW_PASSAGES"]}
 
     w = [x for x in new_words if x["word"].lower() not in exist_words]
     for x in w:
@@ -306,9 +306,9 @@ def dedup(pools, new_words, new_sent, new_dlg, new_prompt, new_pass):
     p = [x for x in new_prompt if x["en"].lower() not in exist_prompt_en]
     for x in p:
         exist_prompt_en.add(x["en"].lower())
-    pp = [x for x in new_pass if x["theme"] not in exist_pass_themes]
+    pp = [x for x in new_pass if x["text"].strip().lower() not in exist_pass_text]
     for x in pp:
-        exist_pass_themes.add(x["theme"])
+        exist_pass_text.add(x["text"].strip().lower())
     log("去重后新增 words=%d sent=%d dlg=%d prompt=%d passage=%d" % (len(w), len(s), len(d), len(p), len(pp)))
     return w, s, d, p, pp
 
@@ -378,7 +378,7 @@ def main():
     new_sent = make_sentences(5)
     new_dlg = make_dialogues(3)
     new_prompt = make_prompts(5)
-    new_pass = make_passages(1)
+    new_pass = make_passages(2)
 
     w, s, d, p, pp = dedup(pools, new_words, new_sent, new_dlg, new_prompt, new_pass)
 
