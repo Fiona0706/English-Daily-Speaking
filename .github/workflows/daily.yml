@@ -22,13 +22,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install edge-tts
-        run: pip install edge-tts
+      - name: Install deps
+        run: pip install edge-tts openpyxl
 
-      - name: Generate daily content
+      - name: Generate daily English content
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
         run: python gen_daily.py
+
+      - name: Generate daily Excel exercises
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: python gen_excel.py
 
       - name: Commit and push
         run: |
@@ -38,6 +43,5 @@ jobs:
           if git diff --cached --quiet; then
             echo "无变化，跳过提交"
           else
-            git commit -m "daily update $(date +%Y-%m-%d)"
-            git push
+            git commit -m "daily update $(date +%Y-%m-%d)" && git push
           fi
