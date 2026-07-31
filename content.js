@@ -4390,6 +4390,30 @@ var DAILY5_WORDS = [
   "example": "I'll take a rain check on dinner tonight.",
   "exampleZh": "今晚的晚餐我们改日再约吧。",
   "pos": "习语"
+ },
+ {
+  "word": "deal",
+  "phonetic": "/diːl/",
+  "zh": "交易；处理",
+  "example": "I got a great deal on this jacket.",
+  "exampleZh": "这件夹克我买得很划算。",
+  "pos": "名词"
+ },
+ {
+  "word": "sale",
+  "phonetic": "/seɪl/",
+  "zh": "销售；特卖",
+  "example": "The store is having a big sale today.",
+  "exampleZh": "这家商店今天有大减价。",
+  "pos": "名词"
+ },
+ {
+  "word": "hit the sack",
+  "phonetic": "/hɪt ðə sæk/",
+  "zh": "睡觉",
+  "example": "I'm tired; let's hit the sack early.",
+  "exampleZh": "我累了，我们早点睡觉吧。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -5695,6 +5719,36 @@ var DAILY5_SENTENCES = [
   "zh": "你能再核对一下发票吗？",
   "scene": "职场",
   "tag": "财务"
+ },
+ {
+  "en": "I'm running late, grab a seat.",
+  "zh": "我快迟到了，你先找个座位。",
+  "scene": "生活",
+  "tag": "日常出行"
+ },
+ {
+  "en": "That's a solid plan, let's roll.",
+  "zh": "这计划不错，那我们开始吧。",
+  "scene": "社交",
+  "tag": "朋友聚会"
+ },
+ {
+  "en": "The shipment cleared customs this morning.",
+  "zh": "货物今早通过了海关。",
+  "scene": "外贸物流",
+  "tag": "清关"
+ },
+ {
+  "en": "Can you loop me in on that email?",
+  "zh": "你能把那封邮件抄送给我吗？",
+  "scene": "职场",
+  "tag": "办公沟通"
+ },
+ {
+  "en": "I'm beat, let's call it a day.",
+  "zh": "我累坏了，今天就到此为止吧。",
+  "scene": "生活",
+  "tag": "下班休息"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -9906,6 +9960,31 @@ var DAILY5_PROMPTS = [
   "zh": "职场中，老板临时让你处理一个紧急任务，你表示马上开始。",
   "en": "I'll get right on it.",
   "hint": "\"get right on it\" 表示立即着手，非常地道的职场表达。"
+ },
+ {
+  "zh": "客户临时要求提前交货，你需要在邮件里确认是否可行。",
+  "en": "Can we move the shipping date up a week?",
+  "hint": "move up 表示‘提前’，常用于调整日程或截止日期。"
+ },
+ {
+  "zh": "物流显示货物已到港，但还没清关，你要告诉同事预计放行时间。",
+  "en": "The cargo arrived but customs hasn't released it yet.",
+  "hint": "release 在物流中指‘放行’，不用 let go。"
+ },
+ {
+  "zh": "在例会上，你提出一个改进仓库流程的建议。",
+  "en": "I think we should streamline the picking process.",
+  "hint": "streamline 意为‘精简、优化流程’，比 improve 更专业。"
+ },
+ {
+  "zh": "国外室友问你今晚要不要一起做饭，你表示可以但想先写完作业。",
+  "en": "Sure, but I need to finish this paper first.",
+  "hint": "用 sure 开头表示同意，加分句用 but 说明优先级。"
+ },
+ {
+  "zh": "面试后，你给面试官发邮件询问下一步安排。",
+  "en": "I'd like to follow up on my interview yesterday.",
+  "hint": "follow up 是‘跟进’，常用于商务邮件，动词短语不要拆分。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -10636,5 +10715,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做晚饭",
   "text": "After work, I stop by the grocery store to pick up some vegetables and chicken. When I get home, I wash the rice and put it in the cooker first. Then I chop the onions and peppers while the pan heats up. I stir-fry everything with a little soy sauce and garlic. It's not fancy, but it's quick and tasty. While the food simmers, I set the table and pour a glass of water. Dinner is ready in about twenty minutes, and I finally get to relax."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty. The subway is always packed at this hour, so I try to squeeze into the least crowded car. I put on my headphones and listen to a podcast to make the ride more enjoyable. Sometimes I spot the same people on the platform, and we give each other a quick nod. By the time I reach my stop, I feel ready to start the day. It's a small routine, but it keeps me grounded."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After a long day at work, I like to cook something simple. Tonight I'm making pasta with garlic and olive oil. I boil the water first and chop some fresh basil while it heats up. The smell of garlic fills the kitchen and instantly makes me relax. I stir in the pasta and toss it with a bit of parmesan. Dinner is ready in under twenty minutes, and I eat it while watching a show. It's my favorite way to unwind."
  }
 ];
