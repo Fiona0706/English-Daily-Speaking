@@ -4358,6 +4358,38 @@ var DAILY5_WORDS = [
   "example": "We have run out of milk again.",
   "exampleZh": "我们又用光了牛奶。",
   "pos": "短语动词"
+ },
+ {
+  "word": "grab",
+  "phonetic": "/ɡræb/",
+  "zh": "抓取，拿",
+  "example": "Let's grab a coffee before work.",
+  "exampleZh": "上班前去喝杯咖啡吧。",
+  "pos": "动词"
+ },
+ {
+  "word": "exhausted",
+  "phonetic": "/ɪɡˈzɔːstɪd/",
+  "zh": "精疲力竭的",
+  "example": "I feel exhausted after the long meeting.",
+  "exampleZh": "长会后我感到精疲力竭。",
+  "pos": "形容词"
+ },
+ {
+  "word": "budget",
+  "phonetic": "/ˈbʌdʒɪt/",
+  "zh": "预算；节省开支",
+  "example": "We need to budget for the vacation.",
+  "exampleZh": "我们需要为假期节省预算。",
+  "pos": "动词"
+ },
+ {
+  "word": "rain check",
+  "phonetic": "/reɪn tʃek/",
+  "zh": "改日再约",
+  "example": "I'll take a rain check on dinner tonight.",
+  "exampleZh": "今晚的晚餐我们改日再约吧。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -5639,6 +5671,30 @@ var DAILY5_SENTENCES = [
   "zh": "我回家路上会去取干洗衣服。",
   "scene": "生活",
   "tag": "家务"
+ },
+ {
+  "en": "I'm running late for the meeting.",
+  "zh": "我开会要迟到了。",
+  "scene": "职场",
+  "tag": "时间管理"
+ },
+ {
+  "en": "Let's grab a coffee sometime.",
+  "zh": "我们找个时间喝杯咖啡吧。",
+  "scene": "社交",
+  "tag": "邀请"
+ },
+ {
+  "en": "I need to hit the grocery store.",
+  "zh": "我得去趟杂货店。",
+  "scene": "生活",
+  "tag": "购物"
+ },
+ {
+  "en": "Can you double-check the invoice?",
+  "zh": "你能再核对一下发票吗？",
+  "scene": "职场",
+  "tag": "财务"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -8599,6 +8655,150 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "在咖啡店点餐",
+  "level": "初级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "Hi, I'd like a medium coffee, please.",
+    "zh": "你好，我想要一杯中杯咖啡。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Sure, hot or iced?",
+    "zh": "好的，热的还是冰的？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Hot, please. How much is it?",
+    "zh": "热的，谢谢。多少钱？",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "That's three dollars fifty.",
+    "zh": "三美元五十美分。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Here you go. Thanks!",
+    "zh": "给你。谢谢！",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Thanks! Have a nice day!",
+    "zh": "谢谢！祝你今天愉快！",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "在商场问路",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "Excuse me, could you tell me where the electronics section is?",
+    "zh": "打扰一下，你能告诉我电子产品区在哪里吗？",
+    "collect": false
+   },
+   {
+    "role": "工作人员",
+    "en": "Sure, it's on the second floor, near the escalator.",
+    "zh": "当然，在二楼，靠近自动扶梯。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Is there an elevator nearby? I have a stroller.",
+    "zh": "附近有电梯吗？我推着婴儿车。",
+    "collect": false
+   },
+   {
+    "role": "工作人员",
+    "en": "Yes, just go past the shoe store and turn left.",
+    "zh": "有，走过鞋店左转就到了。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Great, thank you so much for your help.",
+    "zh": "太好了，非常感谢你的帮助。",
+    "collect": false
+   },
+   {
+    "role": "工作人员",
+    "en": "No problem, let me know if you need anything else.",
+    "zh": "不客气，有需要再找我。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "I will. Have a good shift!",
+    "zh": "好的，祝你工作顺利！",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "向主管请病假",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "员工",
+    "en": "Hi Sarah, I'm afraid I won't be able to come in today because I've come down with a bad flu.",
+    "zh": "嗨，莎拉，我今天恐怕来不了，因为得了重感冒。",
+    "collect": false
+   },
+   {
+    "role": "主管",
+    "en": "I'm sorry to hear that. Have you seen a doctor yet?",
+    "zh": "听到这个很遗憾。你去看医生了吗？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Not yet, but I'm feeling quite feverish and barely slept last night.",
+    "zh": "还没，但我觉得发热，昨晚几乎没睡。",
+    "collect": false
+   },
+   {
+    "role": "主管",
+    "en": "You should prioritize your health. Take a rest and keep me posted on how you're doing.",
+    "zh": "你应该以健康为重。好好休息，随时告诉我你的情况。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Thanks for understanding. Do you need me to forward any urgent files to you?",
+    "zh": "谢谢你的理解。需要我把紧急文件转发给你吗？",
+    "collect": false
+   },
+   {
+    "role": "主管",
+    "en": "No, it's under control. Just focus on recovering. We'll catch up tomorrow.",
+    "zh": "不用，都处理得了。专心康复，我们明天再联系。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Really appreciate that. I'll send you my doctor's note if I get one later.",
+    "zh": "非常感谢。如果之后拿到病假条，我会发给你。",
+    "collect": false
+   },
+   {
+    "role": "主管",
+    "en": "Sounds good. Don't rush back. Feel better soon.",
+    "zh": "好的。不用急着回来。早日康复。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -9681,6 +9881,31 @@ var DAILY5_PROMPTS = [
   "zh": "物流延误通知客户",
   "en": "Sorry, the shipment has been delayed due to weather.",
   "hint": "shipment 指货物；delayed 表示延误"
+ },
+ {
+  "zh": "客户发来邮件询问货物是否已经发出，你回复说正在安排运输。",
+  "en": "We're getting your shipment on the way today.",
+  "hint": "用 \"on the way\" 表示在途中，常用于物流跟进。"
+ },
+ {
+  "zh": "同事问你会议室几点有空，你建议下午三点。",
+  "en": "Let's aim for 3 PM in the conference room.",
+  "hint": "\"aim for\" 表示目标/约定时间，比 \"let's meet at\" 更自然。"
+ },
+ {
+  "zh": "在海外留学，室友想借你的笔记本电脑，你觉得可以但提醒他小心。",
+  "en": "Sure, just handle it with care, okay?",
+  "hint": "\"handle with care\" 是固定搭配，提醒小心使用。"
+ },
+ {
+  "zh": "外贸谈判中，对方要求降价，你想说价格已经是最低，不能再降。",
+  "en": "That's already our rock-bottom price.",
+  "hint": "\"rock-bottom\" 表示最低价，口语常用，比 \"lowest\" 更有力。"
+ },
+ {
+  "zh": "职场中，老板临时让你处理一个紧急任务，你表示马上开始。",
+  "en": "I'll get right on it.",
+  "hint": "\"get right on it\" 表示立即着手，非常地道的职场表达。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -10403,5 +10628,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "通勤",
   "text": "I usually take the subway to work in the morning. The train is often crowded, so I try to get on early. I listen to music or read news on my phone during the ride. It helps me relax before a busy day. Sometimes I see the same people on the platform. We never talk, but we share a silent routine."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to catch the express train. The platform is always packed, so I try to find a spot near the doors. Once I'm on, I put on my headphones and listen to a podcast about technology. It helps me wake up and ignore the crowd. Sometimes I grab a coffee from the kiosk if I have a few extra minutes. The ride takes about twenty-five minutes, and I always check my schedule on the phone. By the time we reach downtown, I feel ready to start the day."
+ },
+ {
+  "theme": "下班后做晚饭",
+  "text": "After work, I stop by the grocery store to pick up some vegetables and chicken. When I get home, I wash the rice and put it in the cooker first. Then I chop the onions and peppers while the pan heats up. I stir-fry everything with a little soy sauce and garlic. It's not fancy, but it's quick and tasty. While the food simmers, I set the table and pour a glass of water. Dinner is ready in about twenty minutes, and I finally get to relax."
  }
 ];
