@@ -4326,6 +4326,38 @@ var DAILY5_WORDS = [
   "example": "She felt anxious before the big presentation.",
   "exampleZh": "她在大型演讲前感到焦虑。",
   "pos": "形容词"
+ },
+ {
+  "word": "grocery",
+  "phonetic": "/ˈɡroʊsəri/",
+  "zh": "杂货，食品杂货",
+  "example": "I need to buy some grocery items.",
+  "exampleZh": "我需要买一些杂货。",
+  "pos": "名词"
+ },
+ {
+  "word": "stressed",
+  "phonetic": "/strest/",
+  "zh": "压力大的，紧张的",
+  "example": "He feels stressed before the exam.",
+  "exampleZh": "他在考试前感到压力很大。",
+  "pos": "形容词"
+ },
+ {
+  "word": "check",
+  "phonetic": "/tʃek/",
+  "zh": "检查，核对",
+  "example": "Please check your email for updates.",
+  "exampleZh": "请查看你的邮件以获取更新。",
+  "pos": "动词"
+ },
+ {
+  "word": "run out of",
+  "phonetic": "/rʌn aʊt əv/",
+  "zh": "用光，耗尽",
+  "example": "We have run out of milk again.",
+  "exampleZh": "我们又用光了牛奶。",
+  "pos": "短语动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -5577,6 +5609,36 @@ var DAILY5_SENTENCES = [
   "zh": "你能在中午前把报告发给我吗？",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "I'm running late; can you grab me a coffee?",
+  "zh": "我迟到了，能帮我带杯咖啡吗？",
+  "scene": "生活",
+  "tag": "日常"
+ },
+ {
+  "en": "Let's catch up this weekend, I miss you.",
+  "zh": "这周末聚一聚吧，我想你了。",
+  "scene": "社交",
+  "tag": "朋友"
+ },
+ {
+  "en": "The shipment is stuck at customs; we need an update.",
+  "zh": "货物卡在海关了，我们需要最新进展。",
+  "scene": "外贸物流",
+  "tag": "物流"
+ },
+ {
+  "en": "Could you send me the report by 3 PM?",
+  "zh": "你能下午3点前把报告发给我吗？",
+  "scene": "职场",
+  "tag": "工作"
+ },
+ {
+  "en": "I'll pick up the dry cleaning on my way home.",
+  "zh": "我回家路上会去取干洗衣服。",
+  "scene": "生活",
+  "tag": "家务"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -8489,6 +8551,54 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "请假",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "员工",
+    "en": "Good morning, Mr. Smith. I'm calling to request a sick day today.",
+    "zh": "早上好，史密斯先生。我打电话来请一天病假。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "I see. Are you feeling unwell? What seems to be the issue?",
+    "zh": "明白了。你感觉不舒服吗？具体是什么问题？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "I've been having a persistent headache and a fever since last night.",
+    "zh": "我从昨晚开始一直头痛发烧。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "That sounds rough. Have you seen a doctor yet?",
+    "zh": "听起来很严重。你去看医生了吗？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Not yet, but I plan to visit the clinic this afternoon.",
+    "zh": "还没有，但我打算今天下午去诊所。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Alright, please take care of yourself and keep me posted on your condition.",
+    "zh": "好的，请照顾好自己，并及时告知我你的情况。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Will do. Thanks for understanding.",
+    "zh": "我会的。谢谢你的理解。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -9546,6 +9656,31 @@ var DAILY5_PROMPTS = [
   "zh": "你刚到美国留学，需要向教授咨询作业提交方式的细节。",
   "en": "Could you clarify how you'd like us to submit the assignment?",
   "hint": "'clarify' 是请求澄清的礼貌用语，适合学术场合。"
+ },
+ {
+  "zh": "客户要求提前发货",
+  "en": "The client wants to move up the shipping date.",
+  "hint": "move up 表示把某事提前"
+ },
+ {
+  "zh": "报关文件需要补件",
+  "en": "We need to submit additional customs documents.",
+  "hint": "additional 表示额外的、补充的"
+ },
+ {
+  "zh": "同事问你会议时间",
+  "en": "Are you available for a quick meeting this afternoon?",
+  "hint": "available 表示有空、可安排"
+ },
+ {
+  "zh": "留学生租公寓",
+  "en": "I'm looking for a furnished studio near campus.",
+  "hint": "furnished 表示带家具的；studio 指一室公寓"
+ },
+ {
+  "zh": "物流延误通知客户",
+  "en": "Sorry, the shipment has been delayed due to weather.",
+  "hint": "shipment 指货物；delayed 表示延误"
  }
 ];
 var SHADOW_PASSAGES = [
