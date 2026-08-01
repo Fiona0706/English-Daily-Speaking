@@ -4414,6 +4414,22 @@ var DAILY5_WORDS = [
   "example": "I'm tired; let's hit the sack early.",
   "exampleZh": "我累了，我们早点睡觉吧。",
   "pos": "习语"
+ },
+ {
+  "word": "affordable",
+  "phonetic": "/əˈfɔːrdəbl/",
+  "zh": "负担得起的",
+  "example": "This store sells affordable clothes for young people.",
+  "exampleZh": "这家店卖年轻人买得起的衣服。",
+  "pos": "形容词"
+ },
+ {
+  "word": "stressful",
+  "phonetic": "/ˈstresfl/",
+  "zh": "压力大的",
+  "example": "Dealing with angry customers is very stressful.",
+  "exampleZh": "应付生气的顾客压力很大。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -5749,6 +5765,36 @@ var DAILY5_SENTENCES = [
   "zh": "我累坏了，今天就到此为止吧。",
   "scene": "生活",
   "tag": "下班休息"
+ },
+ {
+  "en": "Let's grab a bite to eat.",
+  "zh": "我们随便吃点东西吧。",
+  "scene": "生活",
+  "tag": "日常饮食"
+ },
+ {
+  "en": "That's a total game changer.",
+  "zh": "这完全改变了局面。",
+  "scene": "社交",
+  "tag": "评价"
+ },
+ {
+  "en": "We need to expedite the shipment ASAP.",
+  "zh": "我们需要尽快加快发货。",
+  "scene": "外贸物流",
+  "tag": "物流催促"
+ },
+ {
+  "en": "Let's touch base after the meeting.",
+  "zh": "会议结束后我们碰个头。",
+  "scene": "职场",
+  "tag": "工作沟通"
+ },
+ {
+  "en": "I'm swamped with work right now.",
+  "zh": "我现在工作忙得不可开交。",
+  "scene": "职场",
+  "tag": "工作状态"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -9985,6 +10031,31 @@ var DAILY5_PROMPTS = [
   "zh": "面试后，你给面试官发邮件询问下一步安排。",
   "en": "I'd like to follow up on my interview yesterday.",
   "hint": "follow up 是‘跟进’，常用于商务邮件，动词短语不要拆分。"
+ },
+ {
+  "zh": "在物流仓库，你向同事确认今天下午的出货时间是否提前。",
+  "en": "Are we moving the shipment up to this afternoon?",
+  "hint": "move up 表示提前，常用于安排时间或日程。"
+ },
+ {
+  "zh": "外贸邮件中，你告诉客户样品已经寄出，并提供跟踪号。",
+  "en": "The samples are on the way; here's the tracking number.",
+  "hint": "on the way 表示在途中，口语常用；tracking number 是跟踪号。"
+ },
+ {
+  "zh": "在职场会议上，你想提议大家先讨论预算问题。",
+  "en": "How about we tackle the budget first?",
+  "hint": "tackle 表示着手处理，比 handle 更口语化。"
+ },
+ {
+  "zh": "留学生活中，室友问你周末要不要一起去超市采购。",
+  "en": "Wanna hit the grocery store together this weekend?",
+  "hint": "hit 表示去某地，口语常用；grocery store 是超市。"
+ },
+ {
+  "zh": "外贸跟单时，你向供应商确认交期是否能提前一周。",
+  "en": "Can you bump up the delivery date by a week?",
+  "hint": "bump up 表示提前或上调，常用于交期、价格等。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -10723,5 +10794,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After a long day at work, I like to cook something simple. Tonight I'm making pasta with garlic and olive oil. I boil the water first and chop some fresh basil while it heats up. The smell of garlic fills the kitchen and instantly makes me relax. I stir in the pasta and toss it with a bit of parmesan. Dinner is ready in under twenty minutes, and I eat it while watching a show. It's my favorite way to unwind."
+ },
+ {
+  "theme": "通勤",
+  "text": "I usually leave home around seven thirty to catch the subway. The platform is always packed at this hour, so I squeeze in and grab a spot near the door. Today I noticed a guy reading a novel while standing, balancing perfectly with one hand. The train rattles along, and people scroll through their phones or stare blankly at the ads. I put on my headphones and listen to a podcast to make the ride feel shorter. By the time I reach my stop, I feel ready to start the day."
+ },
+ {
+  "theme": "做饭",
+  "text": "Cooking dinner after work is my little ritual to unwind. I chop some onions and garlic, then heat the pan with a splash of olive oil. The sizzle sound is oddly satisfying, and the smell fills my small kitchen quickly. I toss in some chicken and season it with salt, pepper, and a bit of paprika. While it simmers, I boil pasta on the side and check the timer on my phone. In about twenty minutes, everything is ready, and I plate it up with some greens. It's simple, but it always makes me feel good."
  }
 ];
