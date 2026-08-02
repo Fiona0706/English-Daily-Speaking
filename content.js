@@ -5795,6 +5795,36 @@ var DAILY5_SENTENCES = [
   "zh": "我现在工作忙得不可开交。",
   "scene": "职场",
   "tag": "工作状态"
+ },
+ {
+  "en": "I'll grab a coffee on my way.",
+  "zh": "我顺路去买杯咖啡。",
+  "scene": "生活",
+  "tag": "日常"
+ },
+ {
+  "en": "Let's catch up this weekend.",
+  "zh": "咱们这周末聚聚吧。",
+  "scene": "社交",
+  "tag": "聚会"
+ },
+ {
+  "en": "The shipment is delayed by two days.",
+  "zh": "这批货延误了两天。",
+  "scene": "外贸物流",
+  "tag": "物流延误"
+ },
+ {
+  "en": "Can we reschedule the meeting to tomorrow?",
+  "zh": "我们可以把会议改到明天吗？",
+  "scene": "职场",
+  "tag": "会议安排"
+ },
+ {
+  "en": "I'm running late, be there in ten.",
+  "zh": "我要迟到了，十分钟内到。",
+  "scene": "生活",
+  "tag": "迟到"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -10056,6 +10086,31 @@ var DAILY5_PROMPTS = [
   "zh": "外贸跟单时，你向供应商确认交期是否能提前一周。",
   "en": "Can you bump up the delivery date by a week?",
   "hint": "bump up 表示提前或上调，常用于交期、价格等。"
+ },
+ {
+  "zh": "在仓库盘点时，发现库存数量与系统记录不符。",
+  "en": "The physical count doesn't match our system records.",
+  "hint": "使用 physical count 表示实物盘点，match 表示相符。"
+ },
+ {
+  "zh": "向客户解释海运延误的原因，并承诺尽快更新。",
+  "en": "I'll keep you posted on the shipping delay as soon as we hear more.",
+  "hint": "keep someone posted 表示随时告知最新情况。"
+ },
+ {
+  "zh": "在面试中，被问到你如何处理工作压力。",
+  "en": "I prioritize tasks and stay focused under pressure.",
+  "hint": "prioritize tasks 优先处理任务，stay focused 保持专注。"
+ },
+ {
+  "zh": "在留学生活中，向房东请求修理损坏的空调。",
+  "en": "Could you send someone to fix the AC? It's not working.",
+  "hint": "send someone 派人，AC 是 air conditioner 的口语缩写，not working 表示坏了。"
+ },
+ {
+  "zh": "在和外国客户视频会议时，确认订单细节。",
+  "en": "Let's go over the order details to make sure we're on the same page.",
+  "hint": "go over 过一遍，on the same page 表示意见一致。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -10802,5 +10857,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做饭",
   "text": "Cooking dinner after work is my little ritual to unwind. I chop some onions and garlic, then heat the pan with a splash of olive oil. The sizzle sound is oddly satisfying, and the smell fills my small kitchen quickly. I toss in some chicken and season it with salt, pepper, and a bit of paprika. While it simmers, I boil pasta on the side and check the timer on my phone. In about twenty minutes, everything is ready, and I plate it up with some greens. It's simple, but it always makes me feel good."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I always hit the snooze button at least twice before I actually get up. By the time I'm out of the door, I'm already running ten minutes behind. The subway is packed, so I have to squeeze in between people and hold my coffee carefully. I usually listen to a podcast to make the ride feel shorter. Today, the train stops for a few minutes because of a signal problem. I just sigh and check my phone again. Somehow, I still make it to work just in time for the morning meeting."
+ },
+ {
+  "theme": "准备晚餐",
+  "text": "After a long day, I finally get to the kitchen and start chopping some vegetables. I grab a pan, pour in a little olive oil, and toss in the onions first. The smell makes me feel hungry right away. I add the chicken and season it with salt, pepper, and a bit of paprika. While that cooks, I boil some pasta in another pot. It's not a fancy meal, but it's warm and comforting. I set the table, call my roommate, and we sit down to eat together."
  }
 ];
