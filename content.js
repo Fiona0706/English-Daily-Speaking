@@ -4430,6 +4430,30 @@ var DAILY5_WORDS = [
   "example": "Dealing with angry customers is very stressful.",
   "exampleZh": "应付生气的顾客压力很大。",
   "pos": "形容词"
+ },
+ {
+  "word": "checkout",
+  "phonetic": "/ˈtʃekaʊt/",
+  "zh": "结账处",
+  "example": "The checkout line was really long today.",
+  "exampleZh": "今天结账的队伍真的很长。",
+  "pos": "名词"
+ },
+ {
+  "word": "pretty",
+  "phonetic": "/ˈprɪti/",
+  "zh": "相当，很",
+  "example": "The traffic is pretty bad tonight.",
+  "exampleZh": "今晚交通相当糟糕。",
+  "pos": "副词"
+ },
+ {
+  "word": "upset",
+  "phonetic": "/ʌpˈset/",
+  "zh": "难过的，沮丧的",
+  "example": "She was upset about missing the bus.",
+  "exampleZh": "她因为错过公交车而很难过。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -5825,6 +5849,18 @@ var DAILY5_SENTENCES = [
   "zh": "我要迟到了，十分钟内到。",
   "scene": "生活",
   "tag": "迟到"
+ },
+ {
+  "en": "I'm running late, grab a seat for me.",
+  "zh": "我快迟到了，帮我占个座。",
+  "scene": "生活",
+  "tag": "日常"
+ },
+ {
+  "en": "That's a solid plan, let's do it.",
+  "zh": "这计划真靠谱，就这么办。",
+  "scene": "社交",
+  "tag": "赞同"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -8929,6 +8965,132 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "在咖啡店点单",
+  "level": "初级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "Hi, can I have a cup of coffee?",
+    "zh": "你好，我能要一杯咖啡吗？",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Sure, what kind of coffee would you like?",
+    "zh": "当然，你想要哪种咖啡？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "I'd like a latte, please.",
+    "zh": "我想要一杯拿铁，谢谢。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Hot or iced?",
+    "zh": "热的还是冰的？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Hot, please.",
+    "zh": "热的，谢谢。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "That'll be four dollars.",
+    "zh": "那是四美元。",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "在商场退换货",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "Hi, I'd like to return this shirt I bought yesterday.",
+    "zh": "你好，我想退掉昨天买的这件衬衫。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Do you have the receipt with you?",
+    "zh": "你带收据了吗？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Yes, here it is. It's the wrong size.",
+    "zh": "是的，给你。这尺寸不对。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "I see. Would you like a refund or an exchange?",
+    "zh": "我明白了。你是想退款还是换货？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "I'd prefer an exchange if possible.",
+    "zh": "如果可能的话，我想换一件。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Sure, let me check our stock for your size.",
+    "zh": "好的，我查一下你尺寸的库存。",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "向老板请假",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "员工",
+    "en": "Good morning, I was wondering if I could take a day off next Thursday.",
+    "zh": "早上好，我想知道下周四能不能请一天假。",
+    "collect": false
+   },
+   {
+    "role": "老板",
+    "en": "Is there a particular reason you need that day off?",
+    "zh": "你有特别的原因需要那天请假吗？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Yes, I have a family commitment that I can't reschedule.",
+    "zh": "是的，我有一个家庭活动，无法重新安排时间。",
+    "collect": false
+   },
+   {
+    "role": "老板",
+    "en": "I appreciate you letting me know in advance. That should be fine.",
+    "zh": "谢谢你提前告诉我。应该没问题。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Thank you so much. I'll make sure my tasks are covered before then.",
+    "zh": "非常感谢。我会确保在那之前处理好我的工作任务。",
+    "collect": false
+   },
+   {
+    "role": "老板",
+    "en": "Great, just send me a quick email to confirm the details.",
+    "zh": "好的，发封邮件给我确认一下细节就行。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -10111,6 +10273,31 @@ var DAILY5_PROMPTS = [
   "zh": "在和外国客户视频会议时，确认订单细节。",
   "en": "Let's go over the order details to make sure we're on the same page.",
   "hint": "go over 过一遍，on the same page 表示意见一致。"
+ },
+ {
+  "zh": "你在外贸公司工作，客户发邮件问是否能提前发货，你回复说可以，但需要加急费用。",
+  "en": "We can ship earlier, but there'll be an expedited fee.",
+  "hint": "用 'there'll be' 表示将会有，'expedited fee' 是加急费用的地道说法。"
+ },
+ {
+  "zh": "在物流仓库，你发现一批货物标签贴错了，需要通知同事重新处理。",
+  "en": "The labels are mixed up, we need to redo this batch.",
+  "hint": "'mixed up' 表示搞混，'redo' 是重新做，口语常用。"
+ },
+ {
+  "zh": "职场会议上，老板提出新项目，你表示支持但希望先讨论预算。",
+  "en": "I'm on board, but let's talk budget first.",
+  "hint": "'on board' 表示同意或支持，'talk budget' 是口语化讨论预算。"
+ },
+ {
+  "zh": "留学生活中，你向室友抱怨厨房太乱，希望他注意整洁。",
+  "en": "The kitchen is a mess, can you keep it tidy?",
+  "hint": "'a mess' 指杂乱，'keep it tidy' 是保持整洁的常用表达。"
+ },
+ {
+  "zh": "在外贸谈判中，对方要求降价，你回复说价格已是最低，但可以增加订购量折扣。",
+  "en": "The price is firm, but we can offer a volume discount.",
+  "hint": "'firm' 表示价格固定不变，'volume discount' 是批量折扣的术语。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -10865,5 +11052,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "准备晚餐",
   "text": "After a long day, I finally get to the kitchen and start chopping some vegetables. I grab a pan, pour in a little olive oil, and toss in the onions first. The smell makes me feel hungry right away. I add the chicken and season it with salt, pepper, and a bit of paprika. While that cooks, I boil some pasta in another pot. It's not a fancy meal, but it's warm and comforting. I set the table, call my roommate, and we sit down to eat together."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the express train. The platform gets really crowded, so I always stand near the middle doors where there's more room. This morning, I saw a street musician playing guitar by the entrance, which was a nice start to the day. I put on my headphones and listened to a podcast about city planning. The ride takes about twenty minutes, and I usually grab a coffee from the cart right outside the station. By the time I reach the office, I feel awake and ready to start working."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After a long day at work, I like to cook something simple but tasty. Tonight, I'm making stir-fried vegetables with tofu and rice. I chop the bell peppers and onions first, then heat some oil in the pan. The sizzling sound always makes me hungry. I add a bit of soy sauce and ginger for flavor. While the food cooks, I set the table and pour a glass of iced tea. In about fifteen minutes, dinner is ready, and I sit down to enjoy it while watching a show. It's my favorite way to unwind."
  }
 ];
