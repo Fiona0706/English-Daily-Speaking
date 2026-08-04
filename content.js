@@ -4454,6 +4454,14 @@ var DAILY5_WORDS = [
   "example": "She was upset about missing the bus.",
   "exampleZh": "她因为错过公交车而很难过。",
   "pos": "形容词"
+ },
+ {
+  "word": "feel blue",
+  "phonetic": "/fiːl bluː/",
+  "zh": "感到忧郁",
+  "example": "He felt blue after his dog passed away.",
+  "exampleZh": "他的狗去世后，他感到忧郁。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -5861,6 +5869,30 @@ var DAILY5_SENTENCES = [
   "zh": "这计划真靠谱，就这么办。",
   "scene": "社交",
   "tag": "赞同"
+ },
+ {
+  "en": "How's it going with your new job?",
+  "zh": "你的新工作怎么样？",
+  "scene": "社交",
+  "tag": "问候"
+ },
+ {
+  "en": "We need to ship this batch by Friday.",
+  "zh": "我们这批货必须在周五前发出。",
+  "scene": "外贸物流",
+  "tag": "发货"
+ },
+ {
+  "en": "I'll circle back to you on that.",
+  "zh": "关于那件事，我稍后会回复你。",
+  "scene": "职场",
+  "tag": "跟进"
+ },
+ {
+  "en": "Could you double-check the invoice for me?",
+  "zh": "你能帮我再核对一下发票吗？",
+  "scene": "外贸物流",
+  "tag": "核对"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -10298,6 +10330,31 @@ var DAILY5_PROMPTS = [
   "zh": "在外贸谈判中，对方要求降价，你回复说价格已是最低，但可以增加订购量折扣。",
   "en": "The price is firm, but we can offer a volume discount.",
   "hint": "'firm' 表示价格固定不变，'volume discount' 是批量折扣的术语。"
+ },
+ {
+  "zh": "在给客户回复邮件时，需要确认对方是否收到了附件。",
+  "en": "Just checking you got the attachment.",
+  "hint": "用 'Just checking' 开头，表示轻松确认，避免直接问 'Did you get it?'"
+ },
+ {
+  "zh": "和同事讨论项目进度，想表达现在时间很紧张。",
+  "en": "We're really up against the clock.",
+  "hint": "'up against the clock' 是地道习语，表示时间紧迫。"
+ },
+ {
+  "zh": "向供应商询问货是否已经发出，语气要礼貌且直接。",
+  "en": "Have the goods shipped yet?",
+  "hint": "用现在完成时 'Have...shipped' 询问动作是否已完成，口语中常用。"
+ },
+ {
+  "zh": "在留学生活中，室友想让你帮忙带点东西回宿舍。",
+  "en": "Can you grab me a coffee on your way back?",
+  "hint": "'grab' 在这里表示快速拿取，'on your way back' 是常见口语表达。"
+ },
+ {
+  "zh": "在职场中，领导要求你尽快完成一份报告。",
+  "en": "I need that report ASAP.",
+  "hint": "ASAP 是 as soon as possible 的缩写，职场口语高频使用，语气直接。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -11060,5 +11117,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After a long day at work, I like to cook something simple but tasty. Tonight, I'm making stir-fried vegetables with tofu and rice. I chop the bell peppers and onions first, then heat some oil in the pan. The sizzling sound always makes me hungry. I add a bit of soy sauce and ginger for flavor. While the food cooks, I set the table and pour a glass of iced tea. In about fifteen minutes, dinner is ready, and I sit down to enjoy it while watching a show. It's my favorite way to unwind."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I always hit the snooze button at least twice before I actually get up. By the time I'm out the door, I'm already running late. The subway is packed this morning, so I have to stand near the door. I check my phone to see if there are any messages from work. Luckily, the train arrives at my stop right on time. I grab a coffee from the corner shop and hurry to the office. It's the same rush every day, but I still manage to make it."
+ },
+ {
+  "theme": "准备晚餐",
+  "text": "Tonight I'm making a simple pasta dish with garlic and tomatoes. I chop the onions and try not to cry too much. The pan is hot, so I add a bit of olive oil and toss in the garlic. I can hear it sizzling as the smell fills the kitchen. I pour in the canned tomatoes and let everything simmer for a while. I taste it and add a pinch of salt and pepper. Just as I'm plating the pasta, my roommate walks in and says it smells amazing."
  }
 ];
