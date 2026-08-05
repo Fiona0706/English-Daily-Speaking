@@ -4462,6 +4462,54 @@ var DAILY5_WORDS = [
   "example": "He felt blue after his dog passed away.",
   "exampleZh": "他的狗去世后，他感到忧郁。",
   "pos": "习语"
+ },
+ {
+  "word": "cram",
+  "phonetic": "/kræm/",
+  "zh": "临时抱佛脚，死记硬背",
+  "example": "I had to cram for the exam last night.",
+  "exampleZh": "我昨晚不得不临时抱佛脚备考。",
+  "pos": "动词"
+ },
+ {
+  "word": "frazzled",
+  "phonetic": "/ˈfræzld/",
+  "zh": "疲惫不堪的，烦躁的",
+  "example": "After the meeting, she felt totally frazzled.",
+  "exampleZh": "会议结束后，她感到筋疲力尽。",
+  "pos": "形容词"
+ },
+ {
+  "word": "thrilled",
+  "phonetic": "/θrɪld/",
+  "zh": "非常兴奋的，激动的",
+  "example": "She was thrilled with her new job offer.",
+  "exampleZh": "她对新的工作机会感到非常兴奋。",
+  "pos": "形容词"
+ },
+ {
+  "word": "pop",
+  "phonetic": "/pɑːp/",
+  "zh": "短暂去一下，突然出现",
+  "example": "I'll pop to the store after lunch.",
+  "exampleZh": "午饭后我会顺便去趟商店。",
+  "pos": "动词"
+ },
+ {
+  "word": "holiday",
+  "phonetic": "/ˈhɑːlədeɪ/",
+  "zh": "假期",
+  "example": "We're planning a holiday to the beach.",
+  "exampleZh": "我们正计划去海边度假。",
+  "pos": "名词"
+ },
+ {
+  "word": "look forward to",
+  "phonetic": "/lʊk ˈfɔːrwərd tuː/",
+  "zh": "期待",
+  "example": "I look forward to seeing you soon.",
+  "exampleZh": "我期待很快见到你。",
+  "pos": "短语动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -5893,6 +5941,30 @@ var DAILY5_SENTENCES = [
   "zh": "你能帮我再核对一下发票吗？",
   "scene": "外贸物流",
   "tag": "核对"
+ },
+ {
+  "en": "That sounds like a plan, let's do it.",
+  "zh": "听起来不错，就这么办吧。",
+  "scene": "社交",
+  "tag": "同意"
+ },
+ {
+  "en": "We need to double-check the shipping documents.",
+  "zh": "我们需要仔细核对一下装运单据。",
+  "scene": "外贸物流",
+  "tag": "核对"
+ },
+ {
+  "en": "Could you loop me in on that email?",
+  "zh": "你能把那封邮件抄送给我吗？",
+  "scene": "职场",
+  "tag": "沟通"
+ },
+ {
+  "en": "I'm all in, count me on it.",
+  "zh": "我完全赞成，算我一个。",
+  "scene": "社交",
+  "tag": "表态"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -10355,6 +10427,31 @@ var DAILY5_PROMPTS = [
   "zh": "在职场中，领导要求你尽快完成一份报告。",
   "en": "I need that report ASAP.",
   "hint": "ASAP 是 as soon as possible 的缩写，职场口语高频使用，语气直接。"
+ },
+ {
+  "zh": "客户发来邮件询问货物是否已发出，你回复说已经安排今天发货。",
+  "en": "We've got your shipment out the door today.",
+  "hint": "用“got ... out the door”表示完成发货，口语化。"
+ },
+ {
+  "zh": "在会议室开会，讨论项目延期问题，你说需要多三天才能完成。",
+  "en": "We'll need three more days to wrap this up.",
+  "hint": "用“wrap up”表示完成/收尾，比“finish”更自然。"
+ },
+ {
+  "zh": "你在美国留学，室友邀请你参加周末派对，你表示会准时到。",
+  "en": "I'll be there on the dot.",
+  "hint": "“on the dot”表示准时，常用于非正式场合。"
+ },
+ {
+  "zh": "在物流仓库，同事问你是否清点了所有箱子，你确认已经数完。",
+  "en": "I've already counted every single box.",
+  "hint": "“every single”强调每一个，增强语气。"
+ },
+ {
+  "zh": "在外贸谈判中，对方要求降价，你说这个价格已经是最低的了。",
+  "en": "This is as low as we can go.",
+  "hint": "“as low as we can go”表示底线，用于谈判中。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -11125,5 +11222,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "准备晚餐",
   "text": "Tonight I'm making a simple pasta dish with garlic and tomatoes. I chop the onions and try not to cry too much. The pan is hot, so I add a bit of olive oil and toss in the garlic. I can hear it sizzling as the smell fills the kitchen. I pour in the canned tomatoes and let everything simmer for a while. I taste it and add a pinch of salt and pepper. Just as I'm plating the pasta, my roommate walks in and says it smells amazing."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the express train. The platform gets really crowded, so I have to squeeze in near the doors. Once I find a spot, I put on my headphones and listen to a podcast. The ride takes about twenty minutes, which is just enough time to plan my day. I always grab a coffee from the stand outside the station before heading to the office. It's a simple routine, but it helps me feel ready for whatever comes."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After a long day at work, I like to cook something quick and easy. Tonight, I'm making pasta with a simple tomato sauce. I chop some garlic and onions, then let them sizzle in olive oil. While the sauce simmers, I boil the pasta in a big pot of salted water. When everything's ready, I toss it together with a handful of fresh basil. I set the table, pour a glass of water, and finally sit down to enjoy my meal. It's not fancy, but it always makes me feel relaxed."
  }
 ];
