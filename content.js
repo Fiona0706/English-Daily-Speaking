@@ -5965,6 +5965,36 @@ var DAILY5_SENTENCES = [
   "zh": "我完全赞成，算我一个。",
   "scene": "社交",
   "tag": "表态"
+ },
+ {
+  "en": "I'll grab a coffee to go.",
+  "zh": "我买杯咖啡带走。",
+  "scene": "生活",
+  "tag": "日常"
+ },
+ {
+  "en": "Wanna catch up this weekend?",
+  "zh": "这周末想聚聚聊聊吗？",
+  "scene": "社交",
+  "tag": "邀约"
+ },
+ {
+  "en": "Please double-check the shipping address.",
+  "zh": "请再核对一下收货地址。",
+  "scene": "外贸物流",
+  "tag": "物流确认"
+ },
+ {
+  "en": "Could you circle back on that later?",
+  "zh": "你能稍后回来再谈那个吗？",
+  "scene": "职场",
+  "tag": "会议跟进"
+ },
+ {
+  "en": "I'm all in for this plan.",
+  "zh": "我完全支持这个计划。",
+  "scene": "职场",
+  "tag": "表态"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -9195,6 +9225,90 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "向路人问路",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "游客",
+    "en": "Excuse me, I'm looking for the city museum. Is it far from here?",
+    "zh": "打扰一下，我在找市博物馆，离这儿远吗？",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "Not too far. Walk straight for two blocks, then turn left at the traffic light.",
+    "zh": "不太远。直走两个街区，然后在红绿灯处左转。",
+    "collect": false
+   },
+   {
+    "role": "游客",
+    "en": "Okay, and is the museum on the left or right side?",
+    "zh": "好的，博物馆是在左边还是右边？",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "It's on your right, right next to the big park. You can't miss it.",
+    "zh": "在你的右边，紧挨着大公园，你不会错过的。",
+    "collect": false
+   },
+   {
+    "role": "游客",
+    "en": "Great, thanks for your help!",
+    "zh": "太好了，谢谢你的帮助！",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "No problem, enjoy your visit!",
+    "zh": "不客气，祝你参观愉快！",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "商谈工作请假",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "员工",
+    "en": "Hey, I need to request some time off next week due to a family emergency.",
+    "zh": "嘿，由于家里突发紧急情况，我需要申请下周请假。",
+    "collect": false
+   },
+   {
+    "role": "主管",
+    "en": "I'm sorry to hear that. Could you specify the days and how you plan to handle your pending tasks?",
+    "zh": "听到这个我很难过。你能具体说一下请哪几天假，以及打算如何处理手头未完成的工作吗？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "I'd need Monday through Wednesday. I've already emailed the client briefing to Sarah, and I'll finish the report tonight.",
+    "zh": "我需要请周一到周三。我已经把客户简报邮件发给了莎拉，今晚我会完成报告。",
+    "collect": false
+   },
+   {
+    "role": "主管",
+    "en": "That sounds manageable. Just make sure to update the team calendar and set your out-of-office reply.",
+    "zh": "听起来可行。确保更新团队日历并设置自动回复邮件。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Will do. I really appreciate your understanding on such short notice.",
+    "zh": "我会的。非常感激你这么短时间能理解。",
+    "collect": false
+   },
+   {
+    "role": "主管",
+    "en": "Of course, family comes first. Keep me posted if anything changes.",
+    "zh": "当然，家庭优先。有任何变化随时告诉我。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -10452,6 +10566,31 @@ var DAILY5_PROMPTS = [
   "zh": "在外贸谈判中，对方要求降价，你说这个价格已经是最低的了。",
   "en": "This is as low as we can go.",
   "hint": "“as low as we can go”表示底线，用于谈判中。"
+ },
+ {
+  "zh": "外贸邮件中，你告诉客户订单已发货，预计三天后到达。",
+  "en": "Your order is on the way and should arrive in three days.",
+  "hint": "用 on the way 表示在途中，arrive in 接时间段。"
+ },
+ {
+  "zh": "物流仓库里，同事问你今天要处理多少件货物。",
+  "en": "How many packages are we processing today?",
+  "hint": "用 process 表示处理，package 指包裹。"
+ },
+ {
+  "zh": "职场会议上，你提议推迟项目截止日期一周。",
+  "en": "Let's push the deadline back by a week.",
+  "hint": "push back 表示推迟，by 接时间量。"
+ },
+ {
+  "zh": "留学生活中，室友问你冰箱里的牛奶还能不能喝。",
+  "en": "Is the milk in the fridge still good?",
+  "hint": "用 still good 表示是否新鲜可食用。"
+ },
+ {
+  "zh": "外贸谈判时，你婉拒对方提出的过高折扣要求。",
+  "en": "That discount is a bit too steep for us.",
+  "hint": "steep 在此指价格过高，a bit 缓和语气。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -11230,5 +11369,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After a long day at work, I like to cook something quick and easy. Tonight, I'm making pasta with a simple tomato sauce. I chop some garlic and onions, then let them sizzle in olive oil. While the sauce simmers, I boil the pasta in a big pot of salted water. When everything's ready, I toss it together with a handful of fresh basil. I set the table, pour a glass of water, and finally sit down to enjoy my meal. It's not fancy, but it always makes me feel relaxed."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the express train. The platform is always crowded, but I found a spot near the doors. As the train pulls away, I plug in my earphones and listen to a podcast about urban gardening. It helps me ignore the noise and the occasional bump. By the time we reach the downtown station, I've finished my coffee and reviewed my to-do list. Then I walk two blocks to the office, feeling ready for the day."
+ },
+ {
+  "theme": "下班买菜做饭",
+  "text": "After work, I stop by the small market near my apartment to grab dinner ingredients. I pick up some fresh spinach, a couple of tomatoes, and a pack of udon noodles. The vendor tells me the basil just arrived, so I add that to my basket too. At home, I boil the noodles while heating a pan with olive oil and garlic. I toss in the vegetables and a splash of soy sauce, then serve everything in a big bowl. It's a simple meal, but it tastes great after a long day."
  }
 ];
