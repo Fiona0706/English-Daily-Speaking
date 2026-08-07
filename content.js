@@ -4510,6 +4510,14 @@ var DAILY5_WORDS = [
   "example": "I look forward to seeing you soon.",
   "exampleZh": "我期待很快见到你。",
   "pos": "短语动词"
+ },
+ {
+  "word": "chat",
+  "phonetic": "/tʃæt/",
+  "zh": "闲聊，聊天",
+  "example": "We chatted for a while after lunch.",
+  "exampleZh": "午饭后我们聊了一会儿。",
+  "pos": "动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -5995,6 +6003,24 @@ var DAILY5_SENTENCES = [
   "zh": "我完全支持这个计划。",
   "scene": "职场",
   "tag": "表态"
+ },
+ {
+  "en": "Could you send me the updated invoice?",
+  "zh": "你能把更新后的发票发给我吗？",
+  "scene": "外贸物流",
+  "tag": "商务"
+ },
+ {
+  "en": "I'll follow up on that by Friday.",
+  "zh": "我周五前会跟进那件事。",
+  "scene": "职场",
+  "tag": "工作计划"
+ },
+ {
+  "en": "That sounds like a plan to me.",
+  "zh": "听起来这主意不错。",
+  "scene": "社交",
+  "tag": "认同"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -10591,6 +10617,31 @@ var DAILY5_PROMPTS = [
   "zh": "外贸谈判时，你婉拒对方提出的过高折扣要求。",
   "en": "That discount is a bit too steep for us.",
   "hint": "steep 在此指价格过高，a bit 缓和语气。"
+ },
+ {
+  "zh": "客户临时要求改交货时间，你希望他确认新的截止日期。",
+  "en": "Could you confirm the new deadline by Friday?",
+  "hint": "用 Could you... 礼貌请求确认，deadline 表示截止日期。"
+ },
+ {
+  "zh": "物流延误，你需要向经理说明情况并给出补救方案。",
+  "en": "The shipment is delayed, but I'll arrange express delivery.",
+  "hint": "用 but 连接转折，arrange 表示安排，express delivery 是快递。"
+ },
+ {
+  "zh": "在留学小组讨论中，提议分工合作完成报告。",
+  "en": "Let's split the work and each take a section.",
+  "hint": "Let's 表示提议，split the work 是分工，take a section 负责一部分。"
+ },
+ {
+  "zh": "外贸邮件中，询问对方是否收到附件中的报价单。",
+  "en": "Did you get the quote I attached?",
+  "hint": "Did you get... 口语化询问是否收到，quote 指报价单，attached 是附件。"
+ },
+ {
+  "zh": "职场中，同事想借你的笔记，你愿意分享但提醒他先看完自己的笔记。",
+  "en": "You can borrow mine, but check your notes first.",
+  "hint": "用 but 表转折，borrow 借用，check 指查看。简洁自然。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -11377,5 +11428,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班买菜做饭",
   "text": "After work, I stop by the small market near my apartment to grab dinner ingredients. I pick up some fresh spinach, a couple of tomatoes, and a pack of udon noodles. The vendor tells me the basil just arrived, so I add that to my basket too. At home, I boil the noodles while heating a pan with olive oil and garlic. I toss in the vegetables and a splash of soy sauce, then serve everything in a big bowl. It's a simple meal, but it tastes great after a long day."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the train. The platform is always crowded, so I try to stand near the doors to get off quickly. Once I'm on board, I put on my headphones and listen to a podcast. It helps me wake up and focus for the day ahead. Sometimes I grab a coffee from the stall near the exit. The ride takes about twenty minutes, and I always check my emails before arriving. By the time I reach my stop, I feel ready to start working."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "When I get home from work, I like to cook something simple but tasty. Tonight I'm making pasta with garlic and olive oil. I chop some fresh tomatoes and throw them in the pan with a little basil. While the water boils, I set the table and pour myself a glass of water. The whole thing takes less than thirty minutes, which is perfect after a long day. I sit down, take a bite, and finally relax. It's my favorite way to unwind without ordering takeout."
  }
 ];
