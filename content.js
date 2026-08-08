@@ -4518,6 +4518,30 @@ var DAILY5_WORDS = [
   "example": "We chatted for a while after lunch.",
   "exampleZh": "午饭后我们聊了一会儿。",
   "pos": "动词"
+ },
+ {
+  "word": "stir",
+  "phonetic": "/stɜːr/",
+  "zh": "搅拌",
+  "example": "Stir the soup gently for a few minutes.",
+  "exampleZh": "轻轻搅拌汤几分钟。",
+  "pos": "动词"
+ },
+ {
+  "word": "overwhelmed",
+  "phonetic": "/ˌoʊvərˈwelmd/",
+  "zh": "不知所措的；压力大的",
+  "example": "She felt overwhelmed by all the deadlines.",
+  "exampleZh": "她被所有截止日期压得不知所措。",
+  "pos": "形容词"
+ },
+ {
+  "word": "on the go",
+  "phonetic": "/ɑːn ðə ɡoʊ/",
+  "zh": "忙碌的；在路上",
+  "example": "He always eats breakfast on the go.",
+  "exampleZh": "他总是在路上吃早餐。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6021,6 +6045,36 @@ var DAILY5_SENTENCES = [
   "zh": "听起来这主意不错。",
   "scene": "社交",
   "tag": "认同"
+ },
+ {
+  "en": "Could you grab that for me?",
+  "zh": "你能帮我拿一下那个吗？",
+  "scene": "生活",
+  "tag": "日常请求"
+ },
+ {
+  "en": "Let's catch up sometime this week.",
+  "zh": "这周咱们找时间聚聚吧。",
+  "scene": "社交",
+  "tag": "约会邀请"
+ },
+ {
+  "en": "The shipment is scheduled to depart tomorrow.",
+  "zh": "货物计划明天发运。",
+  "scene": "外贸物流",
+  "tag": "运输安排"
+ },
+ {
+  "en": "I'll follow up with you on that by Friday.",
+  "zh": "我周五前会跟进那件事。",
+  "scene": "职场",
+  "tag": "跟进承诺"
+ },
+ {
+  "en": "Mind if I grab a seat here?",
+  "zh": "介意我坐这儿吗？",
+  "scene": "生活",
+  "tag": "礼貌询问"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -10642,6 +10696,31 @@ var DAILY5_PROMPTS = [
   "zh": "职场中，同事想借你的笔记，你愿意分享但提醒他先看完自己的笔记。",
   "en": "You can borrow mine, but check your notes first.",
   "hint": "用 but 表转折，borrow 借用，check 指查看。简洁自然。"
+ },
+ {
+  "zh": "在给客户回复邮件时，需要确认对方的收货地址是否有变化。",
+  "en": "Could you confirm if your shipping address is still the same?",
+  "hint": "用 confirm 表示确认，询问是否相同用 is still the same。"
+ },
+ {
+  "zh": "在仓库盘点时，发现库存数量与系统记录不符。",
+  "en": "The inventory count doesn't match what's in the system.",
+  "hint": "用 doesn't match 表示不一致，what's in the system 指系统里的记录。"
+ },
+ {
+  "zh": "在展会现场，向潜在客户介绍产品的最快交货时间。",
+  "en": "We can get it to you in about two weeks.",
+  "hint": "用 get it to you 表示送达，in about two weeks 表示大约两周内。"
+ },
+ {
+  "zh": "和同事讨论项目进度时，表示需要延后截止日期。",
+  "en": "We're going to have to push back the deadline.",
+  "hint": "用 push back 表示推迟，deadline 是截止日期，口语常用。"
+ },
+ {
+  "zh": "给房东发消息，说空调坏了需要维修。",
+  "en": "The air conditioner is acting up again, can you send a repair guy?",
+  "hint": "acting up 是口语中表示出故障的常用说法，repair guy 指维修工。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -11436,5 +11515,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "When I get home from work, I like to cook something simple but tasty. Tonight I'm making pasta with garlic and olive oil. I chop some fresh tomatoes and throw them in the pan with a little basil. While the water boils, I set the table and pour myself a glass of water. The whole thing takes less than thirty minutes, which is perfect after a long day. I sit down, take a bite, and finally relax. It's my favorite way to unwind without ordering takeout."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to catch the express train. The platform gets really crowded during rush hour, so I try to stand near the doors. Once I find a spot, I put on my headphones and listen to a podcast. It helps me wake up and plan my day. Sometimes I grab a coffee from the kiosk if I have extra time. The ride takes about twenty minutes, and I always check the weather on my phone. By the time I reach my stop, I feel ready to start working."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After a long day at the office, I like to cook something simple and quick. Tonight I'm making stir-fried vegetables with rice. I chop the carrots and peppers while the pan heats up on the stove. A little oil, some garlic, and a splash of soy sauce make everything taste great. I usually listen to music while I cook to unwind. In about fifteen minutes, dinner is ready and I sit down to eat. It's my favorite way to relax after work."
  }
 ];
