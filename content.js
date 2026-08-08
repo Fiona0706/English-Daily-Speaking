@@ -4542,6 +4542,30 @@ var DAILY5_WORDS = [
   "example": "He always eats breakfast on the go.",
   "exampleZh": "他总是在路上吃早餐。",
   "pos": "习语"
+ },
+ {
+  "word": "crave",
+  "phonetic": "/kreɪv/",
+  "zh": "渴望；热望",
+  "example": "I crave chocolate when I feel stressed.",
+  "exampleZh": "我感到压力时会渴望吃巧克力。",
+  "pos": "动词"
+ },
+ {
+  "word": "hurry",
+  "phonetic": "/ˈhɜːri/",
+  "zh": "赶紧；匆忙",
+  "example": "We need to hurry or we'll miss the bus.",
+  "exampleZh": "我们得赶紧，否则会错过公交车。",
+  "pos": "动词"
+ },
+ {
+  "word": "a piece of cake",
+  "phonetic": "/ə piːs əv keɪk/",
+  "zh": "小菜一碟；轻而易举的事",
+  "example": "The final exam was a piece of cake.",
+  "exampleZh": "期末考试简直是小事一桩。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6075,6 +6099,36 @@ var DAILY5_SENTENCES = [
   "zh": "介意我坐这儿吗？",
   "scene": "生活",
   "tag": "礼貌询问"
+ },
+ {
+  "en": "Could you shoot me that file?",
+  "zh": "能把那份文件发我吗？",
+  "scene": "职场",
+  "tag": "办公协作"
+ },
+ {
+  "en": "We’re out of stock on that item.",
+  "zh": "那款商品我们没货了。",
+  "scene": "外贸物流",
+  "tag": "库存缺货"
+ },
+ {
+  "en": "What’s the catch?",
+  "zh": "有什么猫腻？",
+  "scene": "社交",
+  "tag": "怀疑玩笑"
+ },
+ {
+  "en": "I’m beat after that workout.",
+  "zh": "练完我累瘫了。",
+  "scene": "生活",
+  "tag": "健身疲惫"
+ },
+ {
+  "en": "Let’s sync up later this afternoon.",
+  "zh": "今下午晚些时候咱们碰一下。",
+  "scene": "职场",
+  "tag": "安排会议"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -9389,6 +9443,96 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "问路到地铁站",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "路人甲",
+    "en": "Excuse me, could you tell me the way to the nearest subway station?",
+    "zh": "打扰一下，你能告诉我去最近的地铁站怎么走吗？",
+    "collect": false
+   },
+   {
+    "role": "路人乙",
+    "en": "Sure, it's about a ten-minute walk from here. Go straight down this street and turn left at the second traffic light.",
+    "zh": "当然，从这里步行大约十分钟。沿着这条街直走，在第二个红绿灯处左转。",
+    "collect": false
+   },
+   {
+    "role": "路人甲",
+    "en": "Okay, straight and then left at the second light. Is there any landmark nearby?",
+    "zh": "好的，直走然后第二个红绿灯左转。附近有什么地标吗？",
+    "collect": false
+   },
+   {
+    "role": "路人乙",
+    "en": "Yes, you'll see a big supermarket on the corner. The station entrance is right next to it.",
+    "zh": "有的，你会在拐角处看到一个大型超市。地铁入口就在它旁边。",
+    "collect": false
+   },
+   {
+    "role": "路人甲",
+    "en": "Great, that's very helpful. Thanks a lot!",
+    "zh": "太好了，这非常有帮助。非常感谢！",
+    "collect": false
+   },
+   {
+    "role": "路人乙",
+    "en": "No problem, have a nice day!",
+    "zh": "不客气，祝你有美好的一天！",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "在服装店退换货",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "I'd like to return this jacket I bought yesterday. It doesn't fit me well, and I've noticed a small tear on the sleeve.",
+    "zh": "我想退掉昨天买的这件夹克。它不太合身，而且我注意到袖子上有个小破洞。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "I'm sorry to hear that. Do you have the receipt with you? We'll need it to process the return.",
+    "zh": "很抱歉听到这个消息。你带收据了吗？我们需要它来处理退货。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Yes, here it is. But I was hoping to exchange it for a larger size instead of a refund, if possible.",
+    "zh": "带了，给你。不过我希望能换一件大一号的，而不是退款，如果可以的话。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Let me check our stock. Unfortunately, the larger size is currently out of stock in this color.",
+    "zh": "让我查一下库存。不幸的是，这个颜色的大一号目前缺货。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Oh, that's a shame. Could you order one for me, or should I just get a refund?",
+    "zh": "哦，那太可惜了。你能帮我订一件，还是我应该直接退款？",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "I can place a special order for you, and it should arrive within a week. I'll also waive the shipping fee as an apology for the inconvenience.",
+    "zh": "我可以为你下特别订单，应该一周内到货。我也会免运费，作为不便的歉意。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "That sounds great. I appreciate your help in resolving this so smoothly.",
+    "zh": "听起来不错。感谢你帮忙这么顺利地解决这个问题。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -10721,6 +10865,31 @@ var DAILY5_PROMPTS = [
   "zh": "给房东发消息，说空调坏了需要维修。",
   "en": "The air conditioner is acting up again, can you send a repair guy?",
   "hint": "acting up 是口语中表示出故障的常用说法，repair guy 指维修工。"
+ },
+ {
+  "zh": "在电话中与海外客户确认订单的交付时间，对方问能否提前一周发货。",
+  "en": "Can we move the shipment up a week?",
+  "hint": "用 move up 表示‘提前’，比 say earlier 更地道。"
+ },
+ {
+  "zh": "在物流仓库，同事告诉你一批货被海关扣留了，需要紧急处理。",
+  "en": "Our cargo is stuck in customs right now.",
+  "hint": "stuck 表示‘被困住’，customs 指海关，注意用复数。"
+ },
+ {
+  "zh": "在职场会议上，你想让同事确认下周的会议时间是否能调整。",
+  "en": "Can we reschedule the meeting for next week?",
+  "hint": "reschedule 比 change the time 更正式且常用。"
+ },
+ {
+  "zh": "留学生活中，你向室友借用厨房工具，对方问你需要多久。",
+  "en": "I just need it for a sec.",
+  "hint": "for a sec 是 for a second 的缩写，口语中表示‘一会儿’。"
+ },
+ {
+  "zh": "在外贸邮件中，你向供应商询问能否提供更低的价格以促成大额订单。",
+  "en": "Can you give us a better price?",
+  "hint": "better price 直接表达‘更优惠价格’，比 lower cost 更口语化。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -11523,5 +11692,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After a long day at the office, I like to cook something simple and quick. Tonight I'm making stir-fried vegetables with rice. I chop the carrots and peppers while the pan heats up on the stove. A little oil, some garlic, and a splash of soy sauce make everything taste great. I usually listen to music while I cook to unwind. In about fifteen minutes, dinner is ready and I sit down to eat. It's my favorite way to relax after work."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the subway. The platform is always crowded, but today it felt even busier than usual. I squeezed into the train and grabbed the overhead handle. As the doors closed, I checked my phone for any messages. There was a notification about a delayed meeting, which gave me some relief. I put on my headphones and listened to a podcast to pass the time. By the time we reached my stop, the car had emptied out a bit. I walked up the stairs and headed straight to the coffee shop nearby."
+ },
+ {
+  "theme": "周末做晚饭",
+  "text": "On Saturday evening, I decided to make spaghetti with a simple tomato sauce. I chopped some onions and garlic, then heated olive oil in a pan. The smell filled the kitchen right away, making me feel hungry. I added crushed tomatoes and a pinch of salt and pepper. While the sauce simmered, I boiled a pot of water for the pasta. I dropped the spaghetti in and set a timer for nine minutes. Soon everything was ready, so I plated it with a sprinkle of cheese. I sat down at the table and enjoyed the meal alone, scrolling through a funny show."
  }
 ];
