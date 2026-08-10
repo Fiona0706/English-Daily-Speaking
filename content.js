@@ -4566,6 +4566,22 @@ var DAILY5_WORDS = [
   "example": "The final exam was a piece of cake.",
   "exampleZh": "期末考试简直是小事一桩。",
   "pos": "习语"
+ },
+ {
+  "word": "manage",
+  "phonetic": "/ˈmænɪdʒ/",
+  "zh": "设法做到，管理",
+  "example": "I can manage the household budget on my own.",
+  "exampleZh": "我可以自己管理家庭预算。",
+  "pos": "动词"
+ },
+ {
+  "word": "recharge",
+  "phonetic": "/ˌriːˈtʃɑːrdʒ/",
+  "zh": "充电，恢复精力",
+  "example": "I need to recharge my phone before leaving.",
+  "exampleZh": "离开前我需要给手机充电。",
+  "pos": "动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6129,6 +6145,36 @@ var DAILY5_SENTENCES = [
   "zh": "今下午晚些时候咱们碰一下。",
   "scene": "职场",
   "tag": "安排会议"
+ },
+ {
+  "en": "I'm running late, grab a coffee without me.",
+  "zh": "我要迟到了，你们先买咖啡不用等我。",
+  "scene": "生活",
+  "tag": "日常"
+ },
+ {
+  "en": "Let's catch up over lunch sometime this week.",
+  "zh": "这周找个时间一起吃午饭聊聊吧。",
+  "scene": "社交",
+  "tag": "邀约"
+ },
+ {
+  "en": "The shipment is delayed, please confirm the new ETA.",
+  "zh": "货物延迟了，请确认新的预计到达时间。",
+  "scene": "外贸物流",
+  "tag": "物流跟进"
+ },
+ {
+  "en": "I'll circle back with the team and update you.",
+  "zh": "我会跟团队再确认一下然后给你反馈。",
+  "scene": "职场",
+  "tag": "沟通"
+ },
+ {
+  "en": "That's a solid plan, but let's tweak the timeline.",
+  "zh": "这个计划不错，但咱们调整一下时间线。",
+  "scene": "职场",
+  "tag": "决策"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -10890,6 +10936,31 @@ var DAILY5_PROMPTS = [
   "zh": "在外贸邮件中，你向供应商询问能否提供更低的价格以促成大额订单。",
   "en": "Can you give us a better price?",
   "hint": "better price 直接表达‘更优惠价格’，比 lower cost 更口语化。"
+ },
+ {
+  "zh": "在给国外客户写邮件，确认对方是否收到了上周寄出的样品。",
+  "en": "Just checking in—did you get the samples I sent last week?",
+  "hint": "用“Just checking in”开头，表示礼貌地确认，常用于跟进邮件。"
+ },
+ {
+  "zh": "在物流仓库，同事问你今天下午的货什么时候能装完。",
+  "en": "We should have everything loaded by three this afternoon.",
+  "hint": "用“should have done”表示预计完成，语气比“will”更委婉。"
+ },
+ {
+  "zh": "和留学生室友讨论周末一起做中餐，但他提出想尝试点不一样的。",
+  "en": "Let's switch it up and try something new this time.",
+  "hint": "“switch it up”是地道口语，表示换换花样，改变做法。"
+ },
+ {
+  "zh": "在外贸谈判中，对方要求降价10%，你需要表示需要考虑一下。",
+  "en": "I'll have to run the numbers before I can commit.",
+  "hint": "“run the numbers”指核算成本/数据，“commit”表示承诺，职场常用。"
+ },
+ {
+  "zh": "在公司茶水间，同事问你今天工作忙不忙，你想说刚处理完一堆紧急订单。",
+  "en": "I've been putting out fires all morning with these rush orders.",
+  "hint": "“put out fires”比喻处理突发事件/紧急问题，口语化且形象。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -11700,5 +11771,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "周末做晚饭",
   "text": "On Saturday evening, I decided to make spaghetti with a simple tomato sauce. I chopped some onions and garlic, then heated olive oil in a pan. The smell filled the kitchen right away, making me feel hungry. I added crushed tomatoes and a pinch of salt and pepper. While the sauce simmered, I boiled a pot of water for the pasta. I dropped the spaghetti in and set a timer for nine minutes. Soon everything was ready, so I plated it with a sprinkle of cheese. I sat down at the table and enjoyed the meal alone, scrolling through a funny show."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the express train. The platform gets pretty crowded, so I always stand near the doors to get off quickly. This morning, I saw a guy reading a book while balancing his coffee cup on his knee. It made me smile because I used to do the same thing before I switched to a thermos. The ride takes about twenty minutes, and I usually listen to a podcast or review my notes. If the train is on time, I can grab a quick breakfast at the bakery near the office. It's a small routine, but it helps me start the day on the right foot."
+ },
+ {
+  "theme": "下班后超市购物",
+  "text": "After work, I stop by the grocery store on the corner to pick up dinner ingredients. I grab a cart and head straight to the produce section to check if the avocados are ripe. Then I wander through the aisles, comparing prices for pasta and sauces. The store is always busy at six, so I try to move quickly and avoid blocking the aisles. I bump into my neighbor, and we chat for a few minutes about the new cafe that just opened. Finally, I check out with a few bags, and walk home thinking about cooking a simple stir-fry. It's not exciting, but it feels good to have a plan for the evening."
  }
 ];
