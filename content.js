@@ -6175,6 +6175,36 @@ var DAILY5_SENTENCES = [
   "zh": "这个计划不错，但咱们调整一下时间线。",
   "scene": "职场",
   "tag": "决策"
+ },
+ {
+  "en": "Could you send over the invoice?",
+  "zh": "你能把发票发过来吗？",
+  "scene": "外贸物流",
+  "tag": "商务沟通"
+ },
+ {
+  "en": "Let's grab coffee sometime this week.",
+  "zh": "这周找时间一起喝杯咖啡吧。",
+  "scene": "社交",
+  "tag": "休闲邀约"
+ },
+ {
+  "en": "I'm just running a quick errand.",
+  "zh": "我去办点小事。",
+  "scene": "生活",
+  "tag": "日常"
+ },
+ {
+  "en": "The deadline is tight, can you manage?",
+  "zh": "期限很紧，你能搞定吗？",
+  "scene": "职场",
+  "tag": "工作压力"
+ },
+ {
+  "en": "We need to reconfirm the shipping date.",
+  "zh": "我们需要重新确认发货日期。",
+  "scene": "外贸物流",
+  "tag": "物流确认"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -10961,6 +10991,31 @@ var DAILY5_PROMPTS = [
   "zh": "在公司茶水间，同事问你今天工作忙不忙，你想说刚处理完一堆紧急订单。",
   "en": "I've been putting out fires all morning with these rush orders.",
   "hint": "“put out fires”比喻处理突发事件/紧急问题，口语化且形象。"
+ },
+ {
+  "zh": "在电话会议中，你向客户确认收货日期是否可行。",
+  "en": "Does the delivery date work for you?",
+  "hint": "用“work for”表示‘对某人可行’，常见于商务沟通。"
+ },
+ {
+  "zh": "物流仓库里，你发现一批货物标签贴错了，提醒同事。",
+  "en": "These labels got mixed up on the shipment.",
+  "hint": "“got mixed up”表示‘被搞混了’，口语化表达。"
+ },
+ {
+  "zh": "留学生活中，你向室友解释你下周要搬家。",
+  "en": "I'm moving out next week, just so you know.",
+  "hint": "“just so you know”用于礼貌地提前告知信息。"
+ },
+ {
+  "zh": "外贸邮件里，你需要催促对方尽快回复报价。",
+  "en": "Could you get back to me on the quote soon?",
+  "hint": "“get back to someone”表示‘回复某人’，“on”引出话题。"
+ },
+ {
+  "zh": "职场中，你向同事表达自己今天很忙，没法帮忙。",
+  "en": "I'm swamped today, I can't pitch in.",
+  "hint": "“swamped”意为‘忙得不可开交’，“pitch in”是‘帮忙’。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -11779,5 +11834,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后超市购物",
   "text": "After work, I stop by the grocery store on the corner to pick up dinner ingredients. I grab a cart and head straight to the produce section to check if the avocados are ripe. Then I wander through the aisles, comparing prices for pasta and sauces. The store is always busy at six, so I try to move quickly and avoid blocking the aisles. I bump into my neighbor, and we chat for a few minutes about the new cafe that just opened. Finally, I check out with a few bags, and walk home thinking about cooking a simple stir-fry. It's not exciting, but it feels good to have a plan for the evening."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to catch the express train. The platform gets really crowded, but I always find a spot near the door. Once on board, I put on my headphones and listen to a podcast about technology. It helps me wake up and prepare for the day ahead. Sometimes I grab a coffee from the stall outside the station, even though I know it's a bit expensive. By the time I reach my stop, I feel ready to face the office."
+ },
+ {
+  "theme": "晚上做饭",
+  "text": "After a long day at work, I like to cook something simple and quick. Tonight I'm making pasta with garlic, olive oil, and a few cherry tomatoes. I boil the water first, then chop the garlic while it heats up. The smell of the garlic sizzling in the pan always makes me hungry. I toss in the pasta and stir everything together with some fresh basil. It takes less than twenty minutes, and it's so satisfying to sit down and eat a homemade meal alone."
  }
 ];
