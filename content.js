@@ -6205,6 +6205,36 @@ var DAILY5_SENTENCES = [
   "zh": "我们需要重新确认发货日期。",
   "scene": "外贸物流",
   "tag": "物流确认"
+ },
+ {
+  "en": "I'm just grabbing a quick bite.",
+  "zh": "我就随便吃口东西。",
+  "scene": "生活",
+  "tag": "日常饮食"
+ },
+ {
+  "en": "We should hang out sometime soon.",
+  "zh": "我们改天该聚聚。",
+  "scene": "社交",
+  "tag": "朋友邀约"
+ },
+ {
+  "en": "The shipment is stuck at customs again.",
+  "zh": "这批货又卡在海关了。",
+  "scene": "外贸物流",
+  "tag": "清关延误"
+ },
+ {
+  "en": "Let's circle back on this after lunch.",
+  "zh": "咱们午饭后回头再聊这个。",
+  "scene": "职场",
+  "tag": "会议沟通"
+ },
+ {
+  "en": "I'm totally beat, can we call it a day?",
+  "zh": "我累坏了，能收工吗？",
+  "scene": "职场",
+  "tag": "下班疲惫"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -9609,6 +9639,90 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "询问去图书馆的路",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "行人A",
+    "en": "Excuse me, could you tell me how to get to the library?",
+    "zh": "打扰一下，你能告诉我去图书馆怎么走吗？",
+    "collect": false
+   },
+   {
+    "role": "行人B",
+    "en": "Sure, walk straight for two blocks and turn left at the traffic light.",
+    "zh": "当然，直走两个街区，在红绿灯处左转。",
+    "collect": false
+   },
+   {
+    "role": "行人A",
+    "en": "Is it far from here?",
+    "zh": "离这里远吗？",
+    "collect": false
+   },
+   {
+    "role": "行人B",
+    "en": "No, it's about a ten-minute walk.",
+    "zh": "不远，走大约十分钟。",
+    "collect": false
+   },
+   {
+    "role": "行人A",
+    "en": "Great, thanks a lot!",
+    "zh": "太好了，非常感谢！",
+    "collect": false
+   },
+   {
+    "role": "行人B",
+    "en": "You're welcome.",
+    "zh": "不客气。",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "退货换货",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "I bought this jacket yesterday, but it doesn't fit me well. Could I exchange it for a larger size?",
+    "zh": "我昨天买了这件夹克，但不太合身。我能换个大一码的吗？",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Of course. Do you have the receipt with you?",
+    "zh": "当然。您带收据了吗？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Yes, here it is. I also noticed a small tear in the sleeve.",
+    "zh": "带了，给您。我还注意到袖子上有个小裂口。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "I apologize for the inconvenience. Let me check our stock for a replacement.",
+    "zh": "非常抱歉给您带来不便。让我查一下库存看有没有替换的。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "I'd prefer a refund if that's possible, since I have a meeting tomorrow.",
+    "zh": "如果可能的话，我更希望退款，因为我明天有个会议。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Understood. I'll process the refund right away. Please sign here.",
+    "zh": "明白了。我马上为您办理退款。请在这里签名。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -11016,6 +11130,31 @@ var DAILY5_PROMPTS = [
   "zh": "职场中，你向同事表达自己今天很忙，没法帮忙。",
   "en": "I'm swamped today, I can't pitch in.",
   "hint": "“swamped”意为‘忙得不可开交’，“pitch in”是‘帮忙’。"
+ },
+ {
+  "zh": "给客户发邮件，说这周货会准时发出。",
+  "en": "Your shipment will go out on time this week.",
+  "hint": "用 'go out' 表示发出货物，口语化表达。"
+ },
+ {
+  "zh": "在机场，同事提醒你登机口改了，要赶紧过去。",
+  "en": "They changed the gate, so we better hustle over.",
+  "hint": "'hustle over' 表示赶紧过去，美式口语常用。"
+ },
+ {
+  "zh": "仓库里货物堆得太满，放不下新到的箱子了。",
+  "en": "The warehouse is packed, and we're out of room for these boxes.",
+  "hint": "'out of room' 表示没有空间，比 'no space' 更自然。"
+ },
+ {
+  "zh": "和同事讨论项目截止日期，你觉得可以提前两天完成。",
+  "en": "We can wrap this up a couple days early.",
+  "hint": "'wrap up' 表示完成，'a couple days early' 是地道说法。"
+ },
+ {
+  "zh": "在留学宿舍，室友问你晚上要不要一起去超市。",
+  "en": "Want to hit the grocery store with me tonight?",
+  "hint": "'hit the store' 是美式口语，表示去商店。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -11842,5 +11981,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "晚上做饭",
   "text": "After a long day at work, I like to cook something simple and quick. Tonight I'm making pasta with garlic, olive oil, and a few cherry tomatoes. I boil the water first, then chop the garlic while it heats up. The smell of the garlic sizzling in the pan always makes me hungry. I toss in the pasta and stir everything together with some fresh basil. It takes less than twenty minutes, and it's so satisfying to sit down and eat a homemade meal alone."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty, but today I was running late. The bus was already crowded when it pulled up, so I had to stand near the back door. I put on my headphones and scrolled through my phone to pass the time. We hit a bit of traffic near the bridge, but it wasn't too bad. I got off at the usual stop and grabbed a coffee from the corner shop. The barista even remembered my usual order, which was a nice surprise."
+ },
+ {
+  "theme": "准备晚餐",
+  "text": "Cooking dinner after work is my way to relax, so I try to keep it simple. I chopped some onions and garlic, then heated the pan with a little olive oil. The chicken sizzled as I added it, and I sprinkled in some salt and pepper. I threw in a handful of cherry tomatoes and let everything simmer for a few minutes. While that cooked, I boiled some pasta in the other pot. In the end, I tossed the pasta with the sauce and topped it with fresh basil. It smelled amazing, and I couldn't wait to sit down and eat."
  }
 ];
