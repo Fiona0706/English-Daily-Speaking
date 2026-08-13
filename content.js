@@ -4582,6 +4582,30 @@ var DAILY5_WORDS = [
   "example": "I need to recharge my phone before leaving.",
   "exampleZh": "离开前我需要给手机充电。",
   "pos": "动词"
+ },
+ {
+  "word": "kitchen",
+  "phonetic": "/ˈkɪtʃɪn/",
+  "zh": "厨房",
+  "example": "She is cooking dinner in the kitchen.",
+  "exampleZh": "她正在厨房做晚饭。",
+  "pos": "名词"
+ },
+ {
+  "word": "quietly",
+  "phonetic": "/ˈkwaɪətli/",
+  "zh": "安静地",
+  "example": "She quietly closed the door behind her.",
+  "exampleZh": "她轻轻地关上了身后的门。",
+  "pos": "副词"
+ },
+ {
+  "word": "boss",
+  "phonetic": "/bɔːs/",
+  "zh": "老板",
+  "example": "My boss approved the budget for the new project.",
+  "exampleZh": "我的老板批准了新项目的预算。",
+  "pos": "名词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6235,6 +6259,24 @@ var DAILY5_SENTENCES = [
   "zh": "我累坏了，能收工吗？",
   "scene": "职场",
   "tag": "下班疲惫"
+ },
+ {
+  "en": "Can you grab me a coffee to go?",
+  "zh": "能帮我带杯咖啡外带吗？",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Let's catch up over lunch sometime.",
+  "zh": "咱们改天一起吃午饭聊聊吧。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "I'll shoot you the details later.",
+  "zh": "我稍后把细节发给你。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -9723,6 +9765,102 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "在商店退货",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "Hi, I bought this shirt yesterday, but it doesn't fit well.",
+    "zh": "你好，我昨天买了这件衬衫，但不太合身。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Do you have the receipt with you?",
+    "zh": "您带收据了吗？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Yes, here it is. Can I exchange it for a larger size?",
+    "zh": "带了，给你。我能换一件大一点的吗？",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Let me check our stock. Unfortunately, we only have medium left.",
+    "zh": "让我看看库存。很遗憾，我们只剩下中号了。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Then I'd rather get a refund if that's possible.",
+    "zh": "那如果可以的话，我宁愿退款。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "No problem, I'll process that for you right away.",
+    "zh": "没问题，我马上为您处理。",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "向经理请假",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "员工",
+    "en": "Morning, I need to discuss my leave request for next week.",
+    "zh": "早上好，我需要讨论一下下周的请假申请。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Go ahead, but we're quite tight on deadlines right now.",
+    "zh": "请讲，但现在我们截止日期很紧张。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "I understand, however I have a family emergency that requires my presence.",
+    "zh": "我理解，但家里有急事需要我在场。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "I see. How long do you anticipate being away?",
+    "zh": "我明白了。您预计离开多久？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Just two days, Wednesday and Thursday, and I'll work remotely on Friday.",
+    "zh": "就两天，周三和周四，周五我远程工作。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "That's manageable, as long as you clear your pending tasks before you leave.",
+    "zh": "这可以，只要您在离开前处理好待办任务。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Absolutely, I already delegated the critical ones to my team.",
+    "zh": "当然，我已经把关键任务分配给了团队。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Alright, approved. Keep me posted if anything changes.",
+    "zh": "好的，批准了。如有变化随时通知我。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -11155,6 +11293,31 @@ var DAILY5_PROMPTS = [
   "zh": "在留学宿舍，室友问你晚上要不要一起去超市。",
   "en": "Want to hit the grocery store with me tonight?",
   "hint": "'hit the store' 是美式口语，表示去商店。"
+ },
+ {
+  "zh": "在给客户发邮件时，需要确认对方是否收到了附件。",
+  "en": "Did you get the attachment I sent over?",
+  "hint": "用‘Did you get...’询问是否收到，口语化且直接。"
+ },
+ {
+  "zh": "仓库同事说今天会延迟发货，需要向客户解释并致歉。",
+  "en": "I'm sorry, the shipment will be a day late.",
+  "hint": "‘a day late’表示晚一天，比‘delayed by one day’更自然。"
+ },
+ {
+  "zh": "在海外课堂上，教授突然提问，你不太确定答案。",
+  "en": "I'm not sure, could you give me a second?",
+  "hint": "‘give me a second’表示请稍等，常用于争取思考时间。"
+ },
+ {
+  "zh": "和同事讨论项目进度时，你想确认下一步分工。",
+  "en": "So, who's taking care of the next step?",
+  "hint": "‘take care of’在职场中指负责处理某事。"
+ },
+ {
+  "zh": "留学生活中，室友想借用你的冰箱空间，你表示同意。",
+  "en": "No problem, just squeeze it in.",
+  "hint": "‘squeeze it in’表示勉强塞进去，口语常用。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -11989,5 +12152,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "准备晚餐",
   "text": "Cooking dinner after work is my way to relax, so I try to keep it simple. I chopped some onions and garlic, then heated the pan with a little olive oil. The chicken sizzled as I added it, and I sprinkled in some salt and pepper. I threw in a handful of cherry tomatoes and let everything simmer for a few minutes. While that cooked, I boiled some pasta in the other pot. In the end, I tossed the pasta with the sauce and topped it with fresh basil. It smelled amazing, and I couldn't wait to sit down and eat."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the eight o'clock train. The platform gets really crowded, so I always stand near the escalator to get on first. Once I find a seat by the window, I put in my earphones and listen to a podcast. The ride takes about forty minutes, and I often see the same people every day. We never talk, but we nod and smile at each other. It's a small ritual that makes the commute feel a bit more human."
+ },
+ {
+  "theme": "下班后买菜做饭",
+  "text": "After work, I stop by the grocery store to pick up a few things for dinner. I grab some chicken, a head of lettuce, and a bottle of olive oil. The checkout line is long, so I scroll through my phone to pass the time. Back home, I chop the vegetables and season the meat while the pan heats up. Cooking helps me unwind after a stressful day. By the time I sit down to eat, I feel relaxed and ready to enjoy the meal."
  }
 ];
