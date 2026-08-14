@@ -4622,6 +4622,30 @@ var DAILY5_WORDS = [
   "example": "We took a leisurely stroll in the park.",
   "exampleZh": "我们在公园里悠闲地散步。",
   "pos": "动词"
+ },
+ {
+  "word": "spatula",
+  "phonetic": "/ˈspætʃələ/",
+  "zh": "刮刀；锅铲",
+  "example": "Flip the pancake with a spatula.",
+  "exampleZh": "用锅铲翻煎饼。",
+  "pos": "名词"
+ },
+ {
+  "word": "get along",
+  "phonetic": "/ɡet əˈlɔːŋ/",
+  "zh": "相处融洽",
+  "example": "My coworkers and I get along really well.",
+  "exampleZh": "我和同事们相处得非常融洽。",
+  "pos": "短语动词"
+ },
+ {
+  "word": "hangry",
+  "phonetic": "/ˈhæŋɡri/",
+  "zh": "饿怒的（因饿而暴躁）",
+  "example": "Don't talk to me when I'm hangry.",
+  "exampleZh": "我饿怒的时候别跟我说话。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6311,6 +6335,30 @@ var DAILY5_SENTENCES = [
   "zh": "我觉得这样挺好。",
   "scene": "社交",
   "tag": "赞同"
+ },
+ {
+  "en": "Can you grab me a coffee?",
+  "zh": "你能帮我带杯咖啡吗？",
+  "scene": "生活",
+  "tag": "日常请求"
+ },
+ {
+  "en": "Could you send the invoice by Friday?",
+  "zh": "你能在周五前把发票发过来吗？",
+  "scene": "外贸物流",
+  "tag": "邮件跟进"
+ },
+ {
+  "en": "I'll follow up on that right away.",
+  "zh": "我马上跟进那件事。",
+  "scene": "职场",
+  "tag": "工作响应"
+ },
+ {
+  "en": "Are you free for a quick chat?",
+  "zh": "你有空简单聊几句吗？",
+  "scene": "职场",
+  "tag": "沟通"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11377,6 +11425,31 @@ var DAILY5_PROMPTS = [
   "zh": "在港口，确认集装箱是否已装船。",
   "en": "Have the containers been loaded on the ship yet?",
   "hint": "用现在完成时被动语态 been loaded 强调动作完成，yet 用于疑问句。"
+ },
+ {
+  "zh": "在广交会上，你向一位新客户介绍你们公司的主要产品。",
+  "en": "We mainly deal in home textiles and kitchenware.",
+  "hint": "使用短语 deal in 表示‘经营、做……生意’。"
+ },
+ {
+  "zh": "你的货代告诉你船期延误了，你要向客户解释原因。",
+  "en": "The shipment is delayed due to port congestion.",
+  "hint": "due to 后接名词短语，表示‘由于……’，注意不要用 because of 代替（此处地道表达常用 due to）。"
+ },
+ {
+  "zh": "在团队会议上，你提议大家讨论一个新的市场策略。",
+  "en": "Let's brainstorm some fresh ideas for the market.",
+  "hint": "动词 brainstorm 是美式职场常用词，表示‘头脑风暴’，后面直接接内容。"
+ },
+ {
+  "zh": "在留学生活中，你去超市退货，因为买的东西有质量问题。",
+  "en": "I'd like a refund because this item is defective.",
+  "hint": "refund 是‘退款’，defective 是‘有缺陷的’，口语中直接说 I'd like a refund 很自然。"
+ },
+ {
+  "zh": "在物流邮件中，你要确认收货时间和收货人信息。",
+  "en": "Can you confirm the delivery date and the recipient?",
+  "hint": "confirm 是‘确认’，recipient 是‘收件人’，比 receiver 更正式书面。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -12227,5 +12300,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做晚饭",
   "text": "After a long day at the office, I finally get home and head straight to the kitchen. I chop some onions and garlic while the pan heats up on the stove. Tonight I'm making a simple pasta with tomatoes and basil, nothing fancy. I taste the sauce and add a pinch of salt, then let it simmer for a few minutes. The whole apartment starts to smell really good, and my stomach growls in response. I set the table and pour myself a glass of water. Cooking like this helps me unwind, even if it's just for myself."
+ },
+ {
+  "theme": "通勤",
+  "text": "I usually leave home around seven thirty to catch the subway. The platform is always packed, so I try to squeeze into the least crowded car. Once inside, I put on my headphones and listen to a podcast about technology. The ride takes about twenty minutes, and I often grab a coffee from the stand near the exit. By the time I reach the office, I feel ready to start the day."
+ },
+ {
+  "theme": "做饭",
+  "text": "Tonight I'm making a simple pasta dish with garlic and olive oil. First, I boil the water and add a pinch of salt. While the pasta cooks, I chop some fresh basil and grate a bit of cheese. Then I heat the olive oil in a pan and toss in the garlic until it smells fragrant. Once the pasta is al dente, I mix everything together and add a squeeze of lemon. It's quick, tasty, and perfect for a busy weekday evening."
  }
 ];
