@@ -4606,6 +4606,22 @@ var DAILY5_WORDS = [
   "example": "My boss approved the budget for the new project.",
   "exampleZh": "我的老板批准了新项目的预算。",
   "pos": "名词"
+ },
+ {
+  "word": "drowsy",
+  "phonetic": "/ˈdraʊzi/",
+  "zh": "困倦的",
+  "example": "The warm room made me feel drowsy.",
+  "exampleZh": "温暖的房间让我感到困倦。",
+  "pos": "形容词"
+ },
+ {
+  "word": "stroll",
+  "phonetic": "/stroʊl/",
+  "zh": "散步",
+  "example": "We took a leisurely stroll in the park.",
+  "exampleZh": "我们在公园里悠闲地散步。",
+  "pos": "动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6277,6 +6293,24 @@ var DAILY5_SENTENCES = [
   "zh": "我稍后把细节发给你。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Could you confirm the shipment date?",
+  "zh": "你能确认一下发货日期吗？",
+  "scene": "外贸物流",
+  "tag": "物流"
+ },
+ {
+  "en": "I'll circle back after the meeting.",
+  "zh": "开完会我再回来跟进。",
+  "scene": "职场",
+  "tag": "工作"
+ },
+ {
+  "en": "That sounds good to me.",
+  "zh": "我觉得这样挺好。",
+  "scene": "社交",
+  "tag": "赞同"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11318,6 +11352,31 @@ var DAILY5_PROMPTS = [
   "zh": "留学生活中，室友想借用你的冰箱空间，你表示同意。",
   "en": "No problem, just squeeze it in.",
   "hint": "‘squeeze it in’表示勉强塞进去，口语常用。"
+ },
+ {
+  "zh": "在物流仓库，同事问你今天要发多少批货。",
+  "en": "How many shipments are we sending out today?",
+  "hint": "用 are we sending out 询问发货计划，shipments 表示一批货。"
+ },
+ {
+  "zh": "外贸邮件里，你想告诉客户样品已经寄出。",
+  "en": "The samples are on their way to you.",
+  "hint": "on their way 表示‘在途中’，口语中常用，替代 formal ‘have been sent’。"
+ },
+ {
+  "zh": "在职场会议中，对同事提出的方案表示支持。",
+  "en": "I'm totally on board with that idea.",
+  "hint": "on board with 表示‘支持、同意’，totally 加强语气。"
+ },
+ {
+  "zh": "留学生活中，朋友问你周末想不想一起去超市采购。",
+  "en": "Want to hit the grocery store this weekend?",
+  "hint": "hit 在口语中表示‘去某地’，grocery store 是超市，问句省略主语。"
+ },
+ {
+  "zh": "在港口，确认集装箱是否已装船。",
+  "en": "Have the containers been loaded on the ship yet?",
+  "hint": "用现在完成时被动语态 been loaded 强调动作完成，yet 用于疑问句。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -12160,5 +12219,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后买菜做饭",
   "text": "After work, I stop by the grocery store to pick up a few things for dinner. I grab some chicken, a head of lettuce, and a bottle of olive oil. The checkout line is long, so I scroll through my phone to pass the time. Back home, I chop the vegetables and season the meat while the pan heats up. Cooking helps me unwind after a stressful day. By the time I sit down to eat, I feel relaxed and ready to enjoy the meal."
+ },
+ {
+  "theme": "通勤路上的早晨",
+  "text": "I usually leave the house around seven thirty, and the bus is always packed at this hour. I put on my headphones and listen to a podcast to pass the time. The traffic is heavy today, so I'm glad I left a little early. I check my phone to see if there are any new messages from work. After a few stops, I find a seat near the window and watch the city wake up. It's a short ride, only about twenty minutes, but it gives me a moment to breathe before the day starts."
+ },
+ {
+  "theme": "下班后做晚饭",
+  "text": "After a long day at the office, I finally get home and head straight to the kitchen. I chop some onions and garlic while the pan heats up on the stove. Tonight I'm making a simple pasta with tomatoes and basil, nothing fancy. I taste the sauce and add a pinch of salt, then let it simmer for a few minutes. The whole apartment starts to smell really good, and my stomach growls in response. I set the table and pour myself a glass of water. Cooking like this helps me unwind, even if it's just for myself."
  }
 ];
