@@ -4646,6 +4646,22 @@ var DAILY5_WORDS = [
   "example": "Don't talk to me when I'm hangry.",
   "exampleZh": "我饿怒的时候别跟我说话。",
   "pos": "形容词"
+ },
+ {
+  "word": "sink",
+  "phonetic": "/sɪŋk/",
+  "zh": "水槽",
+  "example": "I left the dishes in the sink overnight.",
+  "exampleZh": "我把盘子泡在水槽里过夜了。",
+  "pos": "名词"
+ },
+ {
+  "word": "handle",
+  "phonetic": "/ˈhændl/",
+  "zh": "处理，应对",
+  "example": "Can you handle this customer complaint quickly?",
+  "exampleZh": "你能快速处理这个客户投诉吗？",
+  "pos": "动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6359,6 +6375,30 @@ var DAILY5_SENTENCES = [
   "zh": "你有空简单聊几句吗？",
   "scene": "职场",
   "tag": "沟通"
+ },
+ {
+  "en": "I'll catch you later, buddy.",
+  "zh": "哥们，回头见。",
+  "scene": "社交",
+  "tag": "告别"
+ },
+ {
+  "en": "Can you send me the shipping details?",
+  "zh": "你能把物流详情发给我吗？",
+  "scene": "外贸物流",
+  "tag": "跟进"
+ },
+ {
+  "en": "Let's touch base tomorrow morning.",
+  "zh": "我们明早碰个面沟通下。",
+  "scene": "职场",
+  "tag": "会议"
+ },
+ {
+  "en": "Could you double-check the invoice?",
+  "zh": "你能再核对一下发票吗？",
+  "scene": "外贸物流",
+  "tag": "核对"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11450,6 +11490,31 @@ var DAILY5_PROMPTS = [
   "zh": "在物流邮件中，你要确认收货时间和收货人信息。",
   "en": "Can you confirm the delivery date and the recipient?",
   "hint": "confirm 是‘确认’，recipient 是‘收件人’，比 receiver 更正式书面。"
+ },
+ {
+  "zh": "客户临时改了交货时间，你需要在邮件里确认新的截止日期。",
+  "en": "Just to confirm, the new deadline is Friday, right?",
+  "hint": "用“Just to confirm”开头，礼貌地核实信息。"
+ },
+ {
+  "zh": "仓库同事告诉你货物已经装车，准备发往港口。",
+  "en": "The cargo is loaded and ready to hit the road.",
+  "hint": "“hit the road”是口语化的“出发/上路”。"
+ },
+ {
+  "zh": "在留学生课堂上，你没听懂教授布置的作业要求，想问同桌。",
+  "en": "Could you break down what the professor just said?",
+  "hint": "“break down”表示“详细解释/拆解”。"
+ },
+ {
+  "zh": "和外国客户视频会议时，对方提到一个你不熟悉的术语，你想让他简单说明。",
+  "en": "Could you walk me through that term briefly?",
+  "hint": "“walk someone through”意为“逐步讲解”。"
+ },
+ {
+  "zh": "你在外贸公司实习，同事让你去跟进一个延误的物流订单。",
+  "en": "Can you chase up that late shipment for me?",
+  "hint": "“chase up”指“催促/跟进”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -12308,5 +12373,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做饭",
   "text": "Tonight I'm making a simple pasta dish with garlic and olive oil. First, I boil the water and add a pinch of salt. While the pasta cooks, I chop some fresh basil and grate a bit of cheese. Then I heat the olive oil in a pan and toss in the garlic until it smells fragrant. Once the pasta is al dente, I mix everything together and add a squeeze of lemon. It's quick, tasty, and perfect for a busy weekday evening."
+ },
+ {
+  "theme": "晨间通勤",
+  "text": "I usually leave home at seven thirty to catch the subway before it gets too crowded. This morning I grabbed a coffee from the corner shop and walked quickly to the station. The train arrived right on time, which was a nice surprise. I found a seat by the window and put on my headphones. The ride is about twenty minutes, so I use that time to review my notes. By the time I get off, the city is already buzzing with people heading to work."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After a long day at the office, I finally got home around six. I was really hungry, so I decided to make something simple and quick. I chopped some vegetables and threw them into a hot pan with a little oil. While that was cooking, I boiled some pasta in another pot. In about fifteen minutes, everything was ready. I sat down at the kitchen table and enjoyed my meal while watching a short video. It felt good to cook for myself after a busy day."
  }
 ];
