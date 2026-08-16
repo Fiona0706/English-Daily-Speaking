@@ -4662,6 +4662,14 @@ var DAILY5_WORDS = [
   "example": "Can you handle this customer complaint quickly?",
   "exampleZh": "你能快速处理这个客户投诉吗？",
   "pos": "动词"
+ },
+ {
+  "word": "totally",
+  "phonetic": "/ˈtoʊtəli/",
+  "zh": "完全地",
+  "example": "I totally agree with your idea.",
+  "exampleZh": "我完全同意你的想法。",
+  "pos": "副词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6399,6 +6407,36 @@ var DAILY5_SENTENCES = [
   "zh": "你能再核对一下发票吗？",
   "scene": "外贸物流",
   "tag": "核对"
+ },
+ {
+  "en": "I'm just grabbing a bite to eat, you want in?",
+  "zh": "我就随便吃点东西，你要一起吗？",
+  "scene": "生活",
+  "tag": "日常饮食"
+ },
+ {
+  "en": "That's a solid plan, let's roll with it.",
+  "zh": "这计划不错，就这么干吧。",
+  "scene": "社交",
+  "tag": "朋友交流"
+ },
+ {
+  "en": "Can you confirm the shipment by Friday?",
+  "zh": "你能在周五前确认发货吗？",
+  "scene": "外贸物流",
+  "tag": "物流确认"
+ },
+ {
+  "en": "We need to circle back on this later.",
+  "zh": "我们稍后需要回头再讨论这个。",
+  "scene": "职场",
+  "tag": "会议沟通"
+ },
+ {
+  "en": "I'm beat, gonna crash early tonight.",
+  "zh": "我累坏了，今晚要早点睡。",
+  "scene": "生活",
+  "tag": "休息状态"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11515,6 +11553,31 @@ var DAILY5_PROMPTS = [
   "zh": "你在外贸公司实习，同事让你去跟进一个延误的物流订单。",
   "en": "Can you chase up that late shipment for me?",
   "hint": "“chase up”指“催促/跟进”。"
+ },
+ {
+  "zh": "在给客户回复邮件时，你想确认对方是否已收到上次寄出的样品。",
+  "en": "Just checking in to see if you got the samples we sent.",
+  "hint": "用 'Just checking in' 开启对话，口语化，避免直接问 'Did you receive...?' 的生硬感。"
+ },
+ {
+  "zh": "物流旺季，你向同事抱怨集装箱舱位紧张。",
+  "en": "It's a madhouse — we can't even book a container this week.",
+  "hint": "'madhouse' 表示混乱/疯狂，'book' 在此指预订舱位，强调紧急和无奈。"
+ },
+ {
+  "zh": "留学生小组讨论时，你想表达自己完全同意队友的观点。",
+  "en": "You've hit the nail on the head, I was thinking the same thing.",
+  "hint": "习语 'hit the nail on the head' 表示说得精准，后半句加强认同。"
+ },
+ {
+  "zh": "外贸跟单时，客户突然问能否提前发货，你想说需要和工厂确认一下。",
+  "en": "Let me touch base with the factory and get back to you.",
+  "hint": "'touch base' 是职场常用短语，意为联系/沟通，比 'ask' 更专业自然。"
+ },
+ {
+  "zh": "下班前，你提醒同事别忘了明天早上的项目进度会议。",
+  "en": "Don't forget the status meeting tomorrow morning, it's at nine sharp.",
+  "hint": "用否定祈使句 'Don't forget' 提醒，'nine sharp' 强调准时，美式口语常用。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -12381,5 +12444,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After a long day at the office, I finally got home around six. I was really hungry, so I decided to make something simple and quick. I chopped some vegetables and threw them into a hot pan with a little oil. While that was cooking, I boiled some pasta in another pot. In about fifteen minutes, everything was ready. I sat down at the kitchen table and enjoyed my meal while watching a short video. It felt good to cook for myself after a busy day."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty, right after I grab a quick coffee. The subway is always packed at this hour, so I try to squeeze into the least crowded car. I put on my headphones and listen to a podcast to make the ride go faster. Sometimes I spot the same guy reading a newspaper near the door, and we just nod at each other. By the time I get to my stop, I feel awake and ready for the day. It's a small routine, but it really sets the tone for me."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After a long day at work, I like to cook something simple but tasty. Tonight, I'm making pasta with a quick tomato sauce. I chop some garlic and onions, then toss them into a hot pan with olive oil. The smell instantly makes me relax. I add a can of crushed tomatoes and let it simmer while I boil the noodles. When it's all done, I sit down with a glass of water and enjoy every bite. It's my favorite way to unwind."
  }
 ];
