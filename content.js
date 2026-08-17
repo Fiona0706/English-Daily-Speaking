@@ -4670,6 +4670,14 @@ var DAILY5_WORDS = [
   "example": "I totally agree with your idea.",
   "exampleZh": "我完全同意你的想法。",
   "pos": "副词"
+ },
+ {
+  "word": "efficient",
+  "phonetic": "/ɪˈfɪʃənt/",
+  "zh": "高效的",
+  "example": "She is very efficient at organizing meetings.",
+  "exampleZh": "她在组织会议方面非常高效。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6437,6 +6445,24 @@ var DAILY5_SENTENCES = [
   "zh": "我累坏了，今晚要早点睡。",
   "scene": "生活",
   "tag": "休息状态"
+ },
+ {
+  "en": "I'm running late, stuck in traffic.",
+  "zh": "我快迟到了，堵在路上了。",
+  "scene": "生活",
+  "tag": "通勤"
+ },
+ {
+  "en": "The shipment cleared customs today.",
+  "zh": "这批货今天清关了。",
+  "scene": "外贸物流",
+  "tag": "清关"
+ },
+ {
+  "en": "Can we circle back on this?",
+  "zh": "我们能回头再聊这个吗？",
+  "scene": "职场",
+  "tag": "会议"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11578,6 +11604,26 @@ var DAILY5_PROMPTS = [
   "zh": "下班前，你提醒同事别忘了明天早上的项目进度会议。",
   "en": "Don't forget the status meeting tomorrow morning, it's at nine sharp.",
   "hint": "用否定祈使句 'Don't forget' 提醒，'nine sharp' 强调准时，美式口语常用。"
+ },
+ {
+  "zh": "在海关申报单上填写货物价值时，你询问同事是否应该包括运费。",
+  "en": "Should I include shipping costs in this declared value?",
+  "hint": "用‘include’表达‘包括’，疑问句用‘Should I…’提出建议或询问。"
+ },
+ {
+  "zh": "物流延迟，你给客户写邮件说明新的预计到达时间。",
+  "en": "The shipment is delayed, but the new ETA is next Tuesday.",
+  "hint": "‘ETA’是‘estimated time of arrival’的缩写，物流场景常用。"
+ },
+ {
+  "zh": "留学生向教授请教如何修改论文的引言部分。",
+  "en": "Could you give me some tips on fixing my intro?",
+  "hint": "‘intro’是‘introduction’的口语缩写，‘give me tips’表示‘给我建议’。"
+ },
+ {
+  "zh": "和同事讨论周末加班时，你提议周五早点下班作为补偿。",
+  "en": "How about leaving early Friday to make up for it?",
+  "hint": "‘How about + 动名词’提出建议，‘make up for’表示‘弥补’。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -12452,5 +12498,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After a long day at work, I like to cook something simple but tasty. Tonight, I'm making pasta with a quick tomato sauce. I chop some garlic and onions, then toss them into a hot pan with olive oil. The smell instantly makes me relax. I add a can of crushed tomatoes and let it simmer while I boil the noodles. When it's all done, I sit down with a glass of water and enjoy every bite. It's my favorite way to unwind."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house at seven thirty, and the bus is almost always on time. This morning, I grabbed a coffee from the corner shop and found a seat by the window. The city was already busy with people rushing to work. I put on my headphones and listened to a podcast about cooking. The ride takes about twenty-five minutes, and I use that time to plan my day. When I got off at the main station, the sun was just coming up over the buildings. I walked the last block to my office, feeling ready for the day ahead."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After work, I stopped by the market to pick up some fresh vegetables and a piece of salmon. At home, I changed into comfortable clothes and started heating the pan. I chopped the broccoli and garlic while the rice cooker did its job. The kitchen smelled amazing when the salmon started to sizzle. I added a splash of soy sauce and a little lemon juice. While everything cooked, I set the table and poured a glass of water. In about fifteen minutes, dinner was ready, so I sat down and enjoyed the meal quietly."
  }
 ];
