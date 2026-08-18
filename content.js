@@ -4678,6 +4678,22 @@ var DAILY5_WORDS = [
   "example": "She is very efficient at organizing meetings.",
   "exampleZh": "她在组织会议方面非常高效。",
   "pos": "形容词"
+ },
+ {
+  "word": "finally",
+  "phonetic": "/ˈfaɪnəli/",
+  "zh": "终于",
+  "example": "I finally finished my homework.",
+  "exampleZh": "我终于完成了作业。",
+  "pos": "副词"
+ },
+ {
+  "word": "count on",
+  "phonetic": "/kaʊnt ɒn/",
+  "zh": "指望，依靠",
+  "example": "You can count on me for help.",
+  "exampleZh": "你可以指望我帮忙。",
+  "pos": "短语动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6463,6 +6479,30 @@ var DAILY5_SENTENCES = [
   "zh": "我们能回头再聊这个吗？",
   "scene": "职场",
   "tag": "会议"
+ },
+ {
+  "en": "Could you send me the revised invoice?",
+  "zh": "你能把修改后的发票发给我吗？",
+  "scene": "外贸物流",
+  "tag": "发票"
+ },
+ {
+  "en": "How's it going? Long time no see!",
+  "zh": "最近怎么样？好久不见！",
+  "scene": "社交",
+  "tag": "问候"
+ },
+ {
+  "en": "I'll grab a coffee on my way in.",
+  "zh": "我路上会买杯咖啡。",
+  "scene": "生活",
+  "tag": "日常"
+ },
+ {
+  "en": "Can we reschedule the shipment to Friday?",
+  "zh": "我们能把发货改到周五吗？",
+  "scene": "外贸物流",
+  "tag": "安排"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11624,6 +11664,26 @@ var DAILY5_PROMPTS = [
   "zh": "和同事讨论周末加班时，你提议周五早点下班作为补偿。",
   "en": "How about leaving early Friday to make up for it?",
   "hint": "‘How about + 动名词’提出建议，‘make up for’表示‘弥补’。"
+ },
+ {
+  "zh": "外贸邮件中，客户催你回复报价，你还没准备好。",
+  "en": "I'll get back to you with the quote by tomorrow.",
+  "hint": "'get back to' 表示稍后回复，'quote' 指报价。"
+ },
+ {
+  "zh": "职场会议上，你提议换个供应商以降低成本。",
+  "en": "Maybe we should switch to a cheaper supplier.",
+  "hint": "'switch to' 表示更换，'cheaper' 比较级自然用法。"
+ },
+ {
+  "zh": "留学生活中，室友问你今晚要不要一起做饭。",
+  "en": "Wanna cook dinner together tonight?",
+  "hint": "'Wanna' 是 'want to' 的口语缩写，自然亲切。"
+ },
+ {
+  "zh": "外贸谈判中，对方问你们能否接受分批交货。",
+  "en": "Can we do partial shipments on this order?",
+  "hint": "'partial shipments' 指分批装运，'do' 在此意为'安排'。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -12506,5 +12566,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After work, I stopped by the market to pick up some fresh vegetables and a piece of salmon. At home, I changed into comfortable clothes and started heating the pan. I chopped the broccoli and garlic while the rice cooker did its job. The kitchen smelled amazing when the salmon started to sizzle. I added a splash of soy sauce and a little lemon juice. While everything cooked, I set the table and poured a glass of water. In about fifteen minutes, dinner was ready, so I sat down and enjoyed the meal quietly."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to catch the subway. The platform is always packed, so I squeeze into the first car and hold onto the pole. During the ride, I scroll through my phone to check the news and reply to a few messages. It takes about forty minutes to reach downtown, and I often grab a coffee from the kiosk near the exit. By the time I walk into the office, I'm already thinking about lunch. It's a routine that keeps me on schedule every day."
+ },
+ {
+  "theme": "周末做晚饭",
+  "text": "On Saturday evening, I decided to cook a simple pasta dish from scratch. I chopped some garlic and onions, then heated olive oil in the pan. The smell filled the kitchen, making me feel hungry right away. I added canned tomatoes and a pinch of salt, letting the sauce simmer for a few minutes. While the pasta boiled, I set the table and poured two glasses of red wine. My roommate came in and said it smelled amazing, so we sat down and enjoyed our meal together. It was a relaxed and tasty way to end the weekend."
  }
 ];
