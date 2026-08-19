@@ -4694,6 +4694,30 @@ var DAILY5_WORDS = [
   "example": "You can count on me for help.",
   "exampleZh": "你可以指望我帮忙。",
   "pos": "短语动词"
+ },
+ {
+  "word": "tired",
+  "phonetic": "/ˈtaɪərd/",
+  "zh": "疲倦的",
+  "example": "I am really tired after work today.",
+  "exampleZh": "今天下班后我真的很累。",
+  "pos": "形容词"
+ },
+ {
+  "word": "parking",
+  "phonetic": "/ˈpɑːrkɪŋ/",
+  "zh": "停车",
+  "example": "There is no parking near the office building.",
+  "exampleZh": "办公楼附近没有停车位。",
+  "pos": "名词"
+ },
+ {
+  "word": "every now and then",
+  "phonetic": "/ˈevri naʊ ənd ðen/",
+  "zh": "偶尔，时不时",
+  "example": "I like to eat pizza every now and then.",
+  "exampleZh": "我时不时喜欢吃点披萨。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6503,6 +6527,24 @@ var DAILY5_SENTENCES = [
   "zh": "我们能把发货改到周五吗？",
   "scene": "外贸物流",
   "tag": "安排"
+ },
+ {
+  "en": "That's a solid deal, let's shake on it.",
+  "zh": "这买卖划算，咱们握个手成交吧。",
+  "scene": "外贸物流",
+  "tag": "成交"
+ },
+ {
+  "en": "Wanna grab a coffee sometime?",
+  "zh": "改天一起喝杯咖啡怎么样？",
+  "scene": "社交",
+  "tag": "邀约"
+ },
+ {
+  "en": "The shipment's stuck at customs, hang tight.",
+  "zh": "货卡在海关了，稍安勿躁。",
+  "scene": "外贸物流",
+  "tag": "清关"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11684,6 +11726,31 @@ var DAILY5_PROMPTS = [
   "zh": "外贸谈判中，对方问你们能否接受分批交货。",
   "en": "Can we do partial shipments on this order?",
   "hint": "'partial shipments' 指分批装运，'do' 在此意为'安排'。"
+ },
+ {
+  "zh": "在物流仓库，你向同事确认今天的发货数量。",
+  "en": "Let's double-check the shipment count before we close up.",
+  "hint": "double-check 表示复核，close up 指收工关门。"
+ },
+ {
+  "zh": "和国外客户开会时，你提出调整合同条款。",
+  "en": "Could we tweak the payment terms in the contract?",
+  "hint": "tweak 表示小幅调整，比 change 更口语和委婉。"
+ },
+ {
+  "zh": "留学课堂上，你没听懂教授的一个问题，请求重复。",
+  "en": "Sorry, could you run that question by me again?",
+  "hint": "run something by someone 表示向某人重复或解释。"
+ },
+ {
+  "zh": "外贸邮件中，你催促对方尽快回复报价。",
+  "en": "Could you get back to me on the quote by Friday?",
+  "hint": "get back to me 表示回复，quote 是报价。"
+ },
+ {
+  "zh": "职场午餐时，你向同事推荐公司附近的新餐厅。",
+  "en": "That new deli near the office is worth a shot.",
+  "hint": "worth a shot 表示值得一试，deli 是熟食店。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -12574,5 +12641,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "周末做晚饭",
   "text": "On Saturday evening, I decided to cook a simple pasta dish from scratch. I chopped some garlic and onions, then heated olive oil in the pan. The smell filled the kitchen, making me feel hungry right away. I added canned tomatoes and a pinch of salt, letting the sauce simmer for a few minutes. While the pasta boiled, I set the table and poured two glasses of red wine. My roommate came in and said it smelled amazing, so we sat down and enjoyed our meal together. It was a relaxed and tasty way to end the weekend."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the express train downtown. The platform gets really crowded, so I always stand near the second door to squeeze in faster. Once I find a spot, I put on my headphones and listen to a podcast about city history. The ride takes about twenty minutes, and I use that time to check my schedule and reply to a few emails. Today the train was a bit delayed because of signal issues, but I still made it to the office by eight forty. I grabbed a coffee from the corner shop and headed straight up to my desk."
+ },
+ {
+  "theme": "下班买菜做饭",
+  "text": "After work, I stopped by the neighborhood market to pick up some fresh ingredients for dinner. I wanted to make a simple stir-fry with chicken, bell peppers, and broccoli. The vendor gave me a discount because I bought a whole bunch of greens, which was a nice surprise. Back home, I washed the vegetables and chopped everything into small pieces while the pan heated up. I added some garlic and ginger first, then tossed in the chicken until it turned golden. It smelled so good that my neighbor knocked on the door to ask what I was cooking. We ended up sharing the meal on my small balcony, chatting about our day."
  }
 ];
