@@ -4718,6 +4718,30 @@ var DAILY5_WORDS = [
   "example": "I like to eat pizza every now and then.",
   "exampleZh": "我时不时喜欢吃点披萨。",
   "pos": "习语"
+ },
+ {
+  "word": "meeting",
+  "phonetic": "/ˈmiːtɪŋ/",
+  "zh": "会议",
+  "example": "We have a meeting at ten o'clock.",
+  "exampleZh": "我们十点有个会议。",
+  "pos": "名词"
+ },
+ {
+  "word": "buy",
+  "phonetic": "/baɪ/",
+  "zh": "购买",
+  "example": "I need to buy some groceries today.",
+  "exampleZh": "我今天需要买些杂货。",
+  "pos": "动词"
+ },
+ {
+  "word": "finish",
+  "phonetic": "/ˈfɪnɪʃ/",
+  "zh": "完成",
+  "example": "Let's finish this project by Friday.",
+  "exampleZh": "我们在周五前完成这个项目吧。",
+  "pos": "动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6545,6 +6569,30 @@ var DAILY5_SENTENCES = [
   "zh": "货卡在海关了，稍安勿躁。",
   "scene": "外贸物流",
   "tag": "清关"
+ },
+ {
+  "en": "I'm running a bit late, sorry.",
+  "zh": "我有点迟到了，抱歉。",
+  "scene": "社交",
+  "tag": "道歉约会"
+ },
+ {
+  "en": "Can we move the delivery up a day?",
+  "zh": "我们能提前一天发货吗？",
+  "scene": "外贸物流",
+  "tag": "交货安排"
+ },
+ {
+  "en": "Let's circle back on this tomorrow.",
+  "zh": "我们明天再回头讨论这个。",
+  "scene": "职场",
+  "tag": "会议跟进"
+ },
+ {
+  "en": "I'm all in for that plan.",
+  "zh": "我完全支持那个计划。",
+  "scene": "社交",
+  "tag": "赞同提议"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11751,6 +11799,31 @@ var DAILY5_PROMPTS = [
   "zh": "职场午餐时，你向同事推荐公司附近的新餐厅。",
   "en": "That new deli near the office is worth a shot.",
   "hint": "worth a shot 表示值得一试，deli 是熟食店。"
+ },
+ {
+  "zh": "在仓库核对货物数量时，发现少了两箱，需要向主管汇报。",
+  "en": "We're short two boxes in this shipment.",
+  "hint": "be short 表示缺少，常用于库存或数量核对。"
+ },
+ {
+  "zh": "给国外客户发邮件，确认他们是否收到延期通知。",
+  "en": "Just checking if you got the delay notice.",
+  "hint": "Just checking 是口语化的确认开头，got 代替 received 更自然。"
+ },
+ {
+  "zh": "在机场接留学生朋友，询问他旅途是否顺利。",
+  "en": "How was your flight? Any hiccups?",
+  "hint": "hiccups 指小问题或小麻烦，比 problems 更口语。"
+ },
+ {
+  "zh": "开团队会议时，讨论物流成本上升，提出调整运输方式。",
+  "en": "Maybe we should switch to rail freight.",
+  "hint": "switch to 表示换用，rail freight 是铁路运输的专业说法。"
+ },
+ {
+  "zh": "在办公室帮同事解释一个海关文件的填写要求。",
+  "en": "You just need to fill in the consignee box here.",
+  "hint": "fill in 表示填写，consignee 是收货人，box 指表格中的栏位。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -12649,5 +12722,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班买菜做饭",
   "text": "After work, I stopped by the neighborhood market to pick up some fresh ingredients for dinner. I wanted to make a simple stir-fry with chicken, bell peppers, and broccoli. The vendor gave me a discount because I bought a whole bunch of greens, which was a nice surprise. Back home, I washed the vegetables and chopped everything into small pieces while the pan heated up. I added some garlic and ginger first, then tossed in the chicken until it turned golden. It smelled so good that my neighbor knocked on the door to ask what I was cooking. We ended up sharing the meal on my small balcony, chatting about our day."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty, but this morning I was running late. The subway was packed, so I had to stand near the door the whole way. I kept checking my phone to see if I would still make it to the meeting on time. When I finally got out at my stop, I realized I forgot my badge at home. I had to use the visitor pass at the front desk, which took an extra five minutes. Somehow, I still made it to the meeting with two minutes to spare. I promised myself I would set my alarm earlier tomorrow."
+ },
+ {
+  "theme": "准备晚餐",
+  "text": "After work, I headed straight to the grocery store to grab a few things for dinner. I picked up some chicken, bell peppers, and a bottle of olive oil. When I got home, I started chopping the vegetables while the pan heated up on the stove. I added the chicken and seasoned it with salt and pepper, just like my mom used to do. The smell reminded me of Sunday dinners at her place. I texted my brother a picture of the dish, and he said it looked delicious. I served it with some rice and sat down to eat while watching the news."
  }
 ];
