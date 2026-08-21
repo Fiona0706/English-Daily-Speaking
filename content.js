@@ -4742,6 +4742,14 @@ var DAILY5_WORDS = [
   "example": "Let's finish this project by Friday.",
   "exampleZh": "我们在周五前完成这个项目吧。",
   "pos": "动词"
+ },
+ {
+  "word": "annoy",
+  "phonetic": "/əˈnɔɪ/",
+  "zh": "惹恼；使生气",
+  "example": "It really annoys me when people are late.",
+  "exampleZh": "别人迟到真的让我很恼火。",
+  "pos": "动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6593,6 +6601,30 @@ var DAILY5_SENTENCES = [
   "zh": "我完全支持那个计划。",
   "scene": "社交",
   "tag": "赞同提议"
+ },
+ {
+  "en": "I'll take a rain check on that.",
+  "zh": "改天吧，这次就算了。",
+  "scene": "社交",
+  "tag": "日常"
+ },
+ {
+  "en": "Could you hook me up with a discount?",
+  "zh": "能给我打个折吗？",
+  "scene": "外贸物流",
+  "tag": "商务"
+ },
+ {
+  "en": "Let's grab a bite to eat later.",
+  "zh": "待会儿一起去吃点东西吧。",
+  "scene": "生活",
+  "tag": "日常"
+ },
+ {
+  "en": "We need to nail down the delivery date.",
+  "zh": "我们需要确定交货日期。",
+  "scene": "外贸物流",
+  "tag": "物流"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11824,6 +11856,31 @@ var DAILY5_PROMPTS = [
   "zh": "在办公室帮同事解释一个海关文件的填写要求。",
   "en": "You just need to fill in the consignee box here.",
   "hint": "fill in 表示填写，consignee 是收货人，box 指表格中的栏位。"
+ },
+ {
+  "zh": "在客户会议上，你表示需要再确认一下订单的船期。",
+  "en": "Let me double-check the shipping schedule with the carrier.",
+  "hint": "double-check 表示仔细核对，carrier 指承运公司或船公司。"
+ },
+ {
+  "zh": "同事问你邮件是否发出，你回复说马上安排。",
+  "en": "I'm on it — sending it out right now.",
+  "hint": "I'm on it 是口语中表示‘我正在处理’的常用表达，right now 加强语气。"
+ },
+ {
+  "zh": "在物流仓库，你向主管报告货物已装好托盘。",
+  "en": "The pallets are all stacked and ready to go.",
+  "hint": "pallet 是托盘，stacked 表示堆叠，ready to go 意为就绪可发运。"
+ },
+ {
+  "zh": "留学生活中，你向房东询问房租支付截止日。",
+  "en": "When is the rent due for this month?",
+  "hint": "due 表示到期，常用于支付截止日期，问‘何时到期’用 when is...due。"
+ },
+ {
+  "zh": "外贸谈判中，你表达对价格还需内部讨论。",
+  "en": "I need to run this by my team first.",
+  "hint": "run this by someone 表示与某人商量或过目，常用于职场征求意见。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -12730,5 +12787,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "准备晚餐",
   "text": "After work, I headed straight to the grocery store to grab a few things for dinner. I picked up some chicken, bell peppers, and a bottle of olive oil. When I got home, I started chopping the vegetables while the pan heated up on the stove. I added the chicken and seasoned it with salt and pepper, just like my mom used to do. The smell reminded me of Sunday dinners at her place. I texted my brother a picture of the dish, and he said it looked delicious. I served it with some rice and sat down to eat while watching the news."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the express train. The platform is always crowded, so I stand near the edge and wait for the doors to open. Once I get a seat, I put on my headphones and listen to a podcast about world news. Sometimes I glance out the window and watch the buildings blur by. The ride takes about twenty-five minutes, which gives me time to plan my day. I step off the train feeling ready for whatever comes next."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After a long day at work, I like to cook something quick but tasty. Tonight I’m making spaghetti with garlic and olive oil. I boil the pasta while I chop some fresh basil and slice a few cherry tomatoes. The sizzle of the garlic in the pan always makes my kitchen smell amazing. I toss everything together with a pinch of salt and a splash of lemon juice. In less than fifteen minutes, dinner is ready, and I sit down to enjoy it with a glass of cold water."
  }
 ];
