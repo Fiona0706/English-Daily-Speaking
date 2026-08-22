@@ -4750,6 +4750,14 @@ var DAILY5_WORDS = [
   "example": "It really annoys me when people are late.",
   "exampleZh": "别人迟到真的让我很恼火。",
   "pos": "动词"
+ },
+ {
+  "word": "ruin",
+  "phonetic": "/ˈruːɪn/",
+  "zh": "毁掉",
+  "example": "The heavy rain ruined our picnic plans.",
+  "exampleZh": "大雨毁掉了我们的野餐计划。",
+  "pos": "动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6625,6 +6633,36 @@ var DAILY5_SENTENCES = [
   "zh": "我们需要确定交货日期。",
   "scene": "外贸物流",
   "tag": "物流"
+ },
+ {
+  "en": "Could you give me a hand with this?",
+  "zh": "你能帮我一把吗？",
+  "scene": "生活",
+  "tag": "求助"
+ },
+ {
+  "en": "I'm just grabbing a quick bite to eat.",
+  "zh": "我就随便吃口东西。",
+  "scene": "生活",
+  "tag": "日常"
+ },
+ {
+  "en": "Let's catch up over coffee sometime.",
+  "zh": "改天一起喝咖啡聊聊。",
+  "scene": "社交",
+  "tag": "邀约"
+ },
+ {
+  "en": "We need to confirm the shipping date ASAP.",
+  "zh": "我们需要尽快确认发货日期。",
+  "scene": "外贸物流",
+  "tag": "物流"
+ },
+ {
+  "en": "I'll circle back with you on that later.",
+  "zh": "我稍后再和你跟进那件事。",
+  "scene": "职场",
+  "tag": "跟进"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11881,6 +11919,31 @@ var DAILY5_PROMPTS = [
   "zh": "外贸谈判中，你表达对价格还需内部讨论。",
   "en": "I need to run this by my team first.",
   "hint": "run this by someone 表示与某人商量或过目，常用于职场征求意见。"
+ },
+ {
+  "zh": "在邮件里告诉客户，由于港口拥堵，出货时间会推迟几天。",
+  "en": "The shipment will be delayed a few days due to port congestion.",
+  "hint": "用 'due to' 表示原因，注意 'shipment' 和 'delayed' 的搭配。"
+ },
+ {
+  "zh": "和同事确认项目进度时，想表达你正在等供应商的最终报价。",
+  "en": "I'm still waiting on the final quote from our supplier.",
+  "hint": "'wait on' 在美式英语中常用于等待某人或某事，比 'wait for' 更口语化。"
+ },
+ {
+  "zh": "在课堂上向教授提问，能否把下周的论文截止日期延后两天。",
+  "en": "Could we push the paper deadline back to next Thursday?",
+  "hint": "'push back' 是推迟的意思，后面接具体时间点。"
+ },
+ {
+  "zh": "和室友聊天，说明天要去机场接一个刚从国内来的朋友。",
+  "en": "I'm picking up a friend from China at the airport tomorrow.",
+  "hint": "'pick up' 表示接人，注意'from China' 放在人名后。"
+ },
+ {
+  "zh": "在物流仓库，告诉同事这批货需要重新打包，因为外包装破损了。",
+  "en": "We need to repack this batch, the outer cartons are damaged.",
+  "hint": "用 'batch' 表示一批货，'outer cartons' 指外箱。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -12795,5 +12858,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After a long day at work, I like to cook something quick but tasty. Tonight I’m making spaghetti with garlic and olive oil. I boil the pasta while I chop some fresh basil and slice a few cherry tomatoes. The sizzle of the garlic in the pan always makes my kitchen smell amazing. I toss everything together with a pinch of salt and a splash of lemon juice. In less than fifteen minutes, dinner is ready, and I sit down to enjoy it with a glass of cold water."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I rushed out of the apartment with my coffee in one hand and my bag in the other. The bus was already at the stop, so I sprinted a little to catch it. Luckily, the driver saw me and waited a few extra seconds. I found a seat near the window and put on my headphones. The city was just waking up, with shops opening and people heading to work. I like this quiet time before the day really gets busy. It gives me a moment to breathe and plan my tasks."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After a long day at the office, I finally got home around seven. I was too tired to cook anything complicated, so I decided to make a simple pasta. I boiled the water, threw in some spaghetti, and chopped a few tomatoes. While it cooked, I checked my phone and replied to a couple of messages. The smell of garlic and herbs filled the kitchen, making me feel relaxed. I sat down to eat with a glass of water, and honestly, it tasted perfect. Sometimes the simplest meals are the most satisfying."
  }
 ];
