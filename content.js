@@ -6663,6 +6663,36 @@ var DAILY5_SENTENCES = [
   "zh": "我稍后再和你跟进那件事。",
   "scene": "职场",
   "tag": "跟进"
+ },
+ {
+  "en": "Let's grab a bite after work.",
+  "zh": "下班后我们去吃点东西吧。",
+  "scene": "生活",
+  "tag": "日常邀约"
+ },
+ {
+  "en": "I'll touch base with you tomorrow.",
+  "zh": "我明天再跟你联系。",
+  "scene": "职场",
+  "tag": "工作沟通"
+ },
+ {
+  "en": "That's a solid deal, let's lock it in.",
+  "zh": "这是个实打实的好交易，我们敲定吧。",
+  "scene": "外贸物流",
+  "tag": "商务谈判"
+ },
+ {
+  "en": "What have you been up to lately?",
+  "zh": "你最近忙什么呢？",
+  "scene": "社交",
+  "tag": "寒暄问候"
+ },
+ {
+  "en": "Could you double-check the shipment status?",
+  "zh": "你能再确认一下货物状态吗？",
+  "scene": "外贸物流",
+  "tag": "货件追踪"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11944,6 +11974,31 @@ var DAILY5_PROMPTS = [
   "zh": "在物流仓库，告诉同事这批货需要重新打包，因为外包装破损了。",
   "en": "We need to repack this batch, the outer cartons are damaged.",
   "hint": "用 'batch' 表示一批货，'outer cartons' 指外箱。"
+ },
+ {
+  "zh": "给客户发邮件确认订单发货时间",
+  "en": "Just confirming the shipment will go out by Friday.",
+  "hint": "用 Just confirming 开头表示轻量确认，go out 指发货。"
+ },
+ {
+  "zh": "物流延误，客户催单时解释原因",
+  "en": "We're running a bit behind due to the port congestion.",
+  "hint": "run behind 表示延误，due to 引出原因，bit 缓和语气。"
+ },
+ {
+  "zh": "和同事商量改会议室时间",
+  "en": "Can we push the meeting back an hour?",
+  "hint": "push back 表示推迟，an hour 用不定冠词。"
+ },
+ {
+  "zh": "留学生第一天上课自我介绍",
+  "en": "I'm from China, and I'm majoring in business.",
+  "hint": "major in 表示主修，自我介绍用 I'm from... 简洁自然。"
+ },
+ {
+  "zh": "在仓库检查货物数量时发现短缺",
+  "en": "We're short ten units on this order.",
+  "hint": "be short + 数量 表示短缺，on this order 具体指向某订单。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -12866,5 +12921,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After a long day at the office, I finally got home around seven. I was too tired to cook anything complicated, so I decided to make a simple pasta. I boiled the water, threw in some spaghetti, and chopped a few tomatoes. While it cooked, I checked my phone and replied to a couple of messages. The smell of garlic and herbs filled the kitchen, making me feel relaxed. I sat down to eat with a glass of water, and honestly, it tasted perfect. Sometimes the simplest meals are the most satisfying."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the express train. The platform is always packed with people checking their phones or sipping coffee. Once I find a spot near the door, I put on my headphones and listen to a podcast. The ride takes about twenty minutes, and I use that time to review my notes for the day. Sometimes the train is delayed, which makes me a bit anxious. But today, everything seems to be running on time, so I feel relaxed."
+ },
+ {
+  "theme": "下班后买菜做饭",
+  "text": "After work, I stop by the small grocery store near my apartment to grab a few things for dinner. I pick up some fresh spinach, a pack of chicken thighs, and a jar of pasta sauce. The cashier greets me with a smile and asks if I found everything okay. Back home, I chop the veggies and toss them into a hot pan with olive oil. The whole kitchen smells amazing within minutes. I sit down with a plate of pasta and a glass of water, feeling happy to unwind after a long day."
  }
 ];
