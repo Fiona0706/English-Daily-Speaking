@@ -4758,6 +4758,14 @@ var DAILY5_WORDS = [
   "example": "The heavy rain ruined our picnic plans.",
   "exampleZh": "大雨毁掉了我们的野餐计划。",
   "pos": "动词"
+ },
+ {
+  "word": "cheerful",
+  "phonetic": "/ˈtʃɪrfəl/",
+  "zh": "快乐的",
+  "example": "She has a cheerful smile every morning.",
+  "exampleZh": "她每天早上都有快乐的笑容。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6693,6 +6701,30 @@ var DAILY5_SENTENCES = [
   "zh": "你能再确认一下货物状态吗？",
   "scene": "外贸物流",
   "tag": "货件追踪"
+ },
+ {
+  "en": "Could you double-check the shipping invoice?",
+  "zh": "你能再核对一下运单发票吗？",
+  "scene": "外贸物流",
+  "tag": "单据确认"
+ },
+ {
+  "en": "I'm swamped, but I'll get back to you.",
+  "zh": "我忙翻了，但会再回复你。",
+  "scene": "职场",
+  "tag": "工作回复"
+ },
+ {
+  "en": "That was a solid effort, man.",
+  "zh": "老兄，干得不错。",
+  "scene": "社交",
+  "tag": "朋友鼓励"
+ },
+ {
+  "en": "Can we run a quick stand-up?",
+  "zh": "我们快速开个站会行吗？",
+  "scene": "职场",
+  "tag": "会议安排"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11999,6 +12031,31 @@ var DAILY5_PROMPTS = [
   "zh": "在仓库检查货物数量时发现短缺",
   "en": "We're short ten units on this order.",
   "hint": "be short + 数量 表示短缺，on this order 具体指向某订单。"
+ },
+ {
+  "zh": "在电话中确认客户订单的交付时间，你希望对方尽快确认。",
+  "en": "Could you confirm the delivery date by end of day?",
+  "hint": "用 Could you confirm...? 表礼貌请求，by end of day 指当天结束前。"
+ },
+ {
+  "zh": "在码头查看集装箱时，发现货物外包装有破损，需要立即报告经理。",
+  "en": "I noticed some damage on the carton, should I report it now?",
+  "hint": "用 I noticed... 引出发现，Should I...? 询问下一步行动。"
+ },
+ {
+  "zh": "在跨国团队会议中，你听不懂同事的印度口音，请求对方再说一遍。",
+  "en": "Sorry, could you run that by me again?",
+  "hint": "run that by me again 是美式口语的‘再说一遍’，比 repeat 更自然。"
+ },
+ {
+  "zh": "在留学宿舍，室友邀请你参加聚会，但你第二天有早课，想婉拒。",
+  "en": "I'd love to, but I've got an early class tomorrow.",
+  "hint": "用 I'd love to, but... 表示先肯定再拒绝，I've got 是 I have 的口语缩写。"
+ },
+ {
+  "zh": "在物流仓库，你需要同事帮忙搬运重货，但对方正在忙。",
+  "en": "Can you give me a hand with this once you're free?",
+  "hint": "give me a hand 是‘帮忙’的口语表达，once you're free 表示‘你有空时’。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -12929,5 +12986,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后买菜做饭",
   "text": "After work, I stop by the small grocery store near my apartment to grab a few things for dinner. I pick up some fresh spinach, a pack of chicken thighs, and a jar of pasta sauce. The cashier greets me with a smile and asks if I found everything okay. Back home, I chop the veggies and toss them into a hot pan with olive oil. The whole kitchen smells amazing within minutes. I sit down with a plate of pasta and a glass of water, feeling happy to unwind after a long day."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the subway. The platform is always crowded, so I have to squeeze in quickly before the doors close. Once inside, I find a spot near the pole and put on my headphones. The train rattles along the tracks, and people stare at their phones or doze off. At my stop, I push through the crowd and walk up the stairs into the fresh morning air. A quick coffee from the corner shop keeps me going until lunchtime. It's not a glamorous routine, but it gets me where I need to be."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After a long day at work, I like to unwind by cooking something simple. Tonight, I'm making stir-fried vegetables with rice. I chop the bell peppers and onions while the pan heats up with a little oil. Once the veggies go in, they sizzle loudly, and the kitchen starts to smell amazing. I add some soy sauce and a pinch of garlic powder, then toss everything together. While the rice steams, I set the table and pour a glass of water. In about fifteen minutes, dinner is ready, and I can finally relax with a warm plate of food."
  }
 ];
