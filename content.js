@@ -6725,6 +6725,12 @@ var DAILY5_SENTENCES = [
   "zh": "我们快速开个站会行吗？",
   "scene": "职场",
   "tag": "会议安排"
+ },
+ {
+  "en": "I'll catch you later.",
+  "zh": "回头见。",
+  "scene": "社交",
+  "tag": "告别"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -12056,6 +12062,31 @@ var DAILY5_PROMPTS = [
   "zh": "在物流仓库，你需要同事帮忙搬运重货，但对方正在忙。",
   "en": "Can you give me a hand with this once you're free?",
   "hint": "give me a hand 是‘帮忙’的口语表达，once you're free 表示‘你有空时’。"
+ },
+ {
+  "zh": "客户催问货期，你回复说正在安排最早班次的船运。",
+  "en": "We're booking the earliest sailing we can get.",
+  "hint": "sailing 指船期，book 在这里表示预订舱位，口语常用。"
+ },
+ {
+  "zh": "同事问你今晚能不能加班赶报告，你表示可以但要先吃个饭。",
+  "en": "Sure, but I need to grab a bite first.",
+  "hint": "grab a bite 是美式口语中‘随便吃点东西’的常见说法。"
+ },
+ {
+  "zh": "在超市结账时发现忘带钱包，你向收银员解释并询问是否接受手机支付。",
+  "en": "I left my wallet at home, do you take mobile pay?",
+  "hint": "take 在收银场景中表示‘接受某种支付方式’。"
+ },
+ {
+  "zh": "和室友商量分摊电费，你提议每人先出二十美元。",
+  "en": "Let's split the bill, twenty bucks each.",
+  "hint": "split the bill 表示分摊费用，bucks 是 dollars 的口语说法。"
+ },
+ {
+  "zh": "物流仓库里，你请同事帮忙确认一下今天的出货数量。",
+  "en": "Hey, can you double-check today's shipment count?",
+  "hint": "double-check 强调‘再核实一遍’，shipment count 指出货数量。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -12994,5 +13025,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After a long day at work, I like to unwind by cooking something simple. Tonight, I'm making stir-fried vegetables with rice. I chop the bell peppers and onions while the pan heats up with a little oil. Once the veggies go in, they sizzle loudly, and the kitchen starts to smell amazing. I add some soy sauce and a pinch of garlic powder, then toss everything together. While the rice steams, I set the table and pour a glass of water. In about fifteen minutes, dinner is ready, and I can finally relax with a warm plate of food."
+ },
+ {
+  "theme": "晨间通勤",
+  "text": "I usually leave the house around seven thirty. The subway is always packed at this hour, so I try to squeeze in near the door. I put on my headphones and listen to a podcast about world news. Sometimes I see the same people on the platform, and we nod at each other. It feels like a small community, even though we never talk. By the time I reach my stop, the coffee from my thermos is still warm. I take a deep breath and get ready to start the day."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After a long day at work, I like to cook something simple. Tonight I’m making pasta with garlic and olive oil. I chop some fresh tomatoes and toss them into the pan. The smell of garlic fills the kitchen, and I feel my stress slowly melt away. I boil the noodles and taste the sauce to check the salt. My phone buzzes, but I ignore it for now. I set the table with a small vase of flowers. It’s my little ritual to calm down before eating."
  }
 ];
