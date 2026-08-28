@@ -4774,6 +4774,14 @@ var DAILY5_WORDS = [
   "example": "He tried to sneak a cookie from the jar.",
   "exampleZh": "他试图从罐子里偷偷拿一块饼干。",
   "pos": "动词"
+ },
+ {
+  "word": "frustrating",
+  "phonetic": "/ˈfrʌstreɪtɪŋ/",
+  "zh": "令人沮丧的",
+  "example": "The traffic jam was really frustrating.",
+  "exampleZh": "堵车实在令人沮丧。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6757,6 +6765,18 @@ var DAILY5_SENTENCES = [
   "zh": "我累坏了，今晚就到这儿吧。",
   "scene": "社交",
   "tag": "结束"
+ },
+ {
+  "en": "That sounds like a great idea to me.",
+  "zh": "我觉得这是个好主意。",
+  "scene": "社交",
+  "tag": "赞同回应"
+ },
+ {
+  "en": "We need to confirm the shipment date ASAP.",
+  "zh": "我们需要尽快确认发货日期。",
+  "scene": "外贸物流",
+  "tag": "物流沟通"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -12240,6 +12260,31 @@ var DAILY5_PROMPTS = [
   "zh": "外贸谈判时，对方报价太高，你想委婉表示价格需要再商量。",
   "en": "That price is a bit steep for us.",
   "hint": "‘a bit steep’是口语中表示‘太贵’的常用说法，注意用‘for us’表示立场。"
+ },
+ {
+  "zh": "客户催问货物何时能到港，你回复说预计下周二抵达。",
+  "en": "Your shipment is expected to arrive at port next Tuesday.",
+  "hint": "用 be expected to 表示预计，arrive at port 表示到港。"
+ },
+ {
+  "zh": "同事问你会议纪要是否已发，你说马上发到群里。",
+  "en": "I'll shoot it to the group right away.",
+  "hint": "shoot sth to sb 是口语化表达，意为快速发送。"
+ },
+ {
+  "zh": "留学生朋友说作业太多，你觉得可以分任务完成。",
+  "en": "Let's break it down into smaller chunks.",
+  "hint": "break sth down 意为分解，chunks 指小块任务。"
+ },
+ {
+  "zh": "物流经理提醒你旺季运费上涨，建议提前订舱。",
+  "en": "You'd better book the space early before rates spike.",
+  "hint": "book the space 订舱，rates spike 运费飙升。"
+ },
+ {
+  "zh": "面试后对方让你等通知，你礼貌询问大概时间。",
+  "en": "Could you give me a rough timeline for the decision?",
+  "hint": "rough timeline 粗略时间表，用于礼貌询问结果日期。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -13194,5 +13239,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班买菜做饭",
   "text": "After work I stopped by the market near my apartment because I wanted to make a simple stir-fry. I picked up some fresh bok choy, a pack of mushrooms, and a small piece of pork. The vendor even threw in a few spring onions and a piece of ginger for free. When I got home, I chopped everything quickly while the rice cooker was doing its job. The pan was hot, so I tossed in the garlic and the meat first, then added the greens. Within ten minutes the whole kitchen smelled amazing. I sat down with my plate and felt that quiet satisfaction of turning cheap ingredients into a real dinner."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty to beat the traffic. The subway is always packed, so I try to find a spot near the door. Today I saw a guy reading a book while standing, which was pretty impressive. I put on my headphones and listened to a podcast about cooking. The train swayed a bit, and I almost lost my balance. It took about forty minutes to reach my office. Honestly, I prefer cycling, but the weather is too rainy this week."
+ },
+ {
+  "theme": "下班后做晚饭",
+  "text": "After work, I stopped by the grocery store to grab some fresh vegetables and chicken. I decided to make a simple stir-fry with garlic and soy sauce. First, I chopped the onions and peppers, then heated the pan with oil. The sizzling sound always makes me feel relaxed. I added the chicken and stirred it for a few minutes. When the sauce started bubbling, I turned down the heat. I tasted it and added a pinch of salt. Finally, I served it over rice, and it was surprisingly good."
  }
 ];
