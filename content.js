@@ -4766,6 +4766,14 @@ var DAILY5_WORDS = [
   "example": "She has a cheerful smile every morning.",
   "exampleZh": "她每天早上都有快乐的笑容。",
   "pos": "形容词"
+ },
+ {
+  "word": "sneak",
+  "phonetic": "/sniːk/",
+  "zh": "偷偷地做；溜走",
+  "example": "He tried to sneak a cookie from the jar.",
+  "exampleZh": "他试图从罐子里偷偷拿一块饼干。",
+  "pos": "动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6731,6 +6739,24 @@ var DAILY5_SENTENCES = [
   "zh": "回头见。",
   "scene": "社交",
   "tag": "告别"
+ },
+ {
+  "en": "The shipment is stuck at customs, need an update.",
+  "zh": "货卡在海关了，需要最新进展。",
+  "scene": "外贸物流",
+  "tag": "清关"
+ },
+ {
+  "en": "Can you circle back on the quote by Friday?",
+  "zh": "你能在周五前回头确认报价吗？",
+  "scene": "职场",
+  "tag": "跟进"
+ },
+ {
+  "en": "I'm beat, let's call it a night.",
+  "zh": "我累坏了，今晚就到这儿吧。",
+  "scene": "社交",
+  "tag": "结束"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -10315,6 +10341,108 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "问路去地铁站",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "路人甲",
+    "en": "Excuse me, could you tell me how to get to the subway station?",
+    "zh": "打扰一下，您能告诉我怎么去地铁站吗？",
+    "collect": false
+   },
+   {
+    "role": "路人乙",
+    "en": "Sure, go straight for two blocks, then turn left at the bank.",
+    "zh": "当然，直走两个街区，然后在银行那里左转。",
+    "collect": false
+   },
+   {
+    "role": "路人甲",
+    "en": "Is it far from here?",
+    "zh": "离这儿远吗？",
+    "collect": false
+   },
+   {
+    "role": "路人乙",
+    "en": "Not really, about a ten-minute walk.",
+    "zh": "不算远，步行大约十分钟。",
+    "collect": false
+   },
+   {
+    "role": "路人甲",
+    "en": "Thanks a lot. And is there a ticket office there?",
+    "zh": "非常感谢。那里有售票处吗？",
+    "collect": false
+   },
+   {
+    "role": "路人乙",
+    "en": "Yes, you can buy tickets at the entrance.",
+    "zh": "有的，你可以在入口处买票。",
+    "collect": false
+   },
+   {
+    "role": "路人甲",
+    "en": "Great, I appreciate your help.",
+    "zh": "太好了，感谢你的帮助。",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "在商店退换货",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "I'd like to return this sweater, it doesn't fit well.",
+    "zh": "我想退掉这件毛衣，穿着不合身。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "I see. Do you have the receipt with you?",
+    "zh": "我明白了。您带收据了吗？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Yes, here it is. I bought it last week.",
+    "zh": "带了，给你。上周买的。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Alright, but we're only offering store credit for returns without tags.",
+    "zh": "好的，不过对于没有标签的退货，我们只能提供店内消费券。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "I still have the tag, but I'm not sure about the policy.",
+    "zh": "标签还在，不过我不太清楚政策。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Since you have the tag and receipt, we can give you a full refund.",
+    "zh": "既然您有标签和收据，我们可以全额退款。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Perfect, that's much better than I expected.",
+    "zh": "太完美了，这比我预想的要好。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Here's your refund. Sorry for any inconvenience.",
+    "zh": "这是您的退款。抱歉给您带来不便。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -12087,6 +12215,31 @@ var DAILY5_PROMPTS = [
   "zh": "物流仓库里，你请同事帮忙确认一下今天的出货数量。",
   "en": "Hey, can you double-check today's shipment count?",
   "hint": "double-check 强调‘再核实一遍’，shipment count 指出货数量。"
+ },
+ {
+  "zh": "在物流仓库，你发现一批货的标签贴错了，需要向同事指出问题。",
+  "en": "Hey, these labels are on the wrong boxes.",
+  "hint": "用‘Hey’开头让语气更口语化，注意‘on the wrong boxes’表示贴错箱子。"
+ },
+ {
+  "zh": "外贸邮件中，你告诉客户样品已经寄出，并附上追踪单号。",
+  "en": "Your samples are on the way, here's the tracking number.",
+  "hint": "‘on the way’表示在途中，比‘sent’更自然；‘here's’是口语缩略。"
+ },
+ {
+  "zh": "职场会议中，你想提议推迟截止日期，因为任务量太大。",
+  "en": "Can we push the deadline back a bit?",
+  "hint": "‘push back’表示推迟，比‘postpone’更口语；‘a bit’缓和语气。"
+ },
+ {
+  "zh": "留学生活中，室友问你要不要一起点外卖，你表示同意并提议点pizza。",
+  "en": "Sure, let's grab some pizza tonight.",
+  "hint": "‘grab’在口语中表示快速获取食物，比‘order’更随意自然。"
+ },
+ {
+  "zh": "外贸谈判时，对方报价太高，你想委婉表示价格需要再商量。",
+  "en": "That price is a bit steep for us.",
+  "hint": "‘a bit steep’是口语中表示‘太贵’的常用说法，注意用‘for us’表示立场。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -13033,5 +13186,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After a long day at work, I like to cook something simple. Tonight I’m making pasta with garlic and olive oil. I chop some fresh tomatoes and toss them into the pan. The smell of garlic fills the kitchen, and I feel my stress slowly melt away. I boil the noodles and taste the sauce to check the salt. My phone buzzes, but I ignore it for now. I set the table with a small vase of flowers. It’s my little ritual to calm down before eating."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the express train. The platform is always packed, so I know exactly where to stand near the doors. Once I get on, I put on my headphones and listen to a podcast about urban design. It helps me ignore the bumpy ride and the crowded aisle. By the time we reach the central station, I've already planned my whole morning. I grab a quick coffee from the kiosk and walk the last two blocks to my office. The whole routine feels automatic now, but it still makes me feel grounded before the day starts."
+ },
+ {
+  "theme": "下班买菜做饭",
+  "text": "After work I stopped by the market near my apartment because I wanted to make a simple stir-fry. I picked up some fresh bok choy, a pack of mushrooms, and a small piece of pork. The vendor even threw in a few spring onions and a piece of ginger for free. When I got home, I chopped everything quickly while the rice cooker was doing its job. The pan was hot, so I tossed in the garlic and the meat first, then added the greens. Within ten minutes the whole kitchen smelled amazing. I sat down with my plate and felt that quiet satisfaction of turning cheap ingredients into a real dinner."
  }
 ];
