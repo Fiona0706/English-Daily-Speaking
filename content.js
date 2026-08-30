@@ -4782,6 +4782,22 @@ var DAILY5_WORDS = [
   "example": "The traffic jam was really frustrating.",
   "exampleZh": "堵车实在令人沮丧。",
   "pos": "形容词"
+ },
+ {
+  "word": "on sale",
+  "phonetic": "/ɑːn seɪl/",
+  "zh": "打折；特价",
+  "example": "These shoes are on sale this weekend.",
+  "exampleZh": "这双鞋这周末打折。",
+  "pos": "短语动词"
+ },
+ {
+  "word": "comfortable",
+  "phonetic": "/ˈkʌmfərtəbl/",
+  "zh": "舒适的",
+  "example": "This chair is really comfortable for reading.",
+  "exampleZh": "这把椅子坐着看书真的很舒服。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6777,6 +6793,30 @@ var DAILY5_SENTENCES = [
   "zh": "我们需要尽快确认发货日期。",
   "scene": "外贸物流",
   "tag": "物流沟通"
+ },
+ {
+  "en": "I'll pick you up at seven.",
+  "zh": "我七点来接你。",
+  "scene": "生活",
+  "tag": "日常出行"
+ },
+ {
+  "en": "Let's grab a bite sometime.",
+  "zh": "改天一起吃个饭吧。",
+  "scene": "社交",
+  "tag": "邀请"
+ },
+ {
+  "en": "Can you follow up on this?",
+  "zh": "你能跟进一下这件事吗？",
+  "scene": "职场",
+  "tag": "任务协作"
+ },
+ {
+  "en": "I'm running a bit late today.",
+  "zh": "我今天有点迟到了。",
+  "scene": "生活",
+  "tag": "迟到"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -12285,6 +12325,31 @@ var DAILY5_PROMPTS = [
   "zh": "面试后对方让你等通知，你礼貌询问大概时间。",
   "en": "Could you give me a rough timeline for the decision?",
   "hint": "rough timeline 粗略时间表，用于礼貌询问结果日期。"
+ },
+ {
+  "zh": "在物流仓库，你告诉同事这批货需要加班装完。",
+  "en": "We gotta get this shipment loaded before midnight.",
+  "hint": "gotta 是口语中 have got to 的缩略，表示必须"
+ },
+ {
+  "zh": "外贸邮件中，你向客户确认订单已发出并告知预计到货时间。",
+  "en": "Your order shipped out today, ETA Friday.",
+  "hint": "ETA 是 estimated time of arrival 的缩写，常用于物流"
+ },
+ {
+  "zh": "职场会议中，你提议先把问题列出来再讨论解决方案。",
+  "en": "Let's list the issues first, then we can brainstorm solutions.",
+  "hint": "brainstorm 作动词表示头脑风暴，非正式而常用"
+ },
+ {
+  "zh": "留学生活中，室友问你周末要不要一起去超市采购，你表示同意。",
+  "en": "Sounds good, let's hit the grocery store Saturday morning.",
+  "hint": "hit 口语中表示去某个地方，hit the store 很地道"
+ },
+ {
+  "zh": "外贸谈价格时，你表示价格已经最低，无法再让步。",
+  "en": "That's our best price, we can't go any lower.",
+  "hint": "best price 指最低价，go lower 表示再降低"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -13247,5 +13312,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做晚饭",
   "text": "After work, I stopped by the grocery store to grab some fresh vegetables and chicken. I decided to make a simple stir-fry with garlic and soy sauce. First, I chopped the onions and peppers, then heated the pan with oil. The sizzling sound always makes me feel relaxed. I added the chicken and stirred it for a few minutes. When the sauce started bubbling, I turned down the heat. I tasted it and added a pinch of salt. Finally, I served it over rice, and it was surprisingly good."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to catch the express train. The platform gets really crowded at this hour, so I always stand near the doors. Once on board, I put on my headphones and listen to a podcast about technology. It helps me wake up and stay informed at the same time. The ride takes about twenty-five minutes, and I often see the same people in my carriage. Sometimes I nod and smile, but we never really talk. By the time we reach the city center, I feel ready to start the day."
+ },
+ {
+  "theme": "下班后做晚饭",
+  "text": "After work, I stop by the grocery store to grab some fresh vegetables and chicken. Tonight I'm making a simple stir-fry with garlic and ginger. I chop everything quickly while the pan heats up with a little oil. Then I toss in the chicken first until it turns golden, and add the vegetables after. It only takes about fifteen minutes from start to finish. The best part is tasting it right from the pan to check the seasoning. I usually set the table and call my roommate to eat while it's still hot."
  }
 ];
