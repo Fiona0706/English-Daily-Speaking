@@ -4798,6 +4798,14 @@ var DAILY5_WORDS = [
   "example": "This chair is really comfortable for reading.",
   "exampleZh": "这把椅子坐着看书真的很舒服。",
   "pos": "形容词"
+ },
+ {
+  "word": "break even",
+  "phonetic": "/breɪk ˈiːvn/",
+  "zh": "收支平衡",
+  "example": "The small business finally broke even this month.",
+  "exampleZh": "这家小企业这个月终于收支平衡了。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6817,6 +6825,36 @@ var DAILY5_SENTENCES = [
   "zh": "我今天有点迟到了。",
   "scene": "生活",
   "tag": "迟到"
+ },
+ {
+  "en": "Could you send that over by EOD?",
+  "zh": "你能在今天结束前把那个发过来吗？",
+  "scene": "职场",
+  "tag": "办公沟通"
+ },
+ {
+  "en": "Catch you later, let's grab lunch sometime.",
+  "zh": "回头见，改天一起吃个午饭吧。",
+  "scene": "社交",
+  "tag": "轻松告别"
+ },
+ {
+  "en": "The shipment is stuck at customs, we need to sort it out.",
+  "zh": "货卡在海关了，我们得解决一下。",
+  "scene": "外贸物流",
+  "tag": "出货问题"
+ },
+ {
+  "en": "I'm just running to the store, need anything?",
+  "zh": "我正要去趟商店，需要带什么吗？",
+  "scene": "生活",
+  "tag": "日常出行"
+ },
+ {
+  "en": "Can you double-check the invoice before we send it?",
+  "zh": "你能在我们发出发票前再核对一下吗？",
+  "scene": "外贸物流",
+  "tag": "文件核对"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -12350,6 +12388,26 @@ var DAILY5_PROMPTS = [
   "zh": "外贸谈价格时，你表示价格已经最低，无法再让步。",
   "en": "That's our best price, we can't go any lower.",
   "hint": "best price 指最低价，go lower 表示再降低"
+ },
+ {
+  "zh": "在跟海外客户视频会议时，对方说价格太高，你希望他给出一个他能接受的目标价。",
+  "en": "What price range are you looking at?",
+  "hint": "用 \"What...are you looking at\" 询问对方心理价位，比直接说 \"How much\" 更委婉专业。"
+ },
+ {
+  "zh": "物流延迟了，你向供应商催货，但希望保持礼貌并说明紧急程度。",
+  "en": "We really need this shipment to land by Friday.",
+  "hint": "\"need...to land by\" 强调截止日期，比 \"must arrive\" 更口语且自然，\"land\" 指货物到港。"
+ },
+ {
+  "zh": "在职场中，你希望同事帮忙复查一份合同，但不想显得太指使。",
+  "en": "Could you take a quick look at this contract for me?",
+  "hint": "\"take a quick look at\" 比 \"review\" 更轻量自然，用 \"Could you\" 表示请求而非命令。"
+ },
+ {
+  "zh": "跟国外客户谈合作协议时，你希望确认对方是否有最终决定权。",
+  "en": "Are you the one who has the final say on this?",
+  "hint": "\"have the final say\" 表示最终决定权，是商务口语高频表达，比 \"make the final decision\" 更简洁。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -13320,5 +13378,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做晚饭",
   "text": "After work, I stop by the grocery store to grab some fresh vegetables and chicken. Tonight I'm making a simple stir-fry with garlic and ginger. I chop everything quickly while the pan heats up with a little oil. Then I toss in the chicken first until it turns golden, and add the vegetables after. It only takes about fifteen minutes from start to finish. The best part is tasting it right from the pan to check the seasoning. I usually set the table and call my roommate to eat while it's still hot."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I always grab a coffee from the corner shop before I catch the train. The platform gets really crowded around eight, so I try to stand near the doors. Today I saw a woman reading a book and smiling to herself, which made me wonder what she was enjoying. The train was a bit late, but I didn't mind because I had my headphones on. I listened to a podcast about city history, and the time just flew by. When I finally got to my stop, I felt ready to start the day, even though the weather was drizzling."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After work, I stopped by the market to pick up some fresh basil and tomatoes. I decided to make a simple pasta, since I was too tired for anything complicated. I boiled the water while I chopped the garlic and onions, and the smell filled the kitchen. I added a splash of olive oil and tossed in the veggies, letting them sizzle for a few minutes. Then I mixed in the tomato sauce and let it simmer slowly, just like my grandmother used to do. When the pasta was ready, I sat down with a big plate and watched the evening news. It was the calmest part of my day."
  }
 ];
