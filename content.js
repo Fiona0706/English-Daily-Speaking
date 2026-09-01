@@ -4806,6 +4806,14 @@ var DAILY5_WORDS = [
   "example": "The small business finally broke even this month.",
   "exampleZh": "这家小企业这个月终于收支平衡了。",
   "pos": "习语"
+ },
+ {
+  "word": "take a break",
+  "phonetic": "/teɪk ə breɪk/",
+  "zh": "休息一下",
+  "example": "You should take a break from work soon.",
+  "exampleZh": "你应该很快从工作中休息一下。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6855,6 +6863,30 @@ var DAILY5_SENTENCES = [
   "zh": "你能在我们发出发票前再核对一下吗？",
   "scene": "外贸物流",
   "tag": "文件核对"
+ },
+ {
+  "en": "I'm running late, grab a seat first.",
+  "zh": "我快迟到了，你先找个座位坐吧。",
+  "scene": "生活",
+  "tag": "日常"
+ },
+ {
+  "en": "The shipment left the port this morning.",
+  "zh": "货物今天早上已经离港了。",
+  "scene": "外贸物流",
+  "tag": "物流"
+ },
+ {
+  "en": "Could you double-check this invoice for me?",
+  "zh": "你能帮我再核对一下这份发票吗？",
+  "scene": "职场",
+  "tag": "办公"
+ },
+ {
+  "en": "I'm all in for the team lunch tomorrow.",
+  "zh": "明天的团队午餐我完全参加。",
+  "scene": "职场",
+  "tag": "团队"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -12408,6 +12440,31 @@ var DAILY5_PROMPTS = [
   "zh": "跟国外客户谈合作协议时，你希望确认对方是否有最终决定权。",
   "en": "Are you the one who has the final say on this?",
   "hint": "\"have the final say\" 表示最终决定权，是商务口语高频表达，比 \"make the final decision\" 更简洁。"
+ },
+ {
+  "zh": "在机场接客户时，对方航班延误了，你向客户表示理解。",
+  "en": "I totally get it, these delays happen all the time.",
+  "hint": "用 get 表示‘理解’，happen all the time 表示‘常有的事’。"
+ },
+ {
+  "zh": "在会议上，你提出需要更多时间来准备报价单。",
+  "en": "I need a couple more days to finalize the quote.",
+  "hint": "a couple more days 表示‘再多几天’，finalize 表示‘敲定/完成’。"
+ },
+ {
+  "zh": "在仓库清点货物时，发现数量与订单不符，你向同事确认。",
+  "en": "The count doesn't match what's on the order, can you double-check?",
+  "hint": "count 作名词表示‘数量’，double-check 表示‘复核’。"
+ },
+ {
+  "zh": "留学期间，室友问你下周有没有空一起做饭，你婉拒并说明原因。",
+  "en": "I'm swamped with assignments this week, maybe next time though.",
+  "hint": "be swamped with 表示‘忙得不可开交’，maybe next time 委婉拒绝。"
+ },
+ {
+  "zh": "在邮件中催促海外供应商尽快发货，语气礼貌但明确。",
+  "en": "Could you please ship the goods by Friday at the latest?",
+  "hint": "at the latest 表示‘最迟’，用 Could you please 保持礼貌。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -13386,5 +13443,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After work, I stopped by the market to pick up some fresh basil and tomatoes. I decided to make a simple pasta, since I was too tired for anything complicated. I boiled the water while I chopped the garlic and onions, and the smell filled the kitchen. I added a splash of olive oil and tossed in the veggies, letting them sizzle for a few minutes. Then I mixed in the tomato sauce and let it simmer slowly, just like my grandmother used to do. When the pasta was ready, I sat down with a big plate and watched the evening news. It was the calmest part of my day."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually grab a coffee at the corner shop before I catch the train. The morning rush is always crazy, so I have to squeeze through the crowd to get to the platform. Once I'm on board, I find a spot near the door and put on my headphones. I like to listen to a podcast to make the ride feel shorter. Sometimes I see the same commuters, and we just nod at each other. By the time I reach my stop, I feel ready to start the day."
+ },
+ {
+  "theme": "周末做饭",
+  "text": "On Saturday morning, I decided to make pancakes from scratch. I pulled out the flour, eggs, and milk, then mixed everything in a big bowl. The batter looked a bit lumpy, so I whisked it until it was smooth. I heated the pan and poured in the first scoop, watching it bubble and turn golden. Flipping them was tricky, but I managed not to drop any. I stacked them high and added fresh berries and syrup. It was a simple but satisfying breakfast, and the whole kitchen smelled amazing."
  }
 ];
