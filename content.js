@@ -4814,6 +4814,22 @@ var DAILY5_WORDS = [
   "example": "You should take a break from work soon.",
   "exampleZh": "你应该很快从工作中休息一下。",
   "pos": "习语"
+ },
+ {
+  "word": "avoid",
+  "phonetic": "/əˈvɔɪd/",
+  "zh": "避免",
+  "example": "Try to avoid heavy traffic during rush hour.",
+  "exampleZh": "尽量避开高峰时段的拥堵交通。",
+  "pos": "动词"
+ },
+ {
+  "word": "maybe",
+  "phonetic": "/ˈmeɪbi/",
+  "zh": "也许",
+  "example": "Maybe we can meet for coffee tomorrow.",
+  "exampleZh": "也许我们明天可以见面喝咖啡。",
+  "pos": "副词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6887,6 +6903,18 @@ var DAILY5_SENTENCES = [
   "zh": "明天的团队午餐我完全参加。",
   "scene": "职场",
   "tag": "团队"
+ },
+ {
+  "en": "Let's catch up over lunch tomorrow.",
+  "zh": "咱们明天午饭时聚聚聊聊。",
+  "scene": "社交",
+  "tag": "邀约"
+ },
+ {
+  "en": "I'm swamped, can we push the meeting?",
+  "zh": "我忙得不可开交，咱们能把会议推迟吗？",
+  "scene": "职场",
+  "tag": "日程"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -10573,6 +10601,42 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "向同事请假",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "员工",
+    "en": "Hey, I need to take a personal day tomorrow. My daughter's school called—she's running a high fever.",
+    "zh": "嘿，我明天需要请一天事假。我女儿学校打电话来了——她正在发高烧。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "I'm sorry to hear that. Of course, family comes first. Have you arranged coverage for your pending tasks?",
+    "zh": "听到这个消息很难过。当然，家庭优先。你安排好待办任务的交接了吗？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "I've already forwarded the key documents to Sarah, and I'll update the project tracker tonight. The morning stand-up is covered by the team.",
+    "zh": "我已经把关键文件转发给Sarah了，今晚会更新项目追踪表。晨会由团队负责。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Great, sounds proactive. Just remember to log it in the HR system, and take all the time you need—don't rush back.",
+    "zh": "很好，听起来很主动。记得在人事系统里登记，需要多少时间都行，别急着回来。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Thanks for understanding. I'll keep you posted on her condition.",
+    "zh": "谢谢理解。我会随时告诉你她的情况。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -12465,6 +12529,16 @@ var DAILY5_PROMPTS = [
   "zh": "在邮件中催促海外供应商尽快发货，语气礼貌但明确。",
   "en": "Could you please ship the goods by Friday at the latest?",
   "hint": "at the latest 表示‘最迟’，用 Could you please 保持礼貌。"
+ },
+ {
+  "zh": "在物流仓库，你发现一批货的标签贴错了，需要提醒同事重新核对。",
+  "en": "Hey, these labels are mismatched—let's double-check the batch before shipping.",
+  "hint": "用'recheck'或'double-check'表示重新核对，'batch'指一批货。"
+ },
+ {
+  "zh": "留学小组讨论时，你不太同意对方的方案，想委婉提出另一个思路。",
+  "en": "That could work, but what if we approached it from a different angle?",
+  "hint": "'could work'表让步，'what if we...'用于提出替代方案。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -13451,5 +13525,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "周末做饭",
   "text": "On Saturday morning, I decided to make pancakes from scratch. I pulled out the flour, eggs, and milk, then mixed everything in a big bowl. The batter looked a bit lumpy, so I whisked it until it was smooth. I heated the pan and poured in the first scoop, watching it bubble and turn golden. Flipping them was tricky, but I managed not to drop any. I stacked them high and added fresh berries and syrup. It was a simple but satisfying breakfast, and the whole kitchen smelled amazing."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I rush out of the apartment with my travel mug full of coffee. The subway platform is packed, so I squeeze near the door and scroll through my phone. A woman next to me is practicing her presentation out loud, and I half-listen while checking my own emails. The train jerks forward, and someone nearly spills their breakfast. I find a spot near the window and watch the city blur by. By the time we reach my stop, I've already planned my afternoon meeting. It's chaotic, but it's my usual start to the day."
+ },
+ {
+  "theme": "周末做饭",
+  "text": "Saturday morning, I finally have time to make a proper breakfast. I chop some onions and garlic, then toss them into a hot pan with olive oil. The smell fills the kitchen, and I crack two eggs into a bowl. I add a pinch of salt and some pepper, then whisk them quickly. While the eggs cook, I toast a slice of sourdough bread. I plate everything and sit by the open window. The coffee brews as I take my first bite. It's simple, but it feels like a small luxury."
  }
 ];
