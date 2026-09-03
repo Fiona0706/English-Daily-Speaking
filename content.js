@@ -4830,6 +4830,22 @@ var DAILY5_WORDS = [
   "example": "Maybe we can meet for coffee tomorrow.",
   "exampleZh": "也许我们明天可以见面喝咖啡。",
   "pos": "副词"
+ },
+ {
+  "word": "postpone",
+  "phonetic": "/poʊstˈpoʊn/",
+  "zh": "推迟",
+  "example": "They decided to postpone the meeting until Friday.",
+  "exampleZh": "他们决定把会议推迟到周五。",
+  "pos": "动词"
+ },
+ {
+  "word": "out of stock",
+  "phonetic": "/aʊt əv stɑːk/",
+  "zh": "缺货",
+  "example": "Sorry, this item is out of stock today.",
+  "exampleZh": "抱歉，这个商品今天缺货。",
+  "pos": "短语动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6915,6 +6931,30 @@ var DAILY5_SENTENCES = [
   "zh": "我忙得不可开交，咱们能把会议推迟吗？",
   "scene": "职场",
   "tag": "日程"
+ },
+ {
+  "en": "Can I get a refill on my coffee?",
+  "zh": "我能续杯咖啡吗？",
+  "scene": "生活",
+  "tag": "餐厅"
+ },
+ {
+  "en": "What's the wifi password here?",
+  "zh": "这里的WiFi密码是什么？",
+  "scene": "生活",
+  "tag": "咖啡店"
+ },
+ {
+  "en": "Could you double-check the packing list?",
+  "zh": "你能再核对一下装箱单吗？",
+  "scene": "外贸物流",
+  "tag": "检查"
+ },
+ {
+  "en": "I'll follow up with you by email.",
+  "zh": "我会通过邮件跟进你。",
+  "scene": "职场",
+  "tag": "跟进"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -10637,6 +10677,48 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "在咖啡馆点餐",
+  "level": "初级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "Hi, I'd like a coffee, please.",
+    "zh": "你好，我想要一杯咖啡。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Sure, what size would you like?",
+    "zh": "好的，您想要什么尺寸的？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Small, please. How much is it?",
+    "zh": "请给我小杯。多少钱？",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "That's three dollars.",
+    "zh": "三美元。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Here you go.",
+    "zh": "给你。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Thank you, have a nice day.",
+    "zh": "谢谢，祝您愉快。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -12539,6 +12621,31 @@ var DAILY5_PROMPTS = [
   "zh": "留学小组讨论时，你不太同意对方的方案，想委婉提出另一个思路。",
   "en": "That could work, but what if we approached it from a different angle?",
   "hint": "'could work'表让步，'what if we...'用于提出替代方案。"
+ },
+ {
+  "zh": "你给国外客户发邮件，询问他们是否收到上一批样品。",
+  "en": "Just checking in—did you get the samples we sent?",
+  "hint": "用“Just checking in”表示轻松跟进，避免直接问显得生硬。"
+ },
+ {
+  "zh": "物流公司通知你，由于港口拥堵，货运延误两天。",
+  "en": "The port is backed up, so your shipment will run two days late.",
+  "hint": "“backed up”是堵车/拥堵的口语说法，“run late”比“be delayed”更自然。"
+ },
+ {
+  "zh": "在职场会议上，你提议大家先头脑风暴再定方案。",
+  "en": "Let's throw out some ideas first, then narrow it down.",
+  "hint": "“throw out ideas”表示随口提出想法，“narrow it down”表示缩小范围。"
+ },
+ {
+  "zh": "留学生活中，室友问你周末要不要一起去超市采购。",
+  "en": "Wanna hit the supermarket together this weekend?",
+  "hint": "“hit”在口语中表示“去某个地方”，比如“hit the gym/store”，很地道。"
+ },
+ {
+  "zh": "你给供应商打电话，催问订单的预计出货日期。",
+  "en": "When's the earliest you can get this order out?",
+  "hint": "“get out”在此处指“出货、发出”，比“ship”更口语化。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -13533,5 +13640,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "周末做饭",
   "text": "Saturday morning, I finally have time to make a proper breakfast. I chop some onions and garlic, then toss them into a hot pan with olive oil. The smell fills the kitchen, and I crack two eggs into a bowl. I add a pinch of salt and some pepper, then whisk them quickly. While the eggs cook, I toast a slice of sourdough bread. I plate everything and sit by the open window. The coffee brews as I take my first bite. It's simple, but it feels like a small luxury."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the express train. The platform is crowded, but I found a spot near the doors. Once the train starts moving, I put on my headphones and listen to a podcast. It helps me wake up and plan my day. Today I noticed a new coffee shop right next to the station exit. I made a mental note to try their latte tomorrow. The ride takes about twenty minutes, and I always get off at the same stop. It’s a small routine, but it sets the tone for the whole day."
+ },
+ {
+  "theme": "准备晚餐",
+  "text": "When I got home from work, I opened the fridge to see what I could cook. There were some chicken thighs, a red pepper, and half an onion. I decided to make a simple stir-fry with rice. First, I chopped the vegetables and sliced the chicken into thin pieces. Then I heated the pan and added a little oil. Everything sizzled nicely when I tossed it in. I seasoned it with soy sauce and a pinch of chili flakes. In less than fifteen minutes, dinner was ready. It felt good to eat something homemade without much effort."
  }
 ];
