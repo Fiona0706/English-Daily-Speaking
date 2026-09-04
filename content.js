@@ -4846,6 +4846,30 @@ var DAILY5_WORDS = [
   "example": "Sorry, this item is out of stock today.",
   "exampleZh": "抱歉，这个商品今天缺货。",
   "pos": "短语动词"
+ },
+ {
+  "word": "stove",
+  "phonetic": "/stoʊv/",
+  "zh": "炉子，灶台",
+  "example": "She is cooking pasta on the stove.",
+  "exampleZh": "她正在炉子上煮意大利面。",
+  "pos": "名词"
+ },
+ {
+  "word": "rush",
+  "phonetic": "/rʌʃ/",
+  "zh": "匆忙，赶紧",
+  "example": "We missed the bus because we were in a rush.",
+  "exampleZh": "我们因为太匆忙而错过了公交车。",
+  "pos": "名词"
+ },
+ {
+  "word": "productivity",
+  "phonetic": "/ˌproʊdʌkˈtɪvəti/",
+  "zh": "生产力，工作效率",
+  "example": "Good sleep improves your productivity at work.",
+  "exampleZh": "良好的睡眠能提高你的工作效率。",
+  "pos": "名词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6955,6 +6979,24 @@ var DAILY5_SENTENCES = [
   "zh": "我会通过邮件跟进你。",
   "scene": "职场",
   "tag": "跟进"
+ },
+ {
+  "en": "Wanna hang out this weekend?",
+  "zh": "这周末想一起玩吗？",
+  "scene": "社交",
+  "tag": "邀约"
+ },
+ {
+  "en": "We'll ship the goods by Friday.",
+  "zh": "我们周五前发货。",
+  "scene": "外贸物流",
+  "tag": "货物"
+ },
+ {
+  "en": "I'm running late, sorry!",
+  "zh": "我要迟到了，抱歉！",
+  "scene": "生活",
+  "tag": "时间"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -12646,6 +12688,31 @@ var DAILY5_PROMPTS = [
   "zh": "你给供应商打电话，催问订单的预计出货日期。",
   "en": "When's the earliest you can get this order out?",
   "hint": "“get out”在此处指“出货、发出”，比“ship”更口语化。"
+ },
+ {
+  "zh": "在给国外客户回复邮件时，你确认收到对方的报价单，并会尽快审阅。",
+  "en": "Got your quote, I'll go over it soon.",
+  "hint": "'go over' 表示仔细查看，口语中常用 'Got it' 或 'Got your...' 代替 'I have received'。"
+ },
+ {
+  "zh": "物流仓库里，你发现一批货物标签贴错了，需要立刻和同事沟通纠正。",
+  "en": "These labels are off, we need to redo them now.",
+  "hint": "'off' 在这里表示‘错误的’，'redo' 是‘重做’，紧急时用 'now' 强调即时性。"
+ },
+ {
+  "zh": "留学生活中，你的室友忘了洗碗，你想委婉提醒他注意卫生。",
+  "en": "Could you clean up the dishes when you get a sec?",
+  "hint": "'get a sec' 是 'have a second' 的口语缩写，表示‘有空时’，用 'could you' 显得礼貌。"
+ },
+ {
+  "zh": "外贸谈判中，对方压价太低，你用委婉但坚定的语气表示无法接受。",
+  "en": "That price won't work for us, but thanks anyway.",
+  "hint": "'won't work' 是地道表达，表示‘行不通’，加上 'but thanks anyway' 缓和语气。"
+ },
+ {
+  "zh": "职场中，同事请你帮忙赶项目，但你已经超负荷，需要婉拒并说明原因。",
+  "en": "I've got too much on my plate right now.",
+  "hint": "'have a lot on one's plate' 表示手头任务多，是职场常用比喻，'right now' 强调当前。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -13648,5 +13715,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "准备晚餐",
   "text": "When I got home from work, I opened the fridge to see what I could cook. There were some chicken thighs, a red pepper, and half an onion. I decided to make a simple stir-fry with rice. First, I chopped the vegetables and sliced the chicken into thin pieces. Then I heated the pan and added a little oil. Everything sizzled nicely when I tossed it in. I seasoned it with soy sauce and a pinch of chili flakes. In less than fifteen minutes, dinner was ready. It felt good to eat something homemade without much effort."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "The alarm goes off at six thirty, and I hit snooze at least twice before I actually get up. I rush through my morning routine, grab a quick coffee, and head out the door. The subway is packed as usual, so I squeeze into a corner and put on my headphones. I listen to a podcast to make the commute feel shorter. By the time I reach my stop, I feel ready to face the day, even though I am still a little tired."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I get home from work around seven and start making dinner. Tonight, I am trying a new pasta recipe with garlic, olive oil, and some cherry tomatoes. I chop the vegetables and toss them into the hot pan, and the smell fills the kitchen. While the pasta boils, I set the table and pour myself a glass of water. Everything comes together in about twenty minutes, and I sit down to enjoy a simple, satisfying meal."
  }
 ];
