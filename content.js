@@ -4870,6 +4870,14 @@ var DAILY5_WORDS = [
   "example": "Good sleep improves your productivity at work.",
   "exampleZh": "良好的睡眠能提高你的工作效率。",
   "pos": "名词"
+ },
+ {
+  "word": "swamped",
+  "phonetic": "/swɑːmpt/",
+  "zh": "忙得不可开交",
+  "example": "I'm totally swamped with work this week.",
+  "exampleZh": "这周我工作忙得不可开交。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -6997,6 +7005,12 @@ var DAILY5_SENTENCES = [
   "zh": "我要迟到了，抱歉！",
   "scene": "生活",
   "tag": "时间"
+ },
+ {
+  "en": "Could you loop me in on that email thread?",
+  "zh": "你能把我加进那封邮件讨论里吗？",
+  "scene": "职场",
+  "tag": "沟通"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -10761,6 +10775,108 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "咖啡厅点单",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "A",
+    "en": "Hi, can I get a medium latte with oat milk?",
+    "zh": "嗨，我能来一杯中杯燕麦奶拿铁吗？",
+    "collect": false
+   },
+   {
+    "role": "B",
+    "en": "Sure, would you like it hot or iced?",
+    "zh": "好的，您要热的还是冰的？",
+    "collect": false
+   },
+   {
+    "role": "A",
+    "en": "Iced, please. And can I add a shot of vanilla syrup?",
+    "zh": "冰的吧。我可以加一份香草糖浆吗？",
+    "collect": false
+   },
+   {
+    "role": "B",
+    "en": "Of course, that'll be an extra fifty cents.",
+    "zh": "当然，需要额外加50美分。",
+    "collect": false
+   },
+   {
+    "role": "A",
+    "en": "No problem. Also, could you make it less sweet?",
+    "zh": "没问题。另外，能做得不那么甜吗？",
+    "collect": false
+   },
+   {
+    "role": "B",
+    "en": "Absolutely, I'll use half the syrup then. Anything else?",
+    "zh": "完全可以，那我用一半的糖浆。还需要别的吗？",
+    "collect": false
+   },
+   {
+    "role": "A",
+    "en": "That's all, thanks.",
+    "zh": "就这些，谢谢。",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "退货退款",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "A",
+    "en": "I'd like to return this jacket I bought last week—it has a broken zipper.",
+    "zh": "我想退掉上周买的这件夹克——拉链坏了。",
+    "collect": false
+   },
+   {
+    "role": "B",
+    "en": "I'm sorry to hear that. Do you have the receipt with you?",
+    "zh": "很抱歉听到这个。您带收据了吗？",
+    "collect": false
+   },
+   {
+    "role": "A",
+    "en": "Yes, here it is. I was hoping for a full refund rather than an exchange.",
+    "zh": "带了，给您。我希望全额退款而不是换货。",
+    "collect": false
+   },
+   {
+    "role": "B",
+    "en": "I understand, but since it's past the 14-day return window, I can only offer store credit.",
+    "zh": "我理解，但已经过了14天退换期，我只能提供店内代金券。",
+    "collect": false
+   },
+   {
+    "role": "A",
+    "en": "That's disappointing—the zipper was defective from the start, so it's not really my fault.",
+    "zh": "这令人失望——拉链一开始就有问题，所以这真不是我的错。",
+    "collect": false
+   },
+   {
+    "role": "B",
+    "en": "You're right, and I apologize for the inconvenience. Let me check with my manager if we can make an exception.",
+    "zh": "您说得对，我为不便道歉。让我和经理确认一下能否破例。",
+    "collect": false
+   },
+   {
+    "role": "A",
+    "en": "I appreciate that. I'd really prefer cash back to store credit.",
+    "zh": "谢谢。我确实更想要现金退款而不是代金券。",
+    "collect": false
+   },
+   {
+    "role": "B",
+    "en": "Okay, my manager approved the refund. Please give me a moment to process it.",
+    "zh": "好的，经理批准了退款。请稍等，我来处理。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -12713,6 +12829,31 @@ var DAILY5_PROMPTS = [
   "zh": "职场中，同事请你帮忙赶项目，但你已经超负荷，需要婉拒并说明原因。",
   "en": "I've got too much on my plate right now.",
   "hint": "'have a lot on one's plate' 表示手头任务多，是职场常用比喻，'right now' 强调当前。"
+ },
+ {
+  "zh": "你在外贸邮件中向客户确认发货时间，表达会按时发出。",
+  "en": "We'll get it shipped out on time, no worries.",
+  "hint": "使用'll get it shipped out表示‘会安排发出’，no worries让语气更轻松自然。"
+ },
+ {
+  "zh": "物流仓库同事提醒你，货物因天气原因会延迟一天。",
+  "en": "The shipment's gonna be a day late due to weather.",
+  "hint": "gonna是口语缩写，a day late表示‘晚一天’，due to引出原因。"
+ },
+ {
+  "zh": "在职场会议中，你提出需要更多资料才能做决定。",
+  "en": "I need a bit more info before I can decide.",
+  "hint": "a bit more info中的info是information的口语说法，before I can decide表达先决条件。"
+ },
+ {
+  "zh": "留学生和室友讨论晚上一起做饭，你提议做意面。",
+  "en": "How about we make some pasta for dinner?",
+  "hint": "How about...?是提议的常用句型，make pasta中make指‘做（饭）’。"
+ },
+ {
+  "zh": "外贸谈判中，你回应对方的价格要求，表示可以小幅让步。",
+  "en": "We can wiggle a little on the price.",
+  "hint": "wiggle on...指在价格上‘松动、让步’，a little表示幅度小。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -13723,5 +13864,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I get home from work around seven and start making dinner. Tonight, I am trying a new pasta recipe with garlic, olive oil, and some cherry tomatoes. I chop the vegetables and toss them into the hot pan, and the smell fills the kitchen. While the pasta boils, I set the table and pour myself a glass of water. Everything comes together in about twenty minutes, and I sit down to enjoy a simple, satisfying meal."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house at seven thirty, right after a quick cup of coffee. The subway is always packed at this hour, so I try to squeeze near the door. Today, I saw a woman reading a book while standing, which impressed me. I put on my headphones and listened to a podcast about city planning. The train rattled along the tracks, and I felt the rhythm of the morning rush. By the time I reached my stop, the sun was fully up. I walked the last block to the office, breathing in the crisp air. It's a small routine, but it sets the tone for my whole day."
+ },
+ {
+  "theme": "下班做饭",
+  "text": "After a long day at work, I finally got home around six. I opened the fridge and saw some eggs, spinach, and a half onion. So I decided to make a simple omelet with a side salad. I cracked the eggs into a bowl and whisked them with a pinch of salt. The pan sizzled as I poured in the mixture, and the smell filled the kitchen. While it cooked, I chopped the spinach and tossed it with olive oil and lemon. I sat down at the small table and took a slow bite, feeling the stress melt away. Cooking like this always helps me unwind, even on the busiest evenings."
  }
 ];
