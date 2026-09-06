@@ -4878,6 +4878,38 @@ var DAILY5_WORDS = [
   "example": "I'm totally swamped with work this week.",
   "exampleZh": "这周我工作忙得不可开交。",
   "pos": "形容词"
+ },
+ {
+  "word": "refill",
+  "phonetic": "/ˌriːˈfɪl/",
+  "zh": "重新装满，续杯",
+  "example": "Can I get a refill of my coffee please?",
+  "exampleZh": "请问我的咖啡可以续杯吗？",
+  "pos": "动词"
+ },
+ {
+  "word": "chores",
+  "phonetic": "/tʃɔːrz/",
+  "zh": "家务杂事",
+  "example": "We split the household chores every weekend.",
+  "exampleZh": "我们每个周末分担家务活。",
+  "pos": "名词"
+ },
+ {
+  "word": "hurry up",
+  "phonetic": "/ˈhɜːri ʌp/",
+  "zh": "赶快",
+  "example": "Hurry up, or we'll miss the bus.",
+  "exampleZh": "快点，不然我们会错过公交车。",
+  "pos": "短语动词"
+ },
+ {
+  "word": "eager",
+  "phonetic": "/ˈiːɡər/",
+  "zh": "渴望的，热切的",
+  "example": "The children were eager to open their gifts.",
+  "exampleZh": "孩子们急切地想打开他们的礼物。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7011,6 +7043,30 @@ var DAILY5_SENTENCES = [
   "zh": "你能把我加进那封邮件讨论里吗？",
   "scene": "职场",
   "tag": "沟通"
+ },
+ {
+  "en": "Wanna grab a coffee later?",
+  "zh": "待会儿要一起去喝杯咖啡吗？",
+  "scene": "社交",
+  "tag": "邀约"
+ },
+ {
+  "en": "I'll circle back with you on this.",
+  "zh": "我之后会再回来跟你谈这件事的。",
+  "scene": "职场",
+  "tag": "会议跟进"
+ },
+ {
+  "en": "Make sure to double-check the packing list.",
+  "zh": "务必再核对一下装箱单。",
+  "scene": "外贸物流",
+  "tag": "操作提醒"
+ },
+ {
+  "en": "Let's hang out this weekend if you're free.",
+  "zh": "如果你有空，这周末咱们聚聚吧。",
+  "scene": "生活",
+  "tag": "休闲计划"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -12854,6 +12910,31 @@ var DAILY5_PROMPTS = [
   "zh": "外贸谈判中，你回应对方的价格要求，表示可以小幅让步。",
   "en": "We can wiggle a little on the price.",
   "hint": "wiggle on...指在价格上‘松动、让步’，a little表示幅度小。"
+ },
+ {
+  "zh": "你在外贸邮件中催促客户确认订单细节，希望对方尽快回复。",
+  "en": "Could you please confirm the order details at your earliest convenience?",
+  "hint": "at your earliest convenience 是商务邮件中常用的礼貌表达，意为'尽快'，比 as soon as possible 更正式。"
+ },
+ {
+  "zh": "物流仓库里，你告诉同事某批货物已经装车，准备发往港口。",
+  "en": "The shipment is loaded and ready to go to the port.",
+  "hint": "be loaded 表示'已装货'，be ready to go 是口语化的'准备就绪'，比 formal 的 be prepared to depart 更自然。"
+ },
+ {
+  "zh": "职场会议中，你表示自己正在跟进一个客户投诉，并会尽快汇报进展。",
+  "en": "I'm on it and I'll get back to you shortly.",
+  "hint": "I'm on it 是非常地道的口语化表达，意为'我正在处理'；get back to you 表示'回头再答复你'。"
+ },
+ {
+  "zh": "留学生活中，你在宿舍厨房看到室友做了菜，夸赞并询问是否可以尝一口。",
+  "en": "That smells amazing, mind if I grab a bite?",
+  "hint": "mind if... 是礼貌的请求句型，grab a bite 是'随便吃点东西'的口语说法，比 eat a little 更自然。"
+ },
+ {
+  "zh": "外贸谈判中，你告诉对方价格已经是最低，无法再让步了。",
+  "en": "That's our bottom line, there's no room for negotiation.",
+  "hint": "bottom line 意为'底线'，be no room for 表示'没有余地'，常用于商务拒绝还价。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -13872,5 +13953,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班做饭",
   "text": "After a long day at work, I finally got home around six. I opened the fridge and saw some eggs, spinach, and a half onion. So I decided to make a simple omelet with a side salad. I cracked the eggs into a bowl and whisked them with a pinch of salt. The pan sizzled as I poured in the mixture, and the smell filled the kitchen. While it cooked, I chopped the spinach and tossed it with olive oil and lemon. I sat down at the small table and took a slow bite, feeling the stress melt away. Cooking like this always helps me unwind, even on the busiest evenings."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave my apartment around seven thirty to catch the subway. The platform gets really crowded, so I always stand near the door to squeeze in first. Once I'm on the train, I put on my headphones and listen to a podcast. It helps me wake up and ignore the noisy chatter around me. Today the train was delayed for five minutes, which made me a bit nervous. But I still managed to grab a coffee from the stand near my office. I guess mornings are always a little rushed, but I like the routine."
+ },
+ {
+  "theme": "下班后逛超市",
+  "text": "After work, I stopped by the supermarket to pick up a few things for dinner. I grabbed some chicken, a bag of lettuce, and a bottle of olive oil. Then I remembered we were out of milk, so I walked back to the dairy section. The store was pretty quiet at that hour, which was nice. I checked my list on my phone to make sure I didn't miss anything. At the checkout, the cashier smiled and asked if I found everything okay. I said yes and paid with my card. It felt good to have the whole evening free."
  }
 ];
