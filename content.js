@@ -7067,6 +7067,24 @@ var DAILY5_SENTENCES = [
   "zh": "如果你有空，这周末咱们聚聚吧。",
   "scene": "生活",
   "tag": "休闲计划"
+ },
+ {
+  "en": "I'm totally slammed today.",
+  "zh": "我今天忙得不可开交。",
+  "scene": "职场",
+  "tag": "工作繁忙"
+ },
+ {
+  "en": "Let's grab a bite later.",
+  "zh": "咱们待会儿随便吃点吧。",
+  "scene": "社交",
+  "tag": "约饭"
+ },
+ {
+  "en": "I need to run some errands.",
+  "zh": "我得去办点杂事。",
+  "scene": "生活",
+  "tag": "日常办事"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -10933,6 +10951,54 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "员工请假",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "员工",
+    "en": "Hi, I was hoping to discuss my time-off request for next week.",
+    "zh": "你好，我想商量一下下周请假的事。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Of course, I saw your email. Is it something urgent?",
+    "zh": "当然，我看了你的邮件。是紧急的事吗？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Unfortunately, yes. My father is facing surgery and I need to be there.",
+    "zh": "不幸的是，是的。我父亲需要做手术，我必须去陪他。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "I'm sorry to hear that. We can manage, but let's wrap up your pending tasks.",
+    "zh": "听到这个消息我很难过。我们能处理，但咱们得把手头任务收尾。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Absolutely. I've already delegated the urgent ones, and I'll update the tracker today.",
+    "zh": "当然。我已经把紧急的任务分派了，今天会更新进度表。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Great. Take as much time as you need, and keep me posted on your father's condition.",
+    "zh": "好。需要多久都行，随时告诉我你父亲的情况。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "I truly appreciate your understanding and flexibility.",
+    "zh": "非常感谢你的理解和通融。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -12935,6 +13001,31 @@ var DAILY5_PROMPTS = [
   "zh": "外贸谈判中，你告诉对方价格已经是最低，无法再让步了。",
   "en": "That's our bottom line, there's no room for negotiation.",
   "hint": "bottom line 意为'底线'，be no room for 表示'没有余地'，常用于商务拒绝还价。"
+ },
+ {
+  "zh": "会议中你需要委婉地打断同事，提出一个关键问题。",
+  "en": "Sorry to jump in, but do we have the latest shipping data?",
+  "hint": "用 'Sorry to jump in' 礼貌插话，'shipping data' 指物流发货数据。"
+ },
+ {
+  "zh": "供应商告知你交货会延迟，你需要确认新的预计时间。",
+  "en": "Could you give me a realistic ETA for the restock?",
+  "hint": "'ETA' 是外贸常见缩写（预计到达时间），'realistic' 强调可行性。"
+ },
+ {
+  "zh": "在职场邮件中，你需要提醒同事在截止日前提交报告。",
+  "en": "Just a nudge—the report is due by Friday, okay?",
+  "hint": "'Just a nudge' 是轻松提醒，'due by' 表示截止时间，语气友好。"
+ },
+ {
+  "zh": "留学生活中，你想请室友帮忙带份外卖回来。",
+  "en": "Can you grab me some takeout on your way back?",
+  "hint": "'grab' 口语化表示快速拿取，'on your way back' 强调顺路。"
+ },
+ {
+  "zh": "在物流仓库，你需要确认货物是否已装车完毕。",
+  "en": "Are we all loaded up and ready to roll out?",
+  "hint": "'loaded up' 指装货，'roll out' 是口语中表示出发/发车的说法。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -13961,5 +14052,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后逛超市",
   "text": "After work, I stopped by the supermarket to pick up a few things for dinner. I grabbed some chicken, a bag of lettuce, and a bottle of olive oil. Then I remembered we were out of milk, so I walked back to the dairy section. The store was pretty quiet at that hour, which was nice. I checked my list on my phone to make sure I didn't miss anything. At the checkout, the cashier smiled and asked if I found everything okay. I said yes and paid with my card. It felt good to have the whole evening free."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty. The subway is always packed at this hour, so I try to find a spot near the door. Today I saw a guy reading a book on his phone. It made me think I should listen to more podcasts too. The train rattles past a few stops before I switch lines. I grab a coffee from the cart outside the station. By the time I reach the office, my mind is already planning the day's tasks. It's not the most relaxing start, but it works."
+ },
+ {
+  "theme": "准备晚饭",
+  "text": "I got home a bit late and felt hungry right away. I opened the fridge to see what I could throw together. There were some eggs, a tomato, and leftover rice from yesterday. So I decided to make a quick fried rice. I chopped the tomato and cracked the eggs into a bowl. The pan was hot, so I added a little oil and let everything sizzle. Within ten minutes, dinner was ready on a plate. It wasn't fancy, but it tasted pretty good after a long day."
  }
 ];
