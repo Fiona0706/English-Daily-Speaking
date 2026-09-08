@@ -4910,6 +4910,38 @@ var DAILY5_WORDS = [
   "example": "The children were eager to open their gifts.",
   "exampleZh": "孩子们急切地想打开他们的礼物。",
   "pos": "形容词"
+ },
+ {
+  "word": "appetizer",
+  "phonetic": "/ˈæpɪtaɪzər/",
+  "zh": "开胃菜",
+  "example": "We ordered some spring rolls as an appetizer.",
+  "exampleZh": "我们点了一些春卷作为开胃菜。",
+  "pos": "名词"
+ },
+ {
+  "word": "delighted",
+  "phonetic": "/dɪˈlaɪtɪd/",
+  "zh": "高兴的",
+  "example": "I'm delighted to hear you got the job.",
+  "exampleZh": "听到你得到那份工作我很高兴。",
+  "pos": "形容词"
+ },
+ {
+  "word": "stock up",
+  "phonetic": "/stɑːk ʌp/",
+  "zh": "囤货",
+  "example": "We need to stock up on groceries for the week.",
+  "exampleZh": "我们需要为这一周囤积食品杂货。",
+  "pos": "短语动词"
+ },
+ {
+  "word": "mindset",
+  "phonetic": "/ˈmaɪndset/",
+  "zh": "心态，思维模式",
+  "example": "A positive mindset helps you overcome challenges.",
+  "exampleZh": "积极的心态帮助你克服挑战。",
+  "pos": "名词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7085,6 +7117,24 @@ var DAILY5_SENTENCES = [
   "zh": "我得去办点杂事。",
   "scene": "生活",
   "tag": "日常办事"
+ },
+ {
+  "en": "Could you throw in a discount?",
+  "zh": "能给我打个折吗？",
+  "scene": "外贸物流",
+  "tag": "议价"
+ },
+ {
+  "en": "That's a solid deal we got.",
+  "zh": "咱们谈成的这笔交易不错。",
+  "scene": "外贸物流",
+  "tag": "成交"
+ },
+ {
+  "en": "What have you been up to?",
+  "zh": "你最近在忙些什么？",
+  "scene": "社交",
+  "tag": "寒暄"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -13026,6 +13076,31 @@ var DAILY5_PROMPTS = [
   "zh": "在物流仓库，你需要确认货物是否已装车完毕。",
   "en": "Are we all loaded up and ready to roll out?",
   "hint": "'loaded up' 指装货，'roll out' 是口语中表示出发/发车的说法。"
+ },
+ {
+  "zh": "在和美国客户视频会议时，对方问你是否收到他们上周寄出的样品，你还没收到，需要礼貌地说明并询问是否已经寄出。",
+  "en": "I haven't received the samples yet. Could you confirm they were sent?",
+  "hint": "用‘yet’表示‘还没’，‘confirm’用于核实信息，语气礼貌且专业。"
+ },
+ {
+  "zh": "在仓库清点货物时，发现数量比提单上少了20箱，你要向主管汇报这个差异，并询问下一步怎么处理。",
+  "en": "We're short 20 cartons against the B/L. What should we do next?",
+  "hint": "‘short’表示短缺，‘against the B/L’意思是‘对照提单’，口语中常用‘What should we do next’征求意见。"
+ },
+ {
+  "zh": "你的留学生室友在厨房做饭，油烟很大，但窗户打不开，你建议他打开排气扇并开一点门通风。",
+  "en": "Turn on the exhaust fan and crack the door a bit for airflow.",
+  "hint": "‘crack the door’意为‘把门留一条缝’，‘for airflow’表示‘为了通风’，是地道的生活表达。"
+ },
+ {
+  "zh": "在职场邮件中，你需要提醒合作方在周五前确认订单，但语气要委婉，不希望让对方感到压力。",
+  "en": "Just a gentle reminder to confirm the order by Friday.",
+  "hint": "‘Just a gentle reminder’是委婉提醒的常用开头，比‘remind you’更柔和。"
+ },
+ {
+  "zh": "在机场等行李时，发现自己的行李箱被划破了，你要去服务台报修并询问赔偿流程。",
+  "en": "My suitcase got scratched. Can you help me file a claim?",
+  "hint": "‘get scratched’是被动语态口语化用法，‘file a claim’是正式的‘提出索赔’，适用于机场或保险场景。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -14060,5 +14135,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "准备晚饭",
   "text": "I got home a bit late and felt hungry right away. I opened the fridge to see what I could throw together. There were some eggs, a tomato, and leftover rice from yesterday. So I decided to make a quick fried rice. I chopped the tomato and cracked the eggs into a bowl. The pan was hot, so I added a little oil and let everything sizzle. Within ten minutes, dinner was ready on a plate. It wasn't fancy, but it tasted pretty good after a long day."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to catch the subway. The platform is always crowded, but I found a spot near the door. As the train moves, I scroll through my phone to check the news. Sometimes I see the same commuters and we nod at each other. Today, the train was delayed for five minutes because of a signal issue. Still, I made it to the office just in time for my first meeting. I grabbed a coffee from the machine on my way to the desk."
+ },
+ {
+  "theme": "在家做饭",
+  "text": "Tonight I decided to try a simple pasta recipe I saw online. First, I boiled some water and added a pinch of salt. While the spaghetti cooked, I chopped garlic and tomatoes for the sauce. I heated olive oil in a pan and tossed in the garlic until it smelled great. Then I added the tomatoes and let them simmer for a few minutes. Once the pasta was al dente, I drained it and mixed everything together. I topped it with fresh basil and a little cheese. It tasted surprisingly good for a weekday dinner."
  }
 ];
