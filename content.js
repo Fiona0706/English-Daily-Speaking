@@ -7135,6 +7135,24 @@ var DAILY5_SENTENCES = [
   "zh": "你最近在忙些什么？",
   "scene": "社交",
   "tag": "寒暄"
+ },
+ {
+  "en": "What's up? Long time no see!",
+  "zh": "最近怎么样？好久不见！",
+  "scene": "社交",
+  "tag": "问候"
+ },
+ {
+  "en": "Let's circle back after lunch.",
+  "zh": "我们午饭后回头再讨论这个。",
+  "scene": "职场",
+  "tag": "会议"
+ },
+ {
+  "en": "I'll shoot you the details via email.",
+  "zh": "我会把细节邮件发给你。",
+  "scene": "职场",
+  "tag": "沟通"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11049,6 +11067,42 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "向老板请病假",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "员工",
+    "en": "Morning, I'm afraid I won't be able to come in today—I've come down with a nasty fever and my throat's killing me.",
+    "zh": "早上好，恐怕我今天来不了了——我发高烧且喉咙疼得厉害。",
+    "collect": false
+   },
+   {
+    "role": "主管",
+    "en": "I'm sorry to hear that. Have you seen a doctor yet, or do you need to rest at home?",
+    "zh": "很遗憾听到这个。你去看医生了吗，还是需要在家休息？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "I just took some medicine and plan to see a doctor this afternoon. I'd like to take a sick day today and possibly tomorrow if it doesn't improve.",
+    "zh": "我刚吃了药，打算下午去看医生。我想请一天病假，如果不见好转可能明天也得请。",
+    "collect": false
+   },
+   {
+    "role": "主管",
+    "en": "That sounds reasonable. Could you send me the doctor's note once you've seen them? Also, is there anything urgent I should handle for you?",
+    "zh": "听起来合理。看完医生后能发我病假条吗？另外，有没有紧急的事情需要我帮你处理？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Appreciate that. I've already emailed my pending tasks to the team, so it should be covered. I'll forward the note as soon as I get it.",
+    "zh": "感谢。我已经把待办事项邮件发给了团队，应该没问题了。拿到病假条就发你。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -13101,6 +13155,31 @@ var DAILY5_PROMPTS = [
   "zh": "在机场等行李时，发现自己的行李箱被划破了，你要去服务台报修并询问赔偿流程。",
   "en": "My suitcase got scratched. Can you help me file a claim?",
   "hint": "‘get scratched’是被动语态口语化用法，‘file a claim’是正式的‘提出索赔’，适用于机场或保险场景。"
+ },
+ {
+  "zh": "在物流仓库，你发现一批货物的标签贴错了，需要提醒同事注意。",
+  "en": "These labels are all mixed up, we need to redo them.",
+  "hint": "mixed up 表示搞混了，常用于口语中表示错误或混乱。"
+ },
+ {
+  "zh": "和海外客户视频会议时，对方提到一个你没听过的术语，想请对方解释。",
+  "en": "Could you walk me through that term quickly?",
+  "hint": "walk someone through 表示逐步解释，口语中很自然。"
+ },
+ {
+  "zh": "在留学生活中，室友问你周末是否要一起做饭，你想答应但担心时间冲突。",
+  "en": "I'm down, but let me double-check my schedule first.",
+  "hint": "I'm down 是地道的口语表达，表示愿意参加。"
+ },
+ {
+  "zh": "外贸跟单时，客户发邮件催发货，你需要回复说明已经安排但有小延迟。",
+  "en": "It's on its way, just a slight hiccup with the carrier.",
+  "hint": "hiccup 常用来表示小问题或小障碍，比 problem 更轻松。"
+ },
+ {
+  "zh": "在职场中，你向同事请教一个项目细节，对方给了建议后你表示感谢。",
+  "en": "Thanks, that really clears things up for me.",
+  "hint": "clear things up 表示使事情变得清楚，常用于感谢解释。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -14143,5 +14222,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "在家做饭",
   "text": "Tonight I decided to try a simple pasta recipe I saw online. First, I boiled some water and added a pinch of salt. While the spaghetti cooked, I chopped garlic and tomatoes for the sauce. I heated olive oil in a pan and tossed in the garlic until it smelled great. Then I added the tomatoes and let them simmer for a few minutes. Once the pasta was al dente, I drained it and mixed everything together. I topped it with fresh basil and a little cheese. It tasted surprisingly good for a weekday dinner."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave the house around seven thirty to catch the bus. The morning traffic is always heavy, so I try to get an early start. On the bus, I put on my headphones and listen to a podcast. Sometimes I see the same people waiting at the same stop. We never talk, but we nod at each other. Today the bus was a bit late, which made me nervous about my meeting. Luckily, I still made it to the office with five minutes to spare."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After a long day at work, I like to cook something simple for dinner. Tonight I’m making pasta with garlic and olive oil. I chop some tomatoes and throw them into the pan. The smell fills the whole kitchen, and it makes me feel relaxed. While the pasta boils, I check my phone and reply to a few messages. My roommate comes home and says it smells amazing. We sit down together and eat, talking about our day."
  }
 ];
