@@ -4942,6 +4942,22 @@ var DAILY5_WORDS = [
   "example": "A positive mindset helps you overcome challenges.",
   "exampleZh": "积极的心态帮助你克服挑战。",
   "pos": "名词"
+ },
+ {
+  "word": "discount",
+  "phonetic": "/ˈdɪskaʊnt/",
+  "zh": "折扣",
+  "example": "This jacket has a thirty percent discount today.",
+  "exampleZh": "这件夹克今天打七折。",
+  "pos": "名词"
+ },
+ {
+  "word": "hang in there",
+  "phonetic": "/hæŋ ɪn ðer/",
+  "zh": "坚持住",
+  "example": "Hang in there, the busy season will end soon.",
+  "exampleZh": "坚持住，旺季很快就会结束。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7153,6 +7169,30 @@ var DAILY5_SENTENCES = [
   "zh": "我会把细节邮件发给你。",
   "scene": "职场",
   "tag": "沟通"
+ },
+ {
+  "en": "I'm just gonna grab a quick bite.",
+  "zh": "我就随便吃点东西。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Can you track the shipment for me?",
+  "zh": "你能帮我查一下货物到哪了吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "I'll circle back with you after the meeting.",
+  "zh": "开完会后我再跟你跟进。",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "No worries, it's not a big deal.",
+  "zh": "别担心，没什么大不了的。",
+  "scene": "生活",
+  "tag": "生活"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11103,6 +11143,102 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "在咖啡店点咖啡",
+  "level": "初级",
+  "lines": [
+   {
+    "role": "店员",
+    "en": "Hi, what can I get for you?",
+    "zh": "你好，你想要点什么？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "I'd like a small coffee, please.",
+    "zh": "请给我一杯小杯咖啡。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "With milk or sugar?",
+    "zh": "要加牛奶还是糖？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Just a little milk, no sugar.",
+    "zh": "只加一点牛奶，不加糖。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Okay. That's three dollars.",
+    "zh": "好的，一共三美元。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Here you go. Thank you.",
+    "zh": "给你，谢谢。",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "向经理请假并说明项目安排",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "员工",
+    "en": "Do you have a moment? I'd like to talk about taking some time off next week.",
+    "zh": "你现在方便吗？我想谈谈下周请假的事。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Sure, come in. Is everything all right?",
+    "zh": "可以，进来吧。一切都还好吗？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Yes, everything's fine. I need to attend a family matter out of town, so I'm requesting three days off.",
+    "zh": "是的，一切都好。我需要去外地处理一件家里的事，所以想请三天假。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "I see. Have you thought about how we'll cover your part of the project?",
+    "zh": "我明白了。你有考虑过你负责的项目部分怎么安排吗？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Absolutely. I've already briefed Lisa on the client updates, and I can finish the report before I leave.",
+    "zh": "当然。我已经把客户更新情况交代给丽莎了，而且我可以在离开前完成报告。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "That sounds reasonable. Just make sure the handover is clear and keep me posted if anything urgent comes up.",
+    "zh": "听起来挺合理的。只要确保交接清楚，如果有紧急情况随时告诉我。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Will do. I'll send you a short handover note by the end of today.",
+    "zh": "好的。我今天下班前会给你发一份简短的交接说明。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Great, then I don't see a problem. Enjoy your time and take care of what you need to.",
+    "zh": "很好，那我没问题。祝你顺利，先把你要处理的事处理好。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -13180,6 +13316,31 @@ var DAILY5_PROMPTS = [
   "zh": "在职场中，你向同事请教一个项目细节，对方给了建议后你表示感谢。",
   "en": "Thanks, that really clears things up for me.",
   "hint": "clear things up 表示使事情变得清楚，常用于感谢解释。"
+ },
+ {
+  "zh": "你需要向客户确认订单的交货日期。",
+  "en": "Could you confirm the delivery date for this order?",
+  "hint": "用 Could you 开头比 Can you 更礼貌，适合商务请求。"
+ },
+ {
+  "zh": "你在仓库发现一批货发错了地址。",
+  "en": "We shipped this batch to the wrong address.",
+  "hint": "用一般过去时描述已发生的失误，wrong address 前不加 the 以外的冠词。"
+ },
+ {
+  "zh": "你要给同事发消息，请他帮忙改一下会议时间。",
+  "en": "Can you help me push the meeting to Friday?",
+  "hint": "push...to... 表示把时间推迟到某时，口语中很常用。"
+ },
+ {
+  "zh": "你在国外租房，想问房东水电费是否包含在房租里。",
+  "en": "Are utilities included in the rent?",
+  "hint": "询问包含关系用 be included in，utilities 指水电燃气等费用。"
+ },
+ {
+  "zh": "客户催你报价，你想说今天下班前一定发过去。",
+  "en": "I'll send you the quote before end of day.",
+  "hint": "end of day 是商务常用说法，等于 by the end of today。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -14230,5 +14391,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After a long day at work, I like to cook something simple for dinner. Tonight I’m making pasta with garlic and olive oil. I chop some tomatoes and throw them into the pan. The smell fills the whole kitchen, and it makes me feel relaxed. While the pasta boils, I check my phone and reply to a few messages. My roommate comes home and says it smells amazing. We sit down together and eat, talking about our day."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the rush. The bus stop is just down the street, but today the line was longer than usual. When the bus finally arrived, I squeezed in and found a spot near the back door. The ride took almost forty minutes because of an accident on the bridge. I put on my headphones and listened to a podcast to pass the time. By the time I got off, I was already thinking about my first cup of coffee."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I got home a bit late, so I wanted something quick and easy for dinner. I chopped an onion and a couple of tomatoes while the pan was heating up. Then I added some olive oil and let the onion soften for a few minutes. After that, I tossed in the tomatoes, salt, and a pinch of sugar. The sauce smelled amazing as it simmered on the stove. I boiled some pasta and mixed everything together in the pan. It wasn't fancy, but it hit the spot."
  }
 ];
