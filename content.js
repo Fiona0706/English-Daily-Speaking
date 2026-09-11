@@ -4958,6 +4958,22 @@ var DAILY5_WORDS = [
   "example": "Hang in there, the busy season will end soon.",
   "exampleZh": "坚持住，旺季很快就会结束。",
   "pos": "习语"
+ },
+ {
+  "word": "leftover",
+  "phonetic": "/ˈleftoʊvər/",
+  "zh": "剩饭；剩余的",
+  "example": "We had leftovers from dinner for lunch today.",
+  "exampleZh": "我们今天午饭吃了昨晚的剩饭。",
+  "pos": "名词"
+ },
+ {
+  "word": "cluttered",
+  "phonetic": "/ˈklʌtərd/",
+  "zh": "杂乱的；凌乱的",
+  "example": "My desk is too cluttered to get any work done.",
+  "exampleZh": "我的桌子太乱了，没法专心工作。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7193,6 +7209,36 @@ var DAILY5_SENTENCES = [
   "zh": "别担心，没什么大不了的。",
   "scene": "生活",
   "tag": "生活"
+ },
+ {
+  "en": "Can you grab me a coffee on your way back?",
+  "zh": "你回来的时候能帮我带杯咖啡吗？",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Hey, it's been a minute. How've you been?",
+  "zh": "嘿，好久不见，你最近怎么样？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "The shipment is stuck at customs again, can you check?",
+  "zh": "这批货又被卡在海关了，你能查一下吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Let's circle back on this after lunch, okay?",
+  "zh": "我们午饭后再回头讨论这个，好吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "I'm swamped today, can we push our meeting?",
+  "zh": "我今天忙得不可开交，我们能把会议往后推吗？",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -13341,6 +13387,26 @@ var DAILY5_PROMPTS = [
   "zh": "客户催你报价，你想说今天下班前一定发过去。",
   "en": "I'll send you the quote before end of day.",
   "hint": "end of day 是商务常用说法，等于 by the end of today。"
+ },
+ {
+  "zh": "你给供应商发邮件，催他们尽快确认最新的报价单。",
+  "en": "Could you confirm the updated quote as soon as possible?",
+  "hint": "Could you... 比 Can you... 更礼貌；as soon as possible 是催办常用固定表达。"
+ },
+ {
+  "zh": "同事问你为什么仓库延误，你解释是因为海关查验多花了三天。",
+  "en": "The customs inspection held us up for three extra days.",
+  "hint": "hold up 意为“耽误、拖延”，过去式 held；for + 时间段表示持续时长。"
+ },
+ {
+  "zh": "留学生的你在小组讨论里提出换个时间开会，因为大家课表冲突。",
+  "en": "Can we push the meeting to later this week? Our schedules clash.",
+  "hint": "push...to 表示把时间往后推；clash 指时间冲突，比 conflict 更口语。"
+ },
+ {
+  "zh": "你在跟客户谈付款方式，建议对方先付三成定金再安排生产。",
+  "en": "Let's go with a thirty percent deposit before we start production.",
+  "hint": "go with 表示“就采用、就选”，商务口语常见；before 引导时间先后关系。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -14399,5 +14465,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I got home a bit late, so I wanted something quick and easy for dinner. I chopped an onion and a couple of tomatoes while the pan was heating up. Then I added some olive oil and let the onion soften for a few minutes. After that, I tossed in the tomatoes, salt, and a pinch of sugar. The sauce smelled amazing as it simmered on the stove. I boiled some pasta and mixed everything together in the pan. It wasn't fancy, but it hit the spot."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I grab my coffee and rush out the door. The bus is already waiting at the corner, so I run to catch it. Inside, I find a seat near the window and put on my headphones. The city passes by slowly as we move through traffic. I check my messages and plan the day ahead. When my stop comes, I thank the driver and step off. A short walk later, I arrive at my office, ready to start."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I open the fridge and take out some vegetables and chicken. First, I wash everything under the tap and chop it into small pieces. Then I heat some oil in a pan and add the chicken. It sizzles and smells amazing right away. Next, I throw in the vegetables and stir them for a few minutes. I add a little salt and soy sauce, then taste it. Finally, I turn off the heat and serve the dish over rice."
  }
 ];
