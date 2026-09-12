@@ -4974,6 +4974,14 @@ var DAILY5_WORDS = [
   "example": "My desk is too cluttered to get any work done.",
   "exampleZh": "我的桌子太乱了，没法专心工作。",
   "pos": "形容词"
+ },
+ {
+  "word": "annoying",
+  "phonetic": "/əˈnɔɪɪŋ/",
+  "zh": "烦人的",
+  "example": "That noise from the street is really annoying.",
+  "exampleZh": "街上那种噪音真烦人。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7239,6 +7247,24 @@ var DAILY5_SENTENCES = [
   "zh": "我今天忙得不可开交，我们能把会议往后推吗？",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "I'm just gonna kick back and relax.",
+  "zh": "我就打算放松一下。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Let's grab a bite sometime this week.",
+  "zh": "这周找个时间一起吃个饭吧。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "No worries, it's all good.",
+  "zh": "没事，一切都好。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -13407,6 +13433,31 @@ var DAILY5_PROMPTS = [
   "zh": "你在跟客户谈付款方式，建议对方先付三成定金再安排生产。",
   "en": "Let's go with a thirty percent deposit before we start production.",
   "hint": "go with 表示“就采用、就选”，商务口语常见；before 引导时间先后关系。"
+ },
+ {
+  "zh": "客户催你确认订单交期，你回复邮件说正在和工厂核实，明天给答复。",
+  "en": "I'm checking with the factory and will get back to you tomorrow.",
+  "hint": "用现在进行时表示正在进行的动作；get back to you 意为“给你答复”，比 reply you 更地道。"
+ },
+ {
+  "zh": "货代通知你船期延后两天，你需要马上告诉客户并道歉。",
+  "en": "I'm sorry, but your shipment will be delayed by two days.",
+  "hint": "be delayed by + 时间，表示“延误了多久”；道歉用 I'm sorry, but... 缓和语气。"
+ },
+ {
+  "zh": "同事问你为什么报价还没发出去，你说供应商那边还没回消息。",
+  "en": "I'm still waiting to hear back from the supplier.",
+  "hint": "hear back from sb 意为“收到某人的回复”；still 强调“到现在还没”。"
+ },
+ {
+  "zh": "你在会议上提出一个方案，想问问大家有没有意见或补充。",
+  "en": "Does anyone have any questions or comments on this?",
+  "hint": "any 用于疑问句；comments on sth 表示“对某事的意见”。"
+ },
+ {
+  "zh": "留学生问室友周末能不能顺路带自己去超市，室友答应了。",
+  "en": "Sure, I can give you a ride to the supermarket.",
+  "hint": "give sb a ride 意为“开车捎某人一程”，口语常用；to + 地点表示目的地。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -14473,5 +14524,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I open the fridge and take out some vegetables and chicken. First, I wash everything under the tap and chop it into small pieces. Then I heat some oil in a pan and add the chicken. It sizzles and smells amazing right away. Next, I throw in the vegetables and stir them for a few minutes. I add a little salt and soy sauce, then taste it. Finally, I turn off the heat and serve the dish over rice."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst traffic. The bus stop is just a five-minute walk from my apartment, but I often grab a coffee on the way. When the bus arrives, I find a seat near the window and put on my headphones. The ride takes about twenty minutes, so I listen to a podcast or review my schedule for the day. Sometimes I run into a coworker, and we chat about weekend plans. Before I know it, we reach the downtown stop, and I step off feeling ready for work."
+ },
+ {
+  "theme": "做番茄鸡蛋面",
+  "text": "Last night I decided to cook tomato and egg noodles for dinner. First, I chopped two tomatoes and beat three eggs with a pinch of salt. While the water was boiling, I heated some oil in a pan and scrambled the eggs until they were just set. Then I added the tomatoes and let them soften for a few minutes. I poured in some hot water, added soy sauce, and brought it to a simmer. Finally, I dropped the noodles into the soup and waited until they were tender. It was simple, warm, and exactly what I needed after a long day."
  }
 ];
