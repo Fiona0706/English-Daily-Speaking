@@ -4982,6 +4982,14 @@ var DAILY5_WORDS = [
   "example": "That noise from the street is really annoying.",
   "exampleZh": "街上那种噪音真烦人。",
   "pos": "形容词"
+ },
+ {
+  "word": "grab a bite",
+  "phonetic": "/ɡræb ə baɪt/",
+  "zh": "随便吃点东西",
+  "example": "Let's grab a bite before the movie starts.",
+  "exampleZh": "我们在电影开始前随便吃点东西吧。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7263,6 +7271,36 @@ var DAILY5_SENTENCES = [
  {
   "en": "No worries, it's all good.",
   "zh": "没事，一切都好。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "I'm grabbing a coffee, want anything?",
+  "zh": "我去买杯咖啡，你要带点什么吗？",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Long time no see, how've you been?",
+  "zh": "好久不见，你最近怎么样？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "The shipment got delayed at customs again.",
+  "zh": "这批货又在海关耽搁了。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Can you loop me in on that email thread?",
+  "zh": "你能把我也加进那个邮件往来里吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "Let's just play it by ear tonight.",
+  "zh": "今晚咱们就随机应变吧。",
   "scene": "社交",
   "tag": "社交"
  }
@@ -11311,6 +11349,114 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "在街上问路",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "游客",
+    "en": "Excuse me, could you tell me how to get to the train station?",
+    "zh": "打扰一下，你能告诉我怎么去火车站吗？",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "Sure. Go straight down this street for two blocks, then turn left at the traffic lights.",
+    "zh": "当然可以。沿着这条街直走两个街区，然后在红绿灯处左转。",
+    "collect": false
+   },
+   {
+    "role": "游客",
+    "en": "Got it. Is it within walking distance?",
+    "zh": "明白了。走路能到吗？",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "Yeah, it should take you about ten minutes.",
+    "zh": "可以，大概需要十分钟。",
+    "collect": false
+   },
+   {
+    "role": "游客",
+    "en": "Great. Is there a bus I could take instead?",
+    "zh": "太好了。有没有公交车可以坐？",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "You could take the number 5 bus, but walking is probably faster.",
+    "zh": "你可以坐5路公交，不过走路可能更快。",
+    "collect": false
+   },
+   {
+    "role": "游客",
+    "en": "Thanks a lot for your help.",
+    "zh": "非常感谢你的帮助。",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "No problem. Have a safe trip!",
+    "zh": "不客气。祝你旅途平安！",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "申请退还损坏的商品",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "Hi, I'd like to return this blender. It stopped working after just two days.",
+    "zh": "你好，我想退掉这台搅拌机。它才用了两天就坏了。",
+    "collect": false
+   },
+   {
+    "role": "客服",
+    "en": "I'm sorry to hear that. Do you have the receipt and the original packaging?",
+    "zh": "很抱歉听到这个。您有收据和原包装吗？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "I have the receipt, but I'm afraid I threw away the box. Is that going to be a problem?",
+    "zh": "收据我有，但盒子恐怕已经扔掉了。这会是个问题吗？",
+    "collect": false
+   },
+   {
+    "role": "客服",
+    "en": "Normally we require the packaging, but given that the item is defective, I can make an exception this time.",
+    "zh": "通常我们需要包装，但考虑到商品有缺陷，这次我可以破例。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "I appreciate that. Would it be possible to get a refund instead of store credit?",
+    "zh": "非常感谢。可以退款而不是换成店内消费额度吗？",
+    "collect": false
+   },
+   {
+    "role": "客服",
+    "en": "Absolutely. The refund will go back to your original payment method within five business days.",
+    "zh": "当然可以。退款将在五个工作日内返回到您原来的支付方式。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "That works for me. Thanks for being so understanding.",
+    "zh": "这样没问题。谢谢你这么通情达理。",
+    "collect": false
+   },
+   {
+    "role": "客服",
+    "en": "My pleasure. I'll process that for you right away.",
+    "zh": "不客气。我马上为您处理。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -13458,6 +13604,31 @@ var DAILY5_PROMPTS = [
   "zh": "留学生问室友周末能不能顺路带自己去超市，室友答应了。",
   "en": "Sure, I can give you a ride to the supermarket.",
   "hint": "give sb a ride 意为“开车捎某人一程”，口语常用；to + 地点表示目的地。"
+ },
+ {
+  "zh": "你刚收到客户的询盘，但产品规格还不明确，想请对方提供更多细节。",
+  "en": "Could you send me more details about the specs?",
+  "hint": "用 Could you... 礼貌地提出请求；specs 是 specifications 的口语缩写，指规格。"
+ },
+ {
+  "zh": "货代告诉你船期延误了，你需要马上通知客户新的预计到港时间。",
+  "en": "I'm sorry to inform you the shipment is delayed.",
+  "hint": "I'm sorry to inform you 是商务邮件常用开头，后接 that 从句（that 常省略）。"
+ },
+ {
+  "zh": "开会时同事提出的方案你不完全认同，想委婉表达自己的不同看法。",
+  "en": "I see your point, but I have a slightly different view.",
+  "hint": "先肯定对方 I see your point，再用 but 转折，显得委婉不生硬。"
+ },
+ {
+  "zh": "在留学的课上，你没听懂教授讲的一个概念，想请对方再解释一遍。",
+  "en": "Sorry, could you go over that one more time?",
+  "hint": "go over 表示“再过一遍、重新讲解”；one more time 表示再来一次。"
+ },
+ {
+  "zh": "你想跟进之前发出的报价，礼貌地询问客户是否已经做出决定。",
+  "en": "Just following up to see if you've made a decision.",
+  "hint": "Just following up 是跟进的固定说法；to see if 引导目的，后接现在完成时。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -14532,5 +14703,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做番茄鸡蛋面",
   "text": "Last night I decided to cook tomato and egg noodles for dinner. First, I chopped two tomatoes and beat three eggs with a pinch of salt. While the water was boiling, I heated some oil in a pan and scrambled the eggs until they were just set. Then I added the tomatoes and let them soften for a few minutes. I poured in some hot water, added soy sauce, and brought it to a simmer. Finally, I dropped the noodles into the soup and waited until they were tender. It was simple, warm, and exactly what I needed after a long day."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home at seven thirty to catch the bus. The stop is just around the corner, so I never have to rush. On the way, I listen to a podcast or read the news on my phone. If the traffic is light, I get to the office in about twenty minutes. The first thing I do is grab a coffee from the little shop downstairs. Then I check my emails and plan the day ahead."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "When I get home, I put my bag down and wash my hands. I open the fridge to see what I can cook with. Tonight I have some chicken, tomatoes, and a bit of spinach. I heat the pan, add oil, and start with the onions. The smell fills the kitchen and makes me hungry. While it cooks, I set the table and pour a glass of water. Everything is ready in half an hour."
  }
 ];
