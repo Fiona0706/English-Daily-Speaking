@@ -7303,6 +7303,30 @@ var DAILY5_SENTENCES = [
   "zh": "今晚咱们就随机应变吧。",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "Can you grab me a coffee on your way?",
+  "zh": "你顺路能帮我带杯咖啡吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "I'm swamped today, can we catch up tomorrow?",
+  "zh": "我今天忙翻了，明天再聊行吗？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "I'm just gonna chill at home tonight.",
+  "zh": "今晚我就打算在家休息。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Could you double-check the tracking number for me?",
+  "zh": "你能帮我再核对一下运单号吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -11457,6 +11481,60 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "退换有问题的商品",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "Hi, I'd like to return this jacket. I bought it last week, but the zipper keeps getting stuck.",
+    "zh": "你好，我想退掉这件夹克。我上周买的，但拉链总是卡住。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "I'm sorry to hear that. Do you have the receipt with you?",
+    "zh": "很抱歉听到这个。您带收据了吗？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Yes, right here. I also paid with my credit card.",
+    "zh": "带了，就在这里。我也是用信用卡付的款。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Thanks. Would you prefer a refund or an exchange for another one?",
+    "zh": "谢谢。您想退款还是换一件？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Could I exchange it for the same style in a larger size? The fit is a little tight.",
+    "zh": "我能换成同款但大一号的吗？这件穿着有点紧。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Let me check our stock. I think we still have a large in blue.",
+    "zh": "我查一下库存。我觉得蓝色大号应该还有。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "That would be perfect, as long as it doesn't have the same zipper issue.",
+    "zh": "那太好了，只要它没有同样的拉链问题。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "I'll inspect it with you before you leave. If anything's wrong, we can order a new one.",
+    "zh": "您走之前我会和您一起检查。如果有问题，我们可以订一件新的。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -13629,6 +13707,31 @@ var DAILY5_PROMPTS = [
   "zh": "你想跟进之前发出的报价，礼貌地询问客户是否已经做出决定。",
   "en": "Just following up to see if you've made a decision.",
   "hint": "Just following up 是跟进的固定说法；to see if 引导目的，后接现在完成时。"
+ },
+ {
+  "zh": "向货代确认下周船期是否还有舱位。",
+  "en": "Can you confirm if there's still space on next week's sailing?",
+  "hint": "用 Can you confirm if... 礼貌询问确认，space 指舱位/空位。"
+ },
+ {
+  "zh": "告诉客户样品已寄出，并附上快递单号。",
+  "en": "The samples have been shipped, and here is the tracking number.",
+  "hint": "现在完成时 have been shipped 表示已完成；用 and 连接两个信息。"
+ },
+ {
+  "zh": "同事问你为什么报价单还没发出去。",
+  "en": "I'm still waiting on the supplier to get back to me.",
+  "hint": "wait on sb 表示等某人回复；get back to me 意为回复我。"
+ },
+ {
+  "zh": "在课上问教授能否延长论文截止日期。",
+  "en": "Would it be possible to get an extension on the deadline?",
+  "hint": "Would it be possible to... 是委婉请求句型，比 Can I 更礼貌。"
+ },
+ {
+  "zh": "提醒团队周五前必须提交月度报告。",
+  "en": "Just a reminder that the monthly report is due by Friday.",
+  "hint": "Just a reminder that... 用于温和提醒；be due by 表示截止到某时间。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -14711,5 +14814,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "When I get home, I put my bag down and wash my hands. I open the fridge to see what I can cook with. Tonight I have some chicken, tomatoes, and a bit of spinach. I heat the pan, add oil, and start with the onions. The smell fills the kitchen and makes me hungry. While it cooks, I set the table and pour a glass of water. Everything is ready in half an hour."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home at seven thirty to catch the bus. The stop is just around the corner, so I never have to rush too much. On the bus, I like to listen to a podcast or read a few pages of a book. Sometimes I grab a coffee from the cart near the station. The ride takes about twenty minutes, and I use that time to wake up slowly. When I get off, I walk two blocks to my office. It's a simple routine, but it helps me start the day calm and ready."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "After work, I stopped by the supermarket to pick up some vegetables and chicken. I decided to make a simple stir-fry for dinner. First, I washed and chopped everything while the rice cooker did its job. Then I heated some oil in the pan and added garlic, which smelled amazing. I tossed in the chicken, then the veggies, and stirred them for a few minutes. A splash of soy sauce made it taste just right. I plated it up, sat down, and enjoyed a warm meal at home."
  }
 ];
