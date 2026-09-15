@@ -4990,6 +4990,14 @@ var DAILY5_WORDS = [
   "example": "Let's grab a bite before the movie starts.",
   "exampleZh": "我们在电影开始前随便吃点东西吧。",
   "pos": "习语"
+ },
+ {
+  "word": "easily",
+  "phonetic": "/ˈiːzəli/",
+  "zh": "容易地",
+  "example": "You can easily find the bus stop over there.",
+  "exampleZh": "你可以很容易地在那里找到公交站。",
+  "pos": "副词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7327,6 +7335,24 @@ var DAILY5_SENTENCES = [
   "zh": "你能帮我再核对一下运单号吗？",
   "scene": "外贸物流",
   "tag": "外贸物流"
+ },
+ {
+  "en": "I'm swamped today, can we reschedule?",
+  "zh": "我今天忙翻了，能改期吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "The shipment got held up at customs again.",
+  "zh": "这批货又在海关卡住了。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Let's grab a bite after work sometime.",
+  "zh": "改天下班后一起去吃点东西吧。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -13732,6 +13758,31 @@ var DAILY5_PROMPTS = [
   "zh": "提醒团队周五前必须提交月度报告。",
   "en": "Just a reminder that the monthly report is due by Friday.",
   "hint": "Just a reminder that... 用于温和提醒；be due by 表示截止到某时间。"
+ },
+ {
+  "zh": "你刚收到客户的邮件，对方说这批货的包装有点破损，你想先道歉再承诺马上补发。",
+  "en": "Sorry about the damaged packaging—we'll reship it right away.",
+  "hint": "用 Sorry about... 轻松致歉，破折号后接解决方案，right away 表示马上。"
+ },
+ {
+  "zh": "货代告诉你船期延误了三天，你需要马上转告你的经理并说明新的到港时间。",
+  "en": "The vessel got delayed three days; new ETA is Friday.",
+  "hint": "用分号衔接两个信息，ETA 是 estimated time of arrival 的缩写，职场常用。"
+ },
+ {
+  "zh": "同事问你为什么昨天没回消息，你解释说一整天都在仓库盘点，手机没带在身上。",
+  "en": "I was doing inventory all day and left my phone behind.",
+  "hint": "过去进行时 was doing 说明当时一直在做的事，left...behind 表示把某物落下。"
+ },
+ {
+  "zh": "你刚到美国留学，室友问你要不要一起去超市，你想说你正好需要买点吃的，可以一起去。",
+  "en": "I actually need to grab some groceries—mind if I tag along?",
+  "hint": "grab some groceries 是口语化的“买点吃的”，mind if I tag along 表示“介意我一起去吗”。"
+ },
+ {
+  "zh": "线上会议里对方语速太快你没听清，你想礼貌地请对方再说一遍并放慢一点。",
+  "en": "Could you run that by me again, a bit slower?",
+  "hint": "run that by me again 是地道说法，意为“再说一遍”，语气比 repeat 更自然。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -14822,5 +14873,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "After work, I stopped by the supermarket to pick up some vegetables and chicken. I decided to make a simple stir-fry for dinner. First, I washed and chopped everything while the rice cooker did its job. Then I heated some oil in the pan and added garlic, which smelled amazing. I tossed in the chicken, then the veggies, and stirred them for a few minutes. A splash of soy sauce made it taste just right. I plated it up, sat down, and enjoyed a warm meal at home."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I leave my apartment at seven thirty and walk to the bus stop. The morning air is cool, so I zip up my jacket. The bus arrives right on time, and I find a seat near the window. While the bus moves through traffic, I put on my headphones and listen to a podcast. At the third stop, a woman gets on with a huge bag of groceries. I offer her my seat, and she smiles and says thank you. I get off two blocks before my office and grab a quick coffee. By the time I sit at my desk, I feel ready for the day."
+ },
+ {
+  "theme": "厨房做晚餐",
+  "text": "I get home around six and check what is in the fridge. There are some chicken breasts, a few peppers, and half an onion. I chop everything on the cutting board while the pan heats up. First I cook the chicken until it turns golden, then I add the vegetables. The kitchen smells amazing, and my roommate walks in to see what I am making. I taste the sauce and decide it needs a little more salt. We set the table together and sit down to eat. It is a simple meal, but it tastes great after a long day."
  }
 ];
