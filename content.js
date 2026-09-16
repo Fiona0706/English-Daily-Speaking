@@ -4998,6 +4998,38 @@ var DAILY5_WORDS = [
   "example": "You can easily find the bus stop over there.",
   "exampleZh": "你可以很容易地在那里找到公交站。",
   "pos": "副词"
+ },
+ {
+  "word": "chill out",
+  "phonetic": "/tʃɪl aʊt/",
+  "zh": "放松；冷静下来",
+  "example": "You should chill out and stop worrying so much.",
+  "exampleZh": "你应该放松一下，别那么担心。",
+  "pos": "短语动词"
+ },
+ {
+  "word": "pricey",
+  "phonetic": "/ˈpraɪsi/",
+  "zh": "昂贵的",
+  "example": "That restaurant is a bit pricey for lunch.",
+  "exampleZh": "那家餐厅吃午饭有点贵。",
+  "pos": "形容词"
+ },
+ {
+  "word": "recipe",
+  "phonetic": "/ˈresəpi/",
+  "zh": "食谱；做法",
+  "example": "I found a simple recipe for chicken soup.",
+  "exampleZh": "我找到了一个简单的鸡汤食谱。",
+  "pos": "名词"
+ },
+ {
+  "word": "right away",
+  "phonetic": "/raɪt əˈweɪ/",
+  "zh": "立刻；马上",
+  "example": "Please send me the file right away.",
+  "exampleZh": "请马上把文件发给我。",
+  "pos": "副词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7353,6 +7385,12 @@ var DAILY5_SENTENCES = [
   "zh": "改天下班后一起去吃点东西吧。",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "Let's hang out sometime this week.",
+  "zh": "这周找个时间一起玩吧。",
+  "scene": "社交",
+  "tag": "朋友邀约"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -13783,6 +13821,31 @@ var DAILY5_PROMPTS = [
   "zh": "线上会议里对方语速太快你没听清，你想礼貌地请对方再说一遍并放慢一点。",
   "en": "Could you run that by me again, a bit slower?",
   "hint": "run that by me again 是地道说法，意为“再说一遍”，语气比 repeat 更自然。"
+ },
+ {
+  "zh": "你刚收到客户的询盘，想确认对方需要的产品规格。",
+  "en": "Could you confirm the specs you need?",
+  "hint": "用 Could you... 委婉提出请求，confirm 后接名词，specs 是 specifications 的口语缩写。"
+ },
+ {
+  "zh": "货代告诉你船期延误了，你想问新的预计到港时间。",
+  "en": "What's the new ETA for this shipment?",
+  "hint": "用 What's... 询问信息，ETA 是 estimated time of arrival 的缩写，外贸物流中常用。"
+ },
+ {
+  "zh": "开会时同事提出一个方案，你觉得可行，想表示赞同。",
+  "en": "That sounds like a solid plan to me.",
+  "hint": "That sounds like... 用来回应别人的提议，solid 表示“靠谱的、可行的”。"
+ },
+ {
+  "zh": "在留学生活中，你想约同学一起复习期末考试。",
+  "en": "Do you want to study for finals together?",
+  "hint": "Do you want to... 是最口语的邀约句式，finals 指期末考试，study for 表示“为……复习”。"
+ },
+ {
+  "zh": "你想请同事帮忙把报价单发给客户。",
+  "en": "Could you send the quote to the client?",
+  "hint": "Could you... 用于礼貌请求，send sth to sb 是“把某物发给某人”的常用结构。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -14881,5 +14944,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "厨房做晚餐",
   "text": "I get home around six and check what is in the fridge. There are some chicken breasts, a few peppers, and half an onion. I chop everything on the cutting board while the pan heats up. First I cook the chicken until it turns golden, then I add the vegetables. The kitchen smells amazing, and my roommate walks in to see what I am making. I taste the sauce and decide it needs a little more salt. We set the table together and sit down to eat. It is a simple meal, but it tastes great after a long day."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to catch the bus. The stop is just a five-minute walk from my apartment. Most mornings, the bus arrives right on time, but today it was ten minutes late. I stood there checking my phone and watching people hurry by. When the bus finally came, I found a seat near the window. I put on my headphones and listened to a podcast while the city slowly woke up. By the time I got off, I felt ready for the day."
+ },
+ {
+  "theme": "在家做晚饭",
+  "text": "After work, I stopped by the grocery store to pick up a few things. I grabbed some tomatoes, eggs, and a bag of fresh spinach. Back in my kitchen, I turned on some music and started cooking. First, I heated the pan and scrambled the eggs. Then I added the tomatoes and spinach, stirring everything together. The whole apartment smelled wonderful. I sat down at the table and enjoyed my simple dinner. It wasn't fancy, but it tasted great."
  }
 ];
