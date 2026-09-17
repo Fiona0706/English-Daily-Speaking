@@ -7391,6 +7391,36 @@ var DAILY5_SENTENCES = [
   "zh": "这周找个时间一起玩吧。",
   "scene": "社交",
   "tag": "朋友邀约"
+ },
+ {
+  "en": "I'm just gonna crash on the couch tonight.",
+  "zh": "我今晚就在沙发上凑合睡了。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Hey, what are you up to this weekend?",
+  "zh": "嘿，你这周末有什么安排？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Can you track down that missing shipment for me?",
+  "zh": "你能帮我查一下那批丢失的货吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Let's touch base first thing tomorrow morning.",
+  "zh": "我们明天一早先碰个头。",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "I'm swamped right now, can we talk later?",
+  "zh": "我现在忙得不可开交，能晚点再聊吗？",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -13846,6 +13876,31 @@ var DAILY5_PROMPTS = [
   "zh": "你想请同事帮忙把报价单发给客户。",
   "en": "Could you send the quote to the client?",
   "hint": "Could you... 用于礼貌请求，send sth to sb 是“把某物发给某人”的常用结构。"
+ },
+ {
+  "zh": "你需要给客户发邮件确认下周的出货时间。",
+  "en": "Just checking in to confirm next week's shipping schedule.",
+  "hint": "用 Just checking in 开头显得礼貌又自然，to confirm 表示“为了确认”。"
+ },
+ {
+  "zh": "仓库通知你这批货因为天气原因要延迟两天。",
+  "en": "The warehouse said this batch will be delayed two days due to weather.",
+  "hint": "delay 作动词时直接跟时间或货物，due to 引出原因，比 because of 更书面。"
+ },
+ {
+  "zh": "你在跟供应商谈价格，希望对方再给点折扣。",
+  "en": "Could you do a little better on the price?",
+  "hint": "do better on the price 是口语化砍价说法，比 give me a discount 更委婉。"
+ },
+ {
+  "zh": "留学生活中，你在跟房东反映热水器坏了。",
+  "en": "The water heater isn't working—could you send someone to fix it?",
+  "hint": "用破折号连接两个句子，isn't working 表示“现在坏了/不工作”。"
+ },
+ {
+  "zh": "开会时你想插话，提出一个不同的方案。",
+  "en": "Sorry to jump in, but I have a different approach.",
+  "hint": "jump in 意为“插话”，but I have... 用来引出自己的观点。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -14952,5 +15007,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "在家做晚饭",
   "text": "After work, I stopped by the grocery store to pick up a few things. I grabbed some tomatoes, eggs, and a bag of fresh spinach. Back in my kitchen, I turned on some music and started cooking. First, I heated the pan and scrambled the eggs. Then I added the tomatoes and spinach, stirring everything together. The whole apartment smelled wonderful. I sat down at the table and enjoyed my simple dinner. It wasn't fancy, but it tasted great."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home at seven thirty to catch the bus. The stop is just around the corner, so I never have to rush. On the bus, I put on my headphones and listen to a podcast. Sometimes I check my messages or read a few pages of a book. The ride takes about twenty minutes, and I use that time to wake up slowly. When I get off downtown, I grab a coffee before walking to the office. It's a simple routine, but it helps me start the day calmly."
+ },
+ {
+  "theme": "在家做晚饭",
+  "text": "After work, I stopped by the store and picked up some vegetables and chicken. Back home, I turned on the kitchen light and put on some music. First, I washed the rice and set the cooker. Then I chopped the onions, garlic, and carrots. The chicken went into the pan with a little oil and salt. While it cooked, I stirred the pot and tasted the sauce. Soon the whole kitchen smelled amazing. I set the table, sat down, and enjoyed a warm meal."
  }
 ];
