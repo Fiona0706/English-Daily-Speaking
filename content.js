@@ -11629,6 +11629,60 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "问路去图书馆",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "游客",
+    "en": "Excuse me, could you tell me how to get to the city library?",
+    "zh": "打扰一下，你能告诉我怎么去市图书馆吗？",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "Sure. Go straight for two blocks and turn left at the bank.",
+    "zh": "当然可以。直走两个街区，在银行那里左转。",
+    "collect": false
+   },
+   {
+    "role": "游客",
+    "en": "Is it far from here? I'm not sure if I should walk.",
+    "zh": "离这里远吗？我不确定要不要走路去。",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "It's about a ten-minute walk, or you can take the number 5 bus.",
+    "zh": "走路大约十分钟，或者你可以坐5路公交车。",
+    "collect": false
+   },
+   {
+    "role": "游客",
+    "en": "Where is the bus stop?",
+    "zh": "公交车站在哪里？",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "It's right across the street, next to the post office.",
+    "zh": "就在街对面，邮局旁边。",
+    "collect": false
+   },
+   {
+    "role": "游客",
+    "en": "Great, thanks for your help!",
+    "zh": "太好了，谢谢你的帮助！",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "No problem. Good luck!",
+    "zh": "不客气。祝你好运！",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -13901,6 +13955,31 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你想插话，提出一个不同的方案。",
   "en": "Sorry to jump in, but I have a different approach.",
   "hint": "jump in 意为“插话”，but I have... 用来引出自己的观点。"
+ },
+ {
+  "zh": "跟客户确认周五能否发货",
+  "en": "Just checking if we can ship it out by Friday.",
+  "hint": "用 just checking if 开头可让催问显得客气；ship out 是发货的口语说法。"
+ },
+ {
+  "zh": "告诉货代提单信息已经发到邮箱",
+  "en": "I already sent the bill of lading to your email.",
+  "hint": "bill of lading 是提单；already 放助动词后、动词前表示已经。"
+ },
+ {
+  "zh": "同事问你报价单什么时候能做好",
+  "en": "When do you think the quote will be ready?",
+  "hint": "do you think 插入问句中间，后面用陈述语序 will be ready。"
+ },
+ {
+  "zh": "在留学生小组里约同学一起复习期中考试",
+  "en": "Do you want to study together for the midterm?",
+  "hint": "study together for 表示一起为某考试复习；midterm 指期中考试。"
+ },
+ {
+  "zh": "跟老板说明客户要求把交货期提前一周",
+  "en": "The client wants us to move the delivery up by a week.",
+  "hint": "move...up by 表示把时间提前多少；want sb to do 结构表达要求。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15015,5 +15094,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "在家做晚饭",
   "text": "After work, I stopped by the store and picked up some vegetables and chicken. Back home, I turned on the kitchen light and put on some music. First, I washed the rice and set the cooker. Then I chopped the onions, garlic, and carrots. The chicken went into the pan with a little oil and salt. While it cooked, I stirred the pot and tasted the sauce. Soon the whole kitchen smelled amazing. I set the table, sat down, and enjoyed a warm meal."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst traffic. The bus stop is just a five-minute walk from my apartment. Most mornings, I grab a coffee and a bagel from the corner shop before I get on. The ride takes about twenty minutes if the roads are clear. I like to listen to a podcast or read the news on my phone. When I arrive downtown, I walk two blocks to my office. It's a simple routine, but it helps me start the day calmly."
+ },
+ {
+  "theme": "在家做晚饭",
+  "text": "Last night, I decided to cook dinner instead of ordering takeout. I checked the fridge and found some chicken, bell peppers, and onions. First, I chopped everything into small pieces and heated a pan with olive oil. Then I added the chicken and let it cook until it turned golden brown. After that, I tossed in the vegetables and stirred them for a few minutes. I added soy sauce, a little sugar, and some chili flakes. The whole kitchen smelled amazing. I served it over rice and ate while watching a show."
  }
 ];
