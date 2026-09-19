@@ -7421,6 +7421,30 @@ var DAILY5_SENTENCES = [
   "zh": "我现在忙得不可开交，能晚点再聊吗？",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "I'm just gonna chill at home this weekend.",
+  "zh": "这周末我就打算在家待着放松一下。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Hey, are you still coming to the party tonight?",
+  "zh": "嘿，你今晚还来参加派对吗？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "The shipment got delayed again due to customs issues.",
+  "zh": "这批货因为海关问题又延误了。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Let's touch base tomorrow and go over the numbers.",
+  "zh": "我们明天碰一下，把数据过一遍。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -13980,6 +14004,26 @@ var DAILY5_PROMPTS = [
   "zh": "跟老板说明客户要求把交货期提前一周",
   "en": "The client wants us to move the delivery up by a week.",
   "hint": "move...up by 表示把时间提前多少；want sb to do 结构表达要求。"
+ },
+ {
+  "zh": "你在回复客户邮件，告诉他货已经发出，并附上物流单号。",
+  "en": "Your order has shipped, and here's the tracking number.",
+  "hint": "用现在完成时 has shipped 表示货已发出；here's 是 here is 的口语缩写，用于引出信息。"
+ },
+ {
+  "zh": "同事问你报价单什么时候能发过去，你说今天下班前一定发。",
+  "en": "I'll get the quote to you by end of day.",
+  "hint": "by end of day 是外贸职场常用表达，意为“今天下班前”；get sth to sb 表示把某物给到某人。"
+ },
+ {
+  "zh": "留学生在小组讨论里，想礼貌地打断同学并补充一个观点。",
+  "en": "Sorry to jump in, but I have one quick point.",
+  "hint": "jump in 是口语中“插话、打断”的地道说法；Sorry to... 是礼貌开场，but 引出补充内容。"
+ },
+ {
+  "zh": "货代告诉你船期延误了，你向客户解释并说会持续跟进。",
+  "en": "The shipment's delayed, but I'll keep you posted.",
+  "hint": "keep sb posted 意为“随时告知某人进展”，是商务英语高频短语；shipment's 是 shipment is 的缩写。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15102,5 +15146,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "在家做晚饭",
   "text": "Last night, I decided to cook dinner instead of ordering takeout. I checked the fridge and found some chicken, bell peppers, and onions. First, I chopped everything into small pieces and heated a pan with olive oil. Then I added the chicken and let it cook until it turned golden brown. After that, I tossed in the vegetables and stirred them for a few minutes. I added soy sauce, a little sugar, and some chili flakes. The whole kitchen smelled amazing. I served it over rice and ate while watching a show."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home at seven thirty to catch the subway. The platform is always crowded, so I stand near the door and put on my headphones. On the train, I listen to a short podcast or review my notes for the day. When I get off at the city center, I grab a coffee from the corner shop. Then I walk two blocks to my office and say good morning to the security guard. It is a simple routine, but it helps me feel ready for work."
+ },
+ {
+  "theme": "在家做晚饭",
+  "text": "After work, I stop by the supermarket to pick up some vegetables and chicken. Back in my kitchen, I wash the rice and put it in the cooker. While the rice is cooking, I cut the chicken into small pieces and heat some oil in a pan. I stir-fry the chicken with garlic, then add the vegetables and a little soy sauce. The smell fills the whole apartment, and my roommate comes out to see what is cooking. We sit down together and enjoy a warm, home-cooked meal."
  }
 ];
