@@ -5030,6 +5030,14 @@ var DAILY5_WORDS = [
   "example": "Please send me the file right away.",
   "exampleZh": "请马上把文件发给我。",
   "pos": "副词"
+ },
+ {
+  "word": "wrap up",
+  "phonetic": "/ræp ʌp/",
+  "zh": "结束；收尾",
+  "example": "Let's wrap up the meeting before noon.",
+  "exampleZh": "我们在中午前结束会议吧。",
+  "pos": "短语动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7443,6 +7451,12 @@ var DAILY5_SENTENCES = [
  {
   "en": "Let's touch base tomorrow and go over the numbers.",
   "zh": "我们明天碰一下，把数据过一遍。",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "I'll loop you in on the email chain.",
+  "zh": "我会把你加到邮件往来里。",
   "scene": "职场",
   "tag": "职场"
  }
@@ -11707,6 +11721,60 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "向房东请假并协商维修时间",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "租客",
+    "en": "Hi, I'm sorry to bother you, but the heater in my apartment stopped working last night.",
+    "zh": "你好，很抱歉打扰你，但我公寓里的暖气昨晚坏了。",
+    "collect": false
+   },
+   {
+    "role": "房东",
+    "en": "That doesn't sound good. Did you try resetting it or checking the breaker?",
+    "zh": "听起来不太妙。你试过重启它，或者检查一下断路器吗？",
+    "collect": false
+   },
+   {
+    "role": "租客",
+    "en": "I did, but it still won't turn on, so I think it might need a proper inspection.",
+    "zh": "我试过了，但它还是打不开，所以我觉得可能需要正式检查一下。",
+    "collect": false
+   },
+   {
+    "role": "房东",
+    "en": "All right, I can send a technician, but the earliest slot would be tomorrow afternoon.",
+    "zh": "好吧，我可以派个技师过去，但最早的时间是明天下午。",
+    "collect": false
+   },
+   {
+    "role": "租客",
+    "en": "Tomorrow afternoon works, though I'd have to leave work early to be here.",
+    "zh": "明天下午可以，不过我得知早退才能在家等着。",
+    "collect": false
+   },
+   {
+    "role": "房东",
+    "en": "I understand. Would it help if I asked him to call you thirty minutes before arrival?",
+    "zh": "我理解。如果我让他到之前三十分钟给你打电话，会方便些吗？",
+    "collect": false
+   },
+   {
+    "role": "租客",
+    "en": "That would be really helpful, thanks. Could you also confirm whether the repair is covered?",
+    "zh": "那真的会很有帮助，谢谢。另外你能不能确认一下维修是否包含在费用里？",
+    "collect": false
+   },
+   {
+    "role": "房东",
+    "en": "Yes, normal wear and tear is covered, so you won't be charged for the visit.",
+    "zh": "是的，正常损耗是包含在内的，所以这次上门不会向你收费。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -14024,6 +14092,31 @@ var DAILY5_PROMPTS = [
   "zh": "货代告诉你船期延误了，你向客户解释并说会持续跟进。",
   "en": "The shipment's delayed, but I'll keep you posted.",
   "hint": "keep sb posted 意为“随时告知某人进展”，是商务英语高频短语；shipment's 是 shipment is 的缩写。"
+ },
+ {
+  "zh": "跟进客户报价，说明运费上涨，需要调整报价。",
+  "en": "Shipping costs went up, so we need to adjust the quote.",
+  "hint": "用 so 连接因果；quote 指出口报价。"
+ },
+ {
+  "zh": "通知仓库同事，货物已到港，请尽快安排提货。",
+  "en": "The shipment has arrived, please arrange pickup as soon as possible.",
+  "hint": "现在完成时强调已完成；pickup 指提货。"
+ },
+ {
+  "zh": "和外国客户约会议时间，建议改到明天上午。",
+  "en": "Could we push our meeting to tomorrow morning?",
+  "hint": "push...to... 表示把时间改到；Could we 更礼貌。"
+ },
+ {
+  "zh": "留学生在图书馆借书，询问是否可以续借两周。",
+  "en": "Can I renew this book for another two weeks?",
+  "hint": "renew 指续借；for another two weeks 表示再续两周。"
+ },
+ {
+  "zh": "同事帮你处理紧急订单，表达感谢并请对方喝咖啡。",
+  "en": "Thanks for handling the rush order. Coffee is on me.",
+  "hint": "rush order 指紧急订单；on me 表示我请客。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15154,5 +15247,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "在家做晚饭",
   "text": "After work, I stop by the supermarket to pick up some vegetables and chicken. Back in my kitchen, I wash the rice and put it in the cooker. While the rice is cooking, I cut the chicken into small pieces and heat some oil in a pan. I stir-fry the chicken with garlic, then add the vegetables and a little soy sauce. The smell fills the whole apartment, and my roommate comes out to see what is cooking. We sit down together and enjoy a warm, home-cooked meal."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home at seven thirty to avoid the worst traffic. This morning, the bus arrived right on time, so I found a seat by the window. I put on my headphones and listened to a short podcast about cooking. At the third stop, a lot of people got on, and the bus became really crowded. I kept my bag close and watched the streets go by. When I finally got off, I felt ready for the day. It takes about forty minutes, but it is a quiet start."
+ },
+ {
+  "theme": "做番茄鸡蛋面",
+  "text": "Last night I decided to make tomato and egg noodles for dinner. First, I cut two tomatoes into small pieces and beat three eggs in a bowl. Then I heated some oil in the pan and poured in the eggs. They cooked so fast that I had to stir quickly. Next, I added the tomatoes and a little salt. The smell filled the kitchen, and my roommate came out to see what was cooking. Finally, I boiled the noodles and mixed everything together. It was simple, warm, and really delicious."
  }
 ];
