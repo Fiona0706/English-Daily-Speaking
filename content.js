@@ -7459,6 +7459,24 @@ var DAILY5_SENTENCES = [
   "zh": "我会把你加到邮件往来里。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Long time no see! How've you been?",
+  "zh": "好久不见！你最近怎么样？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "The shipment should arrive by next Friday.",
+  "zh": "这批货应该下周五前到。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Could you send me the tracking number when it ships?",
+  "zh": "发货后能把物流单号发给我吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14117,6 +14135,31 @@ var DAILY5_PROMPTS = [
   "zh": "同事帮你处理紧急订单，表达感谢并请对方喝咖啡。",
   "en": "Thanks for handling the rush order. Coffee is on me.",
   "hint": "rush order 指紧急订单；on me 表示我请客。"
+ },
+ {
+  "zh": "你给国外客户发邮件，确认下周二的装船日期。",
+  "en": "Just confirming the shipment date for next Tuesday.",
+  "hint": "用 just confirming 开头显得礼貌又直接，shipment date 指装船/发货日期。"
+ },
+ {
+  "zh": "货代告诉你港口拥堵，可能延误三天。",
+  "en": "The port is congested, so there might be a three-day delay.",
+  "hint": "用 there might be 表示不确定的推测，congested 指拥堵。"
+ },
+ {
+  "zh": "同事问你报价单什么时候能发出去。",
+  "en": "I'll have the quote out by end of day.",
+  "hint": "by end of day 是职场常用说法，指今天下班前，have...out 表示发出。"
+ },
+ {
+  "zh": "你在留学的课上，想请教授把作业截止日期延后。",
+  "en": "Would it be possible to extend the deadline?",
+  "hint": "Would it be possible to 是最礼貌的请求句型，extend the deadline 指延期。"
+ },
+ {
+  "zh": "你约同事开个短会，同步一下本周进度。",
+  "en": "Can we grab fifteen minutes to sync up on this week?",
+  "hint": "grab fifteen minutes 口语里指抽点时间，sync up 指同步信息、对进度。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15255,5 +15298,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做番茄鸡蛋面",
   "text": "Last night I decided to make tomato and egg noodles for dinner. First, I cut two tomatoes into small pieces and beat three eggs in a bowl. Then I heated some oil in the pan and poured in the eggs. They cooked so fast that I had to stir quickly. Next, I added the tomatoes and a little salt. The smell filled the kitchen, and my roommate came out to see what was cooking. Finally, I boiled the noodles and mixed everything together. It was simple, warm, and really delicious."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home at seven thirty and walk to the bus stop. The bus is often crowded, but I always find a spot near the back door. During the ride, I listen to a short podcast or review my schedule for the day. Sometimes I grab a coffee at the corner shop before heading into the office. The whole trip takes about forty minutes, which gives me time to wake up properly. Once I arrive, I say good morning to my colleagues and start checking emails. It's a simple routine, but it helps me feel ready for work."
+ },
+ {
+  "theme": "周末做饭",
+  "text": "On Saturday afternoons, I like to cook something special for dinner. First, I check what's in the fridge and make a quick shopping list. Then I walk to the nearby market and pick up fresh vegetables and some chicken. Back in the kitchen, I put on some music and start chopping everything. The recipe I use is pretty easy, so I don't have to stress too much. While the food simmers, I set the table and pour a glass of water. By the time it's ready, the whole apartment smells amazing. Eating my own cooking always feels rewarding."
  }
 ];
