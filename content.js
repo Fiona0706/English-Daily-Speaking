@@ -7477,6 +7477,18 @@ var DAILY5_SENTENCES = [
   "zh": "发货后能把物流单号发给我吗？",
   "scene": "外贸物流",
   "tag": "外贸物流"
+ },
+ {
+  "en": "I'm just gonna grab a bite real quick.",
+  "zh": "我就快速吃点东西。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "You wanna hang out this weekend or what?",
+  "zh": "这周末你想不想一起玩？",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14160,6 +14172,26 @@ var DAILY5_PROMPTS = [
   "zh": "你约同事开个短会，同步一下本周进度。",
   "en": "Can we grab fifteen minutes to sync up on this week?",
   "hint": "grab fifteen minutes 口语里指抽点时间，sync up 指同步信息、对进度。"
+ },
+ {
+  "zh": "客户催问货物什么时候能到港，你需要给出预计时间。",
+  "en": "It should arrive at the port by next Wednesday.",
+  "hint": "用 by + 时间表示“最晚在……之前”，比 in 更强调截止期限。"
+ },
+ {
+  "zh": "同事问你为什么这批货被海关扣了，你说明是文件不齐。",
+  "en": "It got held up because some documents were missing.",
+  "hint": "get held up 是口语里“被耽搁/被扣”的常用说法，比 be delayed 更自然。"
+ },
+ {
+  "zh": "留学时室友问你要不要一起点外卖，你想说这次各付各的。",
+  "en": "Let's just split the bill this time.",
+  "hint": "split the bill 指平摊账单；如果想说“各付各的”可用 separate checks。"
+ },
+ {
+  "zh": "开会时你想打断一下，补充一个关于运费的关键点。",
+  "en": "Can I jump in here and mention the shipping cost?",
+  "hint": "jump in 是会议中礼貌插话的地道表达，后面常接 and + 动词原形。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15306,5 +15338,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "周末做饭",
   "text": "On Saturday afternoons, I like to cook something special for dinner. First, I check what's in the fridge and make a quick shopping list. Then I walk to the nearby market and pick up fresh vegetables and some chicken. Back in the kitchen, I put on some music and start chopping everything. The recipe I use is pretty easy, so I don't have to stress too much. While the food simmers, I set the table and pour a glass of water. By the time it's ready, the whole apartment smells amazing. Eating my own cooking always feels rewarding."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I grab my coffee and rush out the door because the bus is already coming down the street. The driver waits for me as I run across the crosswalk, waving my hand. I find a seat near the window and put my bag on my lap. Outside, the city is waking up, and people are hurrying in every direction. I put in my headphones and listen to a podcast to make the ride feel shorter. Twenty minutes later, I get off and walk two blocks to my office. It is only eight thirty, but I already feel like I have done a full day's work."
+ },
+ {
+  "theme": "周末在家做饭",
+  "text": "I open the fridge and see what I can use before the vegetables go bad. There are some tomatoes, half an onion, and a few eggs, so I decide to make a simple omelette. I cut everything on the board while the pan heats up on the stove. A little oil goes in, then the onions, and they start to smell sweet. I pour the eggs over them and let it all cook for a few minutes. When it is ready, I slide it onto a plate and eat it with a piece of toast. It is nothing fancy, but it tastes great because I made it myself."
  }
 ];
