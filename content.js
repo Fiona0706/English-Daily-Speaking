@@ -5038,6 +5038,14 @@ var DAILY5_WORDS = [
   "example": "Let's wrap up the meeting before noon.",
   "exampleZh": "我们在中午前结束会议吧。",
   "pos": "短语动词"
+ },
+ {
+  "word": "drop by",
+  "phonetic": "/drɑːp baɪ/",
+  "zh": "顺便拜访",
+  "example": "Feel free to drop by my office later.",
+  "exampleZh": "稍后随时可以顺便来我办公室。",
+  "pos": "短语动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7489,6 +7497,24 @@ var DAILY5_SENTENCES = [
   "zh": "这周末你想不想一起玩？",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "You wanna hang out this weekend?",
+  "zh": "这周末想一起出去玩吗？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Let's touch base on this tomorrow.",
+  "zh": "我们明天再对接一下这件事。",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "I'm running a bit behind schedule.",
+  "zh": "我进度有点落后了。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14192,6 +14218,31 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你想打断一下，补充一个关于运费的关键点。",
   "en": "Can I jump in here and mention the shipping cost?",
   "hint": "jump in 是会议中礼貌插话的地道表达，后面常接 and + 动词原形。"
+ },
+ {
+  "zh": "外贸业务员告诉客户，因为工厂产能紧张，交货期需要推迟一周。",
+  "en": "We need to push back the delivery date by a week.",
+  "hint": "push back 表示“推迟”，后接 by + 时间表示推迟的幅度。"
+ },
+ {
+  "zh": "物流专员向客户解释，货物因港口拥堵可能会延误。",
+  "en": "Your shipment may be delayed due to port congestion.",
+  "hint": "due to 表示“由于”，后接名词短语；被动语态 be delayed 表示“被延误”。"
+ },
+ {
+  "zh": "职场中，同事问你能否在周五前完成报告，你表示没问题。",
+  "en": "I can get the report done by Friday.",
+  "hint": "get something done 表示“把某事完成”；by + 时间表示“在……之前”。"
+ },
+ {
+  "zh": "留学生向房东询问，租金是否包含水电费。",
+  "en": "Is the rent inclusive of utilities?",
+  "hint": "be inclusive of 表示“包含……在内”；utilities 指水电等公共事业费。"
+ },
+ {
+  "zh": "在会议上，你建议先确认库存再给客户报价。",
+  "en": "Let's check the stock before quoting the client.",
+  "hint": "Let's 后接动词原形；before 后接动名词，表示“在……之前”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15346,5 +15397,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "周末在家做饭",
   "text": "I open the fridge and see what I can use before the vegetables go bad. There are some tomatoes, half an onion, and a few eggs, so I decide to make a simple omelette. I cut everything on the board while the pan heats up on the stove. A little oil goes in, then the onions, and they start to smell sweet. I pour the eggs over them and let it all cook for a few minutes. When it is ready, I slide it onto a plate and eat it with a piece of toast. It is nothing fancy, but it tastes great because I made it myself."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty in the morning. The subway station is just a five-minute walk from my apartment. During rush hour, the platform is always crowded with people heading to work. I put on my headphones and listen to a podcast while I wait for the train. Once I get on, I try to find a spot near the door so I can get off quickly. The ride takes about twenty minutes, and I use that time to check my schedule for the day. When I finally arrive at my stop, I grab a coffee before walking into the office."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I got home late today, so I decided to make something quick for dinner. I opened the fridge and found some eggs, tomatoes, and a bag of noodles. First, I boiled water in a pot and cooked the noodles for about three minutes. While they were cooking, I cut the tomatoes and beat the eggs in a small bowl. Then I heated some oil in a pan and poured in the eggs, stirring them until they were soft. After that, I added the tomatoes and a pinch of salt. Finally, I mixed everything with the noodles and sat down to eat."
  }
 ];
