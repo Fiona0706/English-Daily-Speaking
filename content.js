@@ -5046,6 +5046,14 @@ var DAILY5_WORDS = [
   "example": "Feel free to drop by my office later.",
   "exampleZh": "稍后随时可以顺便来我办公室。",
   "pos": "短语动词"
+ },
+ {
+  "word": "warm up",
+  "phonetic": "/wɔːrm ʌp/",
+  "zh": "加热；热身",
+  "example": "Please warm up the soup before dinner.",
+  "exampleZh": "请在晚饭前把汤加热一下。",
+  "pos": "短语动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7513,6 +7521,36 @@ var DAILY5_SENTENCES = [
  {
   "en": "I'm running a bit behind schedule.",
   "zh": "我进度有点落后了。",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "I'm gonna grab a bite real quick.",
+  "zh": "我很快去吃点东西。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Can you hold the elevator for me?",
+  "zh": "你能帮我按住电梯吗？",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Let's catch up over coffee sometime soon.",
+  "zh": "我们找个时间喝咖啡聊聊吧。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "The shipment is stuck at customs right now.",
+  "zh": "这批货现在卡在海关了。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Can we push the meeting to tomorrow morning?",
+  "zh": "我们可以把会议推迟到明天上午吗？",
   "scene": "职场",
   "tag": "职场"
  }
@@ -11831,6 +11869,60 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "街头问路",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "游客",
+    "en": "Excuse me, could you tell me how to get to the train station?",
+    "zh": "打扰一下，你能告诉我怎么去火车站吗？",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "Sure. Go straight for two blocks, then turn left at the bank.",
+    "zh": "当然可以。直走两个街区，然后在银行那儿左转。",
+    "collect": false
+   },
+   {
+    "role": "游客",
+    "en": "Left at the bank. Is it far from there?",
+    "zh": "在银行左转。从那儿过去远吗？",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "Not really. It's about a ten-minute walk.",
+    "zh": "不太远。走路大概十分钟。",
+    "collect": false
+   },
+   {
+    "role": "游客",
+    "en": "Great. Can I take a bus instead?",
+    "zh": "太好了。我可以改坐公交车吗？",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "Yes, the number 7 bus stops right outside the station.",
+    "zh": "可以，7路公交车就停在车站外面。",
+    "collect": false
+   },
+   {
+    "role": "游客",
+    "en": "Thanks a lot. You've been really helpful.",
+    "zh": "非常感谢。你帮了大忙。",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "No problem. Have a safe trip!",
+    "zh": "不客气。旅途平安！",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -14243,6 +14335,31 @@ var DAILY5_PROMPTS = [
   "zh": "在会议上，你建议先确认库存再给客户报价。",
   "en": "Let's check the stock before quoting the client.",
   "hint": "Let's 后接动词原形；before 后接动名词，表示“在……之前”。"
+ },
+ {
+  "zh": "你给美国客户发了报价单，三天没回复，你想礼貌催一下。",
+  "en": "Just following up on the quote I sent earlier.",
+  "hint": "follow up on 表示“就某事跟进”，比 ask again 更地道；Just 开头可软化语气。"
+ },
+ {
+  "zh": "货代通知你船期延误一周，你需要告诉客户新预计到港时间。",
+  "en": "The shipment is delayed, but it should arrive next Friday.",
+  "hint": "用 but 引出新信息，缓和坏消息；should 表示“预计会”，比 will 留有余地。"
+ },
+ {
+  "zh": "开会时同事提了个方案，你觉得可行，想表示支持。",
+  "en": "That sounds good to me. Let's go with it.",
+  "hint": "go with 意为“采用、选择”，口语中常用来表示同意某个方案。"
+ },
+ {
+  "zh": "你在美国留学，室友做了晚饭，你想表达感谢并夸赞味道。",
+  "en": "Thanks for dinner. That was really delicious.",
+  "hint": "用 That was... 指刚吃完的这顿饭；really 加强语气，口语常用。"
+ },
+ {
+  "zh": "供应商报价太高，你想问能不能给个更优惠的价格。",
+  "en": "Is there any way you could lower the price a bit?",
+  "hint": "Is there any way... 是礼貌请求的委婉句式；a bit 让要求显得不那么强硬。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15405,5 +15522,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I got home late today, so I decided to make something quick for dinner. I opened the fridge and found some eggs, tomatoes, and a bag of noodles. First, I boiled water in a pot and cooked the noodles for about three minutes. While they were cooking, I cut the tomatoes and beat the eggs in a small bowl. Then I heated some oil in a pan and poured in the eggs, stirring them until they were soft. After that, I added the tomatoes and a pinch of salt. Finally, I mixed everything with the noodles and sat down to eat."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave home at seven thirty and walk to the subway station. The platform is already crowded with people checking their phones. When the train arrives, I squeeze in and hold onto the rail. At the third stop, a seat opens up, so I sit down and listen to a podcast. The ride takes about forty minutes. I get off, grab a coffee, and head to my office. It is a busy start, but I am used to it."
+ },
+ {
+  "theme": "做番茄鸡蛋面",
+  "text": "After work, I open the fridge and take out two eggs and a tomato. I crack the eggs into a bowl and beat them with a little salt. Then I cut the tomato into small pieces. I heat some oil in a pan and pour in the eggs. When they are almost done, I add the tomato and stir for a minute. Next, I boil some noodles in another pot. Finally, I mix everything together and taste it. It is simple, warm, and just what I need."
  }
 ];
