@@ -7553,6 +7553,18 @@ var DAILY5_SENTENCES = [
   "zh": "我们可以把会议推迟到明天上午吗？",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "I'm gonna grab a coffee real quick.",
+  "zh": "我去快速买杯咖啡。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "No worries, it happens to everyone.",
+  "zh": "别担心，这种事谁都会遇到。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14360,6 +14372,31 @@ var DAILY5_PROMPTS = [
   "zh": "供应商报价太高，你想问能不能给个更优惠的价格。",
   "en": "Is there any way you could lower the price a bit?",
   "hint": "Is there any way... 是礼貌请求的委婉句式；a bit 让要求显得不那么强硬。"
+ },
+ {
+  "zh": "给国外客户发邮件，确认收到他们的订单并告知预计发货时间。",
+  "en": "We've received your order and will ship it by Friday.",
+  "hint": "用现在完成时强调“已收到”，用 will 加时间状语表达预计发货，语气礼貌专业。"
+ },
+ {
+  "zh": "和货代打电话，询问一批货为什么在港口被扣留了。",
+  "en": "Could you tell me why our shipment is being held at the port?",
+  "hint": "Could you tell me why... 是礼貌问原因句式，is being held 用被动语态的进行时表示正在被扣留。"
+ },
+ {
+  "zh": "在办公室和同事说，老板把会议推迟到了下周三。",
+  "en": "The boss pushed our meeting back to next Wednesday.",
+  "hint": "push...back to... 表示把某事推迟到某时间，口语中比 postpone 更自然。"
+ },
+ {
+  "zh": "留学生和室友说，这周要赶三篇论文，没时间做饭。",
+  "en": "I've got three papers due this week, so I won't have time to cook.",
+  "hint": "have got 表示“有”，due 表示“到期要交”，so 连接结果，口语常用。"
+ },
+ {
+  "zh": "给供应商回消息，说价格太高，希望对方给个更好的报价。",
+  "en": "Your price is a bit high—can you give us a better quote?",
+  "hint": "a bit high 比 too high 更委婉，破折号引出请求，quote 在外贸中指报价。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15530,5 +15567,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做番茄鸡蛋面",
   "text": "After work, I open the fridge and take out two eggs and a tomato. I crack the eggs into a bowl and beat them with a little salt. Then I cut the tomato into small pieces. I heat some oil in a pan and pour in the eggs. When they are almost done, I add the tomato and stir for a minute. Next, I boil some noodles in another pot. Finally, I mix everything together and taste it. It is simple, warm, and just what I need."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst traffic. This morning the bus was late again, so I stood at the stop watching people hurry by. When it finally arrived, I found a seat near the window and put on my headphones. The ride takes about forty minutes, and I like to listen to a podcast or read the news. Today I was so tired that I almost missed my stop. I jumped up just as the doors were closing and made it out just in time."
+ },
+ {
+  "theme": "在家做晚饭",
+  "text": "After work I stopped by the grocery store to pick up a few things for dinner. I bought some chicken, fresh tomatoes, and a bag of pasta. Back home, I turned on some music and started chopping the vegetables. The kitchen smelled amazing as the sauce simmered on the stove. I boiled the pasta, mixed everything together, and added a little cheese on top. It was a simple meal, but it tasted so good after a long day. I cleaned up the dishes and sat down to relax."
  }
 ];
