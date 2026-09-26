@@ -7565,6 +7565,30 @@ var DAILY5_SENTENCES = [
   "zh": "别担心，这种事谁都会遇到。",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "Let's catch up sometime next week, maybe over lunch.",
+  "zh": "我们下周找时间聚聚吧，也许一起吃午饭。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Could you track the shipment and update me today?",
+  "zh": "你能查一下这批货的物流，并今天给我更新吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "I'll loop you in on the client email tomorrow morning.",
+  "zh": "我明天早上会把客户邮件抄送给你。",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "Just a heads-up, the deadline got moved up to Friday.",
+  "zh": "提醒一下，截止日期提前到周五了。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14397,6 +14421,31 @@ var DAILY5_PROMPTS = [
   "zh": "给供应商回消息，说价格太高，希望对方给个更好的报价。",
   "en": "Your price is a bit high—can you give us a better quote?",
   "hint": "a bit high 比 too high 更委婉，破折号引出请求，quote 在外贸中指报价。"
+ },
+ {
+  "zh": "向客户确认是否收到你昨天发出的报价单",
+  "en": "Just checking if you got the quote I sent yesterday.",
+  "hint": "用 just checking if 开头，语气随意不生硬；got 比 received 更口语。"
+ },
+ {
+  "zh": "告诉货代这批货需要赶下周的船期",
+  "en": "We need this shipment to catch next week's sailing.",
+  "hint": "catch a sailing 是物流固定搭配，表示赶上某个船期。"
+ },
+ {
+  "zh": "跟同事说会议改到下午三点",
+  "en": "The meeting's been pushed back to three this afternoon.",
+  "hint": "push back 表示推迟；be pushed back to 后接新时间。"
+ },
+ {
+  "zh": "向室友抱怨这周作业太多做不完",
+  "en": "I've got so much homework this week, I can't keep up.",
+  "hint": "keep up 表示跟得上进度；用 so much 加强抱怨语气。"
+ },
+ {
+  "zh": "请供应商尽快回复你的邮件",
+  "en": "Could you get back to me on this as soon as possible?",
+  "hint": "get back to sb on sth 意为就某事回复某人，比 reply 更自然。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15575,5 +15624,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "在家做晚饭",
   "text": "After work I stopped by the grocery store to pick up a few things for dinner. I bought some chicken, fresh tomatoes, and a bag of pasta. Back home, I turned on some music and started chopping the vegetables. The kitchen smelled amazing as the sauce simmered on the stove. I boiled the pasta, mixed everything together, and added a little cheese on top. It was a simple meal, but it tasted so good after a long day. I cleaned up the dishes and sat down to relax."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I wake up at six thirty and make a quick cup of coffee. Then I check the bus schedule on my phone. The bus is usually crowded, so I stand near the back door. I put on my headphones and listen to a podcast. The ride takes about twenty minutes. When I get off, I walk two blocks to my office. I always grab a banana from the corner store."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I get home around six and open the fridge. I take out some chicken, tomatoes, and a green pepper. First, I wash the vegetables and cut them into small pieces. Then I heat some oil in a pan. I cook the chicken until it turns golden brown. After that, I add the vegetables and stir for a few minutes. Finally, I pour in some sauce and let it simmer. Dinner is ready in half an hour."
  }
 ];
