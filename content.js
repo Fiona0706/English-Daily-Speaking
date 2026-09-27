@@ -5054,6 +5054,14 @@ var DAILY5_WORDS = [
   "example": "Please warm up the soup before dinner.",
   "exampleZh": "请在晚饭前把汤加热一下。",
   "pos": "短语动词"
+ },
+ {
+  "word": "appliance",
+  "phonetic": "/əˈplaɪəns/",
+  "zh": "家用电器",
+  "example": "The new appliance makes cooking much easier.",
+  "exampleZh": "这台新电器让做饭方便多了。",
+  "pos": "名词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7589,6 +7597,24 @@ var DAILY5_SENTENCES = [
   "zh": "提醒一下，截止日期提前到周五了。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Can you grab me a coffee real quick?",
+  "zh": "你能快速帮我拿杯咖啡吗？",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "I'm down to hang out this weekend.",
+  "zh": "这周末我有空一起玩。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "No worries, I got your back.",
+  "zh": "别担心，我支持你。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14446,6 +14472,31 @@ var DAILY5_PROMPTS = [
   "zh": "请供应商尽快回复你的邮件",
   "en": "Could you get back to me on this as soon as possible?",
   "hint": "get back to sb on sth 意为就某事回复某人，比 reply 更自然。"
+ },
+ {
+  "zh": "你刚收到客户邮件，对方说货物比原计划晚了三天，你回复表示歉意并说明是港口拥堵导致的。",
+  "en": "Sorry for the delay; the port congestion held things up.",
+  "hint": "用分号连接两句，道歉后紧跟原因；hold up 表示“耽误、延误”，比 delay 更口语。"
+ },
+ {
+  "zh": "你在物流公司工作，同事打电话问你那批货什么时候能到仓库，你说大概明天下午。",
+  "en": "It should hit the warehouse tomorrow afternoon.",
+  "hint": "hit 在物流口语中可表示“到达”；should 表示根据现有信息的推测，语气比 will 更谨慎。"
+ },
+ {
+  "zh": "你在开会，经理想确认报价单有没有发给客户，你回答说已经发了，对方还在等回复。",
+  "en": "Already sent it; still waiting to hear back.",
+  "hint": "省略主语 I've 是口语常见现象；hear back 表示“收到回复”，比 get a reply 更自然。"
+ },
+ {
+  "zh": "你刚到美国留学，室友问你周末有什么打算，你说可能去超市买点菜，然后在家写作业。",
+  "en": "Probably grab some groceries and then hit the books.",
+  "hint": "grab 表示“随手买、快速拿”；hit the books 是固定习语，意为“用功读书”。"
+ },
+ {
+  "zh": "客户在电话里问你们能不能把交期提前一周，你说需要先跟工厂确认一下再回复。",
+  "en": "Let me check with the factory and get back to you.",
+  "hint": "check with 表示“和某人确认”；get back to you 表示“稍后回复你”，商务口语常用。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15632,5 +15683,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I get home around six and open the fridge. I take out some chicken, tomatoes, and a green pepper. First, I wash the vegetables and cut them into small pieces. Then I heat some oil in a pan. I cook the chicken until it turns golden brown. After that, I add the vegetables and stir for a few minutes. Finally, I pour in some sauce and let it simmer. Dinner is ready in half an hour."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I grab my coffee and head out the door. The bus is already waiting at the corner, so I run to catch it. Inside, I find a seat near the window and put on my headphones. The city slides by as we move through traffic. I listen to a podcast about cooking, which keeps me awake. At my stop, I thank the driver and step onto the sidewalk. Now I just need to walk two blocks to my office."
+ },
+ {
+  "theme": "在家做晚饭",
+  "text": "I open the fridge and take out some vegetables and chicken. First, I wash everything under cold water. Then I cut the onions and peppers into small pieces. The pan is hot, so I add a little oil and drop in the chicken. It sizzles and smells amazing. After a few minutes, I toss in the vegetables and stir. Finally, I add soy sauce and taste it. Dinner is ready in less than thirty minutes."
  }
 ];
