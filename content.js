@@ -7615,6 +7615,30 @@ var DAILY5_SENTENCES = [
   "zh": "别担心，我支持你。",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "Could you grab me a coffee while you're out?",
+  "zh": "你出去的时候能帮我带杯咖啡吗？",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Let's catch up over drinks sometime this week.",
+  "zh": "这周找个时间一起喝一杯聊聊吧。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Can we push the deadline to next Friday?",
+  "zh": "我们能把截止日期推到下周五吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "I'm swamped today, can we talk tomorrow?",
+  "zh": "我今天忙得不可开交，明天再聊行吗？",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14497,6 +14521,21 @@ var DAILY5_PROMPTS = [
   "zh": "客户在电话里问你们能不能把交期提前一周，你说需要先跟工厂确认一下再回复。",
   "en": "Let me check with the factory and get back to you.",
   "hint": "check with 表示“和某人确认”；get back to you 表示“稍后回复你”，商务口语常用。"
+ },
+ {
+  "zh": "你在物流公司工作，同事问你为什么这批货延误了，你解释说因为港口拥堵导致清关慢了。",
+  "en": "The shipment got delayed because of port congestion and slow customs clearance.",
+  "hint": "用“got delayed”表示被动延误，比“was delayed”更口语；port congestion 指港口拥堵。"
+ },
+ {
+  "zh": "在职场会议上，你想礼貌地打断同事，提出一个不同的看法，并说明你理解他的观点但有其他考虑。",
+  "en": "I see your point, but I think we should look at it differently.",
+  "hint": "“I see your point”先表示认同，再用 but 转折，是职场礼貌表达不同意见的常用句式。"
+ },
+ {
+  "zh": "你和国外客户谈价格，对方觉得报价太高，你想说可以给个小折扣，但需要他增加订购数量。",
+  "en": "We could offer a small discount if you increase the order quantity.",
+  "hint": "“could offer”比“can offer”语气更委婉，适合谈判；increase the order quantity 指增加订购量。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15691,5 +15730,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "在家做晚饭",
   "text": "I open the fridge and take out some vegetables and chicken. First, I wash everything under cold water. Then I cut the onions and peppers into small pieces. The pan is hot, so I add a little oil and drop in the chicken. It sizzles and smells amazing. After a few minutes, I toss in the vegetables and stir. Finally, I add soy sauce and taste it. Dinner is ready in less than thirty minutes."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I grab my coffee and head out the door. The bus is already waiting at the corner, so I run to catch it. Inside, I find a seat by the window and put on my headphones. The city passes by in a blur of shops and trees. I check my messages and plan the day ahead. When my stop comes, I thank the driver and step off. The office is just a five-minute walk from here."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I open the fridge and see what I have. There are some tomatoes, eggs, and a bit of leftover rice. I decide to make a simple stir-fry. First, I chop the tomatoes and beat the eggs. The pan heats up, and I pour in some oil. The eggs sizzle and smell great. I add the rice and mix everything together. Dinner is ready in ten minutes, and it tastes just right."
  }
 ];
