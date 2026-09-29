@@ -5062,6 +5062,14 @@ var DAILY5_WORDS = [
   "example": "The new appliance makes cooking much easier.",
   "exampleZh": "这台新电器让做饭方便多了。",
   "pos": "名词"
+ },
+ {
+  "word": "once in a while",
+  "phonetic": "/wʌns ɪn ə waɪl/",
+  "zh": "偶尔",
+  "example": "I treat myself to dessert once in a while.",
+  "exampleZh": "我偶尔会给自己买甜点吃。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7637,6 +7645,36 @@ var DAILY5_SENTENCES = [
  {
   "en": "I'm swamped today, can we talk tomorrow?",
   "zh": "我今天忙得不可开交，明天再聊行吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "Could you grab me a coffee on your way?",
+  "zh": "你顺路帮我带杯咖啡好吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "I'll swing by your place around seven tonight.",
+  "zh": "我今晚七点左右顺路去你那儿。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "The shipment is stuck at customs for some reason.",
+  "zh": "这批货不知什么原因卡在海关了。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Do you mind if I crash on your couch tonight?",
+  "zh": "你介意我今晚睡你家沙发吗？",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Let's touch base tomorrow and see where we stand.",
+  "zh": "我们明天碰一下，看看进展到哪了。",
   "scene": "职场",
   "tag": "职场"
  }
@@ -14536,6 +14574,31 @@ var DAILY5_PROMPTS = [
   "zh": "你和国外客户谈价格，对方觉得报价太高，你想说可以给个小折扣，但需要他增加订购数量。",
   "en": "We could offer a small discount if you increase the order quantity.",
   "hint": "“could offer”比“can offer”语气更委婉，适合谈判；increase the order quantity 指增加订购量。"
+ },
+ {
+  "zh": "你需要向客户说明货物因为港口拥堵会延迟一周。",
+  "en": "Your shipment will be delayed by a week due to port congestion.",
+  "hint": "用 due to 说明原因，被动语态 will be delayed 表示货物被延迟。"
+ },
+ {
+  "zh": "同事问你报价是否已经发给买家，你回答刚发出去。",
+  "en": "I just sent the quote to the buyer this morning.",
+  "hint": "用 just 表示“刚刚”，sent 是 send 的过去式，动作已完成。"
+ },
+ {
+  "zh": "你在物流仓库确认一批货的数量时发现少了三箱。",
+  "en": "We're short three cartons on this order.",
+  "hint": "be short + 数量，表示“少了多少”，是仓库/外贸常用说法。"
+ },
+ {
+  "zh": "你想请同事帮忙在系统里查一下这票货的实时状态。",
+  "en": "Could you check the live status of this shipment in the system?",
+  "hint": "Could you... 是礼貌请求，live status 指实时状态。"
+ },
+ {
+  "zh": "你在留学小组讨论中提议大家换个时间再开会。",
+  "en": "Can we reschedule the meeting to sometime next week?",
+  "hint": "reschedule 表示“改期”，to + 时间表示改到某个时间。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15738,5 +15801,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I open the fridge and see what I have. There are some tomatoes, eggs, and a bit of leftover rice. I decide to make a simple stir-fry. First, I chop the tomatoes and beat the eggs. The pan heats up, and I pour in some oil. The eggs sizzle and smell great. I add the rice and mix everything together. Dinner is ready in ten minutes, and it tastes just right."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I grab my coffee and head out the door at seven thirty. The bus stop is just around the corner, but today the bus is running late. I check my watch and sigh, hoping I won't miss the morning meeting. When the bus finally arrives, it's packed with people checking their phones. I squeeze in near the back and hold onto the rail. Two stops later, a seat opens up, and I slide into it with relief. The ride takes about twenty minutes, and I use the time to review my notes."
+ },
+ {
+  "theme": "厨房做晚饭",
+  "text": "I get home around six and open the fridge to see what I have. There are some eggs, half an onion, and a few tomatoes. I decide to make a simple omelet with a side salad. First, I chop the onion and tomatoes into small pieces. Then I heat some oil in a pan and pour in the beaten eggs. While the eggs cook, I toss the salad with a little olive oil and salt. Everything is ready in fifteen minutes, and I sit down to eat."
  }
 ];
