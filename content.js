@@ -5070,6 +5070,14 @@ var DAILY5_WORDS = [
   "example": "I treat myself to dessert once in a while.",
   "exampleZh": "我偶尔会给自己买甜点吃。",
   "pos": "习语"
+ },
+ {
+  "word": "throw away",
+  "phonetic": "/θroʊ əˈweɪ/",
+  "zh": "扔掉；丢弃",
+  "example": "Don't throw away those old batteries.",
+  "exampleZh": "别扔掉那些旧电池。",
+  "pos": "短语动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7677,6 +7685,24 @@ var DAILY5_SENTENCES = [
   "zh": "我们明天碰一下，看看进展到哪了。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "I'm just gonna kick back and watch some TV tonight.",
+  "zh": "今晚我就打算放松一下看看电视。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Hey, are you still up for grabbing dinner this weekend?",
+  "zh": "嘿，这周末你还想去吃晚饭吗？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Let me double-check the tracking number for you.",
+  "zh": "我再帮你核对一下运单号。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14599,6 +14625,31 @@ var DAILY5_PROMPTS = [
   "zh": "你在留学小组讨论中提议大家换个时间再开会。",
   "en": "Can we reschedule the meeting to sometime next week?",
   "hint": "reschedule 表示“改期”，to + 时间表示改到某个时间。"
+ },
+ {
+  "zh": "你给海外客户发了一封报价邮件，但对方三天没回复，你想礼貌地跟进一下。",
+  "en": "Just following up on my quote from last week.",
+  "hint": "follow up on 表示就某事跟进，语气礼貌自然。"
+ },
+ {
+  "zh": "货代告诉你船期延误了，你要把这个坏消息转告给客户。",
+  "en": "I'm afraid your shipment will be delayed by a week.",
+  "hint": "I'm afraid 用于委婉传达坏消息。"
+ },
+ {
+  "zh": "同事问你为什么没参加昨天的部门会议，你解释说临时去见了一个供应商。",
+  "en": "I had to meet a supplier at the last minute.",
+  "hint": "at the last minute 表示在最后一刻临时。"
+ },
+ {
+  "zh": "留学时室友总是不洗碗，你想委婉地提醒他分担家务。",
+  "en": "Could we maybe take turns doing the dishes?",
+  "hint": "take turns doing sth 表示轮流做某事，用 could 更委婉。"
+ },
+ {
+  "zh": "老板在会议上问你项目进度，你想说基本完成了，只差最后的测试。",
+  "en": "We're almost done, just need to run the final tests.",
+  "hint": "almost done 表示快完成了，just need to 说明唯一待办。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15809,5 +15860,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "厨房做晚饭",
   "text": "I get home around six and open the fridge to see what I have. There are some eggs, half an onion, and a few tomatoes. I decide to make a simple omelet with a side salad. First, I chop the onion and tomatoes into small pieces. Then I heat some oil in a pan and pour in the beaten eggs. While the eggs cook, I toss the salad with a little olive oil and salt. Everything is ready in fifteen minutes, and I sit down to eat."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty. The subway station is only a five-minute walk from my apartment. On the way, I grab a coffee from the corner shop. The train is always crowded at this hour, so I put on my headphones and listen to a podcast. When I get off at the city center, I still have ten minutes to walk to my office. I like this quiet routine because it helps me wake up slowly. By the time I sit at my desk, I feel ready for the day."
+ },
+ {
+  "theme": "做番茄鸡蛋面",
+  "text": "Last night I decided to cook tomato and egg noodles for dinner. First, I boiled some water in a small pot. While the water was heating, I cut two tomatoes and beat three eggs. Then I heated a little oil in a pan and poured in the eggs. After they turned golden, I added the tomatoes and a pinch of salt. The whole kitchen smelled sweet and warm. Finally, I mixed everything with the noodles and sat down to eat. It was simple, but it tasted like home."
  }
 ];
