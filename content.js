@@ -7703,6 +7703,12 @@ var DAILY5_SENTENCES = [
   "zh": "我再帮你核对一下运单号。",
   "scene": "外贸物流",
   "tag": "外贸物流"
+ },
+ {
+  "en": "Sorry, I totally spaced on that email.",
+  "zh": "抱歉，我把那封邮件完全忘了。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14650,6 +14656,31 @@ var DAILY5_PROMPTS = [
   "zh": "老板在会议上问你项目进度，你想说基本完成了，只差最后的测试。",
   "en": "We're almost done, just need to run the final tests.",
   "hint": "almost done 表示快完成了，just need to 说明唯一待办。"
+ },
+ {
+  "zh": "客户催问货物何时到港，你要给出预计时间。",
+  "en": "It should arrive at the port by next Tuesday.",
+  "hint": "用 should + 动词原形表示预计；by + 时间表示截止到某时。"
+ },
+ {
+  "zh": "同事问你为什么报价比上次高，你解释因为运费涨了。",
+  "en": "The shipping cost went up, so the price changed.",
+  "hint": "用 so 连接因果；go up 表示上涨，过去式 went up。"
+ },
+ {
+  "zh": "你在会议上建议先确认库存再安排发货。",
+  "en": "Let's check the stock first before we ship.",
+  "hint": "Let's + 动词原形提建议；before 后接从句。"
+ },
+ {
+  "zh": "室友问你能不能帮忙收快递，你说没问题。",
+  "en": "No problem, I'll grab it for you.",
+  "hint": "grab 在口语中表示顺手拿/取；I'll = I will。"
+ },
+ {
+  "zh": "你想请对方把文件发到你的邮箱，语气礼貌。",
+  "en": "Could you send the file to my email?",
+  "hint": "Could you + 动词原形表示礼貌请求；send sth to sb 结构。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15868,5 +15899,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做番茄鸡蛋面",
   "text": "Last night I decided to cook tomato and egg noodles for dinner. First, I boiled some water in a small pot. While the water was heating, I cut two tomatoes and beat three eggs. Then I heated a little oil in a pan and poured in the eggs. After they turned golden, I added the tomatoes and a pinch of salt. The whole kitchen smelled sweet and warm. Finally, I mixed everything with the noodles and sat down to eat. It was simple, but it tasted like home."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the rush. This morning, though, I missed my usual bus by just a few seconds. I had to wait almost ten minutes for the next one, and by then the platform was packed. When the bus finally arrived, I squeezed in near the door and held onto the rail. A woman next to me was listening to music with her eyes closed. I got off two stops early and walked the rest of the way. The fresh air actually made me feel more awake."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I got home later than I expected, so I decided to make something quick for dinner. I chopped an onion and some garlic while the pan was heating up. Then I added tomatoes and let everything simmer for a few minutes. The kitchen started to smell really good, and my roommate came out to see what I was cooking. I boiled some pasta, mixed it all together, and sprinkled cheese on top. We ate at the small table by the window and talked about our day. It was simple, but it hit the spot."
  }
 ];
