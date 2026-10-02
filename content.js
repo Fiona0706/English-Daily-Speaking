@@ -5078,6 +5078,14 @@ var DAILY5_WORDS = [
   "example": "Don't throw away those old batteries.",
   "exampleZh": "别扔掉那些旧电池。",
   "pos": "短语动词"
+ },
+ {
+  "word": "reheat",
+  "phonetic": "/ˌriːˈhiːt/",
+  "zh": "重新加热",
+  "example": "I'll just reheat the leftovers for dinner tonight.",
+  "exampleZh": "我今晚就把剩菜重新加热当晚饭吧。",
+  "pos": "动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7709,6 +7717,30 @@ var DAILY5_SENTENCES = [
   "zh": "抱歉，我把那封邮件完全忘了。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "I'm just gonna kick back and relax today.",
+  "zh": "我今天打算好好放松一下。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Wanna grab a bite after work?",
+  "zh": "下班后想去吃点东西吗？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Can you check the tracking number for me?",
+  "zh": "你能帮我查一下物流单号吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "No worries, we can figure it out together.",
+  "zh": "别担心，我们可以一起想办法。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14681,6 +14713,31 @@ var DAILY5_PROMPTS = [
   "zh": "你想请对方把文件发到你的邮箱，语气礼貌。",
   "en": "Could you send the file to my email?",
   "hint": "Could you + 动词原形表示礼貌请求；send sth to sb 结构。"
+ },
+ {
+  "zh": "向客户说明货物因港口拥堵会延迟一周到货。",
+  "en": "Your shipment will arrive one week late due to port congestion.",
+  "hint": "用 due to 引出原因；late 放在时间之后，表示“晚到”。"
+ },
+ {
+  "zh": "在邮件里请对方确认最新报价单是否可以接受。",
+  "en": "Could you confirm whether our latest quotation works for you?",
+  "hint": "whether 引导宾语从句；works for you 表示“对你合适/可接受”。"
+ },
+ {
+  "zh": "同事问你仓库库存还剩多少，你说需要先查系统。",
+  "en": "I need to check the system before I can tell you.",
+  "hint": "before 引导时间状语从句；can tell you 表示“才能告诉你”。"
+ },
+ {
+  "zh": "留学生在小组讨论里表示自己同意队友的方案。",
+  "en": "I'm on board with your plan for the group project.",
+  "hint": "be on board with 表示“同意、支持”；for 引出具体项目。"
+ },
+ {
+  "zh": "物流客服告诉客户清关文件已经通过审核。",
+  "en": "Your customs clearance documents have already been approved.",
+  "hint": "现在完成时 have been approved 强调结果；customs clearance 指“清关”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15907,5 +15964,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I got home later than I expected, so I decided to make something quick for dinner. I chopped an onion and some garlic while the pan was heating up. Then I added tomatoes and let everything simmer for a few minutes. The kitchen started to smell really good, and my roommate came out to see what I was cooking. I boiled some pasta, mixed it all together, and sprinkled cheese on top. We ate at the small table by the window and talked about our day. It was simple, but it hit the spot."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to catch the bus. The station is only a five-minute walk, but I still check the time every few seconds. When the bus arrives, I find a seat near the window and put on my headphones. Sometimes I listen to a podcast, and other times I just watch the city go by. The ride takes about twenty minutes, so I use that time to plan my day. Before I know it, we reach downtown, and I step off feeling ready for work."
+ },
+ {
+  "theme": "周末做饭",
+  "text": "On Saturday mornings, I like to cook a proper breakfast for myself. I open the fridge and see what needs to be used up first. Today I found some eggs, tomatoes, and half an onion, so I decided to make an omelette. I chopped everything, heated the pan, and poured in the eggs. The kitchen smelled amazing within minutes. While it cooked, I made a cup of coffee and set the table. Eating slowly without rushing is my favorite part of the weekend."
  }
 ];
