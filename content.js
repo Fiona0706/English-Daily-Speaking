@@ -7741,6 +7741,18 @@ var DAILY5_SENTENCES = [
   "zh": "别担心，我们可以一起想办法。",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "Let's circle back on this tomorrow morning.",
+  "zh": "我们明天早上再讨论这件事吧。",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "I'm running a bit late, start without me.",
+  "zh": "我要迟到一点，你们先开始吧。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14738,6 +14750,31 @@ var DAILY5_PROMPTS = [
   "zh": "物流客服告诉客户清关文件已经通过审核。",
   "en": "Your customs clearance documents have already been approved.",
   "hint": "现在完成时 have been approved 强调结果；customs clearance 指“清关”。"
+ },
+ {
+  "zh": "客户催问货物为什么还没发出，你需要解释工厂那边延误了。",
+  "en": "The factory is running behind, so your order will ship next week.",
+  "hint": "用 be running behind 表示进度落后，比 delay 更口语自然。"
+ },
+ {
+  "zh": "你刚到美国留学，室友问你要不要一起去超市买东西。",
+  "en": "I'm heading to the store, wanna come along?",
+  "hint": "wanna 是 want to 的口语缩略，come along 表示一起去。"
+ },
+ {
+  "zh": "开会时同事提出一个方案，你觉得不错但想补充一点建议。",
+  "en": "That works for me, but can I add one thing?",
+  "hint": "That works for me 表示我同意/可以，用于委婉肯定对方提议。"
+ },
+ {
+  "zh": "货代告诉你运费涨了，你想确认涨价的原因。",
+  "en": "Could you walk me through why the freight rate went up?",
+  "hint": "walk me through 意为带我一步步了解，用于请对方详细解释。"
+ },
+ {
+  "zh": "你想请同事帮忙核对一份报关文件，语气要客气。",
+  "en": "Would you mind double-checking these customs papers for me?",
+  "hint": "Would you mind + 动名词表示礼貌请求，回答同意用 No 或 Sure。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -15972,5 +16009,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "周末做饭",
   "text": "On Saturday mornings, I like to cook a proper breakfast for myself. I open the fridge and see what needs to be used up first. Today I found some eggs, tomatoes, and half an onion, so I decided to make an omelette. I chopped everything, heated the pan, and poured in the eggs. The kitchen smelled amazing within minutes. While it cooked, I made a cup of coffee and set the table. Eating slowly without rushing is my favorite part of the weekend."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home at seven thirty to catch the bus. The stop is just around the corner, so I never have to rush. On the way, I listen to a podcast or review my notes for the day. The bus is often crowded, but I always find a spot near the window. I get off two stops before my office and walk the rest of the way. It gives me a chance to grab a coffee and clear my head. By the time I sit at my desk, I feel ready to start working."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "When I get home, the first thing I do is wash my hands and put on an apron. I check the fridge to see what needs to be used up. Tonight, I have some chicken, peppers, and half an onion. I chop everything into small pieces and heat a little oil in the pan. The chicken goes in first, then the vegetables a few minutes later. I add soy sauce and a pinch of salt, and the kitchen smells amazing. In fifteen minutes, dinner is ready, and I sit down to eat."
  }
 ];
