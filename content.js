@@ -7753,6 +7753,24 @@ var DAILY5_SENTENCES = [
   "zh": "我要迟到一点，你们先开始吧。",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "Hey, grab me a coffee while you're out.",
+  "zh": "嘿，你出去的时候帮我带杯咖啡。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "That party was lit, we should go again.",
+  "zh": "那个派对太嗨了，我们应该再去一次。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Can you track the shipment? It's already late.",
+  "zh": "你能查一下货到哪儿了吗？已经晚了。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -12123,6 +12141,60 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "网购商品退换货",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "客服",
+    "en": "Thank you for contacting customer support. How may I assist you today?",
+    "zh": "感谢您联系客户支持。今天有什么可以帮您？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "I received the jacket I ordered, but the zipper is broken.",
+    "zh": "我收到了订购的夹克，但拉链坏了。",
+    "collect": false
+   },
+   {
+    "role": "客服",
+    "en": "I'm sorry to hear that. Would you prefer a replacement or a refund?",
+    "zh": "很抱歉听到这个。您希望换货还是退款？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "I'd rather have a replacement, if it's still in stock.",
+    "zh": "如果还有库存的话，我更希望换一件。",
+    "collect": false
+   },
+   {
+    "role": "客服",
+    "en": "Let me check. Yes, we have your size available.",
+    "zh": "我查一下。是的，您这个尺码有货。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Perfect. Could you also cover the return shipping?",
+    "zh": "太好了。你们也能承担退货运费吗？",
+    "collect": false
+   },
+   {
+    "role": "客服",
+    "en": "Absolutely. I'll email you a prepaid label right away.",
+    "zh": "当然可以。我会马上给您发一张预付标签。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "That works for me. Thanks for sorting this out so quickly.",
+    "zh": "这样可以。谢谢你这么快就处理好了。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -14775,6 +14847,31 @@ var DAILY5_PROMPTS = [
   "zh": "你想请同事帮忙核对一份报关文件，语气要客气。",
   "en": "Would you mind double-checking these customs papers for me?",
   "hint": "Would you mind + 动名词表示礼貌请求，回答同意用 No 或 Sure。"
+ },
+ {
+  "zh": "你给客户发了一封报价邮件，但对方三天没回，你想礼貌地跟进一下。",
+  "en": "Just following up on the quote I sent last week.",
+  "hint": "用“just following up”开头是商务催回复的惯用软化语气，比“Why didn't you reply”礼貌得多。"
+ },
+ {
+  "zh": "货代告诉你船期又延误了，你需要把这个坏消息转告给你的客户。",
+  "en": "The carrier pushed the sailing back another week.",
+  "hint": "“push...back”表示“推迟”，物流场景常用；“another week”强调“又”推迟了一周。"
+ },
+ {
+  "zh": "开会时同事提了一个方案，你觉得方向对但细节还要再改，想先肯定再补充。",
+  "en": "I like where this is going, but we need to nail down the details.",
+  "hint": "“I like where this is going”是先扬后抑的职场话术；“nail down”意为把细节敲定。"
+ },
+ {
+  "zh": "留学生活中，室友总把脏盘子堆在水槽里，你想委婉地提醒他。",
+  "en": "Hey, would you mind doing your dishes tonight?",
+  "hint": "“Would you mind + doing”是委婉请求的固定句型，比直接命令更易被接受。"
+ },
+ {
+  "zh": "你收到供应商的样品，发现颜色和确认的色卡有偏差，需要写邮件说明问题。",
+  "en": "The sample color doesn't match the swatch we approved.",
+  "hint": "“match”在此表示“与……一致”；“swatch”指色卡，比“color card”更地道。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16017,5 +16114,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "When I get home, the first thing I do is wash my hands and put on an apron. I check the fridge to see what needs to be used up. Tonight, I have some chicken, peppers, and half an onion. I chop everything into small pieces and heat a little oil in the pan. The chicken goes in first, then the vegetables a few minutes later. I add soy sauce and a pinch of salt, and the kitchen smells amazing. In fifteen minutes, dinner is ready, and I sit down to eat."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I grab my coffee and head out the door. The bus is already waiting at the corner, so I jog a little to catch it. Inside, I find a seat by the window and put on my headphones. The city slides by as we move through traffic. I check my messages and plan the day ahead. Before I know it, we reach my stop. I thank the driver and step onto the busy street."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I open the fridge to see what I can use. There are some tomatoes, eggs, and leftover rice. I decide to make a quick fried rice. First, I chop the tomatoes and beat the eggs. Then I heat some oil in the pan and pour in the eggs. Once they are cooked, I add the rice and tomatoes. A little soy sauce makes it taste just right. Dinner is ready in ten minutes. I sit down and enjoy my simple meal."
  }
 ];
