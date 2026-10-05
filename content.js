@@ -7771,6 +7771,18 @@ var DAILY5_SENTENCES = [
   "zh": "你能查一下货到哪儿了吗？已经晚了。",
   "scene": "外贸物流",
   "tag": "外贸物流"
+ },
+ {
+  "en": "Can you give me a hand with this?",
+  "zh": "你能帮我搭把手吗？",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Could you check the status of our shipment?",
+  "zh": "你能查一下我们货物的状态吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14872,6 +14884,31 @@ var DAILY5_PROMPTS = [
   "zh": "你收到供应商的样品，发现颜色和确认的色卡有偏差，需要写邮件说明问题。",
   "en": "The sample color doesn't match the swatch we approved.",
   "hint": "“match”在此表示“与……一致”；“swatch”指色卡，比“color card”更地道。"
+ },
+ {
+  "zh": "你告诉货代这批货必须在下周五前发出，否则会错过船期。",
+  "en": "We need these goods shipped by next Friday to catch the vessel.",
+  "hint": "用 need + 过去分词表示“需要被……”，to catch the vessel 表目的。"
+ },
+ {
+  "zh": "你向客户解释运费上涨是因为燃油附加费调整。",
+  "en": "The rate went up because the fuel surcharge was adjusted.",
+  "hint": "用 because 引导原因状语从句，was adjusted 为被动语态。"
+ },
+ {
+  "zh": "同事问你报关文件准备得怎么样，你说还差一份装箱单。",
+  "en": "I'm still waiting on one more packing list.",
+  "hint": "wait on 在口语中表示“等待某物”，比 wait for 更随意。"
+ },
+ {
+  "zh": "你在小组会议上建议先把样品寄给客户确认再批量生产。",
+  "en": "Let's send the samples first before we go into mass production.",
+  "hint": "Let's 用于提建议，before 引导时间状语从句，go into 表示“进入某阶段”。"
+ },
+ {
+  "zh": "留学生问同学怎么预约图书馆的讨论室，同学说用学校App就行。",
+  "en": "You can just book it through the school app.",
+  "hint": "can just 表示“直接……就行”，through 表示“通过某渠道”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16122,5 +16159,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I open the fridge to see what I can use. There are some tomatoes, eggs, and leftover rice. I decide to make a quick fried rice. First, I chop the tomatoes and beat the eggs. Then I heat some oil in the pan and pour in the eggs. Once they are cooked, I add the rice and tomatoes. A little soy sauce makes it taste just right. Dinner is ready in ten minutes. I sit down and enjoy my simple meal."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I grab my coffee and head out the door. The bus is already waiting at the corner, so I jog a little to catch it. Inside, I find a seat near the window and put on my headphones. The city rolls by as I listen to my favorite playlist. Twenty minutes later, I get off and walk two blocks to my office. I swipe my card, say good morning to the security guard, and head straight to my desk."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I open the fridge and take out some chicken, peppers, and an onion. First, I rinse the vegetables and chop them into bite-sized pieces. Then I heat some oil in a pan and add the chicken. It sizzles right away, so I stir it for a few minutes. Next, I toss in the peppers and onion and pour in some soy sauce. The whole kitchen smells amazing. Finally, I plate everything over rice and sit down to eat."
  }
 ];
