@@ -7783,6 +7783,24 @@ var DAILY5_SENTENCES = [
   "zh": "你能查一下我们货物的状态吗？",
   "scene": "外贸物流",
   "tag": "外贸物流"
+ },
+ {
+  "en": "Could you update me on the shipment status?",
+  "zh": "你能跟我更新一下货物状态吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "I'll loop you in on the email thread.",
+  "zh": "我会把你加到邮件往来里。",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "No worries, take your time and get back to me.",
+  "zh": "没关系，你慢慢来，之后回复我就行。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14909,6 +14927,31 @@ var DAILY5_PROMPTS = [
   "zh": "留学生问同学怎么预约图书馆的讨论室，同学说用学校App就行。",
   "en": "You can just book it through the school app.",
   "hint": "can just 表示“直接……就行”，through 表示“通过某渠道”。"
+ },
+ {
+  "zh": "客户催你确认订单交期，你需要回复邮件说明本周五前给答复。",
+  "en": "I'll get back to you by this Friday.",
+  "hint": "get back to someone 表示“回复某人”，by + 时间点表示“在……之前”。"
+ },
+ {
+  "zh": "货代告诉你船期延误了三天，你向经理解释原因。",
+  "en": "The shipment was delayed by three days.",
+  "hint": "被动语态 was delayed，by + 时间段表示延误的时长。"
+ },
+ {
+  "zh": "同事问你要不要一起点外卖，你想说今天自己带了午饭。",
+  "en": "Thanks, but I brought my own lunch today.",
+  "hint": "Thanks, but... 是礼貌拒绝的常用句式，brought 是 bring 的过去式。"
+ },
+ {
+  "zh": "留学生在小组讨论里，你想表达同意对方观点并补充一点。",
+  "en": "I agree with you, and I'd like to add something.",
+  "hint": "agree with someone 表示同意某人，add 后接补充的内容。"
+ },
+ {
+  "zh": "老板临时交给你一个任务，你想确认截止时间是明天下午。",
+  "en": "Just to confirm, the deadline is tomorrow afternoon, right?",
+  "hint": "Just to confirm 用于确认信息，句末 right? 表示寻求肯定。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16167,5 +16210,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I open the fridge and take out some chicken, peppers, and an onion. First, I rinse the vegetables and chop them into bite-sized pieces. Then I heat some oil in a pan and add the chicken. It sizzles right away, so I stir it for a few minutes. Next, I toss in the peppers and onion and pour in some soy sauce. The whole kitchen smells amazing. Finally, I plate everything over rice and sit down to eat."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to catch the bus. The stop is just a five-minute walk from my apartment. On the way, I often grab a coffee from the small shop on the corner. The bus is sometimes crowded, so I put on my headphones and listen to a podcast. If I get a seat, I review my notes for the morning meeting. When I arrive downtown, I walk two blocks to my office. It takes about forty minutes in total, which is not too bad."
+ },
+ {
+  "theme": "在家做晚饭",
+  "text": "After work, I stopped by the market to pick up some vegetables and chicken. When I got home, I washed everything and cut the onions first. I heated some oil in a pan and added the chicken with a little salt. While it was cooking, I boiled water for pasta and set the table. My roommate came in and asked if she could help, so she made a simple salad. We ate together and talked about our day. It was a nice, relaxing evening."
  }
 ];
