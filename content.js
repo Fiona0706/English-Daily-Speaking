@@ -7801,6 +7801,18 @@ var DAILY5_SENTENCES = [
   "zh": "没关系，你慢慢来，之后回复我就行。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "I'm swamped this week, can we reschedule?",
+  "zh": "我这周忙得不可开交，我们能改期吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "Let's grab lunch sometime this week.",
+  "zh": "我们这周找个时间一起吃午饭吧。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -14952,6 +14964,31 @@ var DAILY5_PROMPTS = [
   "zh": "老板临时交给你一个任务，你想确认截止时间是明天下午。",
   "en": "Just to confirm, the deadline is tomorrow afternoon, right?",
   "hint": "Just to confirm 用于确认信息，句末 right? 表示寻求肯定。"
+ },
+ {
+  "zh": "你告诉美国客户，样品已经通过DHL寄出，预计三天内到达。",
+  "en": "The samples went out via DHL and should arrive within three days.",
+  "hint": "用 go out 表示“寄出”，比 send 更口语；via 后接承运商。"
+ },
+ {
+  "zh": "你跟仓库同事确认，这批货能不能赶上周五的船期。",
+  "en": "Can we make the Friday sailing with this batch?",
+  "hint": "make 在此表示“赶得上”；sailing 指“船期/开船班次”。"
+ },
+ {
+  "zh": "你在邮件里向主管说明，因为港口拥堵，交期可能要延后一周。",
+  "en": "Due to port congestion, we may need to push the delivery back a week.",
+  "hint": "push...back 表示“推迟”；due to 后接名词，不用 because of 加句子。"
+ },
+ {
+  "zh": "你在留学生小组讨论里，向同学提议把会议改到明天下午。",
+  "en": "Can we move the meeting to tomorrow afternoon?",
+  "hint": "move...to 表示“把……改到某时间”，商务和校园场景都常用。"
+ },
+ {
+  "zh": "你回复客户询价，说明报价有效期是三十天，并附上了产品目录。",
+  "en": "This quote is valid for thirty days, and I've attached our catalog.",
+  "hint": "valid for + 时间段表示“有效期为”；attach 用现在完成时说明“已附上”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16218,5 +16255,9 @@ var SHADOW_PASSAGES = [
  {
   "theme": "在家做晚饭",
   "text": "After work, I stopped by the market to pick up some vegetables and chicken. When I got home, I washed everything and cut the onions first. I heated some oil in a pan and added the chicken with a little salt. While it was cooking, I boiled water for pasta and set the table. My roommate came in and asked if she could help, so she made a simple salad. We ate together and talked about our day. It was a nice, relaxing evening."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "Last night I decided to cook dinner instead of ordering takeout. I chopped some onions, garlic, and tomatoes while the pan was heating up. The recipe said to add salt and pepper, but I tasted it first and added a little more. Soon the kitchen smelled amazing, and my roommate came out to see what was going on. We ended up eating together at the small table by the window. It was a simple meal, but it felt really satisfying after a long day."
  }
 ];
