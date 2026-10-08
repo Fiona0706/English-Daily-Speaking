@@ -5086,6 +5086,14 @@ var DAILY5_WORDS = [
   "example": "I'll just reheat the leftovers for dinner tonight.",
   "exampleZh": "我今晚就把剩菜重新加热当晚饭吧。",
   "pos": "动词"
+ },
+ {
+  "word": "queue",
+  "phonetic": "/kjuː/",
+  "zh": "排队；队列",
+  "example": "Please queue up behind the yellow line.",
+  "exampleZh": "请在黄线后面排队。",
+  "pos": "动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7811,6 +7819,12 @@ var DAILY5_SENTENCES = [
  {
   "en": "Let's grab lunch sometime this week.",
   "zh": "我们这周找个时间一起吃午饭吧。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "You down to hang out this weekend?",
+  "zh": "你这周末想一起玩吗？",
   "scene": "社交",
   "tag": "社交"
  }
@@ -14989,6 +15003,31 @@ var DAILY5_PROMPTS = [
   "zh": "你回复客户询价，说明报价有效期是三十天，并附上了产品目录。",
   "en": "This quote is valid for thirty days, and I've attached our catalog.",
   "hint": "valid for + 时间段表示“有效期为”；attach 用现在完成时说明“已附上”。"
+ },
+ {
+  "zh": "外贸跟单时，客户催你确认订单交期，你需要回复今天会核实后告知。",
+  "en": "I'll check with the factory and get back to you today.",
+  "hint": "get back to you 表示稍后回复某人，比 reply you 更地道；check with 表示与某人核实。"
+ },
+ {
+  "zh": "物流途中货物被海关抽查，你要通知客户可能会有延误。",
+  "en": "Your shipment is held at customs and may be delayed a few days.",
+  "hint": "be held at customs 表示被海关扣留；用 may 表达不确定的延误，语气更稳妥。"
+ },
+ {
+  "zh": "职场开会时你想礼貌地打断同事，补充一个不同意见。",
+  "en": "Sorry to jump in, but I see it a little differently.",
+  "hint": "jump in 是口语中打断插话的自然说法；see it differently 委婉表达不同意见。"
+ },
+ {
+  "zh": "留学生在课上没听懂教授的要求，想课后发邮件请对方再解释一下。",
+  "en": "Could you clarify what you expect for the final project?",
+  "hint": "clarify 比 explain again 更正式得体；expect for 表示对某事的具体要求。"
+ },
+ {
+  "zh": "同事帮你赶完了紧急报表，你想表达感谢并说下次请他喝咖啡。",
+  "en": "Thanks for saving me on this one. Coffee's on me next time.",
+  "hint": "save someone on this one 表示这次帮了大忙；Coffee's on me 意为这次咖啡我请。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16259,5 +16298,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "Last night I decided to cook dinner instead of ordering takeout. I chopped some onions, garlic, and tomatoes while the pan was heating up. The recipe said to add salt and pepper, but I tasted it first and added a little more. Soon the kitchen smelled amazing, and my roommate came out to see what was going on. We ended up eating together at the small table by the window. It was a simple meal, but it felt really satisfying after a long day."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home at seven thirty to catch the bus. The stop is just around the corner, so I never have to rush. On the bus, I put on my headphones and listen to a podcast. It helps me wake up and feel ready for the day. Sometimes I grab a coffee from the cart near my office. If the bus is late, I just read a few pages of my book. By the time I sit at my desk, I feel calm and focused."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "After work, I stopped by the grocery store to pick up some vegetables. I decided to make a simple stir-fry with chicken and broccoli. First, I chopped the garlic and sliced the chicken into small pieces. Then I heated some oil in the pan and added the garlic. The kitchen smelled amazing within seconds. I tossed in the vegetables and poured a little soy sauce. In ten minutes, dinner was ready. I sat down, turned on a show, and enjoyed every bite."
  }
 ];
