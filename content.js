@@ -5094,6 +5094,14 @@ var DAILY5_WORDS = [
   "example": "Please queue up behind the yellow line.",
   "exampleZh": "请在黄线后面排队。",
   "pos": "动词"
+ },
+ {
+  "word": "in the long run",
+  "phonetic": "/ɪn ðə lɔːŋ rʌn/",
+  "zh": "从长远来看",
+  "example": "Saving money now pays off in the long run.",
+  "exampleZh": "现在存钱从长远来看是有回报的。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7827,6 +7835,30 @@ var DAILY5_SENTENCES = [
   "zh": "你这周末想一起玩吗？",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "I'm just gonna kick back and relax tonight.",
+  "zh": "今晚我就打算放松一下。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "You down to grab a bite after work?",
+  "zh": "下班后你想去吃点儿东西吗？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Let's touch base on this tomorrow morning.",
+  "zh": "我们明早再就这件事沟通一下。",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "I'm swamped right now, can it wait?",
+  "zh": "我现在忙得不可开交，这事能等等吗？",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -15028,6 +15060,31 @@ var DAILY5_PROMPTS = [
   "zh": "同事帮你赶完了紧急报表，你想表达感谢并说下次请他喝咖啡。",
   "en": "Thanks for saving me on this one. Coffee's on me next time.",
   "hint": "save someone on this one 表示这次帮了大忙；Coffee's on me 意为这次咖啡我请。"
+ },
+ {
+  "zh": "你想提醒客户，货物预计下周三到达洛杉矶港。",
+  "en": "The shipment should arrive at the Port of LA next Wednesday.",
+  "hint": "用 should 表示“预计/应该”，比 will 更委婉，适合对客户说。"
+ },
+ {
+  "zh": "你在邮件里请对方确认一下最新的报价单有没有问题。",
+  "en": "Could you confirm if the latest quote looks good to you?",
+  "hint": "Could you confirm if... 是礼貌请求确认的常用句型，语气自然不生硬。"
+ },
+ {
+  "zh": "开会时你想说，这个问题需要会后单独跟进。",
+  "en": "Let's take this offline and follow up after the meeting.",
+  "hint": "take it offline 是职场口语，表示“会后私下/单独讨论”，不是字面“离线”。"
+ },
+ {
+  "zh": "你在留学生活中想告诉室友，自己今晚要熬夜赶论文。",
+  "en": "I'm pulling an all-nighter to finish my paper tonight.",
+  "hint": "pull an all-nighter 是固定口语表达，表示“通宵熬夜”，比 stay up all night 更地道。"
+ },
+ {
+  "zh": "你想跟货代说，这批货因为天气原因可能会延迟两天。",
+  "en": "This batch might be delayed by two days due to weather.",
+  "hint": "might be delayed 表示“可能会被延迟”，due to 后接原因，比 because of 更正式。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16306,5 +16363,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "After work, I stopped by the grocery store to pick up some vegetables. I decided to make a simple stir-fry with chicken and broccoli. First, I chopped the garlic and sliced the chicken into small pieces. Then I heated some oil in the pan and added the garlic. The kitchen smelled amazing within seconds. I tossed in the vegetables and poured a little soy sauce. In ten minutes, dinner was ready. I sat down, turned on a show, and enjoyed every bite."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty. The subway is always crowded at that hour, so I put on my headphones and listen to a podcast. Today the train was delayed, which made me a little nervous. I got off at the third stop and walked quickly to my office. On the way, I grabbed a coffee and a sandwich from the corner shop. By the time I sat down at my desk, I felt ready to start the day."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "After work, I stopped by the supermarket to buy some vegetables and chicken. When I got home, I washed everything and cut the onions into small pieces. I heated some oil in a pan and added the chicken first. While it was cooking, I boiled water for pasta. The kitchen smelled amazing, and I could not wait to eat. Finally, I mixed everything together and sat down at the table. It was a simple meal, but it tasted great."
  }
 ];
