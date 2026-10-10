@@ -7859,6 +7859,30 @@ var DAILY5_SENTENCES = [
   "zh": "我现在忙得不可开交，这事能等等吗？",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "I'm down to hang out this weekend if you're free.",
+  "zh": "如果你有空的话，这周末我想一起出去玩。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Could you double-check the tracking number for this shipment?",
+  "zh": "你能再核对一下这批货的物流单号吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Let's circle back on this after the client meeting.",
+  "zh": "等客户会议结束后我们再回头讨论这件事。",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "I'm swamped today, can we push it to tomorrow?",
+  "zh": "我今天忙得不可开交，我们能推迟到明天吗？",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -15085,6 +15109,26 @@ var DAILY5_PROMPTS = [
   "zh": "你想跟货代说，这批货因为天气原因可能会延迟两天。",
   "en": "This batch might be delayed by two days due to weather.",
   "hint": "might be delayed 表示“可能会被延迟”，due to 后接原因，比 because of 更正式。"
+ },
+ {
+  "zh": "在会议上确认下周二的报价单能按时发出",
+  "en": "Can we confirm the quote will go out next Tuesday?",
+  "hint": "用 Can we confirm... 委婉确认；go out 指文件/邮件发出"
+ },
+ {
+  "zh": "告诉房东厨房的水龙头一直在漏水",
+  "en": "The kitchen faucet has been leaking nonstop.",
+  "hint": "现在完成进行时 has been leaking 表示持续状态；nonstop 口语中作副词"
+ },
+ {
+  "zh": "和同学约好下课后一起去图书馆准备小组报告",
+  "en": "Let's meet at the library after class to work on our group report.",
+  "hint": "Let's + 动词原形表建议；work on 表示着手做某项目"
+ },
+ {
+  "zh": "回复客户说样品已寄出并附上快递单号",
+  "en": "The samples are on the way, and I've attached the tracking number.",
+  "hint": "on the way 表示“已在途中”；attach 用于附上文件或信息"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16371,5 +16415,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "After work, I stopped by the supermarket to buy some vegetables and chicken. When I got home, I washed everything and cut the onions into small pieces. I heated some oil in a pan and added the chicken first. While it was cooking, I boiled water for pasta. The kitchen smelled amazing, and I could not wait to eat. Finally, I mixed everything together and sat down at the table. It was a simple meal, but it tasted great."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I grab my coffee and head out the door. The bus is already waiting at the corner, so I run to catch it. I find a seat near the window and put on my headphones. The city passes by as I listen to my favorite podcast. At the next stop, a woman with a stroller gets on, so I give her my seat. I check the time and realize I'll be at work in ten minutes. I take a deep breath and get ready for the day."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I open the fridge to see what I can cook. There are some tomatoes, eggs, and green onions. I decide to make a simple stir-fry. First, I beat the eggs and chop the vegetables. Then I heat some oil in the pan and pour the eggs in. While they cook, I add the tomatoes and stir everything together. The kitchen smells amazing. In just ten minutes, dinner is ready, and I sit down to eat."
  }
 ];
