@@ -5102,6 +5102,14 @@ var DAILY5_WORDS = [
   "example": "Saving money now pays off in the long run.",
   "exampleZh": "现在存钱从长远来看是有回报的。",
   "pos": "习语"
+ },
+ {
+  "word": "take it easy",
+  "phonetic": "/teɪk ɪt ˈiːzi/",
+  "zh": "放松点；别紧张",
+  "example": "Take it easy, everything will be fine.",
+  "exampleZh": "放松点，一切都会好起来的。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7881,6 +7889,24 @@ var DAILY5_SENTENCES = [
  {
   "en": "I'm swamped today, can we push it to tomorrow?",
   "zh": "我今天忙得不可开交，我们能推迟到明天吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "The shipment is delayed at customs again.",
+  "zh": "这批货又在海关被卡住了。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Can we push the meeting to tomorrow?",
+  "zh": "我们能把会议推到明天吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "No worries, I'll take care of it.",
+  "zh": "别担心，我来处理。",
   "scene": "职场",
   "tag": "职场"
  }
@@ -12307,6 +12333,54 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "退换商品",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "I'd like to return this jacket. I bought it last week, but the zipper keeps getting stuck.",
+    "zh": "我想退掉这件夹克。我上周买的，但拉链总是卡住。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "I'm sorry to hear that. Do you have the receipt with you?",
+    "zh": "很抱歉听到这个。你带收据了吗？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Yes, here it is. I'd prefer a refund if possible, rather than an exchange.",
+    "zh": "带了，在这里。如果可以的话，我更想要退款，而不是换货。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Let me check our policy. Since it's a manufacturing defect, you're eligible for a full refund.",
+    "zh": "让我查一下我们的规定。由于这是制造缺陷，你可以获得全额退款。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "That's a relief. Will it go back to my original payment method?",
+    "zh": "那我就放心了。退款会返回到我原来的付款方式吗？",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Yes, it should appear on your card within three to five business days.",
+    "zh": "是的，应该会在三到五个工作日内退回到你的卡上。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Perfect. Thanks for sorting this out so quickly.",
+    "zh": "太好了。谢谢你这么快就处理好。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -15129,6 +15203,26 @@ var DAILY5_PROMPTS = [
   "zh": "回复客户说样品已寄出并附上快递单号",
   "en": "The samples are on the way, and I've attached the tracking number.",
   "hint": "on the way 表示“已在途中”；attach 用于附上文件或信息"
+ },
+ {
+  "zh": "告诉货代这批货因为港口拥堵可能会晚两天到。",
+  "en": "Heads up, this shipment might be delayed two days due to port congestion.",
+  "hint": "Heads up 用于提前提醒对方，due to 引出原因，比 because of 更正式。"
+ },
+ {
+  "zh": "同事问你为什么没参加早会，你说在跟工厂确认交期。",
+  "en": "I was on the phone with the factory confirming the lead time.",
+  "hint": "用过去进行时说明当时正在做的事，lead time 指交货周期。"
+ },
+ {
+  "zh": "留学生想请教授把作业截止日期延后一周。",
+  "en": "Would it be possible to get a one-week extension on the assignment?",
+  "hint": "Would it be possible to 是礼貌请求句式，extension 指延期。"
+ },
+ {
+  "zh": "经理问你这个月的订单量，你说比上个月涨了大约百分之十五。",
+  "en": "We're up about fifteen percent compared to last month.",
+  "hint": "be up 表示数量上升，compared to 用于对比两个时间段。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16423,5 +16517,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I open the fridge to see what I can cook. There are some tomatoes, eggs, and green onions. I decide to make a simple stir-fry. First, I beat the eggs and chop the vegetables. Then I heat some oil in the pan and pour the eggs in. While they cook, I add the tomatoes and stir everything together. The kitchen smells amazing. In just ten minutes, dinner is ready, and I sit down to eat."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home at seven thirty to catch the bus. The stop is just around the corner, so I never have to rush. On the bus, I put on my headphones and listen to a short podcast. It helps me wake up before I start work. Sometimes I read a few pages of a novel instead. The ride takes about twenty minutes, and I enjoy the quiet time. When I get off, I walk two blocks to my office."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "When I get home, the first thing I do is wash my hands. I open the fridge and see what I can cook tonight. Usually I make something simple, like pasta with vegetables. I chop the onions and garlic while the water boils. The kitchen fills with a warm, nice smell. I set the table and pour a glass of water. Then I sit down and enjoy my meal slowly. Cooking at home always helps me relax after a long day."
  }
 ];
