@@ -7909,6 +7909,12 @@ var DAILY5_SENTENCES = [
   "zh": "别担心，我来处理。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "I'm grabbing a bite, want to come?",
+  "zh": "我去随便吃点，你要一起吗？",
+  "scene": "生活",
+  "tag": "生活"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -12381,6 +12387,54 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "向老师请假并说明原因",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "学生",
+    "en": "Professor, I’m afraid I won’t be able to make it to class tomorrow. I’ve come down with a pretty bad cold.",
+    "zh": "教授，恐怕我明天没法来上课了。我得了重感冒。",
+    "collect": false
+   },
+   {
+    "role": "老师",
+    "en": "I’m sorry to hear that. Have you seen a doctor yet?",
+    "zh": "听到这个我很难过。你看过医生了吗？",
+    "collect": false
+   },
+   {
+    "role": "学生",
+    "en": "Not yet, but I’m planning to go this afternoon if I don’t feel any better.",
+    "zh": "还没有，但如果下午感觉没有好转，我打算去看医生。",
+    "collect": false
+   },
+   {
+    "role": "老师",
+    "en": "All right. Make sure to rest and drink plenty of fluids. Would you like me to send you the notes?",
+    "zh": "好的。一定要休息，多喝水。需要我把笔记发给你吗？",
+    "collect": false
+   },
+   {
+    "role": "学生",
+    "en": "That would be really helpful. Thank you so much.",
+    "zh": "那真的很有帮助。非常感谢。",
+    "collect": false
+   },
+   {
+    "role": "老师",
+    "en": "No problem. Just focus on getting better, and let me know if you need any extensions on the assignment.",
+    "zh": "没问题。先专心把身体养好，如果作业需要延期，告诉我。",
+    "collect": false
+   },
+   {
+    "role": "学生",
+    "en": "I appreciate that. I’ll keep you updated.",
+    "zh": "非常感谢。我会随时向您汇报情况。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -15223,6 +15277,31 @@ var DAILY5_PROMPTS = [
   "zh": "经理问你这个月的订单量，你说比上个月涨了大约百分之十五。",
   "en": "We're up about fifteen percent compared to last month.",
   "hint": "be up 表示数量上升，compared to 用于对比两个时间段。"
+ },
+ {
+  "zh": "你刚收到客户的询盘，但发现对方要的数量远低于你们的最小起订量，你想礼貌地说明这一点。",
+  "en": "Our minimum order quantity is higher than what you requested.",
+  "hint": "用比较级 higher than 表达“高于”；what you requested 是名词性从句作介词 than 的宾语。"
+ },
+ {
+  "zh": "货代告诉你船期因为港口拥堵要延误一周，你需要把这个坏消息转告给客户。",
+  "en": "The shipment will be delayed by a week due to port congestion.",
+  "hint": "用 be delayed by + 时间表示延误多久；due to 后接名词，表示原因。"
+ },
+ {
+  "zh": "同事问你为什么还没回复那封重要邮件，你解释说你在等上级确认报价。",
+  "en": "I'm waiting for my manager to confirm the pricing.",
+  "hint": "wait for sb. to do sth. 表示“等某人做某事”；confirm 后直接接宾语，不加介词。"
+ },
+ {
+  "zh": "在留学生小组讨论中，你想礼貌地打断组员，提出一个不同的看法。",
+  "en": "Sorry to interrupt, but I see it a little differently.",
+  "hint": "Sorry to interrupt, but... 是礼貌插话的固定句式；see it differently 表示“看法不同”。"
+ },
+ {
+  "zh": "客户催你确认订单细节，你回复说已经核对无误，可以安排生产了。",
+  "en": "Everything checks out, so we can go ahead with production.",
+  "hint": "check out 在此表示“核实无误”；go ahead with sth. 表示“着手推进某事”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16525,5 +16604,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "When I get home, the first thing I do is wash my hands. I open the fridge and see what I can cook tonight. Usually I make something simple, like pasta with vegetables. I chop the onions and garlic while the water boils. The kitchen fills with a warm, nice smell. I set the table and pour a glass of water. Then I sit down and enjoy my meal slowly. Cooking at home always helps me relax after a long day."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home at seven thirty to catch the bus. The stop is just around the corner, so I never have to rush. On the way, I listen to a podcast or some soft music. The bus is often crowded, but I always find a spot near the window. I watch the city wake up as we move along. Sometimes I grab a coffee from the cart near my office. It helps me feel ready for the day ahead."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "When I get home, I put on some comfortable clothes and head to the kitchen. I chop onions and garlic while the pan heats up. The smell fills the whole apartment and makes me hungry. I usually cook something simple like pasta or stir-fried vegetables. While it simmers, I set the table and pour a glass of water. Then I sit down, take a deep breath, and enjoy my meal. Cooking helps me relax after a long day."
  }
 ];
