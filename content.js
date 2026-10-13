@@ -7915,6 +7915,18 @@ var DAILY5_SENTENCES = [
   "zh": "我去随便吃点，你要一起吗？",
   "scene": "生活",
   "tag": "生活"
+ },
+ {
+  "en": "Can you get me the tracking number?",
+  "zh": "你能把快递单号发给我吗？",
+  "scene": "外贸物流",
+  "tag": "物流跟踪"
+ },
+ {
+  "en": "No worries, take your time.",
+  "zh": "没关系，你慢慢来。",
+  "scene": "社交",
+  "tag": "回应道歉"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -15302,6 +15314,31 @@ var DAILY5_PROMPTS = [
   "zh": "客户催你确认订单细节，你回复说已经核对无误，可以安排生产了。",
   "en": "Everything checks out, so we can go ahead with production.",
   "hint": "check out 在此表示“核实无误”；go ahead with sth. 表示“着手推进某事”。"
+ },
+ {
+  "zh": "跟货代确认下周的海运舱位是否已经订好",
+  "en": "Can you confirm if our shipping space is booked for next week?",
+  "hint": "用 can you confirm if... 委婉询问确认，booked 表示已预订。"
+ },
+ {
+  "zh": "给客户发邮件说明货物因港口拥堵会晚到两天",
+  "en": "I'm writing to let you know your shipment will be delayed two days.",
+  "hint": "用 I'm writing to let you know... 开头告知坏消息，delayed 后直接接时间。"
+ },
+ {
+  "zh": "在会议上提出需要把报价单重新核算一遍",
+  "en": "I think we need to go over the quotation again.",
+  "hint": "go over 意为仔细核对/过一遍，比 check 更口语。"
+ },
+ {
+  "zh": "跟房东沟通热水器坏了需要尽快维修",
+  "en": "The water heater is broken, so could you get it fixed soon?",
+  "hint": "could you... 比 can you 更礼貌，get it fixed 表示找人修好。"
+ },
+ {
+  "zh": "向同事说明自己今天要远程办公不在办公室",
+  "en": "Just a heads-up, I'll be working from home today.",
+  "hint": "heads-up 是口语中提前知会/提醒，working from home 即远程办公。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16612,5 +16649,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "When I get home, I put on some comfortable clothes and head to the kitchen. I chop onions and garlic while the pan heats up. The smell fills the whole apartment and makes me hungry. I usually cook something simple like pasta or stir-fried vegetables. While it simmers, I set the table and pour a glass of water. Then I sit down, take a deep breath, and enjoy my meal. Cooking helps me relax after a long day."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the rush. The subway is already crowded, but I always manage to find a spot near the door. I put on my headphones and listen to a podcast while the train moves through the tunnel. At the third stop, a lot of people get off, so I can finally sit down. I use those ten minutes to check my messages and plan the day. When I reach my station, I walk up the stairs and grab a coffee before heading to the office. It's a simple routine, but it helps me start the morning calmly."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "When I get home, the first thing I do is open the fridge and see what's inside. Tonight I have some chicken, a few peppers, and half an onion, so I decide to make a quick stir-fry. I wash the vegetables, cut them into thin slices, and heat some oil in the pan. The chicken goes in first, and after a couple of minutes I add the peppers and onion. The kitchen smells amazing, and my roommate comes out to ask what's cooking. I add soy sauce, taste it, and turn off the heat. We eat together at the small table by the window, talking about our day."
  }
 ];
