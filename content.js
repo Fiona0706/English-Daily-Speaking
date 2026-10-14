@@ -5110,6 +5110,14 @@ var DAILY5_WORDS = [
   "example": "Take it easy, everything will be fine.",
   "exampleZh": "放松点，一切都会好起来的。",
   "pos": "习语"
+ },
+ {
+  "word": "relaxed",
+  "phonetic": "/rɪˈlækst/",
+  "zh": "放松的",
+  "example": "He looked relaxed after a long hot bath.",
+  "exampleZh": "泡了个热水澡后，他看起来很放松。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -7927,6 +7935,24 @@ var DAILY5_SENTENCES = [
   "zh": "没关系，你慢慢来。",
   "scene": "社交",
   "tag": "回应道歉"
+ },
+ {
+  "en": "Hey, can you grab me a coffee on your way back?",
+  "zh": "嘿，你回来的时候能帮我带杯咖啡吗？",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "The shipment is stuck at customs due to missing paperwork.",
+  "zh": "这批货因为缺少文件卡在海关了。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "I'll loop you in on the email thread tomorrow morning.",
+  "zh": "我明天早上会把你也加到邮件往来里。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -15339,6 +15365,31 @@ var DAILY5_PROMPTS = [
   "zh": "向同事说明自己今天要远程办公不在办公室",
   "en": "Just a heads-up, I'll be working from home today.",
   "hint": "heads-up 是口语中提前知会/提醒，working from home 即远程办公。"
+ },
+ {
+  "zh": "客户问你货物什么时候能到港。",
+  "en": "Your shipment should arrive at the port by Friday.",
+  "hint": "用 should + 动词原形表示预计；arrive at the port 表示到港。"
+ },
+ {
+  "zh": "你需要跟货代确认订舱是否成功。",
+  "en": "Could you confirm if our booking went through?",
+  "hint": "Could you confirm if... 是礼貌确认句型；go through 表示顺利办成。"
+ },
+ {
+  "zh": "同事问你为什么报价还没发出去。",
+  "en": "I'm still waiting on the supplier's final quote.",
+  "hint": "wait on 表示等待某人/某物；final quote 指最终报价。"
+ },
+ {
+  "zh": "你在留学生活中想请同学帮你带杯咖啡。",
+  "en": "Would you mind grabbing me a coffee on your way back?",
+  "hint": "Would you mind + 动名词表示客气请求；grab 口语中表示随手买/拿。"
+ },
+ {
+  "zh": "开会时你想说明这个项目会稍微延期。",
+  "en": "We might need to push the deadline back a few days.",
+  "hint": "push...back 表示推迟；a few days 表示几天。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16657,5 +16708,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "When I get home, the first thing I do is open the fridge and see what's inside. Tonight I have some chicken, a few peppers, and half an onion, so I decide to make a quick stir-fry. I wash the vegetables, cut them into thin slices, and heat some oil in the pan. The chicken goes in first, and after a couple of minutes I add the peppers and onion. The kitchen smells amazing, and my roommate comes out to ask what's cooking. I add soy sauce, taste it, and turn off the heat. We eat together at the small table by the window, talking about our day."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to catch the bus. The stop is just a five-minute walk from my apartment. If I miss the first bus, I have to wait another ten minutes. The ride takes about twenty minutes when traffic is light. I like to sit by the window and listen to a podcast. Sometimes I review my schedule for the day. Before I know it, I arrive at the office ready to start work."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "When I get home from work, I am often too tired to cook something fancy. So I keep it simple and make a quick stir-fry with whatever is in the fridge. First, I chop some onions and garlic. Then I heat a little oil in the pan. While the vegetables cook, I boil some noodles in another pot. The whole meal takes about fifteen minutes. It is not fancy, but it tastes good, and it saves me money."
  }
 ];
