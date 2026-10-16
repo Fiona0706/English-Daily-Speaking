@@ -7953,6 +7953,30 @@ var DAILY5_SENTENCES = [
   "zh": "我明天早上会把你也加到邮件往来里。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Hey, are you free to hang out this weekend?",
+  "zh": "嘿，你这周末有空一起玩吗？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Could you check if the shipment has cleared customs yet?",
+  "zh": "你能查一下这批货是否已经清关了吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Let's touch base tomorrow morning about the project timeline.",
+  "zh": "我们明天早上再沟通一下项目时间线吧。",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "I'm running a bit late, so just start without me.",
+  "zh": "我会晚到一点，你们先开始吧。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -15390,6 +15414,21 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你想说明这个项目会稍微延期。",
   "en": "We might need to push the deadline back a few days.",
   "hint": "push...back 表示推迟；a few days 表示几天。"
+ },
+ {
+  "zh": "留学生的你想跟室友说，这周轮到你倒垃圾但是忘了。",
+  "en": "It was my turn to take out the trash, but I forgot.",
+  "hint": "It's one's turn to do sth 表示“轮到某人做某事”，take out the trash 是美式常用说法。"
+ },
+ {
+  "zh": "开会时你想提议把截止日期往后推两天。",
+  "en": "Can we push the deadline back a couple of days?",
+  "hint": "push back 表示“推迟”，a couple of days 比 two days 更口语，显得灵活。"
+ },
+ {
+  "zh": "面试官问你为什么想来这家公司，你想说因为很欣赏他们的物流网络。",
+  "en": "I really admire your company's logistics network.",
+  "hint": "admire 用于表达欣赏、认可，比 like 更显专业和诚恳，适合面试场合。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16716,5 +16755,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "When I get home from work, I am often too tired to cook something fancy. So I keep it simple and make a quick stir-fry with whatever is in the fridge. First, I chop some onions and garlic. Then I heat a little oil in the pan. While the vegetables cook, I boil some noodles in another pot. The whole meal takes about fifteen minutes. It is not fancy, but it tastes good, and it saves me money."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst traffic. The bus stop is just a five-minute walk from my apartment, so I rarely rush. On the bus, I put on my headphones and listen to a podcast or some soft music. Sometimes I review my schedule for the day on my phone. When I get off at the city center, I grab a coffee from the corner shop. Then I walk the last few blocks to my office. It's a simple routine, but it helps me start the day calm."
+ },
+ {
+  "theme": "在家做晚饭",
+  "text": "After work, I stopped by the supermarket to pick up some fresh vegetables and chicken. When I got home, I washed the rice and put it in the rice cooker. Then I chopped the onions and garlic while the pan was heating up. I added a little oil and stir-fried the chicken until it turned golden. Next, I tossed in the vegetables and poured some soy sauce over everything. The whole kitchen smelled amazing. Finally, I sat down at the table and enjoyed my homemade dinner."
  }
 ];
