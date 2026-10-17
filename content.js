@@ -7977,6 +7977,30 @@ var DAILY5_SENTENCES = [
   "zh": "我会晚到一点，你们先开始吧。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Mind if I join you guys?",
+  "zh": "介意我加入你们吗？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "The shipment's been held up at customs.",
+  "zh": "这批货被卡在海关了。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Can you loop me in on this?",
+  "zh": "这事你能同步给我吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "Let's just play it by ear.",
+  "zh": "咱们见机行事吧。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -12497,6 +12521,102 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "在商场退换不合适的衬衫",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "Excuse me, I bought this shirt here yesterday, but it doesn't fit.",
+    "zh": "打扰一下，我昨天在这里买了这件衬衫，但是不合身。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Do you have the receipt with you?",
+    "zh": "你带收据了吗？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Yes, here it is. I'd like to exchange it for a larger size.",
+    "zh": "带了，给你。我想换一件大一号的。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Let me check if we have a larger size in stock.",
+    "zh": "我查一下我们还有没有大一号的库存。",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Sure, take your time. If not, I'd prefer a refund.",
+    "zh": "好的，不着急。如果没有的话，我想退款。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "We do have a large. Would you like to try it on?",
+    "zh": "我们确实有大号的。你要试穿一下吗？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Yes, please. The fitting room is over there, right?",
+    "zh": "好的，麻烦了。试衣间在那边，对吧？",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "向经理请半天事假",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "员工",
+    "en": "Do you have a moment? I need to talk to you about taking some time off.",
+    "zh": "你现在方便吗？我想跟你谈谈请假的事。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Sure, what's going on?",
+    "zh": "当然，怎么了？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "I have a family matter to deal with tomorrow afternoon, so I'd like to take half a day off if possible.",
+    "zh": "我明天下午有点家里的事要处理，如果可以的话，我想请半天假。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "That shouldn't be a problem. Have you handed off your urgent tasks?",
+    "zh": "这应该没问题。你把紧急的工作交接好了吗？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Not yet, but I'll brief my teammate this afternoon and make sure everything is covered.",
+    "zh": "还没有，但我今天下午会跟同事说明情况，确保工作有人接手。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Great. Just send me a quick email so it's on record.",
+    "zh": "很好。给我发一封简短的邮件留个记录就行。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Will do. Thanks for being flexible.",
+    "zh": "好的，我会发。谢谢你通融。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -15429,6 +15549,31 @@ var DAILY5_PROMPTS = [
   "zh": "面试官问你为什么想来这家公司，你想说因为很欣赏他们的物流网络。",
   "en": "I really admire your company's logistics network.",
   "hint": "admire 用于表达欣赏、认可，比 like 更显专业和诚恳，适合面试场合。"
+ },
+ {
+  "zh": "你要给美国客户发邮件，确认下周一的视频会议时间。",
+  "en": "Just confirming our video call for next Monday.",
+  "hint": "用 'Just confirming...' 开头，语气礼貌又简洁，适合商务邮件。"
+ },
+ {
+  "zh": "货代告诉你，由于港口拥堵，你的货物可能延迟一周到港。",
+  "en": "Your shipment may arrive a week late due to port congestion.",
+  "hint": "'due to' 表示原因，后接名词短语，比 'because of' 更正式。"
+ },
+ {
+  "zh": "在团队会议上，你建议先处理最紧急的订单。",
+  "en": "Let's tackle the most urgent orders first.",
+  "hint": "'Let's + 动词原形' 用于提出建议，'tackle' 比 'do' 更地道。"
+ },
+ {
+  "zh": "留学生问教授能否延长论文提交截止日期。",
+  "en": "Would it be possible to extend the paper deadline?",
+  "hint": "'Would it be possible to...' 是委婉请求的常用句型，比 'Can I...' 更客气。"
+ },
+ {
+  "zh": "你在仓库跟同事说，这批货今天必须发出去。",
+  "en": "This batch has to go out today.",
+  "hint": "'has to' 表示客观必须，'go out' 在物流语境中意为发货、运出。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16763,5 +16908,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "在家做晚饭",
   "text": "After work, I stopped by the supermarket to pick up some fresh vegetables and chicken. When I got home, I washed the rice and put it in the rice cooker. Then I chopped the onions and garlic while the pan was heating up. I added a little oil and stir-fried the chicken until it turned golden. Next, I tossed in the vegetables and poured some soy sauce over everything. The whole kitchen smelled amazing. Finally, I sat down at the table and enjoyed my homemade dinner."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to catch the subway. The platform is always crowded, but I don't mind because I listen to a podcast while I wait. Today the train arrived right on time, and I even found a seat near the window. I watched the city wake up as we passed the river. Before I knew it, my stop was announced, and I stepped out into the cool morning air. Walking the last two blocks to my office helps me clear my head before the day begins."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "When I got home last night, I was too tired to think about a complicated recipe. I opened the fridge and found some eggs, tomatoes, and half an onion. I chopped everything quickly and heated a pan with a little oil. The onions sizzled first, then the tomatoes softened and filled the kitchen with a sweet smell. I scrambled the eggs in and stirred until everything was just cooked. With a pinch of salt and some toast, dinner was ready in fifteen minutes. Sometimes the simplest meals taste the best."
  }
 ];
