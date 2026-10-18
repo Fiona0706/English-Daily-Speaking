@@ -5118,6 +5118,14 @@ var DAILY5_WORDS = [
   "example": "He looked relaxed after a long hot bath.",
   "exampleZh": "泡了个热水澡后，他看起来很放松。",
   "pos": "形容词"
+ },
+ {
+  "word": "grumpy",
+  "phonetic": "/ˈɡrʌmpi/",
+  "zh": "脾气差的",
+  "example": "He gets grumpy when he is hungry.",
+  "exampleZh": "他饿的时候脾气就不好。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -8001,6 +8009,24 @@ var DAILY5_SENTENCES = [
   "zh": "咱们见机行事吧。",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "I'm just gonna grab a coffee real quick.",
+  "zh": "我就去快速买杯咖啡。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Hey, we should totally hang out this weekend.",
+  "zh": "嘿，我们这个周末真该一起玩玩。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Can you track down that shipment for me?",
+  "zh": "你能帮我追踪一下那批货吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -15574,6 +15600,31 @@ var DAILY5_PROMPTS = [
   "zh": "你在仓库跟同事说，这批货今天必须发出去。",
   "en": "This batch has to go out today.",
   "hint": "'has to' 表示客观必须，'go out' 在物流语境中意为发货、运出。"
+ },
+ {
+  "zh": "客户催问货物为什么还没到港，你需要在邮件里解释是因为天气原因延误了。",
+  "en": "The shipment was delayed due to severe weather conditions.",
+  "hint": "用被动语态 was delayed 表示“被延误”，due to 后接名词短语说明原因，商务邮件中常用。"
+ },
+ {
+  "zh": "同事问你这批货什么时候能发出，你回答说明天上午可以安排发货。",
+  "en": "We can get the goods shipped tomorrow morning.",
+  "hint": "get + 宾语 + 过去分词表示“让某事被完成”，shipped 是 ship 的过去分词，口语中很自然。"
+ },
+ {
+  "zh": "你在跟客户确认报价，想说这个价格已经是最优惠的了，不能再降。",
+  "en": "This is our best price, and we can't go any lower.",
+  "hint": "can't go any lower 是固定口语表达，意为“不能再低了”，比较级 any lower 用于否定句加强语气。"
+ },
+ {
+  "zh": "留学生活中，室友问你周末有什么安排，你说打算去超市囤点吃的。",
+  "en": "I'm planning to stock up on groceries this weekend.",
+  "hint": "stock up on 是地道短语，意为“囤积、备货”，plan to do 表示计划做某事，口语中常用进行时表将来。"
+ },
+ {
+  "zh": "开会时你想插话补充一个关于物流成本的观点，礼貌地请对方让你说一句。",
+  "en": "Can I just jump in here about the logistics costs?",
+  "hint": "jump in 是会议中“插话、加入讨论”的地道说法，Can I just... 让语气礼貌又自然。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16916,5 +16967,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "When I got home last night, I was too tired to think about a complicated recipe. I opened the fridge and found some eggs, tomatoes, and half an onion. I chopped everything quickly and heated a pan with a little oil. The onions sizzled first, then the tomatoes softened and filled the kitchen with a sweet smell. I scrambled the eggs in and stirred until everything was just cooked. With a pinch of salt and some toast, dinner was ready in fifteen minutes. Sometimes the simplest meals taste the best."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I left the apartment five minutes late, so I had to jog to the station. The platform was packed with people staring at their phones. When the train finally arrived, I squeezed in near the door and held onto the rail. A woman next to me was reading a thick novel, completely lost in it. At the third stop, a seat opened up, and I grabbed it before anyone else. I closed my eyes for a moment and listened to music until my stop came."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "When I got home, I opened the fridge and found some chicken, half a cabbage, and a few tomatoes. I chopped the vegetables while the pan was heating up. The oil sizzled as soon as I dropped in the chicken, and the kitchen started to smell amazing. I added the cabbage and stirred everything for a few minutes. Then I tasted it and realized it needed a little more salt. After one last stir, I turned off the heat and sat down to eat."
  }
 ];
