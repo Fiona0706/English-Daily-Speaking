@@ -5126,6 +5126,14 @@ var DAILY5_WORDS = [
   "example": "He gets grumpy when he is hungry.",
   "exampleZh": "他饿的时候脾气就不好。",
   "pos": "形容词"
+ },
+ {
+  "word": "in a rush",
+  "phonetic": "/ɪn ə rʌʃ/",
+  "zh": "匆忙地",
+  "example": "Sorry, I'm in a rush this morning.",
+  "exampleZh": "抱歉，我今天早上赶时间。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -8025,6 +8033,18 @@ var DAILY5_SENTENCES = [
  {
   "en": "Can you track down that shipment for me?",
   "zh": "你能帮我追踪一下那批货吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Hey, what's up? Long time no see.",
+  "zh": "嘿，最近怎么样？好久不见。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Could you send me the latest quote?",
+  "zh": "你能把最新的报价发给我吗？",
   "scene": "外贸物流",
   "tag": "外贸物流"
  }
@@ -15625,6 +15645,31 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你想插话补充一个关于物流成本的观点，礼貌地请对方让你说一句。",
   "en": "Can I just jump in here about the logistics costs?",
   "hint": "jump in 是会议中“插话、加入讨论”的地道说法，Can I just... 让语气礼貌又自然。"
+ },
+ {
+  "zh": "客户催问货物为什么还没到港，你需要解释船期延误。",
+  "en": "The vessel was delayed, so your shipment will arrive later.",
+  "hint": "用 so 引导结果从句，说明延误原因和后果；vessel 比 ship 更正式，适合物流场景。"
+ },
+ {
+  "zh": "同事问你报价单什么时候能发，你说今天下班前一定发过去。",
+  "en": "I'll send the quote over before I leave today.",
+  "hint": "send over 表示“发送过去”，口语常用；用 before 引导时间从句，主语一致时可省略部分。"
+ },
+ {
+  "zh": "留学生问导师能否把小组作业的截止日期延后一周。",
+  "en": "Could we push the deadline back by a week?",
+  "hint": "Could we... 是礼貌请求句式；push back 意为“推迟”，by a week 表示推迟的幅度。"
+ },
+ {
+  "zh": "仓库同事说这批货的标签贴错了，需要重新贴。",
+  "en": "The labels on this batch are wrong and need redoing.",
+  "hint": "用 and 连接两个谓语，need doing 表示“需要被做”，是主动形式表被动含义的常见用法。"
+ },
+ {
+  "zh": "面试时被问到为什么想换工作，你说想找更有挑战的机会。",
+  "en": "I'm looking for something more challenging in my next role.",
+  "hint": "look for 表示“寻找”；形容词比较级 more challenging 后置修饰 something，是英语常见语序。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -16975,5 +17020,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "When I got home, I opened the fridge and found some chicken, half a cabbage, and a few tomatoes. I chopped the vegetables while the pan was heating up. The oil sizzled as soon as I dropped in the chicken, and the kitchen started to smell amazing. I added the cabbage and stirred everything for a few minutes. Then I tasted it and realized it needed a little more salt. After one last stir, I turned off the heat and sat down to eat."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I grabbed my coffee and ran out the door because I was already running late. The platform was packed with people checking their phones and staring down the tracks. When the train finally pulled in, everyone squeezed forward at once. I found a spot near the door and held on tight as we rattled through the tunnels. A guy next to me kept apologizing every time the car lurched. By the time I reached my stop, my coffee was cold and half of it was on my sleeve. Still, I made it to the office just before nine."
+ },
+ {
+  "theme": "下班回家做晚饭",
+  "text": "I got home around seven and dropped my bag by the door. The fridge was almost empty, so I decided to make a simple pasta with whatever I could find. I chopped some garlic and onions while the water started to boil. The kitchen smelled amazing within minutes. I stirred the sauce, tasted it, and added a little more salt. While the pasta cooked, I set the table and poured myself a glass of water. Dinner was nothing fancy, but it hit the spot after a long day."
  }
 ];
