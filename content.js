@@ -8047,6 +8047,36 @@ var DAILY5_SENTENCES = [
   "zh": "你能把最新的报价发给我吗？",
   "scene": "外贸物流",
   "tag": "外贸物流"
+ },
+ {
+  "en": "Hey, grab me a coffee while you're out?",
+  "zh": "嘿，你出去的时候帮我带杯咖啡呗？",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "You made it! Come on in, we just started.",
+  "zh": "你来啦！快进来，我们刚开始。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "The shipment's stuck at customs—can you check on it?",
+  "zh": "货卡在海关了，你能查一下吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Can we push the meeting to tomorrow afternoon?",
+  "zh": "我们能把会议推到明天下午吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "No worries, I'll cover for you this time.",
+  "zh": "没事，这次我帮你顶一下。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -15670,6 +15700,31 @@ var DAILY5_PROMPTS = [
   "zh": "面试时被问到为什么想换工作，你说想找更有挑战的机会。",
   "en": "I'm looking for something more challenging in my next role.",
   "hint": "look for 表示“寻找”；形容词比较级 more challenging 后置修饰 something，是英语常见语序。"
+ },
+ {
+  "zh": "客户催问货物什么时候能到港，你需要回复一个预计时间。",
+  "en": "I'll check with the carrier and get back to you by tomorrow.",
+  "hint": "用 will + 动词原形表示临时承诺；get back to you 是“回复你”的地道说法。"
+ },
+ {
+  "zh": "同事问你为什么报价单还没发出去，你解释说在等供应商确认运费。",
+  "en": "I'm still waiting on the supplier to confirm the freight rate.",
+  "hint": "wait on/for sb to do sth 表示“等某人做某事”；still 放在 be 动词后强调“仍在”。"
+ },
+ {
+  "zh": "你给客户发邮件说明装箱单有误，需要重新补发一份。",
+  "en": "There's a mistake in the packing list, so I'll resend it.",
+  "hint": "There's = There is，口语常用缩写；so 连接结果，后面用 will 表即时决定。"
+ },
+ {
+  "zh": "留学生问室友周末能不能帮忙收一下快递，因为自己要打工。",
+  "en": "Could you grab my package this weekend? I'm working all day.",
+  "hint": "Could you... 比 Can you... 更礼貌；grab 在口语里表示“顺手拿/取”。"
+ },
+ {
+  "zh": "开会时你打断同事，说明这个方案的成本超出了预算。",
+  "en": "Sorry to jump in, but this plan is way over budget.",
+  "hint": "Sorry to jump in 是打断别人时的礼貌开场；way over 表示“远远超出”，way 加强语气。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17028,5 +17083,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班回家做晚饭",
   "text": "I got home around seven and dropped my bag by the door. The fridge was almost empty, so I decided to make a simple pasta with whatever I could find. I chopped some garlic and onions while the water started to boil. The kitchen smelled amazing within minutes. I stirred the sauce, tasted it, and added a little more salt. While the pasta cooked, I set the table and poured myself a glass of water. Dinner was nothing fancy, but it hit the spot after a long day."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave my apartment at seven thirty and walk two blocks to the subway station. The platform is always crowded, so I stand near the yellow line and wait for the next train. When the doors open, I step in and hold the rail tightly. I get off at the third stop and walk upstairs to the street. There is a small coffee shop on the corner, and I buy a hot latte every morning. Then I cross the road and walk five more minutes to my office."
+ },
+ {
+  "theme": "下班后做晚饭",
+  "text": "After work, I stop at the supermarket near my home to buy some vegetables and chicken. When I get back, I wash the rice first and put it in the rice cooker. Then I cut the chicken into small pieces and add a little salt and soy sauce. I heat the pan, pour in some oil, and stir-fry the chicken until it turns golden. Next, I add the vegetables and cook everything for a few more minutes. Finally, I sit down at the table and enjoy my warm dinner."
  }
 ];
