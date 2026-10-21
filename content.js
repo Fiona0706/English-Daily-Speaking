@@ -8077,6 +8077,30 @@ var DAILY5_SENTENCES = [
   "zh": "没事，这次我帮你顶一下。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "I'm running a bit late this morning.",
+  "zh": "我今天早上有点迟了。",
+  "scene": "生活",
+  "tag": "出行日常"
+ },
+ {
+  "en": "Let's grab a coffee sometime this week.",
+  "zh": "这周找个时间一起喝杯咖啡吧。",
+  "scene": "社交",
+  "tag": "邀约"
+ },
+ {
+  "en": "Can you double-check the shipping address for me?",
+  "zh": "你能帮我再核对一下收货地址吗？",
+  "scene": "外贸物流",
+  "tag": "订单核对"
+ },
+ {
+  "en": "I'll get back to you on that by end of day.",
+  "zh": "那件事我下班前回复你。",
+  "scene": "职场",
+  "tag": "工作沟通"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -15725,6 +15749,31 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你打断同事，说明这个方案的成本超出了预算。",
   "en": "Sorry to jump in, but this plan is way over budget.",
   "hint": "Sorry to jump in 是打断别人时的礼貌开场；way over 表示“远远超出”，way 加强语气。"
+ },
+ {
+  "zh": "跟客户确认订单数量，发现对方少报了 200 件，需要请他们更新采购单。",
+  "en": "Could you update the purchase order to match the correct quantity?",
+  "hint": "purchase order 是外贸常用缩写 PO；“更新单据”用 update + 单据名，不用 change。"
+ },
+ {
+  "zh": "货代通知船期延误三天，你要在邮件里告诉客户新的预计到港时间。",
+  "en": "The carrier pushed the ETA back by three days.",
+  "hint": "push back 表示“推迟”，by + 时间量说明幅度；ETA 是预计到港时间，职场口语常用。"
+ },
+ {
+  "zh": "同事问你报价单什么时候能发，你说已经在核对运费，下午之前一定发出去。",
+  "en": "I'm still checking the freight rates, but you'll have it by this afternoon.",
+  "hint": "by + 时间点表示“不迟于”，与 in the afternoon 不同；freight rates 指运费费率。"
+ },
+ {
+  "zh": "留学生给导师发邮件，说明因为生病需要把小组汇报往后推一周。",
+  "en": "I was sick this week, so could we push the presentation back a week?",
+  "hint": "push ... back + 时间量表示“推迟多久”；请求用 could we，比 can we 更委婉。"
+ },
+ {
+  "zh": "部门开会讨论新供应商，你觉得对方价格有优势，但交期还需要再谈。",
+  "en": "Their pricing looks good, but we still need to talk about lead time.",
+  "hint": "lead time 指交货周期，外贸固定说法；look good 口语表示“看起来不错”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17091,5 +17140,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做晚饭",
   "text": "After work, I stop at the supermarket near my home to buy some vegetables and chicken. When I get back, I wash the rice first and put it in the rice cooker. Then I cut the chicken into small pieces and add a little salt and soy sauce. I heat the pan, pour in some oil, and stir-fry the chicken until it turns golden. Next, I add the vegetables and cook everything for a few more minutes. Finally, I sit down at the table and enjoy my warm dinner."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I leave my apartment at seven thirty and walk two blocks to the subway station. The platform is always crowded, so I stand near the yellow line and wait for the train. Once I get a seat, I put in my earphones and listen to a short podcast. At the downtown stop, I follow the crowd up the stairs and turn left toward my office. There is a small coffee shop on the corner, so I grab a latte before I start work. The whole trip takes about forty minutes, but it feels faster when I have something to listen to."
+ },
+ {
+  "theme": "在家做晚饭",
+  "text": "After work, I open the fridge to see what I can cook for dinner. I find some chicken, a few tomatoes, and half an onion, so I decide to make a simple stir-fry. First, I wash the vegetables and cut them into small pieces on the board. Then I heat some oil in the pan and add the chicken until it turns golden. I toss in the tomatoes and onion, pour in a little soy sauce, and stir everything together. In ten minutes the kitchen smells amazing, and I sit down to enjoy my meal."
  }
 ];
