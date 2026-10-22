@@ -5134,6 +5134,14 @@ var DAILY5_WORDS = [
   "example": "Sorry, I'm in a rush this morning.",
   "exampleZh": "抱歉，我今天早上赶时间。",
   "pos": "习语"
+ },
+ {
+  "word": "unwind",
+  "phonetic": "/ˌʌnˈwaɪnd/",
+  "zh": "放松",
+  "example": "I watch comedies to unwind after a busy day.",
+  "exampleZh": "忙碌一天后我会看喜剧来放松。",
+  "pos": "动词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -8101,6 +8109,18 @@ var DAILY5_SENTENCES = [
   "zh": "那件事我下班前回复你。",
   "scene": "职场",
   "tag": "工作沟通"
+ },
+ {
+  "en": "Let's catch up later this week, okay?",
+  "zh": "我们这周晚些时候再聊，好吗？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "No worries, it's totally fine.",
+  "zh": "别担心，完全没问题。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -15774,6 +15794,31 @@ var DAILY5_PROMPTS = [
   "zh": "部门开会讨论新供应商，你觉得对方价格有优势，但交期还需要再谈。",
   "en": "Their pricing looks good, but we still need to talk about lead time.",
   "hint": "lead time 指交货周期，外贸固定说法；look good 口语表示“看起来不错”。"
+ },
+ {
+  "zh": "客户在邮件里催问货物什么时候能到港。",
+  "en": "Could you give me an update on the ETA?",
+  "hint": "用 Could you... 礼貌催问；update on 后接具体事项，ETA 指预计到港时间。"
+ },
+ {
+  "zh": "同事问你报价为什么比上次高了。",
+  "en": "Our supplier raised prices, so we had to adjust the quote.",
+  "hint": "用 so 连接因果；raised prices 用过去式，had to 表示不得不。"
+ },
+ {
+  "zh": "你要向经理说明这周物流延误的原因。",
+  "en": "The shipment was delayed because of a customs inspection.",
+  "hint": "被动语态 was delayed；because of 后接名词短语，说明原因。"
+ },
+ {
+  "zh": "留学生问同学能不能帮忙看一下简历。",
+  "en": "Would you mind taking a quick look at my resume?",
+  "hint": "Would you mind + doing 表示礼貌请求；take a look at 后接对象。"
+ },
+ {
+  "zh": "你在会议上提议把下次对接时间改到周五。",
+  "en": "Can we push our next meeting to Friday afternoon?",
+  "hint": "push...to... 表示改期；用 Can we... 提出建议，语气自然。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17148,5 +17193,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "在家做晚饭",
   "text": "After work, I open the fridge to see what I can cook for dinner. I find some chicken, a few tomatoes, and half an onion, so I decide to make a simple stir-fry. First, I wash the vegetables and cut them into small pieces on the board. Then I heat some oil in the pan and add the chicken until it turns golden. I toss in the tomatoes and onion, pour in a little soy sauce, and stir everything together. In ten minutes the kitchen smells amazing, and I sit down to enjoy my meal."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst traffic. The subway is always crowded, so I put on my headphones and listen to a podcast. Today the train was delayed for ten minutes, which made me a little nervous. When I finally got to the office, I grabbed a coffee before heading to my desk. My coworker asked if I had eaten breakfast, and I realized I had forgotten. Luckily, she shared some fruit with me, and I felt much better after that."
+ },
+ {
+  "theme": "晚餐做意大利面",
+  "text": "After work, I stopped by the grocery store to pick up some ingredients for dinner. I decided to make spaghetti with tomato sauce and fresh basil. First, I boiled the pasta while I chopped the onions and garlic. Then I heated some olive oil in a pan and added the vegetables. The kitchen smelled amazing, and I couldn't wait to eat. I poured a glass of water, set the table, and enjoyed a quiet meal at home."
  }
 ];
