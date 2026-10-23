@@ -8121,6 +8121,18 @@ var DAILY5_SENTENCES = [
   "zh": "别担心，完全没问题。",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "Let's catch up over drinks this weekend.",
+  "zh": "这周末我们一起喝点东西叙叙旧吧。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "No worries, take your time with it.",
+  "zh": "别担心，你慢慢来就行。",
+  "scene": "生活",
+  "tag": "生活"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -15819,6 +15831,31 @@ var DAILY5_PROMPTS = [
   "zh": "你在会议上提议把下次对接时间改到周五。",
   "en": "Can we push our next meeting to Friday afternoon?",
   "hint": "push...to... 表示改期；用 Can we... 提出建议，语气自然。"
+ },
+ {
+  "zh": "客户在邮件里催问货物什么时候能发，你需要回复确认本周五可以出货。",
+  "en": "We can ship your order by this Friday.",
+  "hint": "用 can ship 表示“能发货”，by + 时间点表示“不迟于某个时间”。"
+ },
+ {
+  "zh": "同事问你报价单里的运费是否包含保险，你告诉他运费不含保险。",
+  "en": "The freight charge doesn't include insurance.",
+  "hint": "否定用 doesn't include；freight charge 指“运费”，insurance 是“保险”。"
+ },
+ {
+  "zh": "你在仓库跟同事确认这批货的纸箱数量对不对。",
+  "en": "Could you double-check the number of cartons?",
+  "hint": "double-check 是“再核对一下”，口语常用；用 Could you...? 礼貌请求。"
+ },
+ {
+  "zh": "留学生活中，同学问你能不能帮忙改一下简历，你答应并说今晚发给他。",
+  "en": "Sure, I'll send it back to you tonight.",
+  "hint": "答应用 Sure；send it back to you 表示“发回给你”，tonight 放句末。"
+ },
+ {
+  "zh": "开会时你想插话补充一点，先礼貌地说一句“我可以补充一点吗”。",
+  "en": "Can I just add one thing here?",
+  "hint": "插话常用 Can I just...?；add one thing 表示“补充一点”，here 指“在这里/现在”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17201,5 +17238,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "晚餐做意大利面",
   "text": "After work, I stopped by the grocery store to pick up some ingredients for dinner. I decided to make spaghetti with tomato sauce and fresh basil. First, I boiled the pasta while I chopped the onions and garlic. Then I heated some olive oil in a pan and added the vegetables. The kitchen smelled amazing, and I couldn't wait to eat. I poured a glass of water, set the table, and enjoyed a quiet meal at home."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "The train is already packed when I squeeze through the doors. I grab the overhead rail and try to find a spot where I won't bump into anyone. A man next to me is scrolling through his phone, and a student is reading a thick book. At the third stop, the crowd finally thins out a little. I check the time and realize I'll be at the office in ten minutes. I take a deep breath and get ready for another busy day."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I get home around seven and start rummaging through the fridge. There are some tomatoes, half an onion, and a few eggs, so I decide to make a quick stir-fry. I chop everything on the cutting board while the pan heats up. The oil sizzles when the onion hits it, and soon the whole kitchen smells amazing. I add a little salt and taste it with a spoon. It's not fancy, but it hits the spot after a long day."
  }
 ];
