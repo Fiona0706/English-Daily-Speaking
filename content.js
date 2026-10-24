@@ -15856,6 +15856,26 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你想插话补充一点，先礼貌地说一句“我可以补充一点吗”。",
   "en": "Can I just add one thing here?",
   "hint": "插话常用 Can I just...?；add one thing 表示“补充一点”，here 指“在这里/现在”。"
+ },
+ {
+  "zh": "同事问你报价为什么比上次高，你解释说是因为运费上涨。",
+  "en": "The price went up because shipping costs increased.",
+  "hint": "go up 是口语中“上涨”的常用说法；because 后接完整句子说明原因。"
+ },
+ {
+  "zh": "你向主管请示能否把会议改到下午，因为上午要接待客户。",
+  "en": "Could we push the meeting to the afternoon?",
+  "hint": "Could we... 是职场中礼貌提建议的句型；push...to... 表示“把……推迟到”。"
+ },
+ {
+  "zh": "留学生在图书馆想请同学帮忙占个座位，说自己十分钟就到。",
+  "en": "Could you save me a seat? I'll be there in ten minutes.",
+  "hint": "save sb a seat 是“帮忙占座”的地道说法；in + 时间段表示“多久之后”。"
+ },
+ {
+  "zh": "你向货代确认提单信息是否有误，希望对方尽快核对回复。",
+  "en": "Please double-check the bill of lading and get back to me.",
+  "hint": "double-check 表示“再核对一遍”；get back to sb 是“回复某人”的口语表达。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17246,5 +17266,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I get home around seven and start rummaging through the fridge. There are some tomatoes, half an onion, and a few eggs, so I decide to make a quick stir-fry. I chop everything on the cutting board while the pan heats up. The oil sizzles when the onion hits it, and soon the whole kitchen smells amazing. I add a little salt and taste it with a spoon. It's not fancy, but it hits the spot after a long day."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave my apartment at seven thirty and walk to the subway station. The platform is always crowded, so I stand near the back and wait for the next train. When the doors open, people push in quickly, and I find a spot by the window. I put on my headphones and listen to a podcast while the train moves through the tunnels. At my stop, I step out, climb the stairs, and grab a coffee before walking into the office."
+ },
+ {
+  "theme": "周末做晚饭",
+  "text": "On Saturday evening, I decide to cook dinner at home instead of ordering takeout. I open the fridge and take out some chicken, tomatoes, and a bag of rice. First, I wash the vegetables and cut them into small pieces. Then I heat some oil in a pan and add the chicken, stirring until it turns golden. I pour in the tomatoes and let everything cook for a few minutes. Finally, I taste the sauce, add a little salt, and serve it over warm rice."
  }
 ];
