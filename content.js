@@ -15876,6 +15876,21 @@ var DAILY5_PROMPTS = [
   "zh": "你向货代确认提单信息是否有误，希望对方尽快核对回复。",
   "en": "Please double-check the bill of lading and get back to me.",
   "hint": "double-check 表示“再核对一遍”；get back to sb 是“回复某人”的口语表达。"
+ },
+ {
+  "zh": "同事问你报价单有没有发出去，你确认已经发出并请他查收。",
+  "en": "I already sent the quotation; please check your inbox.",
+  "hint": "already 常与过去时连用强调“已经”；分号连接两个独立句，口语中也可用 and 连接。"
+ },
+ {
+  "zh": "留学生向房东反映热水器坏了，希望尽快安排维修。",
+  "en": "The water heater is broken; could you get it fixed soon?",
+  "hint": "get something fixed 表示“让人把某物修好”，是使役结构 get + 宾语 + 过去分词。"
+ },
+ {
+  "zh": "上司临时交给你一个紧急任务，你表示会马上着手处理。",
+  "en": "I'll get right on it and keep you posted.",
+  "hint": "get right on it 意为“立刻着手处理”；keep someone posted 表示“随时向某人通报进展”，是职场常用语。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17274,5 +17289,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "周末做晚饭",
   "text": "On Saturday evening, I decide to cook dinner at home instead of ordering takeout. I open the fridge and take out some chicken, tomatoes, and a bag of rice. First, I wash the vegetables and cut them into small pieces. Then I heat some oil in a pan and add the chicken, stirring until it turns golden. I pour in the tomatoes and let everything cook for a few minutes. Finally, I taste the sauce, add a little salt, and serve it over warm rice."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave my apartment at seven thirty and walk to the subway station. The platform is always crowded, so I stand near the door and put on my headphones. When the train arrives, I step aside to let people get off first. I usually listen to a podcast on the way, but today I just watch the city go by. Two stops before my office, I move closer to the exit. Then I walk up the stairs, grab a coffee, and start my day."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After work, I stop by the grocery store and pick up some chicken and vegetables. When I get home, I put on some music and wash my hands. I chop the onions first, and they always make my eyes water. While the rice is cooking, I stir-fry the chicken with garlic and soy sauce. The kitchen smells amazing by the time everything is ready. I sit down, take a deep breath, and finally enjoy my dinner."
  }
 ];
