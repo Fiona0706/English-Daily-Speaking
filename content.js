@@ -8133,6 +8133,12 @@ var DAILY5_SENTENCES = [
   "zh": "别担心，你慢慢来就行。",
   "scene": "生活",
   "tag": "生活"
+ },
+ {
+  "en": "Could you cover my shift tomorrow?",
+  "zh": "你明天能帮我代班吗？",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -15891,6 +15897,31 @@ var DAILY5_PROMPTS = [
   "zh": "上司临时交给你一个紧急任务，你表示会马上着手处理。",
   "en": "I'll get right on it and keep you posted.",
   "hint": "get right on it 意为“立刻着手处理”；keep someone posted 表示“随时向某人通报进展”，是职场常用语。"
+ },
+ {
+  "zh": "客户催问货物为什么还没到港，你需要解释是因为船期延误。",
+  "en": "The vessel was delayed, so your shipment hasn't arrived yet.",
+  "hint": "用 so 连接原因和结果；现在完成时 hasn't arrived 表示“到现在还没到”。"
+ },
+ {
+  "zh": "同事问你报价什么时候能发，你说今天下班前一定发过去。",
+  "en": "I'll send you the quote before I leave today.",
+  "hint": "用 before 引导时间状语从句，从句用一般现在时表将来。"
+ },
+ {
+  "zh": "留学生在课上没听懂老师的问题，礼貌地请老师再说一遍。",
+  "en": "Could you say that again a little more slowly?",
+  "hint": "Could you... 是礼貌请求；a little more slowly 表示“稍微慢一点”。"
+ },
+ {
+  "zh": "物流同事提醒你，这批货必须周五之前发出，否则会赶不上船。",
+  "en": "We need to ship this batch by Friday, or we'll miss the vessel.",
+  "hint": "by Friday 表示“不迟于周五”；or 引出不好的后果。"
+ },
+ {
+  "zh": "你在会议上提出，应该先确认库存再答应客户交期。",
+  "en": "Let's check the stock first before we promise a delivery date.",
+  "hint": "Let's 后面接动词原形；before 从句用一般现在时。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17297,5 +17328,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After work, I stop by the grocery store and pick up some chicken and vegetables. When I get home, I put on some music and wash my hands. I chop the onions first, and they always make my eyes water. While the rice is cooking, I stir-fry the chicken with garlic and soy sauce. The kitchen smells amazing by the time everything is ready. I sit down, take a deep breath, and finally enjoy my dinner."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I grab my coffee and head out the door at seven thirty. The bus is usually crowded, so I stand near the back and listen to a podcast. Today the traffic is lighter than usual, and we arrive downtown ten minutes early. I step off, walk two blocks, and stop at the corner bakery for a warm croissant. The line is short, so I get my breakfast quickly. By the time I reach the office, I feel awake and ready for the day."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I open the fridge and see what I can cook tonight. There are some tomatoes, half an onion, and a pack of chicken. I chop the onion first, then add it to a hot pan with a little oil. While the chicken browns, I boil some pasta and stir the sauce. The kitchen smells great, and my roommate comes in to ask what's for dinner. I taste the sauce, add a pinch of salt, and serve two plates at the table."
  }
 ];
