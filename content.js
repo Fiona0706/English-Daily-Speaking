@@ -5142,6 +5142,14 @@ var DAILY5_WORDS = [
   "example": "I watch comedies to unwind after a busy day.",
   "exampleZh": "忙碌一天后我会看喜剧来放松。",
   "pos": "动词"
+ },
+ {
+  "word": "on the way",
+  "phonetic": "/ɑːn ðə weɪ/",
+  "zh": "在路上",
+  "example": "I'll grab some coffee on the way home.",
+  "exampleZh": "我回家路上会买点咖啡。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -8139,6 +8147,18 @@ var DAILY5_SENTENCES = [
   "zh": "你明天能帮我代班吗？",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Let's catch up over lunch sometime next week.",
+  "zh": "下周找个时间一起吃午饭聊聊吧。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Can you send me the tracking number ASAP?",
+  "zh": "你能尽快把物流单号发给我吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -15922,6 +15942,31 @@ var DAILY5_PROMPTS = [
   "zh": "你在会议上提出，应该先确认库存再答应客户交期。",
   "en": "Let's check the stock first before we promise a delivery date.",
   "hint": "Let's 后面接动词原形；before 从句用一般现在时。"
+ },
+ {
+  "zh": "客户催问货物为什么还没发出，你需要礼貌说明正在等船公司确认舱位。",
+  "en": "We're still waiting for the carrier to confirm space.",
+  "hint": "用现在进行时表示当前状态；space 指舱位，不是空间。"
+ },
+ {
+  "zh": "同事问你报价是否含运费，你说明报价是离岸价，不含海运费。",
+  "en": "The quote is FOB, so freight isn't included.",
+  "hint": "FOB 离岸价后直接接逗号；用 so 引出结果，freight 指运费。"
+ },
+ {
+  "zh": "留学生活中想请室友帮忙收快递，并说明自己下午不在家。",
+  "en": "Could you grab my package? I won't be home this afternoon.",
+  "hint": "grab 口语中表示顺手拿/收；用 won't be 表示将来不在。"
+ },
+ {
+  "zh": "向供应商确认交货期能否提前一周，语气委婉。",
+  "en": "Is there any chance you could ship a week earlier?",
+  "hint": "Is there any chance 是委婉请求句型；earlier 放句末表示更早。"
+ },
+ {
+  "zh": "面试时被问到为什么选择这家公司，你想说看重团队的国际业务经验。",
+  "en": "I'm drawn to your team's international experience.",
+  "hint": "be drawn to 表示被吸引；team's 用所有格修饰 experience。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17336,5 +17381,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I open the fridge and see what I can cook tonight. There are some tomatoes, half an onion, and a pack of chicken. I chop the onion first, then add it to a hot pan with a little oil. While the chicken browns, I boil some pasta and stir the sauce. The kitchen smells great, and my roommate comes in to ask what's for dinner. I taste the sauce, add a pinch of salt, and serve two plates at the table."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I leave my apartment at seven thirty and walk two blocks to the bus stop. The line is always long on Mondays, so I keep a coffee in one hand and my phone in the other. When the bus finally comes, I find a seat near the window and put in my headphones. The ride takes about twenty minutes, but I usually get off one stop early. That way I can grab a fresh pastry from the bakery on the corner. By the time I reach the office, I feel awake and ready for the day."
+ },
+ {
+  "theme": "在家做晚饭",
+  "text": "I get home around six and open the fridge to see what I can cook. There are some tomatoes, half an onion, and a package of chicken. I chop the onion first, and it always makes my eyes water a little. While the pan heats up, I rinse the rice and start the cooker. Then I add the chicken and let it brown before tossing in the vegetables. The kitchen smells amazing by the time everything is ready. I sit down, turn on a show, and enjoy a quiet dinner alone."
  }
 ];
