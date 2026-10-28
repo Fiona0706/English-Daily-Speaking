@@ -5150,6 +5150,22 @@ var DAILY5_WORDS = [
   "example": "I'll grab some coffee on the way home.",
   "exampleZh": "我回家路上会买点咖啡。",
   "pos": "习语"
+ },
+ {
+  "word": "straight ahead",
+  "phonetic": "/streɪt əˈhed/",
+  "zh": "一直往前",
+  "example": "Just go straight ahead and turn left at the corner.",
+  "exampleZh": "一直往前走，在拐角处左转。",
+  "pos": "副词"
+ },
+ {
+  "word": "mood",
+  "phonetic": "/muːd/",
+  "zh": "心情；情绪",
+  "example": "She is in a good mood today.",
+  "exampleZh": "她今天心情很好。",
+  "pos": "名词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -8157,6 +8173,24 @@ var DAILY5_SENTENCES = [
  {
   "en": "Can you send me the tracking number ASAP?",
   "zh": "你能尽快把物流单号发给我吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Let's catch up later this week.",
+  "zh": "我们这周晚些时候聚一聚。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "I'm running low on groceries.",
+  "zh": "我家日用品快用完了。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Could you send me the tracking number?",
+  "zh": "你能把物流单号发给我吗？",
   "scene": "外贸物流",
   "tag": "外贸物流"
  }
@@ -15967,6 +16001,31 @@ var DAILY5_PROMPTS = [
   "zh": "面试时被问到为什么选择这家公司，你想说看重团队的国际业务经验。",
   "en": "I'm drawn to your team's international experience.",
   "hint": "be drawn to 表示被吸引；team's 用所有格修饰 experience。"
+ },
+ {
+  "zh": "客户催问货物为什么还没到港，你需要解释船期延误了三天。",
+  "en": "The vessel was delayed by three days due to bad weather.",
+  "hint": "用被动语态 was delayed 表示“被延误”，due to 后接名词说明原因。"
+ },
+ {
+  "zh": "同事问你报价单什么时候能发给他，你说今天下班前一定发。",
+  "en": "I'll have the quotation to you by the end of today.",
+  "hint": "have sth. to sb. 表示“把某物给某人”，by the end of today 意为“今天结束前”。"
+ },
+ {
+  "zh": "你想请物流公司帮忙查一下包裹现在到哪儿了。",
+  "en": "Could you check where the package is right now?",
+  "hint": "Could you 后接动词原形，语气礼貌；check 后接 where 引导的宾语从句。"
+ },
+ {
+  "zh": "开会时你想确认对方是否收到了你昨天发的邮件。",
+  "en": "Did you get a chance to look at the email I sent yesterday?",
+  "hint": "get a chance to do 表示“有机会做某事”，look at 后接名词，口语中常用。"
+ },
+ {
+  "zh": "留学生问房东能不能宽限几天交房租，因为工资还没到账。",
+  "en": "Could I have a few extra days to pay the rent?",
+  "hint": "have a few extra days to do 表示“多给几天做某事”，Could I 比 Can I 更委婉。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17389,5 +17448,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "在家做晚饭",
   "text": "I get home around six and open the fridge to see what I can cook. There are some tomatoes, half an onion, and a package of chicken. I chop the onion first, and it always makes my eyes water a little. While the pan heats up, I rinse the rice and start the cooker. Then I add the chicken and let it brown before tossing in the vegetables. The kitchen smells amazing by the time everything is ready. I sit down, turn on a show, and enjoy a quiet dinner alone."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty, just before the rush hour gets really bad. The walk to the bus stop takes about five minutes, and I always grab a coffee on the way. Today the bus was packed, so I stood near the back door and listened to a podcast. The traffic was slow on the bridge, but I still made it to the office by eight fifteen. I quickly checked my emails before the morning meeting started."
+ },
+ {
+  "theme": "周末做饭",
+  "text": "Last Saturday I decided to cook dinner for my roommates instead of ordering takeout. I chopped some onions and garlic while the pasta water was boiling. The sauce needed a little more salt, so I added a pinch and tasted it again. My roommate set the table and opened a bottle of red wine. We ended up eating on the balcony because the weather was so nice. Everyone said the food was great, and we finished the whole pot."
  }
 ];
