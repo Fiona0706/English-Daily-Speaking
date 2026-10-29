@@ -5166,6 +5166,14 @@ var DAILY5_WORDS = [
   "example": "She is in a good mood today.",
   "exampleZh": "她今天心情很好。",
   "pos": "名词"
+ },
+ {
+  "word": "appointment",
+  "phonetic": "/əˈpɔɪntmənt/",
+  "zh": "预约；约会",
+  "example": "She has a dentist appointment on Friday morning.",
+  "exampleZh": "她周五上午有一个牙医预约。",
+  "pos": "名词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -16026,6 +16034,31 @@ var DAILY5_PROMPTS = [
   "zh": "留学生问房东能不能宽限几天交房租，因为工资还没到账。",
   "en": "Could I have a few extra days to pay the rent?",
   "hint": "have a few extra days to do 表示“多给几天做某事”，Could I 比 Can I 更委婉。"
+ },
+ {
+  "zh": "客户催问货物什么时候能到港，你需要给出预计时间。",
+  "en": "I'll check with the carrier and get back to you today.",
+  "hint": "check with sb 表示“向某人确认”；get back to you 是“稍后回复你”，口语中比 reply 更自然。"
+ },
+ {
+  "zh": "同事问你报价单有没有发给客户，你还没发，说马上处理。",
+  "en": "Not yet, but I'm sending it over right now.",
+  "hint": "send over 指“把文件发过去”；right now 强调“马上”，比 immediately 更口语。"
+ },
+ {
+  "zh": "仓库通知你订的货少了两箱，你需要向对方核实。",
+  "en": "Could you double-check the count on your end?",
+  "hint": "double-check 是“再核对一遍”；on your end 表示“你们那边”，商务沟通常用。"
+ },
+ {
+  "zh": "留学生问同学能不能帮忙看一下论文的语法问题。",
+  "en": "Would you mind taking a quick look at my paper?",
+  "hint": "Would you mind + doing 表示礼貌请求；take a quick look at 意为“快速看一下”。"
+ },
+ {
+  "zh": "开会时你想打断一下，补充一个关于运费的关键点。",
+  "en": "Sorry to jump in, but the shipping cost is a big issue.",
+  "hint": "jump in 是口语中“插话、打断”的说法；Sorry to jump in 用于礼貌地打断别人。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17456,5 +17489,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "周末做饭",
   "text": "Last Saturday I decided to cook dinner for my roommates instead of ordering takeout. I chopped some onions and garlic while the pasta water was boiling. The sauce needed a little more salt, so I added a pinch and tasted it again. My roommate set the table and opened a bottle of red wine. We ended up eating on the balcony because the weather was so nice. Everyone said the food was great, and we finished the whole pot."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave my apartment at seven forty every morning, and the street is already full of people. The bus is usually crowded, so I put in my earbuds and listen to a podcast. Today the traffic was terrible, and we sat in the same spot for almost ten minutes. I started to worry about being late for the meeting. Luckily, the bus finally moved, and I got to the office with two minutes to spare. I grabbed a coffee and sat down just as my manager walked in."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "After work, I stopped by the supermarket to pick up some vegetables and chicken. When I got home, I washed the rice and put it in the cooker first. Then I cut the chicken into small pieces and heated some oil in the pan. The kitchen smelled amazing as the garlic started to sizzle. While the food was cooking, I set the table and poured myself a glass of water. Dinner was ready in about half an hour, and it tasted even better than I expected."
  }
 ];
