@@ -12817,6 +12817,48 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "问路去火车站",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "游客",
+    "en": "Excuse me, could you tell me how to get to the train station?",
+    "zh": "打扰一下，你能告诉我怎么去火车站吗？",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "Sure. Go straight for two blocks, then turn left at the bank.",
+    "zh": "当然。直走两个街区，然后在银行那里左转。",
+    "collect": false
+   },
+   {
+    "role": "游客",
+    "en": "Is it far from here? Should I take a bus?",
+    "zh": "离这里远吗？我应该坐公交车吗？",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "It's about a ten-minute walk. You'll see the station on your right.",
+    "zh": "走路大约十分钟。你会看到车站在你的右手边。",
+    "collect": false
+   },
+   {
+    "role": "游客",
+    "en": "Great, thanks so much for your help.",
+    "zh": "太好了，非常感谢你的帮助。",
+    "collect": false
+   },
+   {
+    "role": "路人",
+    "en": "No problem. Have a safe trip!",
+    "zh": "不客气。祝你旅途平安！",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -16059,6 +16101,26 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你想打断一下，补充一个关于运费的关键点。",
   "en": "Sorry to jump in, but the shipping cost is a big issue.",
   "hint": "jump in 是口语中“插话、打断”的说法；Sorry to jump in 用于礼貌地打断别人。"
+ },
+ {
+  "zh": "提醒同事在截单前把装箱单发给你确认。",
+  "en": "Please send me the packing list for confirmation before the cut-off.",
+  "hint": "for confirmation 表示“供确认”；cut-off 指截单时间，外贸常用，前面加 the。"
+ },
+ {
+  "zh": "在会议上说明这个报价有效期只有两周。",
+  "en": "This quotation is only valid for two weeks.",
+  "hint": "be valid for + 时间段，表示有效期；only 放在 be 动词后强调“仅仅”。"
+ },
+ {
+  "zh": "给导师发邮件，说论文初稿下周提交。",
+  "en": "I'll submit the first draft of my thesis next week.",
+  "hint": "submit 后直接接宾语，不用 submit to；first draft 初稿，thesis 论文。"
+ },
+ {
+  "zh": "向仓库确认本批货物是否已全部装柜。",
+  "en": "Could you confirm whether the whole batch has been loaded?",
+  "hint": "confirm whether 引导宾语从句；has been loaded 现在完成被动，强调已完成。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17497,5 +17559,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "After work, I stopped by the supermarket to pick up some vegetables and chicken. When I got home, I washed the rice and put it in the cooker first. Then I cut the chicken into small pieces and heated some oil in the pan. The kitchen smelled amazing as the garlic started to sizzle. While the food was cooking, I set the table and poured myself a glass of water. Dinner was ready in about half an hour, and it tasted even better than I expected."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the rush. The walk to the station takes about ten minutes, and I grab a coffee on the way. The platform is always crowded, so I stand near the back where it's less busy. Once I get a seat, I put on my headphones and listen to a podcast. The ride is only twenty minutes, but it gives me time to wake up properly. By the time I reach the office, I feel ready for the day."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "When I get home from work, the first thing I do is check what's in the fridge. Last night I had some chicken, a few peppers, and half an onion, so I decided to make a quick stir-fry. I chopped everything up while the rice was cooking. The pan got nice and hot, and I threw in the chicken first. A few minutes later, I added the vegetables and some soy sauce. It wasn't fancy, but it tasted great, and I had enough left over for lunch today."
  }
 ];
