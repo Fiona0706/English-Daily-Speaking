@@ -16121,6 +16121,31 @@ var DAILY5_PROMPTS = [
   "zh": "向仓库确认本批货物是否已全部装柜。",
   "en": "Could you confirm whether the whole batch has been loaded?",
   "hint": "confirm whether 引导宾语从句；has been loaded 现在完成被动，强调已完成。"
+ },
+ {
+  "zh": "客户催问货物什么时候能到港，你需要给出预计时间。",
+  "en": "The shipment should arrive at the port by next Friday.",
+  "hint": "用 should 表示“按计划预计”，by + 时间表示“最迟到某时”。"
+ },
+ {
+  "zh": "同事问你报价为什么比上次高，你解释是因为运费上涨。",
+  "en": "The price went up because shipping costs have risen.",
+  "hint": "go up 表示“上涨”的口语说法；because 后接完整句子说明原因。"
+ },
+ {
+  "zh": "你在仓库清点时发现少了三箱货，需要向主管报告。",
+  "en": "We're short three boxes according to the inventory count.",
+  "hint": "be short (of) 表示“缺少”；according to 引出依据来源。"
+ },
+ {
+  "zh": "留学生向导师说明自己需要延期一周交论文。",
+  "en": "Could I get a one-week extension on my paper?",
+  "hint": "Could I get... 是礼貌请求；extension on 表示“对……的延期”。"
+ },
+ {
+  "zh": "开会时你想插话补充一个关于交货期的重点。",
+  "en": "Sorry to jump in, but the delivery date is a real concern.",
+  "hint": "Sorry to jump in 是会议中礼貌打断的固定说法；but 后接你要补充的重点。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17567,5 +17592,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "When I get home from work, the first thing I do is check what's in the fridge. Last night I had some chicken, a few peppers, and half an onion, so I decided to make a quick stir-fry. I chopped everything up while the rice was cooking. The pan got nice and hot, and I threw in the chicken first. A few minutes later, I added the vegetables and some soy sauce. It wasn't fancy, but it tasted great, and I had enough left over for lunch today."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave home at seven thirty, and the street is already busy. The bus is packed, so I stand near the door and hold the rail. At the third stop, a man with a heavy bag squeezes in beside me. I move a little to make room for him. The traffic slows down near the bridge, and everyone checks the time. When the bus finally reaches my stop, I step out and take a deep breath. Now I walk two blocks to the office and start my day."
+ },
+ {
+  "theme": "下班后做晚饭",
+  "text": "After work, I stop at the small shop near my flat and buy some tomatoes and eggs. The kitchen is quiet, so I turn on the radio and wash the vegetables. I cut the tomatoes and beat the eggs in a bowl. The pan gets hot, and the eggs cook in a minute. I add the tomatoes and a little salt. The smell fills the room, and I feel hungry. Then I sit down, eat my simple dinner, and let the day slowly fade."
  }
 ];
