@@ -8201,6 +8201,18 @@ var DAILY5_SENTENCES = [
   "zh": "你能把物流单号发给我吗？",
   "scene": "外贸物流",
   "tag": "外贸物流"
+ },
+ {
+  "en": "Hey, what's up with you today?",
+  "zh": "嘿，你今天怎么样？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "I'm running a little late this morning.",
+  "zh": "我今天早上有点迟到了。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16146,6 +16158,21 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你想插话补充一个关于交货期的重点。",
   "en": "Sorry to jump in, but the delivery date is a real concern.",
   "hint": "Sorry to jump in 是会议中礼貌打断的固定说法；but 后接你要补充的重点。"
+ },
+ {
+  "zh": "同事问你报价单发了没有，你说刚发出去，让他查收邮件。",
+  "en": "I just sent it out, so check your inbox.",
+  "hint": "just 表示“刚刚”；send out 是“发出”的常用短语；so 引出结果或建议。"
+ },
+ {
+  "zh": "仓库说这批货少了三箱，你要跟对方确认是不是装柜时漏了。",
+  "en": "Could you check if three cartons were left out?",
+  "hint": "Could you check if... 是委婉确认的常用句式；left out 表示“遗漏、落下”；被动语态 were left out。"
+ },
+ {
+  "zh": "留学时教授让你下周交初稿，你想确认字数要求。",
+  "en": "Just to confirm, how long should the first draft be?",
+  "hint": "Just to confirm 用于礼貌地再次确认；how long 问长度/字数；should be 表示“应该是”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17600,5 +17627,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做晚饭",
   "text": "After work, I stop at the small shop near my flat and buy some tomatoes and eggs. The kitchen is quiet, so I turn on the radio and wash the vegetables. I cut the tomatoes and beat the eggs in a bowl. The pan gets hot, and the eggs cook in a minute. I add the tomatoes and a little salt. The smell fills the room, and I feel hungry. Then I sit down, eat my simple dinner, and let the day slowly fade."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home at seven thirty to avoid the worst of the traffic. The walk to the station takes about ten minutes, and I always grab a coffee on the way. The train is packed in the morning, so I stand near the door and listen to a podcast. When I get off downtown, I walk four blocks to my office. If I'm running early, I stop at the bakery for a croissant. Most days I reach my desk just before nine, feeling ready to start."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "Last night I decided to cook dinner instead of ordering takeout. I chopped some onions and garlic while the pan was heating up. Then I added tomatoes, salt, and a little bit of sugar to the sauce. While it was simmering, I boiled some pasta and set the table. My roommate came home just as the food was ready, so we ate together and talked about our day. I burned the garlic a little, but honestly, it still tasted pretty good."
  }
 ];
