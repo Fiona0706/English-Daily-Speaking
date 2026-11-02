@@ -8213,6 +8213,18 @@ var DAILY5_SENTENCES = [
   "zh": "我今天早上有点迟到了。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "That shipment is stuck at customs again.",
+  "zh": "那批货又卡在海关了。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "I'm totally out of milk at home.",
+  "zh": "我家里牛奶彻底没了。",
+  "scene": "生活",
+  "tag": "生活"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16173,6 +16185,26 @@ var DAILY5_PROMPTS = [
   "zh": "留学时教授让你下周交初稿，你想确认字数要求。",
   "en": "Just to confirm, how long should the first draft be?",
   "hint": "Just to confirm 用于礼貌地再次确认；how long 问长度/字数；should be 表示“应该是”。"
+ },
+ {
+  "zh": "客户在邮件里催问货物什么时候能到港，你需要礼貌地回复一个预计时间。",
+  "en": "We expect the shipment to arrive at the port by Friday.",
+  "hint": "用 expect...to do 表示预计某事发生；by Friday 表示“最迟到周五”，比 on Friday 更符合催货语境。"
+ },
+ {
+  "zh": "同事问你这批货为什么延误，你解释是因为工厂产能不足。",
+  "en": "The delay is due to a shortage of production capacity at the factory.",
+  "hint": "due to 后接名词性成分表示原因；a shortage of 是“……不足”的地道搭配。"
+ },
+ {
+  "zh": "留学生问室友周末能不能顺路带自己去超市。",
+  "en": "Any chance you could give me a ride to the grocery store this weekend?",
+  "hint": "Any chance you could...? 是口语中委婉请求的固定句式；give sb a ride 意为“开车捎某人”。"
+ },
+ {
+  "zh": "你在物流岗位上向经理汇报，说明需要再增加一名人手来处理积压订单。",
+  "en": "We need one more person to handle the backlog of orders.",
+  "hint": "one more person 表示“再加一个人”；handle the backlog 是处理积压工作的常用表达。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17635,5 +17667,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "Last night I decided to cook dinner instead of ordering takeout. I chopped some onions and garlic while the pan was heating up. Then I added tomatoes, salt, and a little bit of sugar to the sauce. While it was simmering, I boiled some pasta and set the table. My roommate came home just as the food was ready, so we ate together and talked about our day. I burned the garlic a little, but honestly, it still tasted pretty good."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the rush. The platform is always crowded, so I stand near the back where there's a bit more space. When the train finally arrives, everyone moves forward at once, and I just go with the flow. I put on my headphones and listen to a podcast during the ride. It takes about twenty-five minutes to reach my stop. Before I get off, I check my bag and make sure I have my keys and badge. Then I walk the last few blocks to the office, grabbing a coffee on the way."
+ },
+ {
+  "theme": "周末做晚饭",
+  "text": "Last Saturday I decided to cook dinner instead of ordering takeout. I chopped some onions and garlic first, then heated oil in a large pan. While the onions were softening, I washed the vegetables and cut them into bite-sized pieces. I added everything to the pan and stirred it now and then. The kitchen smelled amazing, and I could hear the sauce bubbling gently. When it was ready, I tasted it and added a little salt. I served it with rice and sat down to eat. Honestly, it tasted better than anything I could have ordered."
  }
 ];
