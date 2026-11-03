@@ -5174,6 +5174,14 @@ var DAILY5_WORDS = [
   "example": "She has a dentist appointment on Friday morning.",
   "exampleZh": "她周五上午有一个牙医预约。",
   "pos": "名词"
+ },
+ {
+  "word": "apparently",
+  "phonetic": "/əˈpærəntli/",
+  "zh": "显然；据说",
+  "example": "Apparently, the store is closed on Mondays.",
+  "exampleZh": "据说那家店周一关门。",
+  "pos": "副词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -8225,6 +8233,18 @@ var DAILY5_SENTENCES = [
   "zh": "我家里牛奶彻底没了。",
   "scene": "生活",
   "tag": "生活"
+ },
+ {
+  "en": "Hey, you made it! Come on in.",
+  "zh": "嘿，你来啦！快进来。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "I'm swamped today, can we talk later?",
+  "zh": "我今天忙得不可开交，能晚点再说吗？",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16205,6 +16225,31 @@ var DAILY5_PROMPTS = [
   "zh": "你在物流岗位上向经理汇报，说明需要再增加一名人手来处理积压订单。",
   "en": "We need one more person to handle the backlog of orders.",
   "hint": "one more person 表示“再加一个人”；handle the backlog 是处理积压工作的常用表达。"
+ },
+ {
+  "zh": "客户催问上周发出的那批货什么时候能到港，你需要回复一个预计时间。",
+  "en": "The shipment should arrive at the port by next Wednesday.",
+  "hint": "用 should + 动词原形表示“预计会”，比 will 语气更留余地；by + 时间表示“不迟于”。"
+ },
+ {
+  "zh": "同事问你报价单里的运费是否含保险，你说现在报的是不含保险的净价。",
+  "en": "The quote doesn't include insurance yet.",
+  "hint": "否定句用 doesn't + 动词原形；yet 放句末表示“目前尚未”，暗示后续可能调整。"
+ },
+ {
+  "zh": "仓库通知你这批货少了两个箱子，你需要让对方再核对一下装箱单。",
+  "en": "Could you double-check the packing list for us?",
+  "hint": "Could you + 动词原形是最常用的礼貌请求句式；double-check 是职场高频动词，意为“再核对一遍”。"
+ },
+ {
+  "zh": "留学时教授发邮件说你的论文格式有问题，你回复会按他的意见修改后重新提交。",
+  "en": "I'll revise it and resubmit by Friday.",
+  "hint": "will 缩写成 'll 更口语；and 连接两个动作，时态保持一致；by + 时间点表示截止期限。"
+ },
+ {
+  "zh": "开会时你想插话补充一个数据，先礼貌地表示想补充一点。",
+  "en": "Can I just add one quick point here?",
+  "hint": "Can I + 动词原形用于会议中礼貌插话；just 和 quick 起缓和语气作用，让插入显得不突兀。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17675,5 +17720,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "周末做晚饭",
   "text": "Last Saturday I decided to cook dinner instead of ordering takeout. I chopped some onions and garlic first, then heated oil in a large pan. While the onions were softening, I washed the vegetables and cut them into bite-sized pieces. I added everything to the pan and stirred it now and then. The kitchen smelled amazing, and I could hear the sauce bubbling gently. When it was ready, I tasted it and added a little salt. I served it with rice and sat down to eat. Honestly, it tasted better than anything I could have ordered."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I grab my coffee and head out the door, because the bus comes at seven forty. The street is already busy with people walking fast and cars honking. I put in my headphones and listen to a short podcast while I wait. When the bus finally arrives, it's packed, so I stand near the back door. I watch the shops go by and think about the meetings I have today. Twenty minutes later, I get off and walk two blocks to my office. It's a simple routine, but it helps me wake up."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "After work, I stop by the grocery store to pick up some tomatoes and chicken. When I get home, I turn on some music and start chopping vegetables. The pan is hot, so I add a little oil and hear it sizzle. I stir everything together and let it cook for about ten minutes. While the food is ready, I set the table and pour a glass of water. Then I sit down, take a deep breath, and enjoy my simple dinner."
  }
 ];
