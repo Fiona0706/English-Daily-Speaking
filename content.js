@@ -8245,6 +8245,12 @@ var DAILY5_SENTENCES = [
   "zh": "我今天忙得不可开交，能晚点再说吗？",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "No worries, it's on the house.",
+  "zh": "别担心，这单我请。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16250,6 +16256,26 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你想插话补充一个数据，先礼貌地表示想补充一点。",
   "en": "Can I just add one quick point here?",
   "hint": "Can I + 动词原形用于会议中礼貌插话；just 和 quick 起缓和语气作用，让插入显得不突兀。"
+ },
+ {
+  "zh": "客户催问货物为什么还没到港，你需要解释因为天气原因船期延误了。",
+  "en": "The vessel was delayed due to bad weather, so it hasn't arrived yet.",
+  "hint": "用 due to 引出原因；现在完成时 hasn't arrived 表示尚未到达，语气客观礼貌。"
+ },
+ {
+  "zh": "同事问你报价单什么时候能发过去，你说今天下班前一定发给他。",
+  "en": "I'll make sure to send it to you before I leave today.",
+  "hint": "make sure to do 表示“确保做到”；before I leave 用一般现在时表将来。"
+ },
+ {
+  "zh": "留学生在小组讨论中提出换个时间再开会，因为大家作业都还没做完。",
+  "en": "Can we push the meeting back? None of us have finished the assignment yet.",
+  "hint": "push...back 表示推迟；None of us have 后接过去分词，口语中很常见。"
+ },
+ {
+  "zh": "你回复客户邮件，确认收到订单并承诺明天发出样品。",
+  "en": "Thanks for your order. We'll get the samples out to you tomorrow.",
+  "hint": "get...out 表示寄出、发出；用将来时 We'll 表达承诺，语气干脆。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17728,5 +17754,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "After work, I stop by the grocery store to pick up some tomatoes and chicken. When I get home, I turn on some music and start chopping vegetables. The pan is hot, so I add a little oil and hear it sizzle. I stir everything together and let it cook for about ten minutes. While the food is ready, I set the table and pour a glass of water. Then I sit down, take a deep breath, and enjoy my simple dinner."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the rush. The platform is already crowded, so I stand near the yellow line and wait. When the train arrives, I step aside to let people get off first. I find a spot near the door and hold on to the pole. The ride takes about twenty minutes, and I listen to a podcast on the way. By the time I reach my stop, I feel awake and ready for the day."
+ },
+ {
+  "theme": "做饭",
+  "text": "After work I stopped by the market and picked up some tomatoes and eggs. Once I got home, I washed the vegetables and cracked the eggs into a bowl. I heated a little oil in the pan and poured the eggs in first. They cooked quickly, so I stirred them around and set them aside. Then I added the tomatoes and let them soften for a few minutes. Finally I mixed everything together and tasted it to check the salt. It was simple, but honestly it hit the spot after a long day."
  }
 ];
