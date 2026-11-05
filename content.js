@@ -16276,6 +16276,31 @@ var DAILY5_PROMPTS = [
   "zh": "你回复客户邮件，确认收到订单并承诺明天发出样品。",
   "en": "Thanks for your order. We'll get the samples out to you tomorrow.",
   "hint": "get...out 表示寄出、发出；用将来时 We'll 表达承诺，语气干脆。"
+ },
+ {
+  "zh": "客户催问上周发出的那批货什么时候能到港，你需要礼貌地回复说正在查。",
+  "en": "I'm checking with the carrier and will update you shortly.",
+  "hint": "用现在进行时表示正在处理；shortly 比 soon 更正式，适合商务回复。"
+ },
+ {
+  "zh": "同事问你为什么订单延迟，你解释说因为船期被取消了。",
+  "en": "The shipment got delayed because the sailing was canceled.",
+  "hint": "get + 过去分词表示被动结果，口语常用；sailing 指船期/航次。"
+ },
+ {
+  "zh": "向供应商确认报价是否包含运费，语气要专业但不生硬。",
+  "en": "Just to confirm, does this quote include shipping costs?",
+  "hint": "Just to confirm 是商务邮件常见的礼貌开头；quote 指报价单。"
+ },
+ {
+  "zh": "留学生在小组讨论中提出自己负责哪一部分，并询问分工。",
+  "en": "I can take the intro—who's handling the data part?",
+  "hint": "take 可表示承担某项任务；破折号后接问句，口语自然。"
+ },
+ {
+  "zh": "仓库同事通知你货物已备好，让你安排提货时间。",
+  "en": "Your order is ready for pickup—when can you send the truck?",
+  "hint": "be ready for pickup 是物流常用表达；用 when 引导问句询问安排。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17762,5 +17787,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做饭",
   "text": "After work I stopped by the market and picked up some tomatoes and eggs. Once I got home, I washed the vegetables and cracked the eggs into a bowl. I heated a little oil in the pan and poured the eggs in first. They cooked quickly, so I stirred them around and set them aside. Then I added the tomatoes and let them soften for a few minutes. Finally I mixed everything together and tasted it to check the salt. It was simple, but honestly it hit the spot after a long day."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave my apartment at seven thirty and walk to the bus stop. The line is already long, so I put in my earbuds and wait. When the bus arrives, I squeeze in near the back door. The ride takes about twenty minutes, and I watch the shops pass by. At my stop, I hop off and join the crowd heading toward the office. I grab a coffee on the way and reach my desk just before nine."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I get home around six and check the fridge for something to cook. I find tomatoes, eggs, and some leftover rice, so I decide to make a quick stir-fry. First, I chop the tomatoes and beat the eggs in a bowl. The pan heats up, and I pour in a little oil. The eggs go in first, then the tomatoes, and the kitchen smells amazing. Ten minutes later, dinner is ready, and I sit down to eat."
  }
 ];
