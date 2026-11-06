@@ -8251,6 +8251,12 @@ var DAILY5_SENTENCES = [
   "zh": "别担心，这单我请。",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "Can you send me the tracking number?",
+  "zh": "你能把运单号发给我吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16301,6 +16307,31 @@ var DAILY5_PROMPTS = [
   "zh": "仓库同事通知你货物已备好，让你安排提货时间。",
   "en": "Your order is ready for pickup—when can you send the truck?",
   "hint": "be ready for pickup 是物流常用表达；用 when 引导问句询问安排。"
+ },
+ {
+  "zh": "客户催问上周发出的那批货什么时候能到港",
+  "en": "Could you check when our shipment will arrive at the port?",
+  "hint": "用 could you check 礼貌地请对方核实；when 引导宾语从句，语序用陈述句。"
+ },
+ {
+  "zh": "告诉同事报价单已经更新，请对方查收邮件",
+  "en": "I've updated the quote—please check your inbox.",
+  "hint": "现在完成时表示刚完成的动作；破折号后接祈使句，口语常用。"
+ },
+ {
+  "zh": "向主管说明因为海关查验，清关会延迟两天",
+  "en": "Customs inspection will delay clearance by about two days.",
+  "hint": "delay ... by + 时间，表示延迟多久；clearance 指清关。"
+ },
+ {
+  "zh": "留学生在小组讨论中提出换个时间再约会议",
+  "en": "Can we push the meeting to sometime next week?",
+  "hint": "push ... to + 时间，表示把安排改到某时；sometime 指某个不确定的时间。"
+ },
+ {
+  "zh": "回复客户说样品已寄出，并附上运单号",
+  "en": "The samples went out today—tracking number is below.",
+  "hint": "go out 口语中表示货物已发出；破折号后补充信息，省略主语。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17795,5 +17826,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I get home around six and check the fridge for something to cook. I find tomatoes, eggs, and some leftover rice, so I decide to make a quick stir-fry. First, I chop the tomatoes and beat the eggs in a bowl. The pan heats up, and I pour in a little oil. The eggs go in first, then the tomatoes, and the kitchen smells amazing. Ten minutes later, dinner is ready, and I sit down to eat."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty, just before the morning rush gets really bad. The platform is already crowded, and I can hear the announcement saying the next train is two minutes away. When it arrives, I squeeze in near the door and hold onto the rail. The ride takes about twenty minutes, so I listen to a short podcast to pass the time. At my stop, I step out quickly and walk with the crowd toward the exit. By the time I reach the office, I feel awake and ready to start the day."
+ },
+ {
+  "theme": "下班后做晚饭",
+  "text": "After work, I stop by the small grocery store near my building to pick up a few things. I grab some tomatoes, eggs, and a bag of noodles for dinner. Back in my kitchen, I wash the vegetables and put a pot of water on the stove. While the water heats up, I cut the tomatoes and beat the eggs in a bowl. Everything cooks in about ten minutes, and the kitchen smells wonderful. I sit down by the window, eat slowly, and finally relax after a long day."
  }
 ];
