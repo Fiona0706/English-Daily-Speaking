@@ -8257,6 +8257,24 @@ var DAILY5_SENTENCES = [
   "zh": "你能把运单号发给我吗？",
   "scene": "外贸物流",
   "tag": "外贸物流"
+ },
+ {
+  "en": "You free to grab a coffee later?",
+  "zh": "你等会儿有空一起喝杯咖啡吗？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "The shipment is held up at customs.",
+  "zh": "这批货被卡在海关了。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Let's touch base first thing tomorrow.",
+  "zh": "我们明天一早先碰一下。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16332,6 +16350,31 @@ var DAILY5_PROMPTS = [
   "zh": "回复客户说样品已寄出，并附上运单号",
   "en": "The samples went out today—tracking number is below.",
   "hint": "go out 口语中表示货物已发出；破折号后补充信息，省略主语。"
+ },
+ {
+  "zh": "客户催问货物什么时候能到，你回复预计下周三到港。",
+  "en": "It should arrive at the port next Wednesday.",
+  "hint": "用 should 表示“预计、应该”，比 will 更委婉；arrive at 后接具体地点。"
+ },
+ {
+  "zh": "同事问你报价单发出去了没有，你说刚发到客户邮箱。",
+  "en": "I just sent the quote to the client's inbox.",
+  "hint": "just 表示“刚刚”，放在实义动词前；quote 在外贸中常指“报价单”。"
+ },
+ {
+  "zh": "老板问项目进度，你说还在等供应商确认交期。",
+  "en": "We're still waiting for the supplier to confirm the lead time.",
+  "hint": "wait for sb. to do sth. 是固定搭配；lead time 指“交货周期”，外贸常用。"
+ },
+ {
+  "zh": "留学时室友问你周末要不要一起去超市采购，你说好、顺便买点日用品。",
+  "en": "Sure, I need to stock up on some daily stuff too.",
+  "hint": "stock up on 意为“囤货、采购”；too 放句末表示“也”，口语自然。"
+ },
+ {
+  "zh": "客户说收到货有几箱破损，你回复会马上安排补发。",
+  "en": "Sorry about that—we'll arrange a replacement right away.",
+  "hint": "破折号后接解决方案，口语常见；right away 比 immediately 更口语化。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17834,5 +17877,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做晚饭",
   "text": "After work, I stop by the small grocery store near my building to pick up a few things. I grab some tomatoes, eggs, and a bag of noodles for dinner. Back in my kitchen, I wash the vegetables and put a pot of water on the stove. While the water heats up, I cut the tomatoes and beat the eggs in a bowl. Everything cooks in about ten minutes, and the kitchen smells wonderful. I sit down by the window, eat slowly, and finally relax after a long day."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the rush. The platform is already crowded, and people stand quietly with their headphones on. When the train arrives, everyone moves forward at once, trying to find a spot near the door. I squeeze in and hold the handrail, watching the city slide past the window. At the third stop, a seat finally opens up, so I sit down and check my messages. By the time I reach my office, I feel awake and ready for the day."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "When I get home, the first thing I do is wash my hands and open the fridge. I take out some chicken, a few tomatoes, and half an onion, and put a pan on the stove. While the oil heats up, I chop everything quickly and toss it into the pan. The kitchen fills with a warm, salty smell, and my stomach starts to growl. I stir the food now and then, tasting it to see if it needs more salt. Ten minutes later, I plate it up and sit down to eat."
  }
 ];
