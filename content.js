@@ -8275,6 +8275,30 @@ var DAILY5_SENTENCES = [
   "zh": "我们明天一早先碰一下。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Hey, you want to grab a coffee sometime?",
+  "zh": "嘿，你什么时候想一起去喝杯咖啡吗？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Could you double-check the shipping address for me?",
+  "zh": "你能帮我再核对一下收货地址吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Can we push the meeting back an hour?",
+  "zh": "我们可以把会议推迟一个小时吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "I'll take care of that and get back to you.",
+  "zh": "这件事我来处理，回头再联系你。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16375,6 +16399,31 @@ var DAILY5_PROMPTS = [
   "zh": "客户说收到货有几箱破损，你回复会马上安排补发。",
   "en": "Sorry about that—we'll arrange a replacement right away.",
   "hint": "破折号后接解决方案，口语常见；right away 比 immediately 更口语化。"
+ },
+ {
+  "zh": "外贸客户催你确认订单交期，你需要回复说正在和生产部门核实，下午给答复。",
+  "en": "I'm checking with production and will get back to you this afternoon.",
+  "hint": "check with sb 表示“与某人核实”，get back to you 是外贸邮件中“稍后回复你”的常用说法，后接时间状语。"
+ },
+ {
+  "zh": "物流同事告诉你一批货因港口拥堵会延误，你想问大概会晚几天。",
+  "en": "How many days late do you expect the shipment to be?",
+  "hint": "expect sth to be... 表示“预计某物会……”，how many days late 问延误天数，口语中常省略助动词。"
+ },
+ {
+  "zh": "开会时老板问你项目进度，你说大部分已完成，只剩最后的测试环节。",
+  "en": "We're mostly done—just the final testing is left.",
+  "hint": "mostly done 口语中表示“基本完成”，破折号后补充剩余事项，be left 表示“剩下”。"
+ },
+ {
+  "zh": "留学时室友问你要不要一起去超市，你说好，顺便提醒他牛奶快没了。",
+  "en": "Sure, and we're almost out of milk, by the way.",
+  "hint": "be out of sth 表示“某物用完了”，almost out of 是“快用完了”，by the way 用于顺便补充信息。"
+ },
+ {
+  "zh": "客户问你们能否接受小批量试单，你说可以，但价格会比大批量稍高。",
+  "en": "Yes, though the price will be a bit higher for small orders.",
+  "hint": "though 引导让步从句，表示“不过”；a bit higher 比 a little higher 更口语，for small orders 说明适用范围。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17885,5 +17934,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "When I get home, the first thing I do is wash my hands and open the fridge. I take out some chicken, a few tomatoes, and half an onion, and put a pan on the stove. While the oil heats up, I chop everything quickly and toss it into the pan. The kitchen fills with a warm, salty smell, and my stomach starts to growl. I stir the food now and then, tasting it to see if it needs more salt. Ten minutes later, I plate it up and sit down to eat."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave my apartment at seven thirty to catch the bus. The stop is always crowded, so I stand near the back door with my coffee in hand. Today the traffic is worse than usual, and the bus moves slowly through the rain. A woman next to me keeps checking her watch and sighing. I put in my headphones and listen to a podcast to pass the time. By the time we reach downtown, I have only five minutes to walk to the office. I step off the bus and hurry down the wet street."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "After work I stop by the supermarket to pick up a few things. I grab some tomatoes, garlic, and a pack of pasta for dinner. Back in my kitchen, I fill a pot with water and turn on the stove. While the water boils, I chop the garlic and heat some oil in a pan. The smell fills the room and makes me even hungrier. I add the tomatoes and stir them slowly. Finally, I mix everything together and sit down to eat. It is a simple meal, but it tastes great."
  }
 ];
