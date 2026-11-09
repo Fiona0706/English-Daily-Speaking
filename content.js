@@ -5182,6 +5182,14 @@ var DAILY5_WORDS = [
   "example": "Apparently, the store is closed on Mondays.",
   "exampleZh": "据说那家店周一关门。",
   "pos": "副词"
+ },
+ {
+  "word": "tight budget",
+  "phonetic": "/taɪt ˈbʌdʒɪt/",
+  "zh": "预算紧张",
+  "example": "We're on a tight budget this month.",
+  "exampleZh": "我们这个月预算很紧。",
+  "pos": "名词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -8299,6 +8307,30 @@ var DAILY5_SENTENCES = [
   "zh": "这件事我来处理，回头再联系你。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Let's grab a bite after work tonight.",
+  "zh": "今晚下班后我们去吃点东西吧。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "The shipment is running a couple days late.",
+  "zh": "这批货要晚几天到。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "I'm totally wiped out from work today.",
+  "zh": "我今天上班累趴了。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Can you double-check the tracking number for me?",
+  "zh": "你能帮我再核对一下物流单号吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16424,6 +16456,31 @@ var DAILY5_PROMPTS = [
   "zh": "客户问你们能否接受小批量试单，你说可以，但价格会比大批量稍高。",
   "en": "Yes, though the price will be a bit higher for small orders.",
   "hint": "though 引导让步从句，表示“不过”；a bit higher 比 a little higher 更口语，for small orders 说明适用范围。"
+ },
+ {
+  "zh": "客户催问货物什么时候能到，你需要礼貌地解释船期延误了。",
+  "en": "The vessel was delayed, but your shipment should arrive next week.",
+  "hint": "用 but 把坏消息和预期结果连起来，语气更缓和；shipment 前用 your 更贴近客户。"
+ },
+ {
+  "zh": "同事请你确认报价单，你发现有一项价格写错了，需要提醒他。",
+  "en": "I spotted an error in the quote, so let's fix it before sending.",
+  "hint": "spot 比 find 更口语；用 so 引出后续动作，let's 显得协作而非指责。"
+ },
+ {
+  "zh": "留学生在小组讨论中想插话，表达自己同意队友的观点并补充一点。",
+  "en": "I agree with that, and I'd like to add one more point.",
+  "hint": "先 agree with that 表态再用 and 衔接补充；I'd like to 比 I want to 更礼貌。"
+ },
+ {
+  "zh": "物流同事问你仓库还有多少库存，你查完系统后回复他。",
+  "en": "I just checked the system, and we have about two hundred units left.",
+  "hint": "just checked 表示刚查过；用 about 表示大约，避免把数字说得太绝对。"
+ },
+ {
+  "zh": "你在邮件里向供应商说明付款会延后几天，并请他理解。",
+  "en": "We'll need a few more days to process the payment, thanks for understanding.",
+  "hint": "a few more days 比 several days 更具体柔和；thanks for understanding 是商务邮件常见的收尾礼貌语。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -17942,5 +17999,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "After work I stop by the supermarket to pick up a few things. I grab some tomatoes, garlic, and a pack of pasta for dinner. Back in my kitchen, I fill a pot with water and turn on the stove. While the water boils, I chop the garlic and heat some oil in a pan. The smell fills the room and makes me even hungrier. I add the tomatoes and stir them slowly. Finally, I mix everything together and sit down to eat. It is a simple meal, but it tastes great."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the rush. The platform is always crowded, so I stand near the yellow line and wait for the train. When it arrives, I step aside to let people get off first. I find a spot near the door and hold on to the pole. The ride takes about twenty minutes, and I listen to a podcast on the way. Before I know it, my stop is announced, and I squeeze through the crowd to get out."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "After work, I stopped by the grocery store to pick up a few things for dinner. I grabbed some chicken, a bag of spinach, and a couple of tomatoes. Back home, I washed the vegetables and cut the chicken into small pieces. I heated some oil in the pan and added garlic first, then the chicken. While it was cooking, I boiled water for the pasta. Everything was ready in about half an hour, and the kitchen smelled amazing."
  }
 ];
