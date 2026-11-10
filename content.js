@@ -5190,6 +5190,14 @@ var DAILY5_WORDS = [
   "example": "We're on a tight budget this month.",
   "exampleZh": "我们这个月预算很紧。",
   "pos": "名词"
+ },
+ {
+  "word": "instantly",
+  "phonetic": "/ˈɪnstəntli/",
+  "zh": "立刻；马上",
+  "example": "She recognized him instantly in the crowd.",
+  "exampleZh": "她在人群中立刻认出了他。",
+  "pos": "副词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -16481,6 +16489,31 @@ var DAILY5_PROMPTS = [
   "zh": "你在邮件里向供应商说明付款会延后几天，并请他理解。",
   "en": "We'll need a few more days to process the payment, thanks for understanding.",
   "hint": "a few more days 比 several days 更具体柔和；thanks for understanding 是商务邮件常见的收尾礼貌语。"
+ },
+ {
+  "zh": "客户催问货物什么时候能到港，你需要回复一个预计时间。",
+  "en": "It should arrive at the port by next Friday.",
+  "hint": "用 should + 动词原形表示“预计/应该”，by + 时间表示“最晚到……之前”。"
+ },
+ {
+  "zh": "同事问你要报价单，你告诉对方已经发到邮箱了。",
+  "en": "I already sent the quotation to your email.",
+  "hint": "already 常放在 have 之后或实义动词前；send sth to sb 比 send sb sth 更清楚。"
+ },
+ {
+  "zh": "你想请对方确认一下订单数量，语气要礼貌。",
+  "en": "Could you double-check the order quantity for me?",
+  "hint": "Could you + 动词原形是最常用的礼貌请求；double-check 表示“再核对一遍”。"
+ },
+ {
+  "zh": "你在国外留学，想跟同学借笔记，说明自己昨天缺课了。",
+  "en": "I missed class yesterday—could I borrow your notes?",
+  "hint": "borrow 是“借入”，lend 是“借出”；破折号后接请求很口语化。"
+ },
+ {
+  "zh": "开会时你需要说明这个问题稍后再讨论，先推进下一个议题。",
+  "en": "Let's come back to that after we finish this part.",
+  "hint": "Let's + 动词原形提出建议；come back to 表示“回头再谈某事”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18007,5 +18040,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "After work, I stopped by the grocery store to pick up a few things for dinner. I grabbed some chicken, a bag of spinach, and a couple of tomatoes. Back home, I washed the vegetables and cut the chicken into small pieces. I heated some oil in the pan and added garlic first, then the chicken. While it was cooking, I boiled water for the pasta. Everything was ready in about half an hour, and the kitchen smelled amazing."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I leave my apartment at seven thirty and walk to the subway station. The streets are quiet, but the coffee shop on the corner is already busy. I usually grab a small latte and drink it on the way. The train is crowded, so I stand near the door and listen to a podcast. When I get off at my stop, I walk two more blocks to the office. By the time I sit down at my desk, I feel awake and ready to work."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I get home around six and check the fridge to see what I have. I decide to make pasta with tomatoes and garlic. First, I boil water and chop the vegetables while the pan heats up. The kitchen smells amazing when the garlic hits the oil. I cook the sauce for about ten minutes and then mix everything together. I eat at the small table by the window and listen to some music. Simple meals like this always make me feel relaxed."
  }
 ];
