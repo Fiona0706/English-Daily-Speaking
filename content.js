@@ -8339,6 +8339,24 @@ var DAILY5_SENTENCES = [
   "zh": "你能帮我再核对一下物流单号吗？",
   "scene": "外贸物流",
   "tag": "外贸物流"
+ },
+ {
+  "en": "Hey, thanks for having me over tonight.",
+  "zh": "嘿，谢谢你今晚邀请我来。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Can you shoot me that file by five?",
+  "zh": "你能在五点前把那个文件发给我吗？",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "Let's touch base tomorrow and figure it out.",
+  "zh": "我们明天碰一下再想办法解决。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16514,6 +16532,31 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你需要说明这个问题稍后再讨论，先推进下一个议题。",
   "en": "Let's come back to that after we finish this part.",
   "hint": "Let's + 动词原形提出建议；come back to 表示“回头再谈某事”。"
+ },
+ {
+  "zh": "客户催问货物什么时候能到港，你想告诉对方预计下周三。",
+  "en": "We expect it to arrive at the port next Wednesday.",
+  "hint": "用 expect...to do 表示“预计”，时间状语放句末最自然。"
+ },
+ {
+  "zh": "同事问你报价单发出去了没有，你说刚刚发出去，并请他抄送一份给经理。",
+  "en": "Just sent it out. Could you cc the manager on it?",
+  "hint": "cc 作动词表示“抄送”，口语里常直接说 cc someone。"
+ },
+ {
+  "zh": "海关要求补交一份装箱单，你想说明你会今天下班前发过去。",
+  "en": "I'll send over the packing list by end of day.",
+  "hint": "send over 是“发过去”的地道说法；by end of day 表示“今天下班前”。"
+ },
+ {
+  "zh": "留学生室友问你周末要不要一起去超市，你说可以，顺便提醒他该买牛奶了。",
+  "en": "Sure, let's go. By the way, we're out of milk.",
+  "hint": "用 be out of 表示“用完了”，比 need to buy 更口语。"
+ },
+ {
+  "zh": "物流方回复说船期延误了两天，你想请对方一有更新就通知你。",
+  "en": "Please keep me posted if there's any update.",
+  "hint": "keep me posted 是“随时通知我”的固定口语表达，比 inform me 更自然。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18048,5 +18091,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I get home around six and check the fridge to see what I have. I decide to make pasta with tomatoes and garlic. First, I boil water and chop the vegetables while the pan heats up. The kitchen smells amazing when the garlic hits the oil. I cook the sauce for about ten minutes and then mix everything together. I eat at the small table by the window and listen to some music. Simple meals like this always make me feel relaxed."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I grab my coffee and head out the door before the street gets busy. The bus is already waiting at the corner, so I run to catch it just in time. Inside, I find a seat by the window and put on my headphones. The city slides past as I listen to my favorite podcast. At the third stop, a friend gets on and sits next to me. We chat about our plans for the weekend until my station comes up. I say goodbye and step off, ready to start the day."
+ },
+ {
+  "theme": "下班后做晚饭",
+  "text": "I get home around six and drop my bag by the door. First, I wash some vegetables and chop them on the board. Then I heat oil in a pan and add garlic, letting it smell amazing. While the rice cooks, I stir the veggies and add a little salt. My roommate walks in and asks what's for dinner. I tell her it's almost ready and she sets the table. We sit down together, and honestly, it tastes better than takeout."
  }
 ];
