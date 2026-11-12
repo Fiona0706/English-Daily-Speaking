@@ -8357,6 +8357,30 @@ var DAILY5_SENTENCES = [
   "zh": "我们明天碰一下再想办法解决。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Let's split the bill, that's fair.",
+  "zh": "我们AA吧，这样公平。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "The tracking says it's still in transit.",
+  "zh": "物流信息显示还在运输中。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "I'm running low on milk, need to hit the store.",
+  "zh": "牛奶快没了，得去趟超市。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Could you shoot me that file by end of day?",
+  "zh": "你能今天下班前把那个文件发我吗？",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -13015,6 +13039,54 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "向房东请假维修",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "租客",
+    "en": "Hi Mr. Lee, I'm calling because the heating in my apartment stopped working last night.",
+    "zh": "你好，李先生，我打电话是因为我公寓的暖气昨晚坏了。",
+    "collect": false
+   },
+   {
+    "role": "房东",
+    "en": "Oh, I'm sorry to hear that. Have you checked if the thermostat needs new batteries?",
+    "zh": "哦，很抱歉听到这个。你检查过恒温器是不是需要换电池吗？",
+    "collect": false
+   },
+   {
+    "role": "租客",
+    "en": "Yes, I replaced them this morning, but it still won't turn on.",
+    "zh": "检查过了，我今天早上换了电池，但还是打不开。",
+    "collect": false
+   },
+   {
+    "role": "房东",
+    "en": "Alright, I'll send a technician over tomorrow between nine and eleven. Would that work for you?",
+    "zh": "好的，我明天九点到十一点之间派个技师过去。你方便吗？",
+    "collect": false
+   },
+   {
+    "role": "租客",
+    "en": "That should be fine, but I have a meeting at ten. Could you ask him to call me when he's on his way?",
+    "zh": "应该可以，但我十点有个会。能不能让他出发时给我打个电话？",
+    "collect": false
+   },
+   {
+    "role": "房东",
+    "en": "No problem. I'll pass that along. Sorry for the inconvenience.",
+    "zh": "没问题，我会转告他。给你添麻烦了，抱歉。",
+    "collect": false
+   },
+   {
+    "role": "租客",
+    "en": "Thanks, I appreciate it. Talk soon.",
+    "zh": "谢谢，非常感谢。回头联系。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -16557,6 +16629,31 @@ var DAILY5_PROMPTS = [
   "zh": "物流方回复说船期延误了两天，你想请对方一有更新就通知你。",
   "en": "Please keep me posted if there's any update.",
   "hint": "keep me posted 是“随时通知我”的固定口语表达，比 inform me 更自然。"
+ },
+ {
+  "zh": "客户催问货物什么时候能到港，你需要回复预计时间。",
+  "en": "We expect the shipment to arrive at the port next Tuesday.",
+  "hint": "用 expect ... to do 表示“预计某事发生”；shipment 指“货物”，at the port 表示“到港”。"
+ },
+ {
+  "zh": "同事问你报价单是否已发出，你确认已经发到客户邮箱。",
+  "en": "I already sent the quotation to the client's email this morning.",
+  "hint": "already 常与过去时连用强调“已经”；send sth to sb's email 表示“发到某人邮箱”。"
+ },
+ {
+  "zh": "你在仓库跟同事确认这批货的箱数对不对。",
+  "en": "Could you double-check the number of cartons in this batch?",
+  "hint": "Could you ... 是礼貌请求；double-check 表示“再核对一遍”；carton 指“纸箱”。"
+ },
+ {
+  "zh": "留学生活中，你跟室友说这周轮到你倒垃圾。",
+  "en": "It's my turn to take out the trash this week.",
+  "hint": "It's one's turn to do 表示“轮到某人做某事”；take out the trash 是美式“倒垃圾”。"
+ },
+ {
+  "zh": "开会时你需要说明自己会跟进这个问题并明天给答复。",
+  "en": "I'll follow up on this issue and get back to you tomorrow.",
+  "hint": "follow up on 表示“跟进某事”；get back to sb 表示“回复某人”，口语常用。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18099,5 +18196,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做晚饭",
   "text": "I get home around six and drop my bag by the door. First, I wash some vegetables and chop them on the board. Then I heat oil in a pan and add garlic, letting it smell amazing. While the rice cooks, I stir the veggies and add a little salt. My roommate walks in and asks what's for dinner. I tell her it's almost ready and she sets the table. We sit down together, and honestly, it tastes better than takeout."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave my apartment at seven thirty and walk two blocks to the subway station. The platform is always crowded, so I stand near the yellow line and wait. When the train arrives, I squeeze in and hold onto the pole. At the third stop, a woman with a red bag gets off, and I finally find a seat. I check my messages and listen to a podcast until my station comes. Then I climb the stairs, grab a coffee, and walk into the office just before nine."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "After work, I stop by the grocery store and pick up some chicken, tomatoes, and a bag of rice. Back home, I wash the vegetables and cut them into small pieces. I heat some oil in the pan and add the chicken first. While it cooks, I put the rice in the cooker and set the timer. The kitchen smells amazing, and my roommate walks in asking what's for dinner. We eat together at the small table by the window and talk about our day."
  }
 ];
