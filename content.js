@@ -8381,6 +8381,18 @@ var DAILY5_SENTENCES = [
   "zh": "你能今天下班前把那个文件发我吗？",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Can you check if the shipment cleared customs?",
+  "zh": "你能查一下这批货是否清关了吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "No worries, I'll cover for you.",
+  "zh": "别担心，我帮你顶着。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16654,6 +16666,31 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你需要说明自己会跟进这个问题并明天给答复。",
   "en": "I'll follow up on this issue and get back to you tomorrow.",
   "hint": "follow up on 表示“跟进某事”；get back to sb 表示“回复某人”，口语常用。"
+ },
+ {
+  "zh": "你收到客户的询盘邮件，想请对方提供更具体的产品规格以便报价。",
+  "en": "Could you share more details on the specs so we can quote you?",
+  "hint": "用“Could you...”礼貌请求；“so we can...”表示目的，口语中常省略 that。"
+ },
+ {
+  "zh": "货代通知你船期延误两天，你需要向客户说明情况并致歉。",
+  "en": "I'm sorry to say the shipment is delayed by two days.",
+  "hint": "“I'm sorry to say...”是委婉告知坏消息的常用说法；delay 用被动 is delayed。"
+ },
+ {
+  "zh": "同事问你报价单什么时候能做好，你说今天下班前发给他。",
+  "en": "I'll get the quote to you before the end of the day.",
+  "hint": "“get sth to sb”表示把某物送达某人；end of the day 指下班前，比 today 更地道。"
+ },
+ {
+  "zh": "你在国外留学，室友问你要不要一起去超市，你说正好想买点东西。",
+  "en": "Sure, I could use a few things from the store anyway.",
+  "hint": "“could use”是口语中“正好需要”的意思；anyway 表示“反正、正好”。"
+ },
+ {
+  "zh": "开会时你想打断对方，补充一个关于运费的关键点。",
+  "en": "Sorry to jump in, but I want to flag something about the freight cost.",
+  "hint": "“Sorry to jump in”是会议中礼貌插话的固定说法；flag 作动词表示“指出、提醒注意”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18204,5 +18241,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "After work, I stop by the grocery store and pick up some chicken, tomatoes, and a bag of rice. Back home, I wash the vegetables and cut them into small pieces. I heat some oil in the pan and add the chicken first. While it cooks, I put the rice in the cooker and set the timer. The kitchen smells amazing, and my roommate walks in asking what's for dinner. We eat together at the small table by the window and talk about our day."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I left home a bit later than usual this morning, so I had to hurry to the station. The platform was packed with people checking their phones and sipping coffee. When the train finally arrived, I squeezed in near the door and held onto the rail. At the third stop, a seat opened up, and I sat down with a sigh of relief. I listened to a podcast for the rest of the ride and almost missed my stop. I jumped up just as the doors were about to close."
+ },
+ {
+  "theme": "下班后做晚饭",
+  "text": "After work, I stopped by the grocery store to pick up a few things for dinner. I grabbed some chicken, a bag of spinach, and a couple of tomatoes. Back in my kitchen, I put on some music and started chopping the vegetables. The pan was hot, so the chicken sizzled right away and smelled amazing. While it cooked, I set the table and poured myself a glass of water. Dinner was simple, but it hit the spot after a long day."
  }
 ];
