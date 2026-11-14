@@ -8393,6 +8393,18 @@ var DAILY5_SENTENCES = [
   "zh": "别担心，我帮你顶着。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Could you track the shipment and update me?",
+  "zh": "你能查一下货运并告诉我进展吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "No worries, it's not a big deal at all.",
+  "zh": "别担心，这完全没什么大不了的。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16691,6 +16703,31 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你想打断对方，补充一个关于运费的关键点。",
   "en": "Sorry to jump in, but I want to flag something about the freight cost.",
   "hint": "“Sorry to jump in”是会议中礼貌插话的固定说法；flag 作动词表示“指出、提醒注意”。"
+ },
+ {
+  "zh": "客户催问上周发出的样品什么时候能到。",
+  "en": "The client is asking when the samples we sent last week will arrive.",
+  "hint": "用现在进行时表达客户当下正在催问；when 引导宾语从句，从句用陈述语序。"
+ },
+ {
+  "zh": "告诉货代这批货要赶在周五前装船。",
+  "en": "Please make sure this shipment gets loaded before Friday.",
+  "hint": "make sure 后接从句表“务必确保”；get loaded 用被动表“被装船”，比 load 更口语。"
+ },
+ {
+  "zh": "同事问你报价单里的运费是否包含保险。",
+  "en": "Does the freight rate in your quote include insurance?",
+  "hint": "一般疑问句用 Does 开头；in your quote 作后置定语修饰 freight rate。"
+ },
+ {
+  "zh": "留学生向导师说明论文初稿会晚两天提交。",
+  "en": "I'm afraid I'll need a couple more days to submit my first draft.",
+  "hint": "I'm afraid 是委婉开场；a couple more days 表示“再多两天”，比 two more days 更口语。"
+ },
+ {
+  "zh": "会议上提醒团队本周的出货数据还没更新。",
+  "en": "Just a reminder that this week's shipment figures haven't been updated yet.",
+  "hint": "Just a reminder that... 是会议提醒的常用句式；用现在完成被动 haven't been updated 强调“尚未更新”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18249,5 +18286,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做晚饭",
   "text": "After work, I stopped by the grocery store to pick up a few things for dinner. I grabbed some chicken, a bag of spinach, and a couple of tomatoes. Back in my kitchen, I put on some music and started chopping the vegetables. The pan was hot, so the chicken sizzled right away and smelled amazing. While it cooked, I set the table and poured myself a glass of water. Dinner was simple, but it hit the spot after a long day."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I leave my apartment at seven thirty every morning, and the first thing I do is check the bus app. If the next bus is more than five minutes away, I walk to the subway station instead. The train is usually crowded, so I stand near the door and listen to a short podcast. When I get off downtown, I stop at the corner cafe for a small coffee. The line is long, but the barista knows my order by now. By the time I reach my office, I feel awake and ready for the day."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "After work, I open the fridge and see what I can cook without going to the store. Tonight there are some tomatoes, half an onion, and a box of pasta. I put a pot of water on the stove and chop the vegetables while it heats up. The onion makes me cry a little, so I turn on the fan. When the pasta is ready, I mix everything in a pan with olive oil and salt. It is nothing fancy, but it smells great. I eat at the kitchen table and leave the dishes for later."
  }
 ];
