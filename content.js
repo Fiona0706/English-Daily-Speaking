@@ -5198,6 +5198,14 @@ var DAILY5_WORDS = [
   "example": "She recognized him instantly in the crowd.",
   "exampleZh": "她在人群中立刻认出了他。",
   "pos": "副词"
+ },
+ {
+  "word": "commonly",
+  "phonetic": "/ˈkɑːmənli/",
+  "zh": "通常地",
+  "example": "This phrase is commonly used in daily conversation.",
+  "exampleZh": "这个短语在日常对话中很常用。",
+  "pos": "副词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -8405,6 +8413,12 @@ var DAILY5_SENTENCES = [
   "zh": "别担心，这完全没什么大不了的。",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "Sorry, I totally spaced on that.",
+  "zh": "抱歉，我完全忘了那件事。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16728,6 +16742,26 @@ var DAILY5_PROMPTS = [
   "zh": "会议上提醒团队本周的出货数据还没更新。",
   "en": "Just a reminder that this week's shipment figures haven't been updated yet.",
   "hint": "Just a reminder that... 是会议提醒的常用句式；用现在完成被动 haven't been updated 强调“尚未更新”。"
+ },
+ {
+  "zh": "请货代确认订舱是否已经成功",
+  "en": "Could you confirm whether the booking has gone through?",
+  "hint": "Could you confirm whether... 是礼貌确认句型；go through 表示“办妥、成功”。"
+ },
+ {
+  "zh": "在邮件里告诉同事报价有效期到本月底",
+  "en": "Just a heads-up, the quote is valid until the end of this month.",
+  "hint": "Just a heads-up 是口语“提前知会一声”；valid until 表示有效期截止。"
+ },
+ {
+  "zh": "小组会上提出把会议改到周四下午",
+  "en": "Can we push the meeting to Thursday afternoon?",
+  "hint": "push...to... 表示“把……推迟到”；用 Can we 提出建议，语气委婉。"
+ },
+ {
+  "zh": "向房东反映公寓暖气不热，希望尽快维修",
+  "en": "The heating in my apartment isn't working. Could you get it fixed soon?",
+  "hint": "isn't working 表示设备“不运转”；get it fixed 是“让人把它修好”的使役结构。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18294,5 +18328,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "After work, I open the fridge and see what I can cook without going to the store. Tonight there are some tomatoes, half an onion, and a box of pasta. I put a pot of water on the stove and chop the vegetables while it heats up. The onion makes me cry a little, so I turn on the fan. When the pasta is ready, I mix everything in a pan with olive oil and salt. It is nothing fancy, but it smells great. I eat at the kitchen table and leave the dishes for later."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the rush. This morning the platform was already packed, so I stood near the yellow line and waited for the next train. When it arrived, I squeezed in with everyone else and grabbed a handrail near the door. Two stops later, a seat opened up right in front of me, which almost never happens. I sat down, put my bag on my lap, and checked my messages before my stop came. It was a small piece of luck on an otherwise ordinary commute."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I got home a bit late tonight, so I wanted something quick and simple. I chopped an onion, threw it into a hot pan, and let it soften while I cut up some tomatoes. Then I added the tomatoes, a pinch of salt, and a little garlic, and stirred everything together. While the sauce was simmering, I boiled some pasta and set the table. The kitchen smelled amazing by the time everything was ready. I sat down, took the first bite, and decided it was definitely worth the extra ten minutes."
  }
 ];
