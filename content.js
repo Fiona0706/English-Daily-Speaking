@@ -5206,6 +5206,22 @@ var DAILY5_WORDS = [
   "example": "This phrase is commonly used in daily conversation.",
   "exampleZh": "这个短语在日常对话中很常用。",
   "pos": "副词"
+ },
+ {
+  "word": "utensil",
+  "phonetic": "/juːˈtɛnsəl/",
+  "zh": "餐具；用具",
+  "example": "Please wash the cooking utensils after dinner.",
+  "exampleZh": "晚饭后请把炊具洗干净。",
+  "pos": "名词"
+ },
+ {
+  "word": "groggy",
+  "phonetic": "/ˈɡrɑːɡi/",
+  "zh": "昏昏沉沉的",
+  "example": "I still feel groggy without my morning coffee.",
+  "exampleZh": "早上没喝咖啡我还是昏昏沉沉的。",
+  "pos": "形容词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -8419,6 +8435,18 @@ var DAILY5_SENTENCES = [
   "zh": "抱歉，我完全忘了那件事。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "I'm running a little late.",
+  "zh": "我要迟到一会儿。",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "Let's catch up sometime next week.",
+  "zh": "我们下周找个时间聚聚吧。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16762,6 +16790,26 @@ var DAILY5_PROMPTS = [
   "zh": "向房东反映公寓暖气不热，希望尽快维修",
   "en": "The heating in my apartment isn't working. Could you get it fixed soon?",
   "hint": "isn't working 表示设备“不运转”；get it fixed 是“让人把它修好”的使役结构。"
+ },
+ {
+  "zh": "货代通知你船期延误一周，你转告同事需要调整出货计划。",
+  "en": "The forwarder says our shipment is delayed by a week.",
+  "hint": "be delayed by + 时间，用介词 by 表示延误的幅度；shipment 指“一批货”，不用 goods。"
+ },
+ {
+  "zh": "同事问你报价单里的价格是否含运费，你说含到港运费但不含关税。",
+  "en": "The price covers freight to the port, but not duties.",
+  "hint": "cover 在这里表示“包含、涵盖费用”，比 include 更商务；duties 指关税，常用复数。"
+ },
+ {
+  "zh": "留学生向导师申请把论文截止日期延后两周，说明实验数据还没整理完。",
+  "en": "Could I have two more weeks to finish my paper?",
+  "hint": "Could I have + 时间 是礼貌请求延期的地道说法；two more weeks 表示“再多两周”。"
+ },
+ {
+  "zh": "开会时你没听清对方说的数字，礼貌请对方重复一遍。",
+  "en": "Sorry, could you run that number by me again?",
+  "hint": "run sth by sb 意为“把……说给某人听”，此处引申为“再讲一遍”；口语中常用 that number 指刚才提到的数字。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18336,5 +18384,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I got home a bit late tonight, so I wanted something quick and simple. I chopped an onion, threw it into a hot pan, and let it soften while I cut up some tomatoes. Then I added the tomatoes, a pinch of salt, and a little garlic, and stirred everything together. While the sauce was simmering, I boiled some pasta and set the table. The kitchen smelled amazing by the time everything was ready. I sat down, took the first bite, and decided it was definitely worth the extra ten minutes."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave home at seven thirty every morning, and the subway is always packed. Today the train was so crowded that I could barely move my arms. I stood near the door and listened to a podcast to pass the time. At the third stop, a woman with a huge backpack pushed past me and almost knocked my coffee out of my hand. I got off at Central Station and walked two blocks to my office. By the time I sat down at my desk, I already felt like I had run a marathon."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After work, I stopped by the grocery store to pick up a few things for dinner. I bought some chicken, a bag of rice, and a bunch of fresh vegetables. When I got home, I put on some music and started chopping onions. The recipe said to cook the sauce for ten minutes, so I set a timer and washed the dishes in the meantime. The kitchen smelled amazing, and I couldn't wait to eat. I ended up making way too much food, so I packed the leftovers for lunch tomorrow."
  }
 ];
