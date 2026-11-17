@@ -5222,6 +5222,14 @@ var DAILY5_WORDS = [
   "example": "I still feel groggy without my morning coffee.",
   "exampleZh": "早上没喝咖啡我还是昏昏沉沉的。",
   "pos": "形容词"
+ },
+ {
+  "word": "in a hurry",
+  "phonetic": "/ɪn ə ˈhɜːri/",
+  "zh": "匆忙地",
+  "example": "He left the office in a hurry this morning.",
+  "exampleZh": "他今天早上匆忙离开了办公室。",
+  "pos": "习语"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -8447,6 +8455,18 @@ var DAILY5_SENTENCES = [
   "zh": "我们下周找个时间聚聚吧。",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "The shipment is running two days behind schedule.",
+  "zh": "这批货比计划晚了 两天。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Let's touch base tomorrow morning before the meeting.",
+  "zh": "我们明天开会前先简单碰一下吧。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16810,6 +16830,26 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你没听清对方说的数字，礼貌请对方重复一遍。",
   "en": "Sorry, could you run that number by me again?",
   "hint": "run sth by sb 意为“把……说给某人听”，此处引申为“再讲一遍”；口语中常用 that number 指刚才提到的数字。"
+ },
+ {
+  "zh": "同事问你报价单发了没有，你还没发，说今天下班前一定发。",
+  "en": "I'll make sure it goes out before I leave today.",
+  "hint": "make sure 后接从句；go out 指邮件“发出”，很口语。"
+ },
+ {
+  "zh": "老板临时加任务，你手上活多，想说得先把手头的事做完。",
+  "en": "Let me finish what I'm working on first.",
+  "hint": "what I'm working on 是名词性从句；first 放句尾表示“先”。"
+ },
+ {
+  "zh": "留学生问室友周末能不能帮忙搬东西，室友爽快答应。",
+  "en": "No problem, I've got nothing going on Saturday.",
+  "hint": "have got nothing going on 表示“没安排”，否定形式很地道。"
+ },
+ {
+  "zh": "货代说船期可能延误，你想请对方一有消息就通知你。",
+  "en": "Please keep me posted if anything changes.",
+  "hint": "keep sb posted 是固定说法“随时告知”；if anything changes 放句尾。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18392,5 +18432,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After work, I stopped by the grocery store to pick up a few things for dinner. I bought some chicken, a bag of rice, and a bunch of fresh vegetables. When I got home, I put on some music and started chopping onions. The recipe said to cook the sauce for ten minutes, so I set a timer and washed the dishes in the meantime. The kitchen smelled amazing, and I couldn't wait to eat. I ended up making way too much food, so I packed the leftovers for lunch tomorrow."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave my apartment at seven thirty every morning and walk two blocks to the subway station. The platform is always crowded, so I stand near the yellow line and wait for the train. Once I get on, I put my headphones in and listen to a podcast for about twenty minutes. The train is usually packed, but I don't mind because it gives me time to wake up. When I reach my stop, I climb the stairs quickly and grab a coffee before work. It's a simple routine, but it helps me start the day feeling calm."
+ },
+ {
+  "theme": "周末做饭",
+  "text": "On Saturday afternoons, I like to cook a big meal for my family. First, I check the fridge to see what vegetables we have left. Then I chop some onions and garlic while the pan heats up on the stove. I usually make pasta with tomato sauce, and I add whatever fresh herbs I can find. While the sauce simmers, I set the table and pour everyone a glass of water. By the time the food is ready, the whole kitchen smells amazing. We sit down together, talk about our week, and enjoy the meal."
  }
 ];
