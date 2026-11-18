@@ -8467,6 +8467,18 @@ var DAILY5_SENTENCES = [
   "zh": "我们明天开会前先简单碰一下吧。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Let's catch up over drinks this Friday night.",
+  "zh": "这周五晚上一起喝一杯聊聊吧。",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "I'm swamped today, so let's keep it short.",
+  "zh": "我今天忙得不行，咱们就简短点吧。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16850,6 +16862,31 @@ var DAILY5_PROMPTS = [
   "zh": "货代说船期可能延误，你想请对方一有消息就通知你。",
   "en": "Please keep me posted if anything changes.",
   "hint": "keep sb posted 是固定说法“随时告知”；if anything changes 放句尾。"
+ },
+ {
+  "zh": "跟客户确认订单交期，告知预计下周三可以出货。",
+  "en": "We should be able to ship your order by next Wednesday.",
+  "hint": "用 should be able to 表示“预计能做到”，语气比 will 更委婉留有余地。"
+ },
+ {
+  "zh": "向货代询问货物目前到哪了、有没有延误。",
+  "en": "Could you check where our shipment is and if there's any delay?",
+  "hint": "check 后接宾语从句，用陈述语序；if 引导的从句与 where 从句并列。"
+ },
+ {
+  "zh": "开会时说明自己这周任务太多，需要同事帮忙分担一部分。",
+  "en": "I'm swamped this week—could you take some of this off my plate?",
+  "hint": "swamped 是口语“忙得不可开交”；off my plate 意为“帮我分担”。"
+ },
+ {
+  "zh": "给教授发邮件，请求把论文截止日期延长两天。",
+  "en": "Would it be possible to get a two-day extension on the paper?",
+  "hint": "Would it be possible to... 是礼貌请求的固定句式，比 Can I 更正式。"
+ },
+ {
+  "zh": "跟新同事说明公司报销流程，提醒保留好所有收据。",
+  "en": "Just make sure you keep all your receipts for reimbursement.",
+  "hint": "make sure 后接从句；keep 表示“保存”，reimbursement 指“报销”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18440,5 +18477,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "周末做饭",
   "text": "On Saturday afternoons, I like to cook a big meal for my family. First, I check the fridge to see what vegetables we have left. Then I chop some onions and garlic while the pan heats up on the stove. I usually make pasta with tomato sauce, and I add whatever fresh herbs I can find. While the sauce simmers, I set the table and pour everyone a glass of water. By the time the food is ready, the whole kitchen smells amazing. We sit down together, talk about our week, and enjoy the meal."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the traffic. The walk to the station takes about ten minutes, and I always grab a coffee on the way. This morning the train was packed, so I stood near the door and listened to a podcast. When I finally got off downtown, it had started to drizzle. I opened my umbrella and joined the crowd heading toward the office towers. By the time I reached my desk, I was a little damp but still in a good mood."
+ },
+ {
+  "theme": "下班后做饭",
+  "text": "After work I stopped by the grocery store to pick up a few things for dinner. I bought some chicken, a bag of spinach, and a couple of tomatoes. Back in my kitchen, I put on some music and started chopping the vegetables. The chicken sizzled nicely in the pan, and the whole apartment began to smell amazing. I tossed everything together with some pasta and sat down by the window to eat. It was a simple meal, but after a long day, it tasted perfect."
  }
 ];
