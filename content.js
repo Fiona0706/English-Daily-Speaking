@@ -8479,6 +8479,18 @@ var DAILY5_SENTENCES = [
   "zh": "我今天忙得不行，咱们就简短点吧。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Let's touch base after lunch.",
+  "zh": "午饭后我们再碰一下。",
+  "scene": "职场",
+  "tag": "职场"
+ },
+ {
+  "en": "My bad, I totally spaced on that.",
+  "zh": "我的错，我完全忘了那件事。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16887,6 +16899,26 @@ var DAILY5_PROMPTS = [
   "zh": "跟新同事说明公司报销流程，提醒保留好所有收据。",
   "en": "Just make sure you keep all your receipts for reimbursement.",
   "hint": "make sure 后接从句；keep 表示“保存”，reimbursement 指“报销”。"
+ },
+ {
+  "zh": "同事问你报价单是否已经发出，你确认刚发完并让他查收。",
+  "en": "I just sent the quotation over—please check your inbox.",
+  "hint": "send over 是口语中“发过去”的常用说法；破折号后接 please check 自然衔接，inbox 指邮箱收件箱。"
+ },
+ {
+  "zh": "留学生在小组作业里提议先分工再定截止时间，征求大家意见。",
+  "en": "How about we split the tasks first and then set a deadline?",
+  "hint": "How about we + 动词原形 是口语提议句型，比 Shall we 更随意；split the tasks 意为“分工”。"
+ },
+ {
+  "zh": "仓库通知你有一批货数量不符，你需要向供应商说明情况并要求核对。",
+  "en": "The quantity doesn't match the packing list—could you double-check it?",
+  "hint": "doesn't match 表示“与……不符”；double-check 是职场高频动词，意为“再核对一遍”，语气礼貌。"
+ },
+ {
+  "zh": "同事临时请假，请你帮忙跟进一个客户的订单，你表示没问题。",
+  "en": "No problem—I'll follow up on that order for you.",
+  "hint": "follow up on sth 意为“跟进某事”，是外贸职场固定搭配；for you 体现帮忙的语气。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18485,5 +18517,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班后做饭",
   "text": "After work I stopped by the grocery store to pick up a few things for dinner. I bought some chicken, a bag of spinach, and a couple of tomatoes. Back in my kitchen, I put on some music and started chopping the vegetables. The chicken sizzled nicely in the pan, and the whole apartment began to smell amazing. I tossed everything together with some pasta and sat down by the window to eat. It was a simple meal, but after a long day, it tasted perfect."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty, just before the buses get really crowded. This morning the sky was grey, so I grabbed my umbrella on the way out. The bus arrived late, and I had to stand near the door the whole way. At the third stop, a woman with two heavy bags got on, and I gave her my seat. She smiled and said thank you twice. When I finally got off downtown, the rain had stopped and the sun was out. I walked the last two blocks to work feeling pretty good."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "Last night I decided to cook dinner instead of ordering takeout again. I chopped some onions and garlic, then threw them into a hot pan with a little oil. While they were sizzling, I boiled water for pasta and checked the fridge for vegetables. I found half a pepper and a few mushrooms, so I sliced those up too. The sauce smelled amazing, and I added a spoon of salt and some black pepper. By eight o'clock, I was sitting at my small table with a full plate. Honestly, it tasted better than anything I could have ordered."
  }
 ];
