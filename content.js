@@ -8491,6 +8491,24 @@ var DAILY5_SENTENCES = [
   "zh": "我的错，我完全忘了那件事。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Hey, could you turn the music down a bit?",
+  "zh": "嘿，你能把音乐调小一点吗？",
+  "scene": "生活",
+  "tag": "生活"
+ },
+ {
+  "en": "The shipment should clear customs by Friday.",
+  "zh": "这批货应该在周五前清关。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "I'm running a little late, save me a seat.",
+  "zh": "我会稍微迟到一点，帮我留个座位。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -16919,6 +16937,31 @@ var DAILY5_PROMPTS = [
   "zh": "同事临时请假，请你帮忙跟进一个客户的订单，你表示没问题。",
   "en": "No problem—I'll follow up on that order for you.",
   "hint": "follow up on sth 意为“跟进某事”，是外贸职场固定搭配；for you 体现帮忙的语气。"
+ },
+ {
+  "zh": "客户催问货物为什么还没到港，你需要解释船期延误了三天。",
+  "en": "The vessel was delayed by three days due to port congestion.",
+  "hint": "用被动语态 was delayed 表示“被延误”，by three days 表示延误的时长。"
+ },
+ {
+  "zh": "同事问你报价单什么时候能发，你说今天下午之前一定发出去。",
+  "en": "I'll get the quotation to you by this afternoon for sure.",
+  "hint": "get sth to sb 是口语里“把某物发给某人”的自然说法，by 表示截止时间。"
+ },
+ {
+  "zh": "你在仓库核对装箱单，发现少了两个箱子，让同事帮忙再数一遍。",
+  "en": "We're short two cartons—could you double-check the count?",
+  "hint": "be short + 数量表示“少了多少”，double-check 是“再核对一遍”的常用动词。"
+ },
+ {
+  "zh": "留学生活中，你向室友说明天有个小组展示，今晚得熬夜准备。",
+  "en": "I've got a group presentation tomorrow, so I'm pulling an all-nighter.",
+  "hint": "have got 表示“有（安排）”，pull an all-nighter 是“熬夜通宵”的地道说法。"
+ },
+ {
+  "zh": "开会时领导问你对新供应商的看法，你说价格不错但交期不太稳定。",
+  "en": "The price is competitive, but their lead time seems a bit unreliable.",
+  "hint": "lead time 指“交货周期”，seem a bit + 形容词表示“似乎有点……”，语气委婉。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18525,5 +18568,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "Last night I decided to cook dinner instead of ordering takeout again. I chopped some onions and garlic, then threw them into a hot pan with a little oil. While they were sizzling, I boiled water for pasta and checked the fridge for vegetables. I found half a pepper and a few mushrooms, so I sliced those up too. The sauce smelled amazing, and I added a spoon of salt and some black pepper. By eight o'clock, I was sitting at my small table with a full plate. Honestly, it tasted better than anything I could have ordered."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave my apartment at seven thirty every morning and walk two blocks to the subway station. The platform is always crowded, but I usually find a spot near the door. When the train arrives, I step aside and let people get off first. My ride takes about twenty minutes, and I listen to a podcast to pass the time. If I get a seat, I read a few pages of my book. I reach the office just before eight and grab a coffee before the meeting."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "After work, I stop by the grocery store to pick up some vegetables and chicken. Back home, I wash the rice and put it in the cooker first. Then I cut the chicken into small pieces and heat some oil in the pan. I add garlic and the chicken, and stir it for a few minutes. When it smells good, I throw in the vegetables and pour in some sauce. Dinner is ready in about half an hour, and I eat while watching a show."
  }
 ];
