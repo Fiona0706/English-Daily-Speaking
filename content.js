@@ -8509,6 +8509,12 @@ var DAILY5_SENTENCES = [
   "zh": "我会稍微迟到一点，帮我留个座位。",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "Could you track the shipment for me?",
+  "zh": "你能帮我查一下货物到哪了吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -13215,6 +13221,60 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "打电话向经理请假",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "员工",
+    "en": "Hi, Mr. Collins. I'm afraid I won't be able to come in today.",
+    "zh": "柯林斯先生你好。恐怕我今天没法来上班了。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Oh no, what's going on? You sound a bit under the weather.",
+    "zh": "哎呀，怎么了？你听起来有点不舒服。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "I've come down with a bad cold and my doctor advised me to rest for a couple of days.",
+    "zh": "我得了重感冒，医生建议我休息几天。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "That's understandable. How far along are you with the quarterly report?",
+    "zh": "可以理解。季度报告你做到哪一步了？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "I've finished most of the data analysis, but the summary still needs some work.",
+    "zh": "数据分析大部分完成了，但总结部分还需要修改。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Don't worry about it. Just focus on recovering, and we'll pick it up when you're back.",
+    "zh": "别担心。先专心养病，等你回来我们再接着做。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Thanks for being so understanding. I'll keep you posted on how I'm feeling.",
+    "zh": "谢谢你这么体谅。我会随时告诉你我的情况。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Sounds good. Take care of yourself and get well soon.",
+    "zh": "好的。照顾好自己，早日康复。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -16962,6 +17022,26 @@ var DAILY5_PROMPTS = [
   "zh": "开会时领导问你对新供应商的看法，你说价格不错但交期不太稳定。",
   "en": "The price is competitive, but their lead time seems a bit unreliable.",
   "hint": "lead time 指“交货周期”，seem a bit + 形容词表示“似乎有点……”，语气委婉。"
+ },
+ {
+  "zh": "同事问你报价单有没有发出去，你确认已经发到对方邮箱了。",
+  "en": "I already sent the quotation to their inbox this morning.",
+  "hint": "already 放句中强调“已经”，send sth to sb 是“把某物发给某人”的常用搭配。"
+ },
+ {
+  "zh": "留学生在小组讨论里想插话，礼貌地表示自己有不同看法。",
+  "en": "Can I jump in here? I see it a little differently.",
+  "hint": "jump in 是口语“插话、加入讨论”，see it differently 表示“看法不同”，比 I disagree 更委婉。"
+ },
+ {
+  "zh": "老板让你跟进一个供应商，你说明天上午会打电话确认细节。",
+  "en": "I'll call the supplier tomorrow morning to confirm the details.",
+  "hint": "用 will 表临时决定或承诺，to confirm... 是不定式表目的，跟进常用 follow up on。"
+ },
+ {
+  "zh": "同事帮你赶完了紧急订单，你想表达感谢并说欠他一个人情。",
+  "en": "Thanks for rushing the order. I owe you one.",
+  "hint": "rush the order 是“赶单、加急处理订单”，I owe you one 是地道口语“我欠你一个人情”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18576,5 +18656,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "After work, I stop by the grocery store to pick up some vegetables and chicken. Back home, I wash the rice and put it in the cooker first. Then I cut the chicken into small pieces and heat some oil in the pan. I add garlic and the chicken, and stir it for a few minutes. When it smells good, I throw in the vegetables and pour in some sauce. Dinner is ready in about half an hour, and I eat while watching a show."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave home at seven thirty and walk to the subway station. The platform is always crowded, so I stand near the door and put on my headphones. When the train arrives, everyone rushes in at once. I usually get a seat after two stops and check the news on my phone. At the office station, I grab a coffee before heading upstairs. I like this quiet moment before the busy day starts."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I get home around six and open the fridge to see what I have. There are some tomatoes, eggs, and half an onion, so I decide to make a quick stir-fry. First I wash the vegetables and cut them into small pieces. Then I heat the oil and pour in the eggs. While they cook, I put some rice in the microwave. Ten minutes later, dinner is ready, and I sit down to enjoy it."
  }
 ];
