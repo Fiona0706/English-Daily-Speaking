@@ -8515,6 +8515,12 @@ var DAILY5_SENTENCES = [
   "zh": "你能帮我查一下货物到哪了吗？",
   "scene": "外贸物流",
   "tag": "外贸物流"
+ },
+ {
+  "en": "No worries, it's totally not a big deal.",
+  "zh": "别担心，真没什么大不了的。",
+  "scene": "社交",
+  "tag": "社交"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -13275,6 +13281,96 @@ var DAILY5_DIALOGUES = [
     "collect": false
    }
   ]
+ },
+ {
+  "theme": "在商场退换商品",
+  "level": "中级",
+  "lines": [
+   {
+    "role": "顾客",
+    "en": "Excuse me, I'd like to return this jacket. It's a bit too small.",
+    "zh": "打扰一下，我想退这件夹克。它有点太小了。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "No problem. Do you have the receipt with you?",
+    "zh": "没问题。你带收据了吗？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "Yes, here it is. I bought it last weekend.",
+    "zh": "带了，在这里。我上周末买的。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Thanks. Would you like a refund or an exchange?",
+    "zh": "谢谢。你想退款还是换货？",
+    "collect": false
+   },
+   {
+    "role": "顾客",
+    "en": "I'd prefer to exchange it for a larger size, if you have one.",
+    "zh": "如果可以的话，我想换一件大一点的尺码。",
+    "collect": false
+   },
+   {
+    "role": "店员",
+    "en": "Let me check. Yes, we have a medium. I'll get it for you.",
+    "zh": "我查一下。有的，我们有中号。我去给你拿。",
+    "collect": false
+   }
+  ]
+ },
+ {
+  "theme": "向经理申请临时请假",
+  "level": "高级",
+  "lines": [
+   {
+    "role": "员工",
+    "en": "Sorry to bother you, but would it be possible to take a couple of hours off this afternoon?",
+    "zh": "抱歉打扰你，但我今天下午能请几个小时假吗？",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "That depends. We've got the client presentation at four. Is everything all right?",
+    "zh": "那要看情况。我们四点有客户演示。你还好吗？",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Yes, it's just a personal matter I need to sort out. I've already finished the slides, and I can be back by three thirty.",
+    "zh": "没事，只是有点私事需要处理。幻灯片我已经做完了，我三点半前能回来。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "All right, as long as you're back in time to go over the final details with me.",
+    "zh": "好吧，只要你及时回来和我过一遍最后的细节就行。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Absolutely. I'll keep my phone on in case anything urgent comes up.",
+    "zh": "当然。我会保持手机畅通，以防有急事。",
+    "collect": false
+   },
+   {
+    "role": "经理",
+    "en": "Sounds good. Just make sure the rest of the team knows where you are.",
+    "zh": "可以。只要确保团队其他人知道你在哪里就好。",
+    "collect": false
+   },
+   {
+    "role": "员工",
+    "en": "Will do. Thanks for being so understanding.",
+    "zh": "我会的。谢谢你这么理解。",
+    "collect": false
+   }
+  ]
  }
 ];
 var DAILY5_PROMPTS = [
@@ -17042,6 +17138,26 @@ var DAILY5_PROMPTS = [
   "zh": "同事帮你赶完了紧急订单，你想表达感谢并说欠他一个人情。",
   "en": "Thanks for rushing the order. I owe you one.",
   "hint": "rush the order 是“赶单、加急处理订单”，I owe you one 是地道口语“我欠你一个人情”。"
+ },
+ {
+  "zh": "同事问你为什么报价单还没发出去，你解释说在等供应商确认运费。",
+  "en": "I'm waiting for the supplier to confirm the freight cost.",
+  "hint": "wait for sb. to do sth. 表示“等某人做某事”，注意 to 后面跟动词原形。"
+ },
+ {
+  "zh": "向新客户介绍自己公司主要做哪方面的业务。",
+  "en": "We mainly handle international shipping and customs clearance.",
+  "hint": "handle 意为“负责、处理”，比 do 更专业；用 mainly 修饰动词表示“主要”。"
+ },
+ {
+  "zh": "留学生活中，室友问你能不能顺路帮他去超市带点东西。",
+  "en": "Sure, I can grab a few things for you on my way back.",
+  "hint": "on my way back 表示“回来的路上”，口语中常用 grab 代替 buy，显得轻松自然。"
+ },
+ {
+  "zh": "开会时你不同意同事的方案，想礼貌地提出另一个思路。",
+  "en": "I see your point, but maybe we can try another approach.",
+  "hint": "先 I see your point 表示认可，再用 but maybe 委婉转折，是职场礼貌表达分歧的常见句式。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18664,5 +18780,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I get home around six and open the fridge to see what I have. There are some tomatoes, eggs, and half an onion, so I decide to make a quick stir-fry. First I wash the vegetables and cut them into small pieces. Then I heat the oil and pour in the eggs. While they cook, I put some rice in the microwave. Ten minutes later, dinner is ready, and I sit down to enjoy it."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the rush. The platform is already crowded, and everyone stands in silence, staring at their phones. When the train finally arrives, I squeeze in near the door and hold onto the rail. The ride takes about twenty minutes, but it always feels longer because of the stops. I get off two blocks from my office and grab a coffee on the way. By the time I sit down at my desk, I'm ready to start the day."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "After work, I stopped at the market and picked up some tomatoes, garlic, and fresh pasta. Back in my kitchen, I put on some music and filled a pot with water. While it was heating up, I chopped the garlic and gently cooked it in olive oil. The smell filled the whole apartment and made me hungry. I added the tomatoes and let the sauce simmer for a while. When the pasta was ready, I mixed everything together and sat down to eat. It was a simple meal, but it hit the spot."
  }
 ];
