@@ -8521,6 +8521,18 @@ var DAILY5_SENTENCES = [
   "zh": "别担心，真没什么大不了的。",
   "scene": "社交",
   "tag": "社交"
+ },
+ {
+  "en": "Hey, it's been a minute! How've you been?",
+  "zh": "嘿，好久不见了！你最近怎么样？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "No worries, take your time—we're not in a rush.",
+  "zh": "别担心，慢慢来，我们不着急。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -17158,6 +17170,31 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你不同意同事的方案，想礼貌地提出另一个思路。",
   "en": "I see your point, but maybe we can try another approach.",
   "hint": "先 I see your point 表示认可，再用 but maybe 委婉转折，是职场礼貌表达分歧的常见句式。"
+ },
+ {
+  "zh": "客户催问货物什么时候能到港，你需要回复一个预计时间。",
+  "en": "I'll check with the shipping line and get back to you today.",
+  "hint": "用 will + 动词原形表示承诺；get back to you 是“稍后回复你”的地道说法，比 reply you 更自然。"
+ },
+ {
+  "zh": "同事请你帮忙确认提单上的收货人信息有没有写错。",
+  "en": "Let me double-check the consignee details and confirm.",
+  "hint": "double-check 表示“再核对一遍”；let me + 动词原形用于主动提出帮忙。"
+ },
+ {
+  "zh": "你在会议上想打断一下，补充一个关于运费的成本问题。",
+  "en": "Sorry to jump in, but what about the freight cost?",
+  "hint": "Sorry to jump in 是礼貌打断的固定表达；what about... 用来提出新话题或问题。"
+ },
+ {
+  "zh": "留学生问室友周末能不能顺路带自己去超市。",
+  "en": "Could you give me a ride to the supermarket this weekend?",
+  "hint": "Could you... 比 Can you... 更礼貌；give sb a ride 是“顺路载某人”的常用口语。"
+ },
+ {
+  "zh": "供应商延迟发货，你需要发邮件说明情况并请对方给出新交期。",
+  "en": "Could you let us know the new delivery date as soon as possible?",
+  "hint": "Could you let us know... 是商务邮件中礼貌请求信息的句式；as soon as possible 表示“尽快”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18788,5 +18825,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "After work, I stopped at the market and picked up some tomatoes, garlic, and fresh pasta. Back in my kitchen, I put on some music and filled a pot with water. While it was heating up, I chopped the garlic and gently cooked it in olive oil. The smell filled the whole apartment and made me hungry. I added the tomatoes and let the sauce simmer for a while. When the pasta was ready, I mixed everything together and sat down to eat. It was a simple meal, but it hit the spot."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the rush. The walk to the station takes about ten minutes, and I grab a coffee on the way if I'm early enough. Once I'm on the train, I put on my headphones and listen to a podcast or some music. The carriage is always packed, so I just find a spot by the door and hold on. When I get off downtown, I still have a short walk to the office. By the time I sit down at my desk, I'm finally awake and ready to start the day."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "When I get home in the evening, the first thing I do is open the fridge and see what's left. Tonight I've got some chicken, a couple of peppers, and half an onion, so I decide to make a quick stir-fry. I chop everything up while the rice is cooking, then heat some oil in the pan. The chicken goes in first, and after a few minutes I add the vegetables and a splash of soy sauce. The whole thing takes maybe twenty minutes, and the kitchen smells amazing. I dish it up, sit down on the sofa, and finally relax with my dinner."
  }
 ];
