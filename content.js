@@ -8533,6 +8533,18 @@ var DAILY5_SENTENCES = [
   "zh": "别担心，慢慢来，我们不着急。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "We need to double-check the shipping address.",
+  "zh": "我们需要再核对一下收货地址。",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "Can you give me a heads-up on the timeline?",
+  "zh": "你能提前告诉我一下时间安排吗？",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -17195,6 +17207,26 @@ var DAILY5_PROMPTS = [
   "zh": "供应商延迟发货，你需要发邮件说明情况并请对方给出新交期。",
   "en": "Could you let us know the new delivery date as soon as possible?",
   "hint": "Could you let us know... 是商务邮件中礼貌请求信息的句式；as soon as possible 表示“尽快”。"
+ },
+ {
+  "zh": "同事问你报价单发了没有，你说刚发出去，让他查收邮件。",
+  "en": "I just sent it over, so check your inbox.",
+  "hint": "send over 是口语中“发过去”的常用说法；so 引出让对方做的事。"
+ },
+ {
+  "zh": "你在跟物流公司沟通，想确认运费里是否包含清关费用。",
+  "en": "Does the shipping rate cover customs clearance?",
+  "hint": "用 Does + 主语 + 动词原形构成一般疑问句；cover 表示“涵盖、包含”。"
+ },
+ {
+  "zh": "老板临时让你改一下合同条款，你说没问题，今天下班前搞定。",
+  "en": "No problem, I'll have it done by end of day.",
+  "hint": "have something done 表示“把某事做完”；end of day 是职场常用缩略表达。"
+ },
+ {
+  "zh": "留学生活中，室友问你周末要不要一起去超市采购。",
+  "en": "Want to hit the supermarket with me this weekend?",
+  "hint": "口语中省略 Do you，直接用 Want to... 提问；hit the supermarket 意为“去超市”。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18833,5 +18865,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "When I get home in the evening, the first thing I do is open the fridge and see what's left. Tonight I've got some chicken, a couple of peppers, and half an onion, so I decide to make a quick stir-fry. I chop everything up while the rice is cooking, then heat some oil in the pan. The chicken goes in first, and after a few minutes I add the vegetables and a splash of soy sauce. The whole thing takes maybe twenty minutes, and the kitchen smells amazing. I dish it up, sit down on the sofa, and finally relax with my dinner."
+ },
+ {
+  "theme": "早晨通勤",
+  "text": "I leave my apartment at seven thirty and walk two blocks to the station. The platform is always crowded, so I stand near the yellow line and wait. When the train arrives, I step in and grab a spot by the door. Most people stare at their phones, but I like to watch the city slide past the window. After four stops, I get off and climb the stairs to the street. There is a small coffee shop on the corner, and some mornings I stop for a latte before work. It takes me about forty minutes in total, and I know the route by heart."
+ },
+ {
+  "theme": "周末在家做饭",
+  "text": "On Saturday evenings I usually cook dinner at home instead of eating out. First, I check the fridge to see what I already have. Then I chop some onions and garlic, and heat oil in a pan. While the sauce is simmering, I boil water for pasta and set the table. I like to play music in the background and taste the sauce now and then. When everything is ready, I serve it in a big bowl and sit by the window. It is simple food, but it feels good to make it myself after a busy week."
  }
 ];
