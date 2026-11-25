@@ -8545,6 +8545,12 @@ var DAILY5_SENTENCES = [
   "zh": "你能提前告诉我一下时间安排吗？",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "I'm running a little late, start without me.",
+  "zh": "我要迟到一点，你们先开始吧。",
+  "scene": "生活",
+  "tag": "生活"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -17227,6 +17233,31 @@ var DAILY5_PROMPTS = [
   "zh": "留学生活中，室友问你周末要不要一起去超市采购。",
   "en": "Want to hit the supermarket with me this weekend?",
   "hint": "口语中省略 Do you，直接用 Want to... 提问；hit the supermarket 意为“去超市”。"
+ },
+ {
+  "zh": "客户催问上周发出的样品什么时候能到，你需要回复预计送达时间。",
+  "en": "Your samples should arrive by Friday at the latest.",
+  "hint": "用 should 表示预期，at the latest 意为“最晚”，放在句尾。"
+ },
+ {
+  "zh": "货代通知你船期延误了三天，你要向老板说明情况。",
+  "en": "The forwarder says our shipment is delayed by three days.",
+  "hint": "转述他人说法用 says (that)，delay 用被动 is delayed by + 时长。"
+ },
+ {
+  "zh": "开会时同事提出一个新方案，你想表示赞同并补充一点想法。",
+  "en": "That works for me, and I'd add one more thing.",
+  "hint": "That works for me 表示“我可以接受”，I'd = I would，用于委婉补充。"
+ },
+ {
+  "zh": "留学生问房东洗衣机坏了能否尽快修理，房东让你先发邮件说明。",
+  "en": "Could you email me the details so I can get it fixed?",
+  "hint": "Could you 比 Can you 更礼貌，so I can 表目的，get it fixed 意为“找人修好”。"
+ },
+ {
+  "zh": "你向供应商确认报价是否包含运费，并希望对方今天回复。",
+  "en": "Just to confirm, does the quote include shipping costs?",
+  "hint": "Just to confirm 是商务邮件常用开头，用于核实信息；一般疑问句用 does 提问。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18873,5 +18904,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "周末在家做饭",
   "text": "On Saturday evenings I usually cook dinner at home instead of eating out. First, I check the fridge to see what I already have. Then I chop some onions and garlic, and heat oil in a pan. While the sauce is simmering, I boil water for pasta and set the table. I like to play music in the background and taste the sauce now and then. When everything is ready, I serve it in a big bowl and sit by the window. It is simple food, but it feels good to make it myself after a busy week."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave home at seven thirty every morning and walk to the subway station. It takes me about ten minutes, and I usually listen to a podcast on the way. When the train arrives, it is already very crowded, so I stand near the door and hold my bag tightly. At the third stop, I get off and transfer to a bus. The bus ride is short, but the traffic can be slow. I finally reach my office a little before nine, grab a coffee, and start my day."
+ },
+ {
+  "theme": "下班做饭",
+  "text": "When I get home after work, I wash my hands and open the fridge to see what I have. I usually cook something simple like pasta with vegetables or fried rice with eggs. First, I chop the onions and garlic, and heat some oil in the pan. While the food is cooking, I set the table and pour a glass of water. Then I sit down, put on some music, and enjoy my meal slowly. After dinner, I wash the dishes and relax on the sofa."
  }
 ];
