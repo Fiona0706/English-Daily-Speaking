@@ -8551,6 +8551,18 @@ var DAILY5_SENTENCES = [
   "zh": "我要迟到一点，你们先开始吧。",
   "scene": "生活",
   "tag": "生活"
+ },
+ {
+  "en": "I'm totally swamped this week, can we reschedule?",
+  "zh": "我这周忙得不可开交，我们能改期吗？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "I'm running low on milk, pick some up?",
+  "zh": "牛奶快没了，买点回来吧？",
+  "scene": "生活",
+  "tag": "生活"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -17258,6 +17270,26 @@ var DAILY5_PROMPTS = [
   "zh": "你向供应商确认报价是否包含运费，并希望对方今天回复。",
   "en": "Just to confirm, does the quote include shipping costs?",
   "hint": "Just to confirm 是商务邮件常用开头，用于核实信息；一般疑问句用 does 提问。"
+ },
+ {
+  "zh": "给客户发邮件，确认他们是否收到了你昨天寄出的样品。",
+  "en": "Just checking in to see if you got the samples I sent yesterday.",
+  "hint": "check in 表示“跟进确认”，口语中常用 Just checking in to see if... 开头，比 Did you receive... 更自然。"
+ },
+ {
+  "zh": "告诉货代这批货必须赶在周五前装船，问他们能不能安排。",
+  "en": "Can you make sure this shipment gets on the boat by Friday?",
+  "hint": "make sure 后接从句表示“确保”，get on the boat 是物流口语说法，比 be loaded 更自然。"
+ },
+ {
+  "zh": "同事问你报价单什么时候能好，你说今天下班前给他。",
+  "en": "I'll have the quote ready for you by end of day.",
+  "hint": "have something ready 表示“把某物准备好”，by end of day 是职场常用表达，意为“下班前”。"
+ },
+ {
+  "zh": "开会时你不同意对方的方案，委婉地说需要再讨论一下成本问题。",
+  "en": "I think we should talk through the cost issue a bit more.",
+  "hint": "talk through 表示“详细讨论”，a bit more 缓和语气，使反对显得委婉礼貌。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18912,5 +18944,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "下班做饭",
   "text": "When I get home after work, I wash my hands and open the fridge to see what I have. I usually cook something simple like pasta with vegetables or fried rice with eggs. First, I chop the onions and garlic, and heat some oil in the pan. While the food is cooking, I set the table and pour a glass of water. Then I sit down, put on some music, and enjoy my meal slowly. After dinner, I wash the dishes and relax on the sofa."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the rush. This morning the bus was already packed when it pulled up, so I stood near the door and held on tight. A man next to me was scrolling through his phone and nearly missed his stop. I got off two blocks early because the traffic was crawling. Walking the rest of the way felt faster, and the fresh air woke me up. I still made it to the office right on time."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "After work I stopped by the market and picked up some tomatoes and eggs. Back in the kitchen, I washed the vegetables and cracked the eggs into a bowl. The oil was a little too hot, so the eggs sizzled loudly when I poured them in. I stirred everything quickly and added a pinch of salt. The tomatoes went in next, and the whole kitchen smelled amazing. Dinner was ready in about ten minutes, and it tasted even better than I expected."
  }
 ];
