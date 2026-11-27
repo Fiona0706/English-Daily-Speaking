@@ -5230,6 +5230,14 @@ var DAILY5_WORDS = [
   "example": "He left the office in a hurry this morning.",
   "exampleZh": "他今天早上匆忙离开了办公室。",
   "pos": "习语"
+ },
+ {
+  "word": "constantly",
+  "phonetic": "/ˈkɑːnstəntli/",
+  "zh": "不断地",
+  "example": "She constantly checks her phone at work.",
+  "exampleZh": "她上班时不停地看手机。",
+  "pos": "副词"
  }
 ];
 var DAILY5_SENTENCES = [
@@ -8563,6 +8571,18 @@ var DAILY5_SENTENCES = [
   "zh": "牛奶快没了，买点回来吧？",
   "scene": "生活",
   "tag": "生活"
+ },
+ {
+  "en": "Hey, long time no see! How've you been?",
+  "zh": "嘿，好久不见！你最近怎么样？",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Let's touch base on this after lunch.",
+  "zh": "我们午饭后聊聊这件事吧。",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -17290,6 +17310,21 @@ var DAILY5_PROMPTS = [
   "zh": "开会时你不同意对方的方案，委婉地说需要再讨论一下成本问题。",
   "en": "I think we should talk through the cost issue a bit more.",
   "hint": "talk through 表示“详细讨论”，a bit more 缓和语气，使反对显得委婉礼貌。"
+ },
+ {
+  "zh": "同事问你报价单发出去了没有，你说刚发完，让他查收。",
+  "en": "I just sent the quotation—please check your inbox.",
+  "hint": "just 表示“刚刚”；破折号后接祈使句，口语中很常见。"
+ },
+ {
+  "zh": "留学生在小组讨论里想插话，礼貌地说自己有个补充想法。",
+  "en": "Can I jump in here and add one quick point?",
+  "hint": "jump in 是“插话”的地道说法；Can I... 比 May I... 更口语。"
+ },
+ {
+  "zh": "和客户约视频会议，你想确认对方哪个时间段方便。",
+  "en": "What time works best for you this week?",
+  "hint": "works best for you 是询问对方方便时间的自然表达。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18952,5 +18987,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "After work I stopped by the market and picked up some tomatoes and eggs. Back in the kitchen, I washed the vegetables and cracked the eggs into a bowl. The oil was a little too hot, so the eggs sizzled loudly when I poured them in. I stirred everything quickly and added a pinch of salt. The tomatoes went in next, and the whole kitchen smelled amazing. Dinner was ready in about ten minutes, and it tasted even better than I expected."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I leave home at seven thirty and walk to the bus stop. The line is already long, so I put on my headphones and wait. When the bus finally comes, I find a spot near the door and hold the rail. The ride takes about twenty minutes, and I usually listen to a short podcast. Today the traffic is slow, so I watch the shops pass by. I get off one stop early and walk the rest of the way. By the time I reach the office, I feel awake and ready."
+ },
+ {
+  "theme": "做晚饭",
+  "text": "I get home around six and open the fridge to see what I have. There are some tomatoes, an onion, and half a bag of pasta. I fill a pot with water and put it on the stove. While the water heats up, I chop the onion and tomatoes on a wooden board. The kitchen smells good when the onion starts cooking in a little oil. I add the tomatoes and let them soften. Then I mix in the pasta and taste it. It is simple, but it hits the spot after a long day."
  }
 ];
