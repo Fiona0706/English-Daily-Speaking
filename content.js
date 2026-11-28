@@ -8583,6 +8583,24 @@ var DAILY5_SENTENCES = [
   "zh": "我们午饭后聊聊这件事吧。",
   "scene": "职场",
   "tag": "职场"
+ },
+ {
+  "en": "Hey, what's up? Long time no see!",
+  "zh": "嘿，最近怎么样？好久不见！",
+  "scene": "社交",
+  "tag": "社交"
+ },
+ {
+  "en": "Can you shoot me the tracking number?",
+  "zh": "你能把运单号发给我吗？",
+  "scene": "外贸物流",
+  "tag": "外贸物流"
+ },
+ {
+  "en": "I'm swamped, can we talk later?",
+  "zh": "我忙得不可开交，能晚点再说吗？",
+  "scene": "职场",
+  "tag": "职场"
  }
 ];
 var DAILY5_DIALOGUES = [
@@ -17325,6 +17343,31 @@ var DAILY5_PROMPTS = [
   "zh": "和客户约视频会议，你想确认对方哪个时间段方便。",
   "en": "What time works best for you this week?",
   "hint": "works best for you 是询问对方方便时间的自然表达。"
+ },
+ {
+  "zh": "客户催问货物为什么还没到港，你需要解释船期延误。",
+  "en": "The vessel was delayed, so your shipment will arrive next week.",
+  "hint": "用 so 连接因果关系；用 will + 动词原形表示将来的安排。"
+ },
+ {
+  "zh": "同事问你要报价单，你说整理好后今天下午发给他。",
+  "en": "I'll send you the quotation this afternoon once it's ready.",
+  "hint": "once 引导时间状语从句，从句用一般现在时表将来；主句用 will。"
+ },
+ {
+  "zh": "老板临时加了一个任务，你请同事帮忙分担一部分。",
+  "en": "Could you take over part of this task? I'm swamped today.",
+  "hint": "Could you...? 是委婉请求；be swamped 表示忙得不可开交，口语常用。"
+ },
+ {
+  "zh": "留学生问房东押金什么时候退，房东说搬走检查后一周内退。",
+  "en": "Your deposit will be refunded within a week after the move-out inspection.",
+  "hint": "被动语态 will be refunded；within a week 表示“一周之内”。"
+ },
+ {
+  "zh": "开会时你需要确认对方是否收到你昨天发的邮件附件。",
+  "en": "Did you get the attachment I sent you yesterday?",
+  "hint": "省略 that 的定语从句 I sent you yesterday 修饰 attachment；口语中常用 get 代替 receive。"
  }
 ];
 var SHADOW_PASSAGES = [
@@ -18995,5 +19038,13 @@ var SHADOW_PASSAGES = [
  {
   "theme": "做晚饭",
   "text": "I get home around six and open the fridge to see what I have. There are some tomatoes, an onion, and half a bag of pasta. I fill a pot with water and put it on the stove. While the water heats up, I chop the onion and tomatoes on a wooden board. The kitchen smells good when the onion starts cooking in a little oil. I add the tomatoes and let them soften. Then I mix in the pasta and taste it. It is simple, but it hits the spot after a long day."
+ },
+ {
+  "theme": "早高峰通勤",
+  "text": "I usually leave home around seven thirty to avoid the worst of the rush. The platform is always packed, so I stand near the middle where the doors usually open. Today the train was late by five minutes, and I could feel everyone getting restless. Once I got on, I put in my earbuds and listened to a short podcast. It helps me tune out the noise and wake up slowly. By the time I reached my stop, I felt ready for the day."
+ },
+ {
+  "theme": "下班后做晚饭",
+  "text": "After work I stopped by the market to pick up a few things for dinner. I grabbed some tomatoes, eggs, and a bunch of green onions. When I got home, I put on some music and started washing the vegetables. I cracked two eggs into a bowl and beat them quickly with a fork. The pan was hot, so the eggs cooked in just a minute. I added the tomatoes and stirred everything together. Dinner was simple, but it tasted great after a long day."
  }
 ];
